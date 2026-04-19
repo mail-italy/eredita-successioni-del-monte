@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import {
   ArticleEntry,
@@ -47,71 +48,124 @@ function TrackLink({
 }
 
 export function HeroSection() {
+  const thematicTags = [
+    "Testamenti",
+    "Divisioni ereditarie",
+    "Lesione di legittima",
+    "Donazioni",
+    "Successioni internazionali",
+  ];
+
   return (
-    <section className="section">
-      <div className="shell hero-grid">
-        <div className="stack">
-          <p className="eyebrow">Assistenza in materia di eredità e successioni</p>
-          <h1 className="display">
-            Avvocati per successioni ereditarie, testamenti, divisioni e contenziosi
-            tra coeredi
-          </h1>
-          <p className="lead">
-            Lo Studio Legale Del Monte assiste clienti e famiglie nelle questioni
-            ereditarie più delicate: testamenti contestati, lesione di legittima,
-            divisioni ereditarie, donazioni, mediazione, patrimoni complessi e
-            successioni con elementi internazionali.
-          </p>
-          <div className="cluster">
-            <TrackLink href="/contatti" label="hero_contact">
-              Richiedi un primo contatto
-            </TrackLink>
-            <ContactActions
-              scope="hero"
-              includeEmail={true}
-              includePhone={true}
-              includeWhatsapp={true}
-              compact
-            />
+    <section className="section hero-section">
+      <div className="shell hero-shell">
+        <div className="hero-premium">
+          <div className="hero-media">
+            <div className="hero-image-layer">
+              <Image
+                src="/images/hero-eredita-home.png"
+                alt="Professionista dello Studio Legale Del Monte"
+                width={1086}
+                height={1448}
+                priority
+                sizes="(max-width: 760px) 100vw, (max-width: 1440px) 86vw, 1100px"
+                className="hero-portrait"
+              />
+            </div>
+
+            <div className="hero-desktop-copy">
+              <div className="hero-copy-stack">
+                <p className="hero-breadcrumb">Homepage</p>
+                <p className="eyebrow hero-eyebrow-light">Studio Legale Del Monte</p>
+                <h1 className="display hero-title hero-title-light">
+                  Assistenza legale in materia di eredità e successioni
+                </h1>
+                <p className="lead hero-copy hero-copy-light">
+                  Tutela e consulenza su testamenti, divisioni ereditarie,
+                  impugnazioni, quota di legittima, donazioni, successioni
+                  internazionali e questioni successorie complesse.
+                </p>
+
+                <div className="tag-list hero-tags">
+                  {thematicTags.map((tag) => (
+                    <span key={tag} className="tag hero-tag hero-tag-light">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
+                <div className="hero-cta-row">
+                  <TrackLink href="/contatti" label="hero_contact" className="button-primary">
+                    Richiedi una valutazione preliminare
+                  </TrackLink>
+                  <ContactActions scope="hero" includeEmail includePhone includeWhatsapp compact />
+                </div>
+
+                <ContactAvailabilityNote />
+              </div>
+            </div>
           </div>
-          <div className="kpis">
-            {trustSignals.map((signal) => (
-              <span key={signal} className="pill">
-                {signal}
-              </span>
-            ))}
+
+          <div className="hero-mobile-copy">
+            <div className="hero-copy-stack hero-copy-stack-mobile">
+              <p className="hero-breadcrumb">Homepage</p>
+              <p className="eyebrow">Studio Legale Del Monte</p>
+              <h1 className="display hero-title">
+                Assistenza legale in materia di eredità e successioni
+              </h1>
+              <p className="lead hero-copy">
+                Tutela e consulenza su testamenti, divisioni ereditarie,
+                impugnazioni, quota di legittima, donazioni, successioni
+                internazionali e questioni successorie complesse.
+              </p>
+
+              <div className="tag-list hero-tags">
+                {thematicTags.map((tag) => (
+                  <span key={tag} className="tag hero-tag">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+
+              <div className="hero-cta-row">
+                <TrackLink href="/contatti" label="hero_contact_mobile" className="button-primary">
+                  Richiedi una valutazione preliminare
+                </TrackLink>
+                <ContactActions scope="hero_mobile" includeEmail includePhone includeWhatsapp compact />
+              </div>
+
+              <ContactAvailabilityNote />
+            </div>
           </div>
         </div>
 
-        <div className="panel hero-panel">
-          <div className="panel-inner stack">
-            <p className="eyebrow">Assistenza chiara e tempestiva</p>
-            <h2 className="display-sm">Quando la successione si complica, serve metodo</h2>
-            <p className="lead">
-              Ogni pratica viene affrontata partendo da documenti, rapporti familiari,
-              patrimonio e obiettivi concreti. Il primo passo è capire subito quale
-              strada è davvero utile: trattativa, mediazione o tutela giudiziale.
-            </p>
-            <div className="cards-grid">
-              <div className="card">
-                <h3>Telefono</h3>
-                <p className="muted">{contacts.phoneDisplay}</p>
-              </div>
-              <div className="card">
-                <h3>WhatsApp</h3>
-                <p className="muted">Per un primo contatto rapido e ordinato</p>
-              </div>
-              <div className="card">
-                <h3>Mail</h3>
-                <p className="muted">{contacts.email}</p>
-              </div>
-              <div className="card">
-                <h3>Sede</h3>
-                <p className="muted">{contacts.address}</p>
-              </div>
+        <div className="hero-trust-grid">
+          {trustSignals.map((signal) => (
+            <div key={signal} className="hero-trust-card">
+              <p>{signal}</p>
             </div>
-            <ContactAvailabilityNote />
-          </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export function HomeAuthoritySection() {
+  return (
+    <section className="section-tight home-authority-section">
+      <div className="shell home-authority-grid">
+        <div className="home-authority-lead">
+          <p className="eyebrow">Assistenza dedicata</p>
+          <h2 className="display-sm">Una struttura chiara per questioni ereditarie complesse</h2>
+        </div>
+        <div className="home-authority-copy">
+          <p className="lead">
+            Successioni, testamenti, quote di legittima, divisioni patrimoniali e
+            contenziosi tra coeredi richiedono ordine documentale, lettura tecnica e
+            una strategia coerente. La homepage ora accompagna il visitatore in questo
+            percorso con priorità visive più nette e sezioni meglio scandite.
+          </p>
         </div>
       </div>
     </section>
@@ -277,12 +331,14 @@ export function FaqSection({
           <p className="eyebrow">FAQ</p>
           <h2 className="display-sm">{title}</h2>
         </div>
-        <div className="faq-grid">
+        <div className="faq-accordion">
           {items.map((item) => (
-            <div key={item.question} className="card stack">
-              <h3>{item.question}</h3>
-              <p className="muted">{item.answer}</p>
-            </div>
+            <details key={item.question} className="faq-item">
+              <summary className="faq-question">{item.question}</summary>
+              <div className="faq-answer">
+                <p className="muted">{item.answer}</p>
+              </div>
+            </details>
           ))}
         </div>
       </div>
@@ -330,7 +386,7 @@ export function ContactSection({
               <ContactActions scope="contact_section" includeEmail includePhone includeWhatsapp compact />
             </div>
 
-            <div className="card stack">
+            <div className="card contact-form-card stack">
               <h3>Richiesta di contatto</h3>
               <p className="muted">
                 Compila il modulo con i dati essenziali del caso e allega, se utile,
