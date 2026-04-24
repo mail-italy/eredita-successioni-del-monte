@@ -18,6 +18,7 @@ import {
 } from "@/lib/content";
 import { ContactActions, ContactAvailabilityNote } from "@/components/contact-actions";
 import { ContactForm } from "@/components/contact-form";
+import { LazyVideoPlayer } from "@/components/lazy-video-player";
 import { OfficeMap } from "@/components/office-map";
 
 function TrackLink({
@@ -406,17 +407,19 @@ export function HeroSection() {
           <div className="hero-media">
             <div className="hero-image-layer">
               <Image
-                src="/images/hero-eredita-home.png"
-                alt="Professionista dello Studio Legale Del Monte"
+                src="/images/hero-eredita-home.webp"
+                alt="Professionista dello Studio Legale Del Monte in un contesto istituzionale"
                 width={1086}
                 height={1448}
                 priority
-                sizes="(max-width: 760px) 100vw, (max-width: 1440px) 100vw, 1380px"
+                fetchPriority="high"
+                sizes="(max-width: 760px) calc(100vw - 52px), (max-width: 1380px) calc(100vw - 32px), 1380px"
+                quality={86}
                 className="hero-portrait"
               />
             </div>
 
-            <div className="hero-desktop-copy">
+            <div className="hero-copy-panel">
               <div className="hero-copy-stack">
                 <p className="hero-breadcrumb">Homepage</p>
                 <p className="eyebrow hero-eyebrow-light">Studio Legale Del Monte</p>
@@ -453,50 +456,18 @@ export function HeroSection() {
               </div>
             </div>
           </div>
-
-          <div className="hero-mobile-copy">
-            <div className="hero-copy-stack hero-copy-stack-mobile">
-              <p className="hero-breadcrumb">Homepage</p>
-              <p className="eyebrow">Studio Legale Del Monte</p>
-              <h1 className="display hero-title">
-                Assistenza legale in materia di eredità e successioni
-              </h1>
-              <p className="lead hero-copy">
-                Tutela e consulenza su testamenti, divisioni ereditarie,
-                impugnazioni, quota di legittima, donazioni, successioni
-                internazionali e questioni successorie complesse.
-              </p>
-
-              <div className="tag-list hero-tags">
-                {thematicTags.map((tag) => (
-                  <TrackLink
-                    key={tag}
-                    href={getTopicHref(tag) ?? "/servizi"}
-                    label={`hero_mobile_topic_${tag}`}
-                    className="tag hero-tag"
-                  >
-                    {tag}
-                  </TrackLink>
-                ))}
-              </div>
-
-              <div className="hero-cta-row">
-                <TrackLink href="/contatti#modulo-contatti" label="hero_contact_mobile" className="button-primary">
-                  Richiedi una valutazione preliminare
-                </TrackLink>
-                <ContactActions scope="hero_mobile" includeEmail includePhone includeWhatsapp compact />
-              </div>
-
-              <ContactAvailabilityNote />
-            </div>
-          </div>
         </div>
 
         <div className="hero-trust-grid">
           {trustSignals.map((signal) => (
-            <div key={signal} className="hero-trust-card">
-              <p>{signal}</p>
-            </div>
+            <TrackLink
+              key={signal.label}
+              href={signal.href}
+              label={`hero_trust_${signal.label}`}
+              className="hero-trust-card clickable-card"
+            >
+              <p>{signal.label}</p>
+            </TrackLink>
           ))}
         </div>
       </div>
@@ -509,15 +480,16 @@ export function HomeAuthoritySection() {
     <section className="section-tight home-authority-section">
       <div className="shell home-authority-grid">
         <div className="home-authority-lead">
-          <p className="eyebrow">Assistenza dedicata</p>
-          <h2 className="display-sm">Una struttura chiara per questioni ereditarie complesse</h2>
+          <p className="eyebrow">Diritto ereditario</p>
+          <h2 className="display-sm">Il punto centrale non è solo il conflitto, ma la corretta lettura della successione</h2>
         </div>
         <div className="home-authority-copy">
           <p className="lead">
-            Successioni, testamenti, quote di legittima, divisioni patrimoniali e
-            contenziosi tra coeredi richiedono ordine documentale, lettura tecnica e
-            una strategia coerente. Il percorso del sito aiuta a distinguere le aree
-            di assistenza e a capire quando chiedere una valutazione legale.
+            Prima di discutere di impugnazioni, divisioni, beni o conti correnti,
+            occorre chiarire il quadro successorio: titolo applicabile, quote
+            spettanti, eventuali donazioni pregresse, posizione dei legittimari e
+            documenti realmente decisivi. Questa impostazione evita errori iniziali e
+            rende più solida ogni scelta successiva, stragiudiziale o contenziosa.
           </p>
         </div>
       </div>
@@ -527,15 +499,35 @@ export function HomeAuthoritySection() {
 
 export function HomeVideoSection() {
   return (
-    <section className="section-tight home-video-section" aria-label="Studio legale">
-      <div className="shell home-video-shell">
-        <video
-          className="home-video"
-          src="/video/hero-studio-legale.mp4"
-          controls
-          poster="/images/hero-successioni-del-monte.png"
-          preload="metadata"
-        />
+    <section className="section home-video-section" aria-labelledby="home-video-title">
+      <div className="shell home-video-grid">
+        <div className="stack home-video-copy">
+          <p className="eyebrow">Studio e metodo</p>
+          <h2 id="home-video-title" className="display-sm">
+            Un confronto diretto, dopo aver chiarito i nodi principali della successione
+          </h2>
+          <p className="lead">
+            Il video resta disponibile su desktop e mobile come approfondimento
+            visivo dello studio, ma entra solo dopo la sezione dedicata alle
+            questioni ereditarie più frequenti e viene caricato in modo differito.
+          </p>
+          <p className="muted">
+            In questo modo la homepage mantiene un primo impatto rapido e
+            istituzionale, lasciando spazio al video in una posizione più coerente
+            con il percorso di lettura.
+          </p>
+        </div>
+
+        <div className="home-video-shell">
+          <LazyVideoPlayer
+            className="home-video"
+            desktopSrc="/video/hero-studio-legale-desktop-light.mp4"
+            mobileSrc="/video/hero-studio-legale-mobile-light.mp4"
+            posterDesktop="/images/hero-successioni-del-monte.webp"
+            posterMobile="/images/hero-successioni-del-monte-mobile.webp"
+            ariaLabel="Video di presentazione dello studio legale"
+          />
+        </div>
       </div>
     </section>
   );
@@ -566,7 +558,7 @@ export function ProblemsSection({ items = mainProblems }: { items?: string[] }) 
               </Link>
             ) : (
               <div key={item} className="card">
-              <h3>{item}</h3>
+                <h3>{item}</h3>
               </div>
             );
           })}
@@ -928,9 +920,9 @@ export function HubPageTemplate({
             <p className="lead">{hub.intro}</p>
             <div className="tag-list">
               {getHubEntities(hub).map((entity) => {
-                const href = getTopicHref(entity);
+                const href = getTopicHref(entity) ?? "/servizi";
 
-                return href ? (
+                return (
                   <TrackLink
                     key={entity}
                     href={href}
@@ -939,12 +931,11 @@ export function HubPageTemplate({
                   >
                     {entity}
                   </TrackLink>
-                ) : (
-                  <span key={entity} className="tag">
-                    {entity}
-                  </span>
                 );
               })}
+            </div>
+            <div className="cluster">
+              <ContactActions scope={`hub_${hub.slug}_hero`} compact />
             </div>
           </div>
           <EditorialFigure asset={hubVisual} />
@@ -1007,9 +998,9 @@ export function ArticlePageTemplate({
             <p className="lead">{article.answerFirst}</p>
             <div className="tag-list">
               {getArticleEntities(article).map((entity) => {
-                const href = getTopicHref(entity);
+                const href = getTopicHref(entity) ?? "/approfondimenti";
 
-                return href ? (
+                return (
                   <TrackLink
                     key={entity}
                     href={href}
@@ -1018,10 +1009,6 @@ export function ArticlePageTemplate({
                   >
                     {entity}
                   </TrackLink>
-                ) : (
-                  <span key={entity} className="tag">
-                    {entity}
-                  </span>
                 );
               })}
             </div>

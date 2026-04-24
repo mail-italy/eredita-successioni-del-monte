@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Fraunces, Manrope } from "next/font/google";
+import localFont from "next/font/local";
 
 import "./globals.css";
 
@@ -10,14 +10,11 @@ import { TrackingListener } from "@/components/tracking-listener";
 import { siteConfig } from "@/lib/content";
 import { organizationSchema, websiteSchema } from "@/lib/seo";
 
-const sans = Manrope({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
-
-const display = Fraunces({
-  subsets: ["latin"],
+const display = localFont({
+  src: "./fonts/NewYork-Regular.ttf",
   variable: "--font-display",
+  display: "swap",
+  fallback: ["Georgia", "Times New Roman", "serif"],
 });
 
 export const metadata: Metadata = {
@@ -38,7 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="it">
-      <body className={`${sans.variable} ${display.variable}`}>
+      <body className={display.variable}>
         <AnalyticsScript />
         <TrackingListener />
         <JsonLd data={[websiteSchema(), organizationSchema()]} />

@@ -2,9 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { ContactSection, FaqSection } from "@/components/sections";
+import { ContactActions } from "@/components/contact-actions";
 import { JsonLd } from "@/components/json-ld";
-import { aboutPage, thematicFaqs } from "@/lib/content";
-import { buildMetadata, breadcrumbSchema } from "@/lib/seo";
+import { aboutPage, aboutPageFaqs } from "@/lib/content";
+import { buildMetadata, breadcrumbSchema, faqSchema } from "@/lib/seo";
 
 export const metadata = buildMetadata({
   title: "Chi siamo",
@@ -17,10 +18,13 @@ export default function AboutPage() {
   return (
     <>
       <JsonLd
-        data={breadcrumbSchema([
-          { name: "Homepage", path: "/" },
-          { name: "Chi siamo", path: "/chi-siamo" },
-        ])}
+        data={[
+          breadcrumbSchema([
+            { name: "Homepage", path: "/" },
+            { name: "Chi siamo", path: "/chi-siamo" },
+          ]),
+          faqSchema(aboutPageFaqs),
+        ]}
       />
       <section className="section">
         <div className="shell hero-grid">
@@ -33,6 +37,7 @@ export default function AboutPage() {
             <p className="eyebrow">Chi siamo</p>
             <h1 className="display">Esperienza, rigore tecnico e attenzione al caso concreto</h1>
             <p className="lead">{aboutPage.intro}</p>
+            <ContactActions scope="about_hero" includeEmail={false} compact />
           </div>
           <div className="editorial-figure editorial-figure-wide">
             <Image
@@ -85,7 +90,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <FaqSection title="Domande ricorrenti sullo studio" items={thematicFaqs} />
+      <FaqSection title="Domande ricorrenti sullo studio" items={aboutPageFaqs} />
       <ContactSection
         title="Contatta lo studio"
         intro="Se vuoi capire come impostare una successione, una divisione o un contenzioso ereditario, qui trovi i riferimenti dello Studio Legale Del Monte in un unico blocco ordinato."

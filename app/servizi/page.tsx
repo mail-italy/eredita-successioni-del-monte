@@ -1,9 +1,10 @@
 import Image from "next/image";
 
-import { ContactSection, ServiceGrid } from "@/components/sections";
+import { ContactSection, FaqSection, ServiceGrid } from "@/components/sections";
+import { ContactActions } from "@/components/contact-actions";
 import { JsonLd } from "@/components/json-ld";
-import { moneyPages, siteConfig } from "@/lib/content";
-import { breadcrumbSchema, buildMetadata, itemListSchema } from "@/lib/seo";
+import { moneyPages, servicesArchiveFaqs, siteConfig } from "@/lib/content";
+import { breadcrumbSchema, buildMetadata, faqSchema, itemListSchema } from "@/lib/seo";
 
 export const metadata = buildMetadata({
   title: "Servizi",
@@ -28,6 +29,7 @@ export default function ServicesArchivePage() {
               url: `${siteConfig.domain}/${page.slug}`,
             })),
           ),
+          faqSchema(servicesArchiveFaqs),
         ]}
       />
       <section className="section">
@@ -40,6 +42,7 @@ export default function ServicesArchivePage() {
               successioni, testamenti, lesione di legittima, divisioni ereditarie,
               donazioni, mediazione, eredità giacente e recupero somme ereditarie.
             </p>
+            <ContactActions scope="services_archive_hero" includeEmail={false} compact />
           </div>
           <div className="editorial-figure editorial-figure-standard">
             <Image
@@ -55,6 +58,7 @@ export default function ServicesArchivePage() {
         </div>
       </section>
       <ServiceGrid services={moneyPages} />
+      <FaqSection title="Domande frequenti sui servizi dello studio" items={servicesArchiveFaqs} />
       <ContactSection />
     </>
   );

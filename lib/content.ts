@@ -85,10 +85,22 @@ export type GlossaryTerm = {
 };
 
 export const trustSignals = [
-  "Competenza dedicata a successioni, testamenti, legittima e divisioni",
-  "Esperienza ultraventennale dello Studio Legale Del Monte",
-  "Assistenza in fase stragiudiziale, giudiziale e di mediazione",
-  "Approccio tecnico ma leggibile, orientato a prevenire errori e contenziosi",
+  {
+    label: "Competenza dedicata a successioni, testamenti, legittima e divisioni",
+    href: "/servizi",
+  },
+  {
+    label: "Esperienza ultraventennale dello Studio Legale Del Monte",
+    href: "/chi-siamo",
+  },
+  {
+    label: "Assistenza in fase stragiudiziale, giudiziale e di mediazione",
+    href: "/mediazione-ereditaria",
+  },
+  {
+    label: "Approccio tecnico ma leggibile, orientato a prevenire errori e contenziosi",
+    href: "/approfondimenti",
+  },
 ];
 
 export const mainProblems = [
@@ -1241,14 +1253,801 @@ export const thematicFaqs: FaqItem[] = [
   {
     question: "Le pagine del sito sono pensate solo per Roma?",
     answer:
-      "No. Lo studio ha sede a Roma, ma segue anche pratiche con rilievo nazionale e questioni successorie che coinvolgono patrimoni, eredi o beni situati in contesti diversi.",
+      "No. Lo studio ha sede a Roma ma opera su pratiche successorie in tutta Italia e, quando necessario, anche su questioni con profili internazionali o con coordinamento tra più luoghi.",
   },
   {
     question: "Posso contattarvi anche per una successione internazionale?",
     answer:
       "Sì. Le successioni internazionali richiedono un inquadramento iniziale particolarmente accurato su legge applicabile, documenti e coordinamento degli attori coinvolti.",
   },
+  {
+    question: "Seguite solo cause oppure anche fasi preventive e trattative?",
+    answer:
+      "Seguiamo anche la fase preventiva: verifica dei documenti, analisi delle quote, lettere ai coeredi, impostazione della mediazione e definizione della strategia prima che il conflitto degeneri.",
+  },
+  {
+    question: "Posso scrivere anche se ho solo parte dei documenti?",
+    answer:
+      "Sì. Una prima valutazione serve spesso proprio a capire quali documenti mancano, dove recuperarli e quali verifiche hanno priorità nel tuo caso.",
+  },
+  {
+    question: "Trattate successioni con immobili, conti e donazioni nello stesso dossier?",
+    answer:
+      "Sì. Molte pratiche successorie richiedono una lettura unitaria di immobili, somme bancarie, liberalità pregresse e rapporti tra coeredi, perché affrontarli separatamente porta spesso a errori.",
+  },
+  {
+    question: "La consulenza è utile anche se non voglio fare subito causa?",
+    answer:
+      "Sì. Spesso la consulenza serve proprio a evitare mosse affrettate, chiarire la posizione giuridica e capire se esistono spazi reali per una soluzione negoziale o mediativa.",
+  },
+  {
+    question: "Vi occupate anche di questioni bancarie e somme del de cuius?",
+    answer:
+      "Sì. Quando nella successione emergono conti correnti, investimenti, prelievi sospetti o somme non trasparenti, la ricostruzione bancaria diventa una parte centrale del lavoro.",
+  },
 ];
+
+function mergeFaqs(base: FaqItem[], additions: FaqItem[], maxItems = 8) {
+  const seen = new Set<string>();
+
+  return [...base, ...additions]
+    .filter((item) => {
+      const key = item.question.trim().toLowerCase();
+
+      if (seen.has(key)) {
+        return false;
+      }
+
+      seen.add(key);
+      return true;
+    })
+    .slice(0, maxItems);
+}
+
+const successioniGeneralFaqs: FaqItem[] = [
+  {
+    question: "Gestite anche successioni con coeredi residenti in città diverse?",
+    answer:
+      "Sì. Nelle pratiche successorie è frequente coordinare documenti, firme, trattative e posizioni di persone che si trovano in luoghi diversi, senza che questo impedisca un’impostazione ordinata del caso.",
+  },
+  {
+    question: "Quando conviene chiedere una valutazione prima di accettare l’eredità?",
+    answer:
+      "Conviene appena esistono dubbi su debiti, immobili indivisi, somme bancarie, donazioni pregresse o possibili contestazioni tra chiamati: sono tutti profili che incidono sulla strategia iniziale.",
+  },
+  {
+    question: "La dichiarazione di successione risolve anche i conflitti tra eredi?",
+    answer:
+      "No. La dichiarazione ha una funzione fiscale e ricognitiva, ma non sostituisce la verifica delle quote, la divisione dei beni o la soluzione dei contrasti tra coeredi.",
+  },
+  {
+    question: "Una successione può diventare contenziosa anche senza testamento?",
+    answer:
+      "Sì. I conflitti nascono spesso anche in successione legittima, soprattutto quando il patrimonio comprende immobili, somme da ricostruire, utilizzo esclusivo dei beni o donazioni fatte in vita.",
+  },
+  {
+    question: "Serve sempre andare dal notaio prima di parlare con un avvocato?",
+    answer:
+      "No. In molte situazioni è utile prima una lettura legale del caso, per capire quali passaggi richiedono un notaio, quali documenti servono davvero e quali rischi evitare.",
+  },
+  {
+    question: "Seguite anche pratiche in cui il problema principale è il coordinamento tra più beni e più persone?",
+    answer:
+      "Sì. Una parte importante del lavoro riguarda proprio l’ordine del dossier: quote, beni, documenti, posizioni dei coeredi e percorso più efficace tra trattativa, mediazione e giudizio.",
+  },
+];
+
+const testamentoFaqs: FaqItem[] = [
+  {
+    question: "Quanto conta la grafia del testamento olografo?",
+    answer:
+      "Conta molto, ma non è l’unico profilo. Oltre all’autografia vanno verificati data, sottoscrizione, coerenza del contenuto e disponibilità di prove utili in caso di contestazione.",
+  },
+  {
+    question: "È utile acquisire subito documentazione medica del testatore?",
+    answer:
+      "Spesso sì. Se il dubbio riguarda la capacità o possibili influenze indebite, la ricostruzione clinica e temporale diventa uno dei punti più importanti del fascicolo.",
+  },
+  {
+    question: "Un testamento pubblico è inattaccabile?",
+    answer:
+      "No. Ha una struttura formale più forte, ma può comunque essere messo in discussione se emergono vizi della volontà, incapacità del testatore o profili di lesione della legittima.",
+  },
+  {
+    question: "Posso contestare solo una clausola del testamento?",
+    answer:
+      "Dipende dal tipo di vizio e dall’effetto della disposizione. In alcuni casi il problema riguarda l’intero atto, in altri una specifica attribuzione o il suo impatto sulla quota riservata.",
+  },
+  {
+    question: "Quanto pesa la prova testimoniale nelle contestazioni testamentarie?",
+    answer:
+      "Può essere utile, ma raramente basta da sola. È più efficace quando si combina con documenti, cartelle cliniche, messaggi, cronologia degli eventi e assetto patrimoniale.",
+  },
+  {
+    question: "Prima di impugnare è utile verificare anche il patrimonio e le donazioni?",
+    answer:
+      "Sì. In molte situazioni la contestazione del testamento si intreccia con la ricostruzione della massa ereditaria e con l’eventuale tutela dei legittimari.",
+  },
+];
+
+const divisioneFaqs: FaqItem[] = [
+  {
+    question: "La divisione ereditaria richiede sempre una perizia sugli immobili?",
+    answer:
+      "Non sempre, ma una stima attendibile è spesso indispensabile per impostare conguagli, ipotesi di assegnazione, vendita o trattativa tra coeredi.",
+  },
+  {
+    question: "Si possono dividere prima le somme e poi affrontare gli immobili?",
+    answer:
+      "A volte sì, ma solo se il quadro patrimoniale è chiaro. Spezzare il dossier senza coordinamento può alterare i conguagli e rendere più difficile una chiusura coerente della comunione.",
+  },
+  {
+    question: "Come si gestiscono le spese pagate da un solo coerede dopo il decesso?",
+    answer:
+      "Vanno documentate e collocate correttamente nel rendiconto della comunione ereditaria, distinguendo tra spese necessarie, anticipate e spese che richiedono compensazioni.",
+  },
+  {
+    question: "Un immobile indivisibile obbliga sempre alla vendita?",
+    answer:
+      "Non automaticamente. Si valuta se esistono soluzioni di assegnazione con conguaglio, accordi tra coeredi o altre opzioni compatibili con il valore del bene e le quote in gioco.",
+  },
+  {
+    question: "I beni mobili di valore vanno trattati a parte nella divisione?",
+    answer:
+      "Vanno ricostruiti con attenzione specifica, ma sempre dentro il quadro complessivo dell’asse ereditario, perché incidono su equilibrio economico e conguagli finali.",
+  },
+  {
+    question: "La mediazione è utile anche quando la comunione è bloccata da anni?",
+    answer:
+      "Può esserlo se arriva con stime, elenco dei beni, prospetti di riparto e criteri chiari. Senza questo lavoro preparatorio rischia di restare solo formale.",
+  },
+];
+
+const legittimaFaqs: FaqItem[] = [
+  {
+    question: "La quota di legittima cambia se esistono solo figli o anche il coniuge?",
+    answer:
+      "Sì. La misura della quota riservata dipende dalla composizione della famiglia successoria e va calcolata tenendo conto dei legittimari effettivamente presenti.",
+  },
+  {
+    question: "Le polizze o altri strumenti patrimoniali incidono sempre sulla legittima?",
+    answer:
+      "Non esiste una risposta automatica. Occorre qualificare correttamente il rapporto e capire se e in che modo rilevi nella ricostruzione patrimoniale del caso concreto.",
+  },
+  {
+    question: "Posso valutare una lesione di legittima anche prima della divisione?",
+    answer:
+      "Sì. Anzi, spesso è proprio necessario farlo prima, per capire se la trattativa o la divisione proposta riflettono davvero i diritti dei legittimari.",
+  },
+  {
+    question: "Riduzione e restituzione sono la stessa cosa?",
+    answer:
+      "No. La riduzione serve a far dichiarare inefficace l’attribuzione lesiva nei limiti necessari, mentre la restituzione riguarda il recupero concreto dei beni o del loro valore nei confronti dei soggetti coinvolti.",
+  },
+  {
+    question: "Conta solo il valore nominale delle donazioni o anche il loro effetto concreto?",
+    answer:
+      "Conta la corretta qualificazione dell’attribuzione e il suo peso nella massa di calcolo, con attenzione a tempi, valori, soggetti coinvolti e prova disponibile.",
+  },
+  {
+    question: "È utile una trattativa anche quando la lesione appare evidente?",
+    answer:
+      "Sì, se il quadro patrimoniale è stato ricostruito bene. Una trattativa fondata su numeri verificabili può ridurre tempi e costi senza indebolire la posizione del legittimario.",
+  },
+];
+
+const donazioniFaqs: FaqItem[] = [
+  {
+    question: "Come si distingue una donazione indiretta da un semplice aiuto familiare?",
+    answer:
+      "Conta il contesto concreto: provenienza delle somme, finalità del trasferimento, documentazione bancaria, assetto complessivo dell’operazione e coerenza con i rapporti familiari.",
+  },
+  {
+    question: "La collazione riguarda tutti gli eredi?",
+    answer:
+      "No. Riguarda solo i soggetti che la legge considera tenuti a conferire o imputare le donazioni ricevute, e va letta insieme alla struttura della successione concreta.",
+  },
+  {
+    question: "Un bonifico fatto molti anni prima del decesso può ancora essere rilevante?",
+    answer:
+      "Sì, se integra una liberalità che incide sulla ricostruzione delle quote o sull’equilibrio tra coeredi. Il tempo trascorso non elimina da solo il problema.",
+  },
+  {
+    question: "Se non esiste un atto notarile, la donazione è irrilevante?",
+    answer:
+      "No. Molte questioni successorie riguardano proprio liberalità indirette o trasferimenti di fatto, che richiedono però una prova più accurata.",
+  },
+  {
+    question: "Collazione e lesione di legittima vanno valutate insieme?",
+    answer:
+      "Spesso sì, perché la stessa attribuzione fatta in vita può incidere sia sul rapporto interno tra coeredi sia sulla tutela del legittimario leso.",
+  },
+  {
+    question: "Serve ricostruire il valore storico o attuale della donazione?",
+    answer:
+      "Dipende dalla questione giuridica in esame. La corretta valutazione economica non può essere separata dal tipo di azione e dal criterio applicabile nel caso concreto.",
+  },
+];
+
+const successioneLegittimaFaqs: FaqItem[] = [
+  {
+    question: "La successione legittima si applica anche se esiste un testamento parziale?",
+    answer:
+      "Sì, per la parte del patrimonio non disciplinata da un testamento valido. In questi casi bisogna coordinare bene le disposizioni esistenti con le regole legali di chiamata.",
+  },
+  {
+    question: "Le quote legali risolvono automaticamente la divisione dei beni?",
+    answer:
+      "No. Le quote indicano la spettanza astratta, ma restano poi da gestire immobili indivisi, somme, beni mobili, conguagli e rapporti tra coeredi.",
+  },
+  {
+    question: "I fratelli del defunto entrano sempre nella successione legittima?",
+    answer:
+      "No. La loro posizione dipende dai parenti più prossimi effettivamente presenti e dall’ordine stabilito dalla legge nella chiamata ereditaria.",
+  },
+  {
+    question: "Le donazioni fatte in vita contano anche senza testamento?",
+    answer:
+      "Sì. Anche nella successione legittima le attribuzioni pregresse possono incidere su divisione, collazione e rapporti economici tra i chiamati.",
+  },
+  {
+    question: "Se tutti sono d’accordo sulle quote, serve comunque verificare i beni?",
+    answer:
+      "Sì. L’accordo sulle percentuali non basta se il patrimonio non è stato ricostruito bene o se mancano trasparenza e valori attendibili sui beni da ripartire.",
+  },
+  {
+    question: "La presenza del coniuge superstite incide anche sulla casa familiare?",
+    answer:
+      "Può incidere in modo rilevante, ma il tema va esaminato insieme alla composizione della famiglia e al tipo di diritti che vengono in considerazione nel caso concreto.",
+  },
+];
+
+const successioniInternazionaliFaqs: FaqItem[] = [
+  {
+    question: "Serve sempre il certificato successorio europeo?",
+    answer:
+      "Non in ogni pratica, ma in molti casi è uno strumento utile per far circolare la qualità di erede o i poteri successori tra più Stati.",
+  },
+  {
+    question: "La residenza abituale del defunto è un dato solo anagrafico?",
+    answer:
+      "No. È una nozione sostanziale che richiede di valutare centro di vita, stabilità della permanenza, relazioni familiari e collegamenti effettivi con uno Stato.",
+  },
+  {
+    question: "Se i beni sono in Italia ma gli eredi vivono all’estero cambia tutto?",
+    answer:
+      "Non necessariamente tutto, ma la gestione pratica del dossier cambia: servono verifiche su documenti, procure, traduzioni, tempi e coordinamento transfrontaliero.",
+  },
+  {
+    question: "I testamenti redatti all’estero valgono automaticamente in Italia?",
+    answer:
+      "Vanno esaminati con attenzione quanto a forma, legge applicabile e compatibilità con il quadro successorio complessivo, senza dare nulla per scontato.",
+  },
+  {
+    question: "Le imposte e la legge civile seguono sempre la stessa logica internazionale?",
+    answer:
+      "No. Profilo fiscale e disciplina civilistica possono seguire regole diverse, perciò il coordinamento iniziale del caso è essenziale.",
+  },
+  {
+    question: "Quando ci sono beni in più Paesi conviene trattare tutto separatamente?",
+    answer:
+      "Di solito no. Serve una regia unitaria, altrimenti il rischio è perdere coerenza tra legge applicabile, prova documentale e risultato pratico della successione.",
+  },
+];
+
+const mediazioneFaqs: FaqItem[] = [
+  {
+    question: "In mediazione è utile arrivare con una proposta economica già formulata?",
+    answer:
+      "Spesso sì, purché sia fondata su beni, valori, quote e margini di trattativa realistici. Una proposta senza base tecnica rischia di indebolire la posizione negoziale.",
+  },
+  {
+    question: "La mediazione ereditaria funziona anche se i rapporti familiari sono molto tesi?",
+    answer:
+      "Può funzionare se si sposta il confronto su dossier, valori e criteri di riparto concreti. Senza questa impostazione, la tensione personale tende a prevalere.",
+  },
+  {
+    question: "Posso usare la mediazione per chiarire prima i documenti mancanti?",
+    answer:
+      "Sì, ma va gestita con obiettivi precisi. Talvolta la mediazione serve anche a ottenere trasparenza su beni, somme o documenti che una parte non sta condividendo.",
+  },
+  {
+    question: "Un verbale di mediazione chiude davvero il conflitto?",
+    answer:
+      "Solo se l’accordo è costruito bene, con attribuzioni chiare, tempi, eventuali conguagli e formule che evitino nuove contestazioni esecutive o interpretative.",
+  },
+  {
+    question: "Conviene mediare anche quando penso di avere una posizione molto forte?",
+    answer:
+      "Può convenire se la mediazione permette di monetizzare un vantaggio probatorio senza affrontare tempi e costi del giudizio, ma la scelta va misurata caso per caso.",
+  },
+  {
+    question: "La mediazione può essere utile per la sola divisione di un immobile ereditato?",
+    answer:
+      "Sì, soprattutto quando occorre confrontare opzioni di vendita, assegnazione, uso del bene e conguagli tra coeredi con posizioni molto diverse.",
+  },
+];
+
+const ereditaGiacenteFaqs: FaqItem[] = [
+  {
+    question: "Chi può chiedere la nomina del curatore dell’eredità giacente?",
+    answer:
+      "Dipende dall’interesse concreto alla gestione dell’asse: possono rilevare la posizione dei chiamati, dei creditori o di altri soggetti che hanno necessità di evitare il vuoto di amministrazione.",
+  },
+  {
+    question: "Il curatore può vendere beni dell’eredità giacente?",
+    answer:
+      "Può compiere gli atti consentiti dal quadro normativo e autorizzativo applicabile, ma non dispone liberamente del patrimonio come se fosse un erede.",
+  },
+  {
+    question: "L’eredità giacente serve solo quando tutti rinunciano?",
+    answer:
+      "No. Può rilevare anche quando i chiamati non hanno ancora accettato o la situazione è ferma, ma i beni richiedono comunque protezione e amministrazione.",
+  },
+  {
+    question: "I creditori possono attivarsi durante la giacenza?",
+    answer:
+      "Sì. La presenza di debiti e creditori è uno dei motivi per cui la fase di giacenza deve essere impostata con attenzione documentale e procedurale.",
+  },
+  {
+    question: "Chi intende poi accettare l’eredità deve comunque monitorare la fase di giacenza?",
+    answer:
+      "Sì, perché le attività svolte nel frattempo incidono sulla conservazione del patrimonio e sulla situazione concreta che troverà al momento della decisione.",
+  },
+  {
+    question: "La giacenza blocca definitivamente la successione?",
+    answer:
+      "No. È uno strumento di gestione temporanea, non una soluzione finale del destino dell’eredità o dei diritti dei chiamati.",
+  },
+];
+
+const rinunciaFaqs: FaqItem[] = [
+  {
+    question: "Il beneficio d’inventario è sempre un’alternativa migliore della rinuncia?",
+    answer:
+      "Non sempre. Dipende dal tipo di patrimonio, dalla presenza di beni attivi, dai costi di gestione e dal livello di rischio connesso ai debiti ereditari.",
+  },
+  {
+    question: "Pagare spese del defunto può impedirmi di rinunciare?",
+    answer:
+      "Dipende da natura, finalità e modalità dell’atto. Alcuni comportamenti hanno funzione conservativa, altri possono essere letti come accettazione tacita.",
+  },
+  {
+    question: "Se rinuncio io, i miei figli entrano automaticamente nella successione?",
+    answer:
+      "La tua rinuncia può incidere sulla chiamata successiva e sulla rappresentazione, ma gli effetti vanno verificati in concreto, soprattutto se sono coinvolti minori.",
+  },
+  {
+    question: "Posso rinunciare se nel frattempo ho chiesto informazioni alla banca o all’amministratore?",
+    answer:
+      "La semplice acquisizione di informazioni non coincide di per sé con accettazione, ma è sempre opportuno controllare l’intera sequenza degli atti compiuti.",
+  },
+  {
+    question: "La rinuncia è utile anche quando il patrimonio sembra di modesto valore?",
+    answer:
+      "Può esserlo, ma solo dopo aver verificato se esistono beni o somme recuperabili che renderebbero più conveniente una diversa scelta successoria.",
+  },
+  {
+    question: "Serve decidere subito oppure conviene prima ricostruire il quadro?",
+    answer:
+      "Nella maggior parte dei casi conviene prima ricostruire bene beni, debiti e atti già compiuti, perché una decisione affrettata può creare problemi irreversibili.",
+  },
+];
+
+const recuperoSommeFaqs: FaqItem[] = [
+  {
+    question: "La banca deve dire subito quanti rapporti aveva il defunto?",
+    answer:
+      "La risposta dipende dalla documentazione presentata e dalla posizione di chi richiede le informazioni. Per questo è utile impostare correttamente la richiesta fin dall’inizio.",
+  },
+  {
+    question: "Un delegato sul conto può continuare a operare dopo il decesso?",
+    answer:
+      "Il tema va verificato con attenzione sulla base del rapporto bancario concreto e della cronologia delle operazioni, perché da lì possono emergere responsabilità e contestazioni rilevanti.",
+  },
+  {
+    question: "Prelievi ravvicinati al decesso sono sempre illeciti?",
+    answer:
+      "Non automaticamente. Vanno inquadrati per causa, titolo, momento, provenienza delle somme e rapporti tra i soggetti coinvolti.",
+  },
+  {
+    question: "Polizze e investimenti vanno analizzati insieme ai conti correnti?",
+    answer:
+      "Sì, perché spesso la ricostruzione patrimoniale completa richiede di coordinare rapporti bancari, prodotti finanziari e altre disponibilità intestate o collegate al de cuius.",
+  },
+  {
+    question: "Si può agire anche se non ho ancora l’estratto conto completo?",
+    answer:
+      "Sì, ma la strategia va costruita per ottenere prima i dati essenziali. Senza cronologia e documenti il rischio è confondere sospetti e prove.",
+  },
+  {
+    question: "Il recupero delle somme rileva anche nella divisione ereditaria?",
+    answer:
+      "Sì. Le somme bancarie non sono un tema separato: incidono su quote, conguagli, legittima e trasparenza complessiva della successione.",
+  },
+];
+
+const conflittiTraCoerediFaqs: FaqItem[] = [
+  {
+    question: "Quando il conflitto tra coeredi diventa un problema giuridico e non solo relazionale?",
+    answer:
+      "Quando incide sulla gestione dei beni, sulla trasparenza delle informazioni, sulle quote, sull’uso esclusivo del patrimonio o sulla possibilità concreta di chiudere la successione.",
+  },
+  {
+    question: "Conviene scrivere subito agli altri coeredi con una diffida?",
+    answer:
+      "Può essere utile, ma solo se prima sono chiari obiettivi, richieste, documenti da ottenere e posizione giuridica che si intende presidiare.",
+  },
+  {
+    question: "Un coerede può trattenere documenti o chiavi dei beni comuni?",
+    answer:
+      "Il punto non va affrontato solo sul piano personale: occorre impostare richieste e iniziative che permettano di recuperare trasparenza e controllo sulla gestione del patrimonio.",
+  },
+  {
+    question: "La causa è inevitabile quando i rapporti sono compromessi?",
+    answer:
+      "Non sempre. Anche nei contesti tesi può essere utile un passaggio mediativo o negoziale, purché supportato da un dossier tecnico solido.",
+  },
+  {
+    question: "Come si gestisce un coerede che usa da solo immobile o somme comuni?",
+    answer:
+      "Serve ricostruire fatti, tempi, utilità percepite e spese sostenute, così da trasformare il conflitto in richieste patrimoniali verificabili.",
+  },
+  {
+    question: "È utile separare i piani personali dai punti economici del conflitto?",
+    answer:
+      "Sì. Nelle successioni più complesse il lavoro efficace consiste proprio nel tradurre tensioni familiari in questioni documentabili e giuridicamente trattabili.",
+  },
+];
+
+export const aboutPageFaqs: FaqItem[] = [
+  {
+    question: "Di cosa si occupa in concreto lo Studio Legale Del Monte in materia successoria?",
+    answer:
+      "Lo studio assiste su successioni, testamenti, legittima, divisioni ereditarie, donazioni, mediazione, rinuncia, eredità giacente e pratiche con profili internazionali o patrimoni articolati.",
+  },
+  {
+    question: "Lo studio segue solo contenziosi già iniziati?",
+    answer:
+      "No. Una parte rilevante del lavoro riguarda la fase preventiva: analisi dei documenti, impostazione della strategia, lettere ai coeredi e verifica dei rischi prima di assumere iniziative irreversibili.",
+  },
+  {
+    question: "Qual è l’approccio dello studio nelle pratiche ereditarie?",
+    answer:
+      "L’approccio è tecnico ma leggibile: prima si ordina il fascicolo, poi si valutano diritti, prove, convenienza della trattativa e solidità dell’eventuale azione giudiziale.",
+  },
+  {
+    question: "Lo studio opera solo su Roma?",
+    answer:
+      "No. La sede è a Roma, ma l’assistenza riguarda pratiche successorie in tutta Italia e, quando necessario, casi che richiedono coordinamento tra più luoghi o profili internazionali.",
+  },
+  {
+    question: "Quando conviene contattare lo studio?",
+    answer:
+      "Conviene appena emergono dubbi seri su quote, testamento, divisione dei beni, donazioni, conti correnti o rapporti conflittuali tra coeredi.",
+  },
+  {
+    question: "Seguite anche mediazione e trattativa oltre al giudizio?",
+    answer:
+      "Sì. La scelta tra trattativa, mediazione e causa viene fatta in base alla qualità della prova, alla struttura del patrimonio e al risultato concretamente più utile per il cliente.",
+  },
+  {
+    question: "È possibile avere un primo inquadramento anche con documentazione incompleta?",
+    answer:
+      "Sì. Una prima analisi serve spesso proprio a stabilire quali documenti mancano e quale ordine seguire per recuperare quelli decisivi.",
+  },
+  {
+    question: "Lo studio segue anche patrimoni con immobili, somme bancarie e donazioni nello stesso caso?",
+    answer:
+      "Sì. Le pratiche più complesse richiedono proprio una regia unitaria tra beni immobili, conti, investimenti, liberalità pregresse e conflitti familiari.",
+  },
+];
+
+export const contactPageFaqs: FaqItem[] = [
+  {
+    question: "Qual è il canale migliore per il primo contatto?",
+    answer:
+      "Dipende dal caso, ma il modulo contatti è spesso la via più ordinata perché consente di indicare l’argomento e sintetizzare i fatti essenziali. WhatsApp e Mail restano comunque sempre disponibili.",
+  },
+  {
+    question: "Quando compare il pulsante Chiama?",
+    answer:
+      "Compare nella fascia 09:00–19:30. Fuori fascia restano visibili WhatsApp, Mail e il pulsante Invia una richiesta che porta direttamente al modulo contatti.",
+  },
+  {
+    question: "Posso inviare documenti già nel primo contatto?",
+    answer:
+      "Sì, se sono già disponibili. Conviene però allegare solo i documenti essenziali e indicare chiaramente il nodo principale della successione o del contenzioso.",
+  },
+  {
+    question: "Lo studio riceve solo a Roma?",
+    answer:
+      "La sede è a Roma, ma l’assistenza può riguardare pratiche successorie di rilievo nazionale e casi che richiedono coordinamento tra più luoghi.",
+  },
+  {
+    question: "Se scrivo fuori orario ricevo comunque riscontro?",
+    answer:
+      "Sì. Il telefono è limitato alla fascia indicata, ma WhatsApp, Mail e il modulo restano sempre utilizzabili per avviare la richiesta.",
+  },
+  {
+    question: "Nel primo messaggio devo già spiegare tutta la storia familiare?",
+    answer:
+      "No. È più utile indicare il problema principale, i soggetti coinvolti, l’eventuale urgenza e i documenti già in tuo possesso.",
+  },
+  {
+    question: "Posso contattare lo studio anche per una mediazione già fissata?",
+    answer:
+      "Sì. In questi casi è utile farlo il prima possibile, così da avere tempo per ordinare documenti, valori e linea negoziale.",
+  },
+  {
+    question: "Il modulo è adatto anche per richieste su successioni internazionali?",
+    answer:
+      "Sì. In quel caso è utile segnalare subito i Paesi coinvolti, la residenza del defunto e i principali beni o rapporti da coordinare.",
+  },
+];
+
+export const servicesArchiveFaqs: FaqItem[] = [
+  {
+    question: "Quali servizi coprono l’intero percorso successorio?",
+    answer:
+      "L’archivio servizi copre i principali snodi della materia: successione, testamento, legittima, divisione, donazioni, mediazione, rinuncia, eredità giacente, successioni internazionali e recupero somme.",
+  },
+  {
+    question: "Da quale pagina conviene partire se non so ancora qual è il problema principale?",
+    answer:
+      "Di solito conviene partire da Avvocato successioni o dalla pagina che assomiglia di più al nodo concreto: testamento, divisione, legittima, donazioni, somme bancarie o rinuncia.",
+  },
+  {
+    question: "I servizi sono pensati solo per cause giudiziali?",
+    answer:
+      "No. Ogni servizio è costruito anche per la fase di analisi preventiva, trattativa, mediazione o impostazione del dossier prima del giudizio.",
+  },
+  {
+    question: "Le singole pagine servizio sostituiscono una valutazione sul caso?",
+    answer:
+      "No. Servono per orientarsi, ma ogni pratica richiede verifiche su documenti, quote, beni, tempi e convenienza concreta delle iniziative.",
+  },
+  {
+    question: "Posso avere più problemi contemporaneamente, per esempio testamento e divisione?",
+    answer:
+      "Sì, ed è frequente. Molti casi coinvolgono più servizi insieme: testamento, legittima, donazioni, immobili e somme bancarie vanno spesso letti in modo unitario.",
+  },
+  {
+    question: "I servizi coprono anche patrimoni complessi o distribuiti in più luoghi?",
+    answer:
+      "Sì. In particolare quando servono coordinamento documentale, più beni da ricostruire o profili internazionali, il lavoro richiede una regia tecnica più articolata.",
+  },
+  {
+    question: "Quando conviene passare dalla lettura della pagina a un contatto diretto?",
+    answer:
+      "Conviene quando il tuo caso non è lineare, quando servono verifiche su documenti e prova o quando devi decidere rapidamente come muoverti.",
+  },
+  {
+    question: "Il servizio giusto dipende dal tipo di bene o dal tipo di conflitto?",
+    answer:
+      "Dipende da entrambi. Il nodo può nascere dal testamento, dalla quota, da un immobile indiviso, da somme bancarie o dal comportamento dei coeredi: per questo l’inquadramento iniziale è decisivo.",
+  },
+];
+
+export const hubArchiveFaqs: FaqItem[] = [
+  {
+    question: "A cosa servono le aree di approfondimento rispetto ai servizi?",
+    answer:
+      "Le aree organizzano i grandi temi del diritto successorio, mentre i servizi sono più orientati all’assistenza operativa e alla gestione concreta del caso.",
+  },
+  {
+    question: "Se ho un dubbio sul testamento devo leggere solo l’area Testamento?",
+    answer:
+      "Non necessariamente. Spesso il tema si intreccia con legittima, donazioni, divisione o conflitti tra coeredi, quindi può essere utile leggere anche le aree collegate.",
+  },
+  {
+    question: "Le aree sono pensate per chi non ha ancora individuato l’azione giusta?",
+    answer:
+      "Sì. Servono proprio a capire quale snodo giuridico stia guidando davvero la pratica: testamento, quote, beni, mediazione o profili internazionali.",
+  },
+  {
+    question: "Le aree affrontano anche i problemi pratici oltre alle regole?",
+    answer:
+      "Sì. Ogni area collega il principio giuridico ai nodi ricorrenti nella realtà: documenti, prova, rapporti tra coeredi, immobili, somme e tempi del percorso.",
+  },
+  {
+    question: "Posso usare le aree per capire quali documenti raccogliere?",
+    answer:
+      "Sì, almeno come primo orientamento. Le singole pagine aiutano a capire quali temi approfondire prima di un confronto diretto sul caso concreto.",
+  },
+  {
+    question: "Le aree sono utili anche se la pratica è già molto conflittuale?",
+    answer:
+      "Sì. Anche in un contenzioso avanzato è utile distinguere correttamente il problema dominante e gli snodi accessori che incidono sulla strategia.",
+  },
+  {
+    question: "Perché alcune aree rimandano a più servizi o articoli?",
+    answer:
+      "Perché le questioni ereditarie raramente restano isolate: una stessa pratica può coinvolgere più pagine e richiedere una lettura integrata del problema.",
+  },
+  {
+    question: "Le aree valgono anche per successioni fuori Roma?",
+    answer:
+      "Sì. Sono contenuti costruiti per casi successori che possono riguardare tutto il territorio nazionale e, in alcune materie, anche contesti con elementi internazionali.",
+  },
+];
+
+export const articlesArchiveFaqs: FaqItem[] = [
+  {
+    question: "Gli articoli sono pensati per dare risposte operative o solo informative?",
+    answer:
+      "L’obiettivo è orientare con taglio operativo, ma senza sostituire la verifica sul singolo fascicolo, che resta indispensabile quando il caso è concreto.",
+  },
+  {
+    question: "Da dove conviene iniziare se non conosco il linguaggio successorio?",
+    answer:
+      "Puoi partire dagli articoli più vicini al tuo dubbio principale o dal glossario, così da chiarire prima i concetti essenziali e poi approfondire il tema specifico.",
+  },
+  {
+    question: "Gli articoli seguono una logica per temi collegati?",
+    answer:
+      "Sì. Ogni articolo è collegato ai servizi e alle aree pertinenti, così puoi passare dal chiarimento teorico all’inquadramento pratico del problema.",
+  },
+  {
+    question: "Un articolo basta per decidere se fare causa?",
+    answer:
+      "No. Gli articoli aiutano a capire i criteri, ma la decisione richiede analisi di documenti, prova, tempi, costi e sostenibilità dell’iniziativa.",
+  },
+  {
+    question: "Gli approfondimenti trattano solo testamenti e quote?",
+    answer:
+      "No. Coprono anche divisione dei beni, conti correnti, mediazione, rinuncia, eredità giacente e successioni con profili internazionali.",
+  },
+  {
+    question: "Posso usare gli articoli per preparare una mediazione o un incontro con lo studio?",
+    answer:
+      "Sì. Sono utili per chiarire il vocabolario del problema e arrivare al confronto con domande più mirate e documenti meglio ordinati.",
+  },
+  {
+    question: "Quando un approfondimento segnala che il caso è più complesso del previsto?",
+    answer:
+      "Quando emergono donazioni, beni in più luoghi, conti bancari non chiari, più coeredi in conflitto o dubbi su validità del testamento e calcolo della legittima.",
+  },
+  {
+    question: "Gli articoli sono utili anche se la successione è già aperta da tempo?",
+    answer:
+      "Sì. Spesso aiutano proprio a rimettere ordine in pratiche ferme da mesi o anni e a capire dove si trova il vero blocco del fascicolo.",
+  },
+];
+
+export const glossaryFaqs: FaqItem[] = [
+  {
+    question: "A cosa serve il glossario successorio?",
+    answer:
+      "Serve a chiarire i termini più ricorrenti del diritto ereditario prima di affrontare pagine tecniche, articoli o una richiesta di assistenza sul caso concreto.",
+  },
+  {
+    question: "Il glossario sostituisce una consulenza?",
+    answer:
+      "No. Aiuta a orientarsi nel lessico, ma non basta per capire diritti, rischi e strategia applicabili a una vicenda familiare specifica.",
+  },
+  {
+    question: "Quali termini conviene capire subito in una pratica ereditaria?",
+    answer:
+      "Di solito conviene partire da legittima, collazione, accettazione tacita, eredità giacente e dagli altri concetti che incidono sulle prime decisioni operative.",
+  },
+  {
+    question: "Perché il significato tecnico conta più di quello comune?",
+    answer:
+      "Perché molti equivoci nascono proprio dall’uso quotidiano di parole che nel diritto successorio hanno un effetto preciso su quote, beni e responsabilità.",
+  },
+  {
+    question: "Il glossario aiuta anche a leggere meglio gli articoli del sito?",
+    answer:
+      "Sì. È pensato per facilitare la lettura degli approfondimenti e rendere più chiari i collegamenti tra concetti diversi della stessa pratica.",
+  },
+  {
+    question: "Ci sono termini che incidono subito sulla scelta tra accettare e rinunciare?",
+    answer:
+      "Sì. Ad esempio accettazione tacita ed eredità giacente sono concetti che possono cambiare radicalmente il modo corretto di muoversi dopo il decesso.",
+  },
+  {
+    question: "Il glossario è utile anche per chi è già in conflitto con i coeredi?",
+    answer:
+      "Sì, perché aiuta a dare un nome preciso ai problemi reali del dossier e a distinguere ciò che è emotivo da ciò che è giuridicamente rilevante.",
+  },
+  {
+    question: "Come proseguire dopo aver individuato il termine che mi riguarda?",
+    answer:
+      "Puoi usare i link di approfondimento collegati a ciascuna voce oppure passare direttamente al modulo contatti se hai già bisogno di una verifica sul tuo caso.",
+  },
+];
+
+export const privacyPageFaqs: FaqItem[] = [
+  {
+    question: "Quali dati vengono trattati quando invio una richiesta?",
+    answer:
+      "Vengono trattati i dati identificativi e di contatto che scegli di comunicare, il contenuto del messaggio e gli eventuali documenti allegati necessari a valutare la richiesta.",
+  },
+  {
+    question: "Per quale finalità vengono usati i dati inviati tramite il sito?",
+    answer:
+      "I dati sono usati per dare seguito alla richiesta di contatto, valutare la questione esposta e gestire gli eventuali passaggi successivi con l’interessato.",
+  },
+  {
+    question: "Qual è la base giuridica del trattamento dei dati?",
+    answer:
+      "La base giuridica è data dal consenso espresso dall’interessato e, ove necessario, dalle misure precontrattuali richieste attraverso il contatto con lo studio.",
+  },
+  {
+    question: "I dati inviati tramite WhatsApp, Mail o modulo hanno lo stesso scopo?",
+    answer:
+      "Sì. Cambia il canale, ma la finalità resta la gestione della richiesta e della possibile assistenza legale collegata al caso esposto.",
+  },
+  {
+    question: "Per quanto tempo vengono conservati i dati trasmessi?",
+    answer:
+      "I dati sono conservati per il tempo necessario a gestire la richiesta, a svolgere le verifiche connesse e ad adempiere agli obblighi eventualmente applicabili.",
+  },
+  {
+    question: "Posso chiedere accesso, rettifica o cancellazione dei miei dati?",
+    answer:
+      "Sì. L’interessato può esercitare i diritti previsti dalla normativa applicabile, nei limiti e con le modalità stabilite dal quadro normativo in materia di protezione dei dati.",
+  },
+  {
+    question: "È necessario inviare subito tutti i documenti sensibili?",
+    answer:
+      "No. È preferibile condividere inizialmente solo i dati e i documenti strettamente necessari per comprendere il problema e valutare la richiesta.",
+  },
+  {
+    question: "A chi posso scrivere per chiarimenti sulla privacy?",
+    answer:
+      "Per chiarimenti o per esercitare i diritti in materia di protezione dei dati puoi contattare lo studio all’indirizzo info@delmontestudiolegale.it.",
+  },
+];
+
+const serviceFaqAdditions: Record<string, FaqItem[]> = {
+  "avvocato-successioni": successioniGeneralFaqs,
+  "impugnazione-testamento": testamentoFaqs,
+  "divisione-ereditaria": divisioneFaqs,
+  "lesione-di-legittima": legittimaFaqs,
+  "collazione-e-donazioni": donazioniFaqs,
+  "successioni-internazionali": successioniInternazionaliFaqs,
+  "mediazione-ereditaria": mediazioneFaqs,
+  "eredita-giacente": ereditaGiacenteFaqs,
+  "rinuncia-eredita": rinunciaFaqs,
+  "recupero-somme-ereditarie": recuperoSommeFaqs,
+};
+
+const hubFaqAdditions: Record<string, FaqItem[]> = {
+  testamento: testamentoFaqs,
+  legittima: legittimaFaqs,
+  "divisione-ereditaria": divisioneFaqs,
+  donazioni: donazioniFaqs,
+  "successione-legittima": successioneLegittimaFaqs,
+  "successioni-internazionali": successioniInternazionaliFaqs,
+  "conflitti-tra-coeredi": conflittiTraCoerediFaqs,
+};
+
+const articleFaqAdditions: Record<string, FaqItem[]> = {
+  "quota-di-legittima-come-si-calcola": legittimaFaqs,
+  "come-funziona-successione-legittima": successioneLegittimaFaqs,
+  "successione-legittima-con-coniuge-e-figli": successioneLegittimaFaqs,
+  "divisione-gioielli-eredita": divisioneFaqs,
+  "testamento-quando-si-puo-contestare": testamentoFaqs,
+  "conti-correnti-del-de-cuius-cosa-sapere": recuperoSommeFaqs,
+  "mediazione-ereditaria-quando-conviene": mediazioneFaqs,
+  "eredita-giacente-significato-e-rischi": ereditaGiacenteFaqs,
+  "rinuncia-eredita-costi-e-conseguenze": rinunciaFaqs,
+  "successioni-internazionali-cosa-cambia": successioniInternazionaliFaqs,
+};
+
+moneyPages.forEach((page) => {
+  page.faq = mergeFaqs(page.faq, serviceFaqAdditions[page.slug] ?? []);
+});
+
+hubPages.forEach((page) => {
+  page.faq = mergeFaqs(page.faq, hubFaqAdditions[page.slug] ?? []);
+});
+
+articles.forEach((article) => {
+  article.faq = mergeFaqs(article.faq, articleFaqAdditions[article.slug] ?? []);
+});
 
 export function getArticleEntities(article: ArticleEntry) {
   return Array.from(

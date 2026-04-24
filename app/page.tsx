@@ -3,12 +3,14 @@ import {
   ContactSection,
   FaqSection,
   HeroSection,
+  HomeAuthoritySection,
   HomeVideoSection,
   HubGrid,
   ProblemsSection,
   ServiceGrid,
   WorkSection,
 } from "@/components/sections";
+import { JsonLd } from "@/components/json-ld";
 import {
   articles,
   featuredMoneySlugs,
@@ -17,7 +19,7 @@ import {
   moneyPages,
   thematicFaqs,
 } from "@/lib/content";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, faqSchema } from "@/lib/seo";
 
 export const metadata = buildMetadata({
   title: "Avvocati per eredità e successioni",
@@ -41,9 +43,11 @@ export default function HomePage() {
 
   return (
     <>
+      <JsonLd data={faqSchema(thematicFaqs)} />
       <HeroSection />
-      <HomeVideoSection />
       <ProblemsSection items={mainProblems} />
+      <HomeAuthoritySection />
+      <HomeVideoSection />
       <WorkSection />
       <HubGrid hubs={hubPages} />
       <ServiceGrid services={featuredServices} />

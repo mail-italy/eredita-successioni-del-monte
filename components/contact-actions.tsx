@@ -11,6 +11,7 @@ type ContactActionsProps = {
   includePhone?: boolean;
   includeEmail?: boolean;
   includeWhatsapp?: boolean;
+  includeRequest?: boolean;
   compact?: boolean;
 };
 
@@ -42,9 +43,10 @@ export function ContactActions({
   includePhone = true,
   includeEmail = true,
   includeWhatsapp = true,
+  includeRequest = true,
   compact = false,
 }: ContactActionsProps) {
-  const [timeState, setTimeState] = useState(() => getRomeTimeState(new Date()));
+  const [timeState, setTimeState] = useState<ReturnType<typeof getRomeTimeState> | null>(null);
 
   useEffect(() => {
     const sync = () => setTimeState(getRomeTimeState(new Date()));
@@ -62,10 +64,25 @@ export function ContactActions({
 
   return (
     <div className={wrapperClassName}>
+      {includeRequest ? (
+        <Link
+          href="/contatti#modulo-contatti"
+          className="button-request"
+          data-track-event="contact_form_click"
+          data-track-label={`${scope}_request`}
+        >
+          Invia una richiesta
+        </Link>
+      ) : null}
+
       {includeWhatsapp ? (
         <Link
           href={contacts.whatsappHref}
           className="button-whatsapp"
+          aria-label="Scrivi su WhatsApp allo Studio Legale Del Monte"
+          title="Apri la chat WhatsApp con lo Studio Legale Del Monte"
+          target="_blank"
+          rel="noopener noreferrer"
           data-track-event="whatsapp_click"
           data-track-label={`${scope}_whatsapp`}
         >
@@ -73,7 +90,7 @@ export function ContactActions({
         </Link>
       ) : null}
 
-      {includePhone && timeState.canCall ? (
+      {includePhone && timeState?.canCall ? (
         <Link
           href={contacts.phoneHref}
           className="button-call"
@@ -99,7 +116,7 @@ export function ContactActions({
 }
 
 export function ContactAvailabilityNote() {
-  const [timeState, setTimeState] = useState(() => getRomeTimeState(new Date()));
+  const [timeState, setTimeState] = useState<ReturnType<typeof getRomeTimeState> | null>(null);
 
   useEffect(() => {
     const sync = () => setTimeState(getRomeTimeState(new Date()));
@@ -113,8 +130,8 @@ export function ContactAvailabilityNote() {
   return (
     <p className="muted">
       Telefono disponibile dal lunedì al venerdì, dalle 09:00 alle 19:30. Orario
-      attuale a Roma: {timeState.label}. Fuori fascia restano sempre disponibili
-      WhatsApp e Mail.
+      attuale a Roma: {timeState?.label ?? "--:--"}. Fuori fascia restano sempre
+      disponibili WhatsApp e Mail.
     </p>
   );
 }

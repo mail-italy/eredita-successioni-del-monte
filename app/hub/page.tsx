@@ -1,9 +1,10 @@
 import Image from "next/image";
 
-import { ContactSection, HubGrid } from "@/components/sections";
+import { ContactSection, FaqSection, HubGrid } from "@/components/sections";
+import { ContactActions } from "@/components/contact-actions";
 import { JsonLd } from "@/components/json-ld";
-import { hubPages, siteConfig } from "@/lib/content";
-import { breadcrumbSchema, buildMetadata, itemListSchema } from "@/lib/seo";
+import { hubArchiveFaqs, hubPages, siteConfig } from "@/lib/content";
+import { breadcrumbSchema, buildMetadata, faqSchema, itemListSchema } from "@/lib/seo";
 
 export const metadata = buildMetadata({
   title: "Aree di approfondimento",
@@ -28,6 +29,7 @@ export default function HubArchivePage() {
               url: `${siteConfig.domain}/hub/${page.slug}`,
             })),
           ),
+          faqSchema(hubArchiveFaqs),
         ]}
       />
       <section className="section">
@@ -40,6 +42,7 @@ export default function HubArchivePage() {
               successorie: testamenti, legittima, divisioni, donazioni, successione
               legittima, profili internazionali e conflitti tra coeredi.
             </p>
+            <ContactActions scope="hub_archive_hero" includeEmail={false} compact />
           </div>
           <div className="editorial-figure editorial-figure-wide">
             <Image
@@ -55,6 +58,7 @@ export default function HubArchivePage() {
         </div>
       </section>
       <HubGrid hubs={hubPages} />
+      <FaqSection title="Domande frequenti sulle aree di approfondimento" items={hubArchiveFaqs} />
       <ContactSection />
     </>
   );

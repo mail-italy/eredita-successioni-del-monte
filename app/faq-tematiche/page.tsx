@@ -1,6 +1,5 @@
-import Link from "next/link";
-
 import { ContactSection, FaqSection } from "@/components/sections";
+import { ContactActions } from "@/components/contact-actions";
 import { JsonLd } from "@/components/json-ld";
 import { thematicFaqs } from "@/lib/content";
 import { breadcrumbSchema, buildMetadata, faqSchema } from "@/lib/seo";
@@ -37,9 +36,7 @@ export default function FaqPage() {
           <div className="mini-card">
             <h3>Assistenza</h3>
             <p>Quando la domanda riguarda un caso concreto, puoi passare direttamente al modulo o ai recapiti dello studio.</p>
-            <p>
-              <Link href="#modulo-contatti">Vai ai contatti</Link>
-            </p>
+            <ContactActions scope="faq_page_top" includeEmail={false} compact />
           </div>
         </div>
       </section>

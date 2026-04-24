@@ -109,6 +109,7 @@ export function ContactForm() {
           payload.message ??
           "Richiesta inviata correttamente. Lo studio ti ricontatterà nel più breve tempo possibile.",
       });
+      setAttachmentError("");
       form.reset();
     } catch (error) {
       const message =

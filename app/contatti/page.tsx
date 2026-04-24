@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { ContactSection } from "@/components/sections";
+import { ContactSection, FaqSection } from "@/components/sections";
+import { ContactActions } from "@/components/contact-actions";
 import { JsonLd } from "@/components/json-ld";
-import { contacts } from "@/lib/content";
-import { buildMetadata, breadcrumbSchema } from "@/lib/seo";
+import { contacts, contactPageFaqs } from "@/lib/content";
+import { buildMetadata, breadcrumbSchema, faqSchema } from "@/lib/seo";
 
 export const metadata = buildMetadata({
   title: "Contatti",
@@ -17,10 +18,13 @@ export default function ContactsPage() {
   return (
     <>
       <JsonLd
-        data={breadcrumbSchema([
-          { name: "Homepage", path: "/" },
-          { name: "Contatti", path: "/contatti" },
-        ])}
+        data={[
+          breadcrumbSchema([
+            { name: "Homepage", path: "/" },
+            { name: "Contatti", path: "/contatti" },
+          ]),
+          faqSchema(contactPageFaqs),
+        ]}
       />
       <section className="section">
         <div className="shell hero-grid">
@@ -37,9 +41,7 @@ export default function ContactsPage() {
               testamenti o divisioni ereditarie, puoi contattare lo studio tramite
               telefono, WhatsApp, Mail o modulo di richiesta.
             </p>
-            <Link href="#modulo-contatti" className="button-primary">
-              Vai al modulo di richiesta
-            </Link>
+            <ContactActions scope="contacts_hero" compact />
           </div>
           <div className="hero-side-stack">
             <div className="editorial-figure editorial-figure-wide">
@@ -92,6 +94,7 @@ export default function ContactsPage() {
           </div>
         </div>
       </section>
+      <FaqSection title="Domande frequenti sui contatti dello studio" items={contactPageFaqs} />
       <ContactSection />
     </>
   );

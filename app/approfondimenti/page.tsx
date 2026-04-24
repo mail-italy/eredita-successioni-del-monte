@@ -1,9 +1,10 @@
 import Image from "next/image";
 
-import { ArticleGrid, ContactSection } from "@/components/sections";
+import { ArticleGrid, ContactSection, FaqSection } from "@/components/sections";
+import { ContactActions } from "@/components/contact-actions";
 import { JsonLd } from "@/components/json-ld";
-import { articles, siteConfig } from "@/lib/content";
-import { breadcrumbSchema, buildMetadata, itemListSchema } from "@/lib/seo";
+import { articles, articlesArchiveFaqs, siteConfig } from "@/lib/content";
+import { breadcrumbSchema, buildMetadata, faqSchema, itemListSchema } from "@/lib/seo";
 
 export const metadata = buildMetadata({
   title: "Archivio approfondimenti",
@@ -28,6 +29,7 @@ export default function ArticlesArchivePage() {
               url: `${siteConfig.domain}/approfondimenti/${article.slug}`,
             })),
           ),
+          faqSchema(articlesArchiveFaqs),
         ]}
       />
       <section className="section">
@@ -40,6 +42,7 @@ export default function ArticlesArchivePage() {
               del diritto successorio, con taglio chiaro, tecnico e orientato ai casi
               concreti.
             </p>
+            <ContactActions scope="articles_archive_hero" includeEmail={false} compact />
           </div>
           <div className="editorial-figure editorial-figure-standard">
             <Image
@@ -55,6 +58,7 @@ export default function ArticlesArchivePage() {
         </div>
       </section>
       <ArticleGrid articles={articles} eyebrow="Archivio" title="Tutti gli approfondimenti" />
+      <FaqSection title="Domande frequenti sugli approfondimenti" items={articlesArchiveFaqs} />
       <ContactSection
         title="Desideri una valutazione sul tuo caso?"
         intro="Se dopo la lettura vuoi capire come applicare questi temi alla tua situazione concreta, puoi contattare lo studio direttamente da qui."
