@@ -77,7 +77,7 @@ export default function DivisioneGioielliEreditaPage() {
       />
 
       <section className="hero-section">
-        <div className="hero-shell">
+        <div className="hero-shell landing-hero-shell">
           <div className="hero-premium">
             <div
               className="hero-media landing-hero-media"
@@ -91,7 +91,7 @@ export default function DivisioneGioielliEreditaPage() {
                   inset: 0,
                   zIndex: 1,
                   background:
-                    "linear-gradient(90deg, rgba(8, 19, 31, 0.66) 0%, rgba(8, 19, 31, 0.52) 32%, rgba(8, 19, 31, 0.24) 58%, rgba(8, 19, 31, 0.06) 78%, rgba(8, 19, 31, 0) 100%)",
+                    "linear-gradient(90deg, rgba(8, 19, 31, 0.5) 0%, rgba(8, 19, 31, 0.36) 30%, rgba(8, 19, 31, 0.16) 56%, rgba(8, 19, 31, 0.04) 76%, rgba(8, 19, 31, 0) 100%)",
                   pointerEvents: "none",
                 }}
               />
@@ -184,7 +184,7 @@ export default function DivisioneGioielliEreditaPage() {
                   priority
                   sizes="100vw"
                   className="hero-portrait landing-hero-portrait"
-                  style={{ objectPosition: "center 56%" }}
+                  style={{ objectPosition: "center 52%" }}
                 />
               </div>
             </div>
@@ -375,6 +375,11 @@ export default function DivisioneGioielliEreditaPage() {
           __html: `
         .landing-hero-media {
           position: relative;
+          overflow: hidden;
+        }
+
+        .landing-hero-shell {
+          width: min(calc(100% - 8px), 100vw);
         }
 
         .landing-hero-copy-panel {
@@ -394,7 +399,15 @@ export default function DivisioneGioielliEreditaPage() {
           max-width: 460px;
         }
 
+        .landing-hero-portrait {
+          filter: brightness(1.08) saturate(0.96) contrast(1.01);
+        }
+
         @media (max-width: 980px) {
+          .landing-hero-shell {
+            width: min(calc(100% - 32px), 1380px);
+          }
+
           .landing-hero-copy-panel {
             width: min(58%, 560px);
             padding-top: 124px;
@@ -408,25 +421,31 @@ export default function DivisioneGioielliEreditaPage() {
           .landing-hero-overlay {
             background: linear-gradient(
               180deg,
-              rgba(8, 19, 31, 0.1) 0%,
-              rgba(8, 19, 31, 0.03) 100%
+              rgba(8, 19, 31, 0.18) 0%,
+              rgba(8, 19, 31, 0.12) 34%,
+              rgba(8, 19, 31, 0.28) 74%,
+              rgba(8, 19, 31, 0.44) 100%
             ) !important;
           }
 
           .landing-hero-media {
-            min-height: auto !important;
-            display: grid;
+            min-height: 620px !important;
+            display: block !important;
           }
 
           .landing-hero-copy-panel {
-            order: 1;
-            width: auto;
-            padding: 22px 18px 18px;
+            position: absolute !important;
+            inset: auto 0 0 0 !important;
+            z-index: 2;
+            width: auto !important;
+            padding: 22px 18px 20px;
             background: linear-gradient(
               180deg,
-              rgba(251, 248, 242, 0.98),
-              rgba(247, 243, 236, 0.96)
-            );
+              rgba(8, 19, 31, 0) 0%,
+              rgba(8, 19, 31, 0.18) 18%,
+              rgba(8, 19, 31, 0.68) 100%
+            ) !important;
+            border-top: 0 !important;
           }
 
           .landing-hero-copy-stack {
@@ -435,24 +454,26 @@ export default function DivisioneGioielliEreditaPage() {
             margin-top: 0;
           }
 
-          .landing-hero-copy-panel :global(.display) {
+          .landing-hero-copy-panel .display {
             font-size: clamp(1.9rem, 7vw, 2.5rem) !important;
             line-height: 1.06 !important;
             max-width: none !important;
+            color: #f7f4ef !important;
           }
 
-          .landing-hero-copy-panel :global(.lead) {
+          .landing-hero-copy-panel .lead {
             line-height: 1.58 !important;
             max-width: none !important;
+            color: rgba(247, 244, 239, 0.92) !important;
           }
 
           .landing-hero-tags {
-            display: grid;
-            gap: 8px !important;
+            display: none;
           }
 
-          .landing-hero-tags :global(.tag:nth-child(4)) {
-            display: none;
+          .landing-hero-copy-panel .eyebrow,
+          .landing-hero-copy-panel .muted {
+            color: rgba(247, 244, 239, 0.86) !important;
           }
 
           .landing-hero-cta-row {
@@ -461,21 +482,24 @@ export default function DivisioneGioielliEreditaPage() {
             gap: 10px;
           }
 
-          .landing-hero-cta-row :global(a) {
+          .landing-hero-cta-row a {
             width: 100%;
             min-width: 0 !important;
           }
 
           .landing-hero-image-layer {
-            order: 2;
-            padding: 0 14px 14px;
+            position: absolute !important;
+            inset: 0 !important;
+            padding: 0 !important;
           }
 
           .landing-hero-portrait {
-            border-radius: 18px;
-            aspect-ratio: 16 / 10;
+            width: 100%;
+            height: 100%;
             object-fit: cover;
-            object-position: center 58% !important;
+            object-position: center 54% !important;
+            border-radius: 0;
+            filter: brightness(1.06) saturate(0.96) contrast(1.01);
           }
         }
       `,
