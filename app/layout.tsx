@@ -36,6 +36,14 @@ export default function RootLayout({
   return (
     <html lang="it">
       <body className={display.variable}>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-P2M4SXP4"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
         <AnalyticsScript />
         <TrackingListener />
         <JsonLd data={[websiteSchema(), organizationSchema()]} />
