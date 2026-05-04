@@ -19,8 +19,8 @@ import {
   getService,
 } from "@/lib/content";
 import { ContactActions, ContactAvailabilityNote } from "@/components/contact-actions";
-import { ContactForm } from "@/components/contact-form";
-import { LazyVideoPlayer } from "@/components/lazy-video-player";
+import { DeferredContactForm } from "@/components/deferred-contact-form";
+import { DeferredLazyVideoPlayer } from "@/components/deferred-video-player";
 import { OfficeMap } from "@/components/office-map";
 
 function TrackLink({
@@ -39,6 +39,7 @@ function TrackLink({
   return (
     <Link
       href={href}
+      prefetch={false}
       className={className}
       data-track-event={event}
       data-track-label={label}
@@ -562,7 +563,7 @@ export function HomeVideoSection() {
         </div>
 
         <div className="home-video-shell">
-          <LazyVideoPlayer
+          <DeferredLazyVideoPlayer
             className="home-video"
             desktopSrc="/video/hero-studio-legale-desktop-light.mp4"
             mobileSrc="/video/hero-studio-legale-mobile-light.mp4"
@@ -596,7 +597,7 @@ export function ProblemsSection({ items = mainProblems }: { items?: string[] }) 
             const href = getTopicHref(item);
 
             return href ? (
-              <Link key={item} href={href} className="card clickable-card">
+              <Link key={item} href={href} prefetch={false} className="card clickable-card">
                 <h3>{item}</h3>
               </Link>
             ) : (
@@ -645,6 +646,7 @@ export function ServiceGrid({ services }: { services: ServicePage[] }) {
             <Link
               key={service.slug}
               href={`/${service.slug}`}
+              prefetch={false}
               className="card stack clickable-card"
               data-track-event="cta_click"
               data-track-label={`service_${service.slug}`}
@@ -679,6 +681,7 @@ export function HubGrid({ hubs }: { hubs: HubPage[] }) {
             <Link
               key={hub.slug}
               href={`/hub/${hub.slug}`}
+              prefetch={false}
               className="card stack clickable-card"
               data-track-event="cta_click"
               data-track-label={`hub_${hub.slug}`}
@@ -717,6 +720,7 @@ export function ArticleGrid({
             <Link
               key={article.slug}
               href={`/approfondimenti/${article.slug}`}
+              prefetch={false}
               className="card stack clickable-card"
               data-track-event="cta_click"
               data-track-label={`article_${article.slug}`}
@@ -814,7 +818,7 @@ export function ContactSection({
                 Compila il modulo con i dati essenziali del caso e allega, se utile,
                 la documentazione disponibile.
               </p>
-              <ContactForm />
+              <DeferredContactForm />
             </div>
           </div>
         </div>
@@ -913,6 +917,7 @@ export function SpecialInheritanceAssetsSection({
               <Link
                 key={item.href}
                 href={item.href}
+                prefetch={false}
                 className="card stack clickable-card"
                 data-track-event="cta_click"
                 data-track-label={`special_asset_${item.href}`}

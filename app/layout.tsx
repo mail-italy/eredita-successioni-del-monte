@@ -4,9 +4,9 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 import { AnalyticsScript } from "@/components/analytics-script";
+import { DeferredFloatingContact } from "@/components/deferred-floating-contact";
 import { JsonLd } from "@/components/json-ld";
-import { FloatingContact, SiteFooter, SiteHeader } from "@/components/site-chrome";
-import { TrackingListener } from "@/components/tracking-listener";
+import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { siteConfig } from "@/lib/content";
 import { organizationSchema, websiteSchema } from "@/lib/seo";
 
@@ -45,12 +45,11 @@ export default function RootLayout({
           />
         </noscript>
         <AnalyticsScript />
-        <TrackingListener />
         <JsonLd data={[websiteSchema(), organizationSchema()]} />
         <SiteHeader />
         <main>{children}</main>
         <SiteFooter />
-        <FloatingContact />
+        <DeferredFloatingContact />
       </body>
     </html>
   );

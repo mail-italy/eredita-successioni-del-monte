@@ -58,24 +58,12 @@ export function LazyVideoPlayer({
     }
 
     const mediaQuery = window.matchMedia("(max-width: 760px)");
-    const syncViewport = (event?: MediaQueryListEvent) => {
-      setIsMobile(event?.matches ?? mediaQuery.matches);
-    };
+    const syncViewport = () => setIsMobile(mediaQuery.matches);
 
     syncViewport();
+    mediaQuery.addEventListener("change", syncViewport);
 
-    if ("addEventListener" in mediaQuery) {
-      mediaQuery.addEventListener("change", syncViewport);
-      return () => mediaQuery.removeEventListener("change", syncViewport);
-    }
-
-    const legacyMediaQuery = mediaQuery as MediaQueryList & {
-      addListener: (listener: (event: MediaQueryListEvent) => void) => void;
-      removeListener: (listener: (event: MediaQueryListEvent) => void) => void;
-    };
-
-    legacyMediaQuery.addListener(syncViewport);
-    return () => legacyMediaQuery.removeListener(syncViewport);
+    return () => mediaQuery.removeEventListener("change", syncViewport);
   }, []);
 
   return (

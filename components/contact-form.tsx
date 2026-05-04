@@ -1,6 +1,6 @@
 "use client";
 
-import { ChangeEvent, FormEvent, useMemo, useState } from "react";
+import { ChangeEvent, FormEvent, useState } from "react";
 
 import { contactRequestTopics } from "@/lib/content";
 
@@ -21,18 +21,12 @@ const initialState: FormState = {
 export function ContactForm() {
   const [state, setState] = useState<FormState>(initialState);
   const [attachmentError, setAttachmentError] = useState("");
-
-  const successClassName = useMemo(() => {
-    if (state.status === "success") {
-      return "form-alert form-alert-success";
-    }
-
-    if (state.status === "error") {
-      return "form-alert form-alert-error";
-    }
-
-    return "form-alert";
-  }, [state.status]);
+  const successClassName =
+    state.status === "success"
+      ? "form-alert form-alert-success"
+      : state.status === "error"
+        ? "form-alert form-alert-error"
+        : "form-alert";
 
   function hasAllowedAttachmentExtension(fileName: string) {
     const normalized = fileName.toLowerCase();

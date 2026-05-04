@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 import {
@@ -34,6 +33,9 @@ export const metadata = buildMetadata({
     "quota di legittima",
   ],
 });
+
+export const dynamic = "force-static";
+export const revalidate = false;
 
 const homepageFaqs = thematicFaqs.slice(0, 5);
 
@@ -86,16 +88,25 @@ export default function HomePage() {
       <section className="hero-section">
         <div className="hero-shell homepage-hero-shell">
           <div className="homepage-hero">
-            <Image
-              src="/images/hero-successioni-del-monte.webp"
-              alt="Avvocato per successioni ed eredità a Roma"
-              fill
-              priority
-              fetchPriority="high"
-              loading="eager"
-              sizes="(max-width: 760px) 100vw, 1380px"
-              className="homepage-hero-image"
-            />
+            <div className="homepage-hero-media">
+              <picture>
+                <source
+                  media="(max-width: 760px)"
+                  srcSet="/images/homepage-hero-mobile.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="/images/homepage-hero-desktop.webp"
+                  alt="Avvocato per successioni ed eredità a Roma"
+                  width="1536"
+                  height="1024"
+                  fetchPriority="high"
+                  loading="eager"
+                  decoding="async"
+                  className="homepage-hero-image"
+                />
+              </picture>
+            </div>
             <div className="homepage-hero-overlay" aria-hidden="true" />
             <div className="homepage-hero-content">
               <div className="homepage-hero-copy">
@@ -106,7 +117,11 @@ export default function HomePage() {
                   Analizziamo il caso e individuiamo la strategia più efficace.
                 </p>
                 <div className="homepage-hero-actions">
-                  <Link href="/contatti#modulo-contatti" className="button-primary homepage-cta">
+                  <Link
+                    href="/contatti#modulo-contatti"
+                    prefetch={false}
+                    className="button-primary homepage-cta"
+                  >
                     Contatta lo Studio
                   </Link>
                   <Link
@@ -156,6 +171,7 @@ export default function HomePage() {
               <Link
                 key={service.href}
                 href={service.href}
+                prefetch={false}
                 className="mini-card clickable-card"
                 data-track-event="service_click"
                 data-track-label={`home_primary_${service.href.replace("/", "")}`}
@@ -216,7 +232,7 @@ export default function HomePage() {
               documentale ordinata.
             </p>
             <div className="cluster homepage-inline-cta">
-              <Link href="/contatti#modulo-contatti" className="button-primary">
+              <Link href="/contatti#modulo-contatti" prefetch={false} className="button-primary">
                 Contatta ora
               </Link>
               <Link
@@ -260,11 +276,19 @@ export default function HomePage() {
               background: #ddd4c8;
             }
 
+            .homepage-hero-media,
+            .homepage-hero-media picture {
+              position: absolute;
+              inset: 0;
+              display: block;
+            }
+
             .homepage-hero-image {
+              width: 100%;
+              height: 100%;
               object-fit: cover;
-              object-position: center 25%;
-              transform: scale(1);
-              filter: saturate(0.96) contrast(1.02);
+              object-position: center center;
+              filter: saturate(0.98) contrast(1.01);
             }
 
             .homepage-hero-overlay {
@@ -396,7 +420,6 @@ export default function HomePage() {
 
               .homepage-hero-image {
                 object-position: center center;
-                transform: none;
               }
 
               .homepage-hero-overlay {

@@ -3,19 +3,75 @@ import Script from "next/script";
 const GTM_ID = "GTM-P2M4SXP4";
 
 export function AnalyticsScript() {
-  const bootstrap = `
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','${GTM_ID}');
+  const trackingBootstrap = `
+    window.dataLayer = window.dataLayer || [];
+
+    window.addEventListener(
+      'click',
+      function(event) {
+        var target = event.target instanceof Element
+          ? event.target.closest('[data-track-event]')
+          : null;
+
+        if (!target) {
+          return;
+        }
+
+        var trackEvent = target.getAttribute('data-track-event');
+
+        if (!trackEvent) {
+          return;
+        }
+
+        window.dataLayer.push({
+          event: trackEvent,
+          event_category: 'engagement',
+          event_label: target.getAttribute('data-track-label') || undefined
+        });
+      },
+      { passive: true }
+    );
+  `;
+
+  const gtmBootstrap = `
+    (function() {
+      var loadGtm = function() {
+        if (window.__gtmLoaded) {
+          return;
+        }
+
+        window.__gtmLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtm.js?id=${GTM_ID}';
+        document.head.appendChild(script);
+      };
+
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadGtm, { timeout: 3500 });
+        return;
+      }
+
+      window.setTimeout(loadGtm, 2200);
+    })();
   `;
 
   return (
-    <Script
-      id="google-tag-manager"
-      strategy="afterInteractive"
-      dangerouslySetInnerHTML={{ __html: bootstrap }}
-    />
+    <>
+      <Script
+        id="tracking-delegation"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: trackingBootstrap }}
+      />
+
+      <Script
+        id="google-tag-manager"
+        strategy="lazyOnload"
+        dangerouslySetInnerHTML={{ __html: gtmBootstrap }}
+      />
+    </>
   );
 }

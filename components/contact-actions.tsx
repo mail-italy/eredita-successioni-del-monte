@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 
 import { contacts } from "@/lib/content";
 
@@ -38,16 +38,32 @@ export function getRomeTimeState(date: Date) {
 }
 
 export function useRomeTimeState() {
-  const [timeState, setTimeState] = useState<ReturnType<typeof getRomeTimeState> | null>(null);
+  return useRomeTimeStateWhen(true);
+}
+
+function useRomeTimeStateWhen(enabled: boolean) {
+  const [timeState, setTimeState] = useState<ReturnType<typeof getRomeTimeState> | null>(
+    enabled ? getRomeTimeState(new Date()) : null,
+  );
 
   useEffect(() => {
+    if (!enabled) {
+      setTimeState(null);
+      return;
+    }
+
+    let timer = 0;
+
     const sync = () => setTimeState(getRomeTimeState(new Date()));
+    const schedule = () => {
+      sync();
+      timer = window.setTimeout(schedule, 60000 - (Date.now() % 60000) + 50);
+    };
 
-    sync();
-    const timer = window.setInterval(sync, 60000);
+    schedule();
 
-    return () => window.clearInterval(timer);
-  }, []);
+    return () => window.clearTimeout(timer);
+  }, [enabled]);
 
   return timeState;
 }
@@ -61,12 +77,10 @@ export function ContactActions({
   includeRequest = true,
   compact = false,
 }: ContactActionsProps) {
-  const timeState = useRomeTimeState();
-
-  const wrapperClassName = useMemo(
-    () => [compact ? "contact-actions-compact" : "cluster", className].filter(Boolean).join(" "),
-    [className, compact],
-  );
+  const timeState = useRomeTimeStateWhen(includePhone);
+  const wrapperClassName = [compact ? "contact-actions-compact" : "cluster", className]
+    .filter(Boolean)
+    .join(" ");
 
   return (
     <div className={wrapperClassName}>
@@ -82,7 +96,7 @@ export function ContactActions({
       ) : null}
 
       {includeWhatsapp ? (
-        <Link
+        <a
           href={contacts.whatsappHref}
           className="button-whatsapp"
           aria-label="Scrivi su WhatsApp allo Studio Legale Del Monte"
@@ -93,42 +107,39 @@ export function ContactActions({
           data-track-label={`${scope}_whatsapp`}
         >
           WhatsApp
-        </Link>
+        </a>
       ) : null}
 
       {includePhone && timeState?.canCall ? (
-        <Link
+        <a
           href={contacts.phoneHref}
           className="button-call"
           data-track-event="phone_click"
           data-track-label={`${scope}_phone`}
         >
           Chiama
-        </Link>
+        </a>
       ) : null}
 
       {includeEmail ? (
-        <Link
+        <a
           href={contacts.emailHref}
           className="button-mail"
           data-track-event="email_click"
           data-track-label={`${scope}_email`}
         >
           Mail
-        </Link>
+        </a>
       ) : null}
     </div>
   );
 }
 
 export function ContactAvailabilityNote() {
-  const timeState = useRomeTimeState();
-
   return (
     <p className="muted">
-      Telefono disponibile dal lunedì al venerdì, dalle 09:00 alle 19:30. Orario
-      attuale a Roma: {timeState?.label ?? "--:--"}. Fuori fascia restano sempre
-      disponibili WhatsApp e Mail.
+      Telefono disponibile dal lunedì al venerdì, dalle 09:00 alle 19:30. Fuori
+      fascia restano sempre disponibili WhatsApp e Mail.
     </p>
   );
 }
