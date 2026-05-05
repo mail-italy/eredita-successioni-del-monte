@@ -20,7 +20,9 @@ export function buildMetadata(input: BuildMetadataInput): Metadata {
   const canonical = new URL(input.path, siteConfig.domain).toString();
 
   return {
-    title: input.title,
+    title: {
+      absolute: input.title,
+    },
     description: input.description,
     keywords: input.keywords,
     alternates: {

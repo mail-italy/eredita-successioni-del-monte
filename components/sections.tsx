@@ -180,6 +180,8 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
         figureClassName: "editorial-figure-standard",
       };
     case "lesione-di-legittima":
+    case "successione-legittima":
+    case "indegnita-successoria":
       return {
         ...base,
         src: "/images/dettagli/codici-civile-successioni-ereditarie.png",
@@ -188,10 +190,37 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
         figureClassName: "editorial-figure-standard",
       };
     case "collazione-e-donazioni":
+    case "beneficio-inventario":
       return {
         ...base,
         src: "/images/dettagli/avvocato-sfoglia-codice-civile.png",
         alt: "Consultazione di un codice civile in studio legale",
+        objectPosition: "center center",
+        figureClassName: "editorial-figure-standard",
+      };
+    case "testamento":
+    case "testamento-olografo-falso":
+      return {
+        ...base,
+        src: "/images/dettagli/testamento-penna-ceralacca.png",
+        alt: "Documento testamentario con penna e sigillo",
+        objectPosition: "center center",
+        figureClassName: "editorial-figure-standard",
+      };
+    case "conflitti-tra-coeredi":
+      return {
+        ...base,
+        src: "/images/studio/avvocato-federica-del-monte-consulenza-cliente.png",
+        alt: "Colloquio legale in studio su una questione ereditaria",
+        objectPosition: "center 26%",
+        figureClassName: "editorial-figure-wide",
+      };
+    case "accettazione-eredita":
+    case "petizione-ereditaria":
+      return {
+        ...base,
+        src: "/images/dettagli/scrivania-legale-penna-occhiali-tazza.png",
+        alt: "Scrivania legale con documenti utili a una pratica successoria",
         objectPosition: "center center",
         figureClassName: "editorial-figure-standard",
       };
@@ -212,6 +241,7 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
         figureClassName: "editorial-figure-wide",
       };
     case "casa-ereditata":
+    case "vendita-casa-ereditata":
       return {
         ...base,
         src: "/images/generated/casa-ereditata-desktop.webp",
@@ -232,6 +262,14 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
         ...base,
         src: "/images/generated/conti-correnti-azioni-polizze-eredita-desktop.webp",
         alt: "Documenti bancari e investimenti da dividere in successione",
+        objectPosition: "center center",
+        figureClassName: "editorial-figure-wide",
+      };
+    case "gioielli-ereditati":
+      return {
+        ...base,
+        src: "/images/generated/gioielli-eredita-desktop.webp",
+        alt: "Gioielli e preziosi da ricostruire e dividere in successione",
         objectPosition: "center center",
         figureClassName: "editorial-figure-wide",
       };
@@ -953,7 +991,47 @@ function getTrustCards(kind: "service" | "hub" | "article", slug?: string) {
   ];
 }
 
-function LandingActionButtons({ scope }: { scope: string }) {
+function LandingActionButtons({
+  scope,
+  variant = "default",
+}: {
+  scope: string;
+  variant?: "default" | "ads";
+}) {
+  if (variant === "ads") {
+    return (
+      <div className="landing-template-cta-row">
+        <a
+          href={contacts.phoneHref}
+          className="button-call landing-template-cta"
+          data-track-event="click_phone"
+          data-track-label={`${scope}_phone`}
+        >
+          Chiama lo Studio
+        </a>
+        <Link
+          href="/contatti#modulo-contatti"
+          prefetch={false}
+          className="button-primary landing-template-cta"
+          data-track-event="contact_form_click"
+          data-track-label={`${scope}_request`}
+        >
+          Invia una richiesta
+        </Link>
+        <Link
+          href={contacts.whatsappHref}
+          className="button-whatsapp landing-template-cta"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-track-event="click_whatsapp"
+          data-track-label={`${scope}_whatsapp`}
+        >
+          Scrivi su WhatsApp
+        </Link>
+      </div>
+    );
+  }
+
   return (
     <div className="landing-template-cta-row">
       <TrackLink
@@ -968,7 +1046,7 @@ function LandingActionButtons({ scope }: { scope: string }) {
         className="button-whatsapp landing-template-cta"
         target="_blank"
         rel="noopener noreferrer"
-        data-track-event="whatsapp_click"
+        data-track-event="click_whatsapp"
         data-track-label={`${scope}_whatsapp`}
       >
         Scrivi su WhatsApp
@@ -985,6 +1063,7 @@ function LandingHero({
   asset,
   breadcrumbs,
   scope,
+  actionVariant = "default",
 }: {
   eyebrow: string;
   title: string;
@@ -993,6 +1072,7 @@ function LandingHero({
   asset: VisualAsset;
   breadcrumbs: React.ReactNode;
   scope: string;
+  actionVariant?: "default" | "ads";
 }) {
   return (
     <>
@@ -1025,10 +1105,11 @@ function LandingHero({
                     ))}
                   </div>
                 ) : null}
-                <LandingActionButtons scope={scope} />
+                <LandingActionButtons scope={scope} variant={actionVariant} />
                 <p className="landing-template-note">
-                  Puoi iniziare con un messaggio WhatsApp oppure usare il modulo
-                  contatti per un primo inquadramento del caso.
+                  Descrivi il caso in pochi minuti. Puoi anticipare documenti e
+                  informazioni essenziali. Telefono attivo lunedi-venerdi
+                  09:00-19:30; WhatsApp e modulo disponibili anche fuori orario.
                 </p>
               </div>
             </div>
@@ -1042,6 +1123,263 @@ function LandingHero({
           </nav>
         </div>
       </section>
+    </>
+  );
+}
+
+function RelatedLinksSection({
+  service,
+  title = "Pagine collegate da consultare in parallelo",
+  intro = "Alcune questioni ereditarie si intrecciano con divisione, donazioni, somme bancarie o gestione di beni specifici. Qui trovi i passaggi più utili da approfondire.",
+}: {
+  service: ServicePage;
+  title?: string;
+  intro?: string;
+}) {
+  if (!service.relatedLinks || service.relatedLinks.length === 0) {
+    return null;
+  }
+
+  return (
+    <section className="section-tight">
+      <div className="shell">
+        <div className="card stack">
+          <p className="eyebrow">Collegamenti utili</p>
+          <h2 className="display-sm">{title}</h2>
+          <p className="muted">{intro}</p>
+          <div className="cards-grid">
+            {service.relatedLinks.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="card stack clickable-card"
+                data-track-event="cta_click"
+                data-track-label={`${service.slug}_related_${item.href}`}
+              >
+                <h3>{item.label}</h3>
+                {item.description ? <p className="muted">{item.description}</p> : null}
+                <span className="button-ghost card-link-cta">Approfondisci</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function AdsInlineCtaBand({
+  service,
+  scope,
+  title = "Hai gia un problema ereditario? Contatta lo Studio",
+  intro = "Descrivi il caso in pochi minuti. Puoi anticipare documenti e informazioni essenziali.",
+}: {
+  service: ServicePage;
+  scope: string;
+  title?: string;
+  intro?: string;
+}) {
+  return (
+    <section className="section-tight">
+      <div className="shell panel">
+        <div className="panel-inner two-column">
+          <div className="stack">
+            <p className="eyebrow">Contatto rapido</p>
+            <h2 className="display-sm">{title}</h2>
+            <p className="lead">{intro}</p>
+            <p className="muted">
+              Studio legale a Roma, operativo anche per successioni complesse su
+              tutto il territorio nazionale.
+            </p>
+          </div>
+          <div className="stack">
+            <div className="contact-item">
+              <strong>Telefono</strong>
+              <div className="muted">06 97615122</div>
+            </div>
+            <LandingActionButtons scope={`${service.slug}_${scope}`} variant="ads" />
+            <p className="muted">
+              Telefono attivo lunedi-venerdi 09:00-19:30. WhatsApp e modulo
+              disponibili anche fuori orario.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function AdsServicePageTemplate({
+  service,
+}: {
+  service: ServicePage;
+}) {
+  const serviceVisual = getServiceVisual(service, true);
+  const heroTitle = getServiceHeroTitle(service);
+  const introParagraph = service.introParagraphs?.[0] ?? service.description;
+  const frequentCases = service.problemList;
+  const firstAnalysisDocuments = service.firstAnalysisDocuments ?? service.documents;
+  const studioCanDo = service.studioCanDo ?? service.checks;
+  const timeRisks = service.timeRisks ?? service.errors;
+
+  return (
+    <>
+      <LandingHero
+        eyebrow={service.shortTitle}
+        title={heroTitle}
+        intro={service.heroIntro}
+        microCases={service.problemList}
+        asset={serviceVisual}
+        scope={`service_${service.slug}_hero`}
+        actionVariant="ads"
+        breadcrumbs={
+          <>
+            <Link href="/">Home</Link>
+            <span>/</span>
+            <Link href="/servizi">Servizi</Link>
+            <span>/</span>
+            <span>{service.shortTitle}</span>
+          </>
+        }
+      />
+
+      <section className="section-tight">
+        <div className="shell two-column">
+          <div className="card stack">
+            <p className="eyebrow">Casi frequenti</p>
+            <h2 className="display-sm">Situazioni che richiedono una verifica subito</h2>
+            <p className="lead">{introParagraph}</p>
+            <ul className="list">
+              {frequentCases.map((item) => (
+                <TopicListItem
+                  key={item}
+                  item={item}
+                  label={`${service.slug}_problem_${item}`}
+                />
+              ))}
+            </ul>
+          </div>
+          <div className="card stack">
+            <p className="eyebrow">Quando serve assistenza legale</p>
+            <h2 className="display-sm">Quando conviene far verificare documenti, quote e azioni</h2>
+            <p className="muted">
+              Un confronto iniziale aiuta a capire se serva una verifica tecnica,
+              una diffida, una mediazione o un'impostazione piu strutturata.
+            </p>
+            <ul className="list">
+              {service.whenToCall.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="section-tight">
+        <div className="shell two-column">
+          <div className="card stack">
+            <p className="eyebrow">Cosa puo fare subito lo Studio</p>
+            <h2 className="display-sm">Attivita utili per impostare il caso</h2>
+            <ul className="list">
+              {studioCanDo.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+            <p className="muted">
+              Studio legale a Roma, operativo anche per successioni complesse su
+              tutto il territorio nazionale.
+            </p>
+          </div>
+          <div className="card stack">
+            <p className="eyebrow">Documenti utili</p>
+            <h2 className="display-sm">Documenti da preparare per la prima verifica</h2>
+            <ul className="list">
+              {firstAnalysisDocuments.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="shell two-column">
+          <div className="card stack">
+            <p className="eyebrow">Rischi da evitare</p>
+            <h2 className="display-sm">Passaggi che possono complicare la posizione dell'erede</h2>
+            <ul className="list">
+              {timeRisks.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+            {service.termAttention && service.termAttention.length > 0 ? (
+              <div
+                className="card stack"
+                style={{
+                  borderColor: "rgba(149, 81, 31, 0.18)",
+                  background:
+                    "linear-gradient(180deg, rgba(250, 243, 231, 0.9) 0%, rgba(255, 249, 241, 0.94) 100%)",
+                }}
+              >
+                <p className="eyebrow">Attenzione ai termini</p>
+                <ul className="list">
+                  {service.termAttention.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
+          </div>
+          <div className="card stack">
+            <p className="eyebrow">Verifica iniziale</p>
+            <h2 className="display-sm">Cosa viene valutato all'inizio</h2>
+            <div className="info-list">
+              {service.checks.map((item) => (
+                <div key={item} className="info-item">
+                  <strong>{item}</strong>
+                </div>
+              ))}
+            </div>
+            <p className="muted">{service.trust}</p>
+          </div>
+        </div>
+      </section>
+
+      <AdsInlineCtaBand
+        service={service}
+        scope="mid_cta"
+        title="Hai gia un problema ereditario? Contatta lo Studio"
+        intro="Puoi anticipare documenti, atti, visure, estratti o comunicazioni tra coeredi. Lo Studio valuta il quadro e i possibili passaggi successivi."
+      />
+
+      <RelatedLinksSection
+        service={service}
+        title="Approfondimenti interni utili per questo caso"
+      />
+
+      <FaqSection title={`Domande frequenti su ${service.shortTitle.toLowerCase()}`} items={service.faq} />
+      <section className="section-tight">
+        <div className="shell panel">
+          <div className="panel-inner two-column">
+            <div className="stack">
+              <p className="eyebrow">Contatto finale</p>
+              <h2 className="display-sm">Hai gia un problema ereditario? Contatta lo Studio</h2>
+              <p className="lead">
+                Descrivi il caso in pochi minuti. Puoi anticipare documenti e
+                informazioni essenziali. Telefono 06 97615122; WhatsApp e modulo
+                disponibili anche fuori orario.
+              </p>
+            </div>
+            <div className="stack">
+              <LandingActionButtons scope={`${service.slug}_final`} variant="ads" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <ContactSection
+        title={`Parla con lo Studio per ${service.shortTitle.toLowerCase()}`}
+        intro="Se desideri una valutazione del caso o hai già documenti da far esaminare, puoi usare il form oppure i contatti diretti dello studio."
+      />
     </>
   );
 }
@@ -1242,6 +1580,10 @@ export function ServicePageTemplate({
   service: ServicePage;
   relatedArticles: ArticleEntry[];
 }) {
+  if (service.variant === "ads") {
+    return <AdsServicePageTemplate service={service} />;
+  }
+
   const serviceVisual = getServiceVisual(service, true);
   const heroTitle = getServiceHeroTitle(service);
 
@@ -1254,6 +1596,7 @@ export function ServicePageTemplate({
         microCases={service.problemList}
         asset={serviceVisual}
         scope={`service_${service.slug}_hero`}
+        actionVariant="default"
         breadcrumbs={
           <>
             <Link href="/">Home</Link>
@@ -1360,34 +1703,7 @@ export function ServicePageTemplate({
         </div>
       </section>
 
-      {service.relatedLinks && service.relatedLinks.length > 0 ? (
-        <section className="section-tight">
-          <div className="shell">
-            <div className="card stack">
-              <p className="eyebrow">Collegamenti utili</p>
-              <h2 className="display-sm">Pagine collegate da consultare in parallelo</h2>
-              <p className="muted">
-                Alcune questioni ereditarie si intrecciano con divisione, donazioni,
-                somme bancarie o gestione di beni specifici. Qui trovi i passaggi più
-                utili da approfondire.
-              </p>
-              <div className="cards-grid">
-                {service.relatedLinks.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className="card clickable-card"
-                    data-track-event="cta_click"
-                    data-track-label={`${service.slug}_related_${item.href}`}
-                  >
-                    <h3>{item.label}</h3>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-      ) : null}
+      <RelatedLinksSection service={service} />
       {specialInheritanceClusterSlugs.has(service.slug) ? (
         <SpecialInheritanceAssetsSection currentHref={`/${service.slug}`} />
       ) : null}
@@ -1425,7 +1741,7 @@ export function ServicePageTemplate({
                   className="button-whatsapp landing-template-cta"
                   target="_blank"
                   rel="noopener noreferrer"
-                  data-track-event="whatsapp_click"
+                  data-track-event="click_whatsapp"
                   data-track-label={`${service.slug}_final_whatsapp`}
                 >
                   Scrivi su WhatsApp

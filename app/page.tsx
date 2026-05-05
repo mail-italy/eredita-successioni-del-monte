@@ -121,6 +121,8 @@ export default function HomePage() {
                     href="/contatti#modulo-contatti"
                     prefetch={false}
                     className="button-primary homepage-cta"
+                    data-track-event="contact_form_click"
+                    data-track-label="home_hero_request"
                   >
                     Contatta lo Studio
                   </Link>
@@ -129,6 +131,8 @@ export default function HomePage() {
                     className="button-whatsapp homepage-cta"
                     target="_blank"
                     rel="noopener noreferrer"
+                    data-track-event="click_whatsapp"
+                    data-track-label="home_hero_whatsapp"
                   >
                     Scrivi su WhatsApp
                   </Link>
@@ -232,7 +236,13 @@ export default function HomePage() {
               documentale ordinata.
             </p>
             <div className="cluster homepage-inline-cta">
-              <Link href="/contatti#modulo-contatti" prefetch={false} className="button-primary">
+              <Link
+                href="/contatti#modulo-contatti"
+                prefetch={false}
+                className="button-primary"
+                data-track-event="contact_form_click"
+                data-track-label="home_inline_request"
+              >
                 Contatta ora
               </Link>
               <Link
@@ -240,6 +250,8 @@ export default function HomePage() {
                 className="button-whatsapp"
                 target="_blank"
                 rel="noopener noreferrer"
+                data-track-event="click_whatsapp"
+                data-track-label="home_inline_whatsapp"
               >
                 Scrivi su WhatsApp
               </Link>

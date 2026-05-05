@@ -1,3 +1,5 @@
+import { adsServicePages } from "@/lib/ads-service-pages";
+
 export const siteConfig = {
   brand: "Eredità e Successioni",
   studio: "Studio Legale Del Monte",
@@ -55,6 +57,7 @@ export type ServicePage = {
   description: string;
   seoTitle?: string;
   seoDescription?: string;
+  keywords?: string[];
   heroTitle: string;
   heroIntro: string;
   problemList: string[];
@@ -64,7 +67,14 @@ export type ServicePage = {
   documents: string[];
   trust: string;
   relatedArticles: string[];
-  relatedLinks?: { href: string; label: string }[];
+  relatedLinks?: { href: string; label: string; description?: string }[];
+  variant?: "default" | "ads";
+  introParagraphs?: string[];
+  studioCanDo?: string[];
+  firstAnalysisDocuments?: string[];
+  termAttention?: string[];
+  timeRisksParagraphs?: string[];
+  timeRisks?: string[];
   faq: FaqItem[];
 };
 
@@ -133,7 +143,7 @@ export const workSteps = [
   },
 ];
 
-export const moneyPages: ServicePage[] = [
+const baseMoneyPages: ServicePage[] = [
   {
     slug: "avvocato-successioni",
     title: "Avvocato per successioni ereditarie",
@@ -1137,6 +1147,8 @@ export const moneyPages: ServicePage[] = [
   },
 ];
 
+export const moneyPages: ServicePage[] = [...baseMoneyPages, ...adsServicePages];
+
 export const hubPages: HubPage[] = [
   {
     slug: "testamento",
@@ -1357,7 +1369,7 @@ export const articles: ArticleEntry[] = [
     answerFirst:
       "La quota di legittima non si calcola guardando solo ai beni rimasti al momento della morte. Bisogna ricostruire la massa ereditaria tenendo conto anche di debiti e donazioni rilevanti, per poi distinguere tra quota disponibile e quota riservata ai legittimari.",
     category: "Legittima",
-    relatedServiceSlugs: ["lesione-di-legittima", "collazione-e-donazioni"],
+    relatedServiceSlugs: ["lesione-di-legittima", "testamento", "collazione-e-donazioni"],
     faq: [
       {
         question: "Chi sono i legittimari?",
@@ -1401,7 +1413,7 @@ export const articles: ArticleEntry[] = [
     answerFirst:
       "La successione legittima si applica quando manca un testamento valido o quando il testamento non disciplina tutto il patrimonio. In quel caso la legge stabilisce chi eredita e in quale misura, in base ai rapporti di parentela esistenti.",
     category: "Successione legittima",
-    relatedServiceSlugs: ["avvocato-successioni", "divisione-ereditaria"],
+    relatedServiceSlugs: ["successione-legittima", "avvocato-successioni", "divisione-ereditaria"],
     faq: [
       {
         question: "Se non c’è testamento ereditano sempre i figli?",
@@ -1432,7 +1444,7 @@ export const articles: ArticleEntry[] = [
     answerFirst:
       "Nella successione legittima con coniuge e figli le quote non sono sempre identiche: cambiano in base al numero dei figli e alla struttura familiare. Per applicarle bene bisogna però considerare anche patrimonio, eventuali donazioni e successiva divisione dei beni.",
     category: "Successione legittima",
-    relatedServiceSlugs: ["avvocato-successioni", "divisione-ereditaria"],
+    relatedServiceSlugs: ["successione-legittima", "avvocato-successioni", "divisione-ereditaria"],
     faq: [
       {
         question: "Coniuge e un figlio ereditano allo stesso modo di coniuge e più figli?",
@@ -1457,7 +1469,7 @@ export const articles: ArticleEntry[] = [
     answerFirst:
       "La divisione dei gioielli in eredità non si risolve con una regola astratta sulla quota. Prima bisogna dimostrare quali beni esistono, dove si trovano, chi li detiene e quale valore hanno.",
     category: "Divisione ereditaria",
-    relatedServiceSlugs: ["divisione-ereditaria", "mediazione-ereditaria"],
+    relatedServiceSlugs: ["gioielli-ereditati", "divisione-ereditaria", "mediazione-ereditaria"],
     faq: [
       {
         question: "I gioielli si dividono come il denaro?",
@@ -1483,7 +1495,12 @@ export const articles: ArticleEntry[] = [
     answerFirst:
       "Un testamento si può contestare quando esistono motivi giuridicamente fondati, come vizi formali, incapacità del testatore, autenticità dubbia o lesione della quota di legittima. Il semplice dissenso familiare non basta.",
     category: "Testamento",
-    relatedServiceSlugs: ["impugnazione-testamento", "lesione-di-legittima"],
+    relatedServiceSlugs: [
+      "testamento",
+      "impugnazione-testamento",
+      "testamento-olografo-falso",
+      "lesione-di-legittima",
+    ],
     faq: [
       {
         question: "Se il testamento mi sembra ingiusto posso contestarlo?",
@@ -1533,7 +1550,7 @@ export const articles: ArticleEntry[] = [
     answerFirst:
       "La mediazione ereditaria conviene quando il caso è già stato messo in ordine: patrimonio, quote, beni, donazioni, valori e punti di conflitto devono essere chiari prima dell’incontro.",
     category: "Mediazione",
-    relatedServiceSlugs: ["mediazione-ereditaria", "divisione-ereditaria"],
+    relatedServiceSlugs: ["conflitti-tra-coeredi", "mediazione-ereditaria", "divisione-ereditaria"],
     faq: [
       {
         question: "La mediazione è utile anche quando i rapporti sono ormai rotti?",
@@ -1558,7 +1575,7 @@ export const articles: ArticleEntry[] = [
     answerFirst:
       "L’eredità giacente è una fase in cui l’eredità non è ancora stata accettata e necessita di amministrazione. Serve a evitare vuoti di gestione su beni e rapporti patrimoniali del defunto.",
     category: "Eredità giacente",
-    relatedServiceSlugs: ["eredita-giacente", "rinuncia-eredita"],
+    relatedServiceSlugs: ["beneficio-inventario", "eredita-giacente", "rinuncia-eredita"],
     faq: [
       {
         question: "L’eredità giacente equivale a dire che nessuno erediterà?",
@@ -1583,7 +1600,7 @@ export const articles: ArticleEntry[] = [
     answerFirst:
       "Rinunciare all’eredità può essere opportuno, ma solo dopo aver verificato beni, debiti e comportamenti già tenuti. Il rischio maggiore è credere di poter rinunciare dopo aver compiuto atti che valgono come accettazione tacita.",
     category: "Rinuncia",
-    relatedServiceSlugs: ["rinuncia-eredita", "eredita-giacente"],
+    relatedServiceSlugs: ["beneficio-inventario", "rinuncia-eredita", "eredita-giacente"],
     faq: [
       {
         question: "Posso rinunciare se ho già iniziato a usare i beni del defunto?",
@@ -2541,8 +2558,9 @@ export const navigationGroups = [
       "impugnazione-testamento",
       "divisione-ereditaria",
       "lesione-di-legittima",
-      "casa-ereditata",
-      "conti-correnti-azioni-polizze-eredita",
+      "rinuncia-eredita",
+      "successione-legittima",
+      "conflitti-tra-coeredi",
     ]
       .map((slug) => getService(slug))
       .filter((page): page is ServicePage => Boolean(page))
@@ -2569,14 +2587,24 @@ export const navigationGroups = [
 
 export const contactRequestTopics = [
   "Avvocato successioni",
+  "Successione legittima",
+  "Testamento",
+  "Testamento olografo falso",
   "Impugnazione testamento",
-  "Divisione ereditaria",
   "Lesione di legittima",
+  "Divisione ereditaria",
+  "Conflitti tra coeredi",
+  "Accettazione eredità",
+  "Beneficio d’inventario",
+  "Petizione ereditaria",
+  "Indegnità successoria",
+  "Vendita casa ereditata",
+  "Gioielli ereditati",
   "Collazione e donazioni",
   "Mediazione ereditaria",
-  "Successioni internazionali",
   "Rinuncia all’eredità",
   "Recupero somme ereditarie",
+  "Successioni internazionali",
   "Altro",
 ];
 

@@ -157,6 +157,8 @@ export default function DivisioneGioielliEreditaPage() {
                       className="button-whatsapp"
                       target="_blank"
                       rel="noopener noreferrer"
+                      data-track-event="click_whatsapp"
+                      data-track-label="gioielli_page_whatsapp"
                       style={{
                         minWidth: "220px",
                         minHeight: "46px",

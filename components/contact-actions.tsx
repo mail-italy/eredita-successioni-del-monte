@@ -103,7 +103,7 @@ export function ContactActions({
           title="Apri la chat WhatsApp con lo Studio Legale Del Monte"
           target="_blank"
           rel="noopener noreferrer"
-          data-track-event="whatsapp_click"
+          data-track-event="click_whatsapp"
           data-track-label={`${scope}_whatsapp`}
         >
           WhatsApp
@@ -114,7 +114,7 @@ export function ContactActions({
         <a
           href={contacts.phoneHref}
           className="button-call"
-          data-track-event="phone_click"
+          data-track-event="click_phone"
           data-track-label={`${scope}_phone`}
         >
           Chiama
@@ -125,7 +125,7 @@ export function ContactActions({
         <a
           href={contacts.emailHref}
           className="button-mail"
-          data-track-event="email_click"
+          data-track-event="click_email"
           data-track-label={`${scope}_email`}
         >
           Mail

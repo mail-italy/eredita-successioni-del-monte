@@ -30,6 +30,7 @@ export async function generateMetadata({ params }: Props) {
     title: service.seoTitle ?? service.title,
     description: service.seoDescription ?? service.description,
     path: `/${service.slug}`,
+    keywords: service.keywords,
   });
 }
 

@@ -179,7 +179,7 @@ export function FloatingContact() {
                   title={action.label}
                   target={action.target}
                   rel={action.rel}
-                  data-track-event={action.key === "request" ? "contact_form_click" : action.key === "phone" ? "phone_click" : action.key === "mail" ? "email_click" : "whatsapp_click"}
+                  data-track-event={action.key === "request" ? "contact_form_click" : action.key === "phone" ? "click_phone" : action.key === "mail" ? "click_email" : "click_whatsapp"}
                   data-track-label={`mobile_fab_${action.key}`}
                   onClick={() => setMobileContactsOpen(false)}
                 >

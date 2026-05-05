@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ContactSection, FaqSection } from "@/components/sections";
 import { ContactActions } from "@/components/contact-actions";
 import { JsonLd } from "@/components/json-ld";
+import { PageViewTracker } from "@/components/page-view-tracker";
 import { contacts, contactPageFaqs } from "@/lib/content";
 import { buildMetadata, breadcrumbSchema, faqSchema } from "@/lib/seo";
 
@@ -17,6 +18,7 @@ export const metadata = buildMetadata({
 export default function ContactsPage() {
   return (
     <>
+      <PageViewTracker event="contact_page_view" label="contatti" />
       <JsonLd
         data={[
           breadcrumbSchema([
