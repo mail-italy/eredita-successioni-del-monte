@@ -408,6 +408,18 @@ export default function HomePage() {
               }
             }
 
+            @media (min-width: 1024px) {
+              .homepage-hero-image {
+                object-position: center 30%;
+              }
+            }
+
+            @media (min-width: 1600px) {
+              .homepage-hero-image {
+                object-position: center 30%;
+              }
+            }
+
             @media (max-width: 760px) {
               .hero-section {
                 padding-top: 0;
