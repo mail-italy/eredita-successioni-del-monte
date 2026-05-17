@@ -77,15 +77,25 @@ export function websiteSchema() {
   };
 }
 
-export function breadcrumbSchema(items: { name: string; path: string }[]) {
+function absoluteUrl(path: string) {
+  return new URL(path, siteConfig.domain).toString();
+}
+
+export function breadcrumbSchema(
+  items: { name: string; path: string }[],
+  currentPath = items.at(-1)?.path ?? "/",
+) {
+  const canonical = absoluteUrl(currentPath);
+
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+    "@id": `${canonical}#breadcrumb`,
     itemListElement: items.map((item, index) => ({
       "@type": "ListItem",
       position: index + 1,
       name: item.name,
-      item: new URL(item.path, siteConfig.domain).toString(),
+      item: absoluteUrl(item.path),
     })),
   };
 }
