@@ -3,7 +3,7 @@ import { adsServicePages } from "@/lib/ads-service-pages";
 export const siteConfig = {
   brand: "Eredità e Successioni",
   studio: "Studio Legale Del Monte",
-  domain: "https://www.ereditaesuccessioni.it",
+  domain: "https://ereditaesuccessioni.it",
   baseTitle: "Eredità e Successioni | Assistenza legale in materia ereditaria",
   titleTemplate: "%s | Eredità e Successioni",
   description:
