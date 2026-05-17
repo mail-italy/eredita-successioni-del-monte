@@ -48,6 +48,107 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: process.cwd(),
   },
+  async redirects() {
+    return [
+      {
+        source: "/sitemap_index.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/informativa-sulla-privacy",
+        destination: "/privacy",
+        permanent: true,
+      },
+      {
+        source: "/informativa-sulla-privacy/",
+        destination: "/privacy",
+        permanent: true,
+      },
+      {
+        source: "/ereditaesuccessioni-it-avvocato-successioni-ereditarie",
+        destination: "/avvocato-successioni",
+        permanent: true,
+      },
+      {
+        source: "/ereditaesuccessioni-it-avvocato-successioni-ereditarie/",
+        destination: "/avvocato-successioni",
+        permanent: true,
+      },
+      {
+        source:
+          "/avvocato-successioni-a-roma-studio-legale-del-monte-calcolo-eredita-e-successioni",
+        destination: "/avvocato-successioni",
+        permanent: true,
+      },
+      {
+        source:
+          "/avvocato-successioni-a-roma-studio-legale-del-monte-calcolo-eredita-e-successioni/",
+        destination: "/avvocato-successioni",
+        permanent: true,
+      },
+      {
+        source: "/en",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/en/",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/en/thankyou-page-en",
+        destination: "/contatti",
+        permanent: true,
+      },
+      {
+        source: "/en/thankyou-page-en/",
+        destination: "/contatti",
+        permanent: true,
+      },
+      {
+        source: "/contattaci",
+        destination: "/contatti",
+        permanent: true,
+      },
+      {
+        source: "/contattaci/",
+        destination: "/contatti",
+        permanent: true,
+      },
+      {
+        source: "/aree-di-competenza",
+        destination: "/servizi",
+        permanent: true,
+      },
+      {
+        source: "/aree-di-competenza/",
+        destination: "/servizi",
+        permanent: true,
+      },
+      {
+        source: "/assistenza-legale-ereditaria-e-successoria",
+        destination: "/avvocato-successioni",
+        permanent: true,
+      },
+      {
+        source: "/assistenza-legale-ereditaria-e-successoria/",
+        destination: "/avvocato-successioni",
+        permanent: true,
+      },
+      {
+        source: "/chi-siamo//",
+        destination: "/chi-siamo",
+        permanent: true,
+      },
+      {
+        source: "/contattaci//",
+        destination: "/contatti",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
