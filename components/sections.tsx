@@ -1007,7 +1007,7 @@ function LandingActionButtons({
           data-track-event="click_phone"
           data-track-label={`${scope}_phone`}
         >
-          Chiama lo Studio
+          Chiama lo studio
         </a>
         <Link
           href="/contatti#modulo-contatti"
@@ -1026,7 +1026,7 @@ function LandingActionButtons({
           data-track-event="click_whatsapp"
           data-track-label={`${scope}_whatsapp`}
         >
-          Scrivi su WhatsApp
+          WhatsApp
         </Link>
       </div>
     );
@@ -1107,9 +1107,10 @@ function LandingHero({
                 ) : null}
                 <LandingActionButtons scope={scope} variant={actionVariant} />
                 <p className="landing-template-note">
-                  Descrivi il caso in pochi minuti. Puoi anticipare documenti e
+                  Chiama lo Studio al {contacts.phoneDisplay} oppure descrivi il
+                  caso nel modulo di contatto. Puoi anticipare documenti e
                   informazioni essenziali. Telefono attivo lunedi-venerdi
-                  09:00-19:30; WhatsApp e modulo disponibili anche fuori orario.
+                  09:00-19:30; WhatsApp resta disponibile anche fuori orario.
                 </p>
               </div>
             </div>
@@ -1171,8 +1172,8 @@ function RelatedLinksSection({
 function AdsInlineCtaBand({
   service,
   scope,
-  title = "Hai gia un problema ereditario? Contatta lo Studio",
-  intro = "Descrivi il caso in pochi minuti. Puoi anticipare documenti e informazioni essenziali.",
+  title = "Hai gia un problema concreto? Chiama lo Studio o invia una richiesta",
+  intro = "Descrivi il caso in pochi minuti e anticipa atti, visure, estratti o comunicazioni gia disponibili.",
 }: {
   service: ServicePage;
   scope: string;
@@ -1199,8 +1200,8 @@ function AdsInlineCtaBand({
             </div>
             <LandingActionButtons scope={`${service.slug}_${scope}`} variant="ads" />
             <p className="muted">
-              Telefono attivo lunedi-venerdi 09:00-19:30. WhatsApp e modulo
-              disponibili anche fuori orario.
+              Telefono {contacts.phoneDisplay}. Attivo lunedi-venerdi
+              09:00-19:30. Modulo disponibile anche fuori orario.
             </p>
           </div>
         </div>
@@ -1216,11 +1217,14 @@ function AdsServicePageTemplate({
 }) {
   const serviceVisual = getServiceVisual(service, true);
   const heroTitle = getServiceHeroTitle(service);
-  const introParagraph = service.introParagraphs?.[0] ?? service.description;
+  const introParagraphs = service.introParagraphs?.length
+    ? service.introParagraphs
+    : [service.description];
   const frequentCases = service.problemList;
   const firstAnalysisDocuments = service.firstAnalysisDocuments ?? service.documents;
   const studioCanDo = service.studioCanDo ?? service.checks;
   const timeRisks = service.timeRisks ?? service.errors;
+  const timeRiskParagraphs = service.timeRisksParagraphs ?? [];
 
   return (
     <>
@@ -1248,7 +1252,12 @@ function AdsServicePageTemplate({
           <div className="card stack">
             <p className="eyebrow">Casi frequenti</p>
             <h2 className="display-sm">Situazioni che richiedono una verifica subito</h2>
-            <p className="lead">{introParagraph}</p>
+            <p className="lead">{introParagraphs[0]}</p>
+            {introParagraphs.slice(1).map((paragraph) => (
+              <p key={paragraph} className="muted">
+                {paragraph}
+              </p>
+            ))}
             <ul className="list">
               {frequentCases.map((item) => (
                 <TopicListItem
@@ -1261,7 +1270,7 @@ function AdsServicePageTemplate({
           </div>
           <div className="card stack">
             <p className="eyebrow">Quando serve assistenza legale</p>
-            <h2 className="display-sm">Quando conviene far verificare documenti, quote e azioni</h2>
+            <h2 className="display-sm">Quando serve l'avvocato per impostare il caso</h2>
             <p className="muted">
               Un confronto iniziale aiuta a capire se serva una verifica tecnica,
               una diffida, una mediazione o un'impostazione piu strutturata.
@@ -1279,7 +1288,7 @@ function AdsServicePageTemplate({
         <div className="shell two-column">
           <div className="card stack">
             <p className="eyebrow">Cosa puo fare subito lo Studio</p>
-            <h2 className="display-sm">Attivita utili per impostare il caso</h2>
+            <h2 className="display-sm">Cosa puo fare lo Studio in concreto</h2>
             <ul className="list">
               {studioCanDo.map((item) => (
                 <li key={item}>{item}</li>
@@ -1307,6 +1316,11 @@ function AdsServicePageTemplate({
           <div className="card stack">
             <p className="eyebrow">Rischi da evitare</p>
             <h2 className="display-sm">Passaggi che possono complicare la posizione dell'erede</h2>
+            {timeRiskParagraphs.map((paragraph) => (
+              <p key={paragraph} className="muted">
+                {paragraph}
+              </p>
+            ))}
             <ul className="list">
               {timeRisks.map((item) => (
                 <li key={item}>{item}</li>
@@ -1348,7 +1362,7 @@ function AdsServicePageTemplate({
       <AdsInlineCtaBand
         service={service}
         scope="mid_cta"
-        title="Hai gia un problema ereditario? Contatta lo Studio"
+        title="Chiama lo Studio o invia una richiesta con i dati essenziali del caso"
         intro="Puoi anticipare documenti, atti, visure, estratti o comunicazioni tra coeredi. Lo Studio valuta il quadro e i possibili passaggi successivi."
       />
 
@@ -1363,10 +1377,10 @@ function AdsServicePageTemplate({
           <div className="panel-inner two-column">
             <div className="stack">
               <p className="eyebrow">Contatto finale</p>
-              <h2 className="display-sm">Hai gia un problema ereditario? Contatta lo Studio</h2>
+              <h2 className="display-sm">Hai gia un problema ereditario? Chiama lo Studio o descrivi il caso</h2>
               <p className="lead">
                 Descrivi il caso in pochi minuti. Puoi anticipare documenti e
-                informazioni essenziali. Telefono 06 97615122; WhatsApp e modulo
+                informazioni essenziali. Telefono {contacts.phoneDisplay}; WhatsApp e modulo
                 disponibili anche fuori orario.
               </p>
             </div>
@@ -1378,7 +1392,7 @@ function AdsServicePageTemplate({
       </section>
       <ContactSection
         title={`Parla con lo Studio per ${service.shortTitle.toLowerCase()}`}
-        intro="Se desideri una valutazione del caso o hai già documenti da far esaminare, puoi usare il form oppure i contatti diretti dello studio."
+        intro={`Se desideri una valutazione su ${service.shortTitle.toLowerCase()} o hai gia documenti da far esaminare, puoi chiamare lo Studio oppure inviare una richiesta descrivendo il caso.`}
       />
     </>
   );

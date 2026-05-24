@@ -9,9 +9,9 @@ import { contacts, contactPageFaqs } from "@/lib/content";
 import { buildMetadata, breadcrumbSchema, faqSchema } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Contatti",
+  title: "Contatti avvocato successioni Roma | Chiama lo studio o invia una richiesta",
   description:
-    "Contatti dello Studio Legale Del Monte per successioni, eredità, testamenti e divisioni ereditarie.",
+    "Contatta lo Studio Legale Del Monte a Roma per successioni, eredità, testamenti, divisioni ereditarie, mediazioni e richieste operative su casi concreti.",
   path: "/contatti",
 });
 
@@ -37,11 +37,12 @@ export default function ContactsPage() {
               <span>Contatti</span>
             </nav>
             <p className="eyebrow">Contatti</p>
-            <h1 className="display">Contatta lo studio</h1>
+            <h1 className="display">Chiama lo studio o invia una richiesta per una questione ereditaria</h1>
             <p className="lead">
-              Se hai bisogno di assistenza in materia di successioni, eredità,
-              testamenti o divisioni ereditarie, puoi contattare lo studio tramite
-              telefono, WhatsApp, Mail o modulo di richiesta.
+              Se devi chiarire una successione, contestare un testamento, gestire
+              una divisione ereditaria, affrontare debiti ereditari o preparare una
+              mediazione, puoi chiamare lo studio al {contacts.phoneDisplay} oppure
+              inviare una richiesta con i dati essenziali del caso.
             </p>
             <ContactActions scope="contacts_hero" compact />
           </div>
@@ -85,11 +86,11 @@ export default function ContactsPage() {
         <div className="shell meta-grid">
           <div className="mini-card">
             <h3>Canali disponibili</h3>
-            <p>Telefono, WhatsApp, Mail e modulo di contatto con possibilità di allegare documenti.</p>
+            <p>Telefono, modulo di contatto, WhatsApp e Mail con possibilità di allegare documenti essenziali.</p>
           </div>
           <div className="mini-card">
             <h3>Orari del telefono</h3>
-            <p>Il pulsante Chiama è disponibile dalle 09:00 alle 19:30. WhatsApp e Mail restano sempre attivi.</p>
+            <p>Il pulsante Chiama è disponibile dalle 09:00 alle 19:30. Il modulo resta sempre disponibile per descrivere il caso.</p>
           </div>
           <div className="mini-card">
             <h3>Sede</h3>

@@ -156,7 +156,7 @@ export function ContactForm() {
             name="caseSummary"
             rows={6}
             required
-            placeholder="Descrivi in modo sintetico il problema, i soggetti coinvolti e l’eventuale documentazione già disponibile."
+            placeholder="Descrivi il problema concreto, chi e coinvolto, cosa si e gia bloccato e quali documenti hai disponibili."
           />
         </label>
         <label className="field field-full">
@@ -196,7 +196,7 @@ export function ContactForm() {
         data-track-event="form_submit"
         data-track-label="contact_form_submit"
       >
-        {state.status === "submitting" ? "Invio in corso..." : "Invia richiesta"}
+        {state.status === "submitting" ? "Invio in corso..." : "Descrivi il caso e invia la richiesta"}
       </button>
     </form>
   );

@@ -33,12 +33,17 @@ const pageFaqs = [
     answer:
       "Sì. Se manca un accordo su esistenza, valore o assegnazione dei gioielli, il bene può essere incluso nella divisione giudiziale insieme agli altri cespiti ereditari, con eventuali accertamenti e conguagli.",
   },
+  {
+    question: "Cosa fare se un erede trattiene gioielli ereditati?",
+    answer:
+      "Conviene ricostruire subito esistenza dei beni, disponibilità materiale, fotografie, perizie e comunicazioni tra coeredi per impostare richiesta di restituzione, inventario o divisione.",
+  },
 ];
 
 export const metadata: Metadata = {
-  title: "Divisione gioielli eredità: come si dividono tra gli eredi",
+  title: "Gioielli ereditati trattenuti da un erede: avvocato per divisione e restituzione",
   description:
-    "Come dividere gioielli e preziosi nell’eredità. Assistenza legale per inventario, stima, accordo tra eredi o divisione giudiziale.",
+    "Assistenza legale su gioielli ereditati trattenuti da un erede, inventario, stima, restituzione, rendiconto e divisione tra coeredi.",
 };
 
 export default function DivisioneGioielliEreditaPage() {
@@ -141,16 +146,31 @@ export default function DivisioneGioielliEreditaPage() {
                   </div>
                   <div className="hero-cta-row landing-hero-cta-row" style={{ maxWidth: "460px" }}>
                     <Link
-                      href="/contatti#modulo-contatti"
-                      className="button-primary"
-                      aria-label="Vai direttamente al form contatti"
+                      href={contacts.phoneHref}
+                      className="button-call"
+                      data-track-event="click_phone"
+                      data-track-label="gioielli_page_phone"
                       style={{
                         minWidth: "220px",
                         minHeight: "46px",
                         flex: "1 1 220px",
                       }}
                     >
-                      Contatta lo Studio
+                      Chiama lo studio
+                    </Link>
+                    <Link
+                      href="/contatti#modulo-contatti"
+                      className="button-primary"
+                      aria-label="Vai direttamente al form contatti"
+                      data-track-event="contact_form_click"
+                      data-track-label="gioielli_page_request"
+                      style={{
+                        minWidth: "220px",
+                        minHeight: "46px",
+                        flex: "1 1 220px",
+                      }}
+                    >
+                      Invia una richiesta
                     </Link>
                     <Link
                       href={contacts.whatsappHref}
@@ -165,15 +185,16 @@ export default function DivisioneGioielliEreditaPage() {
                         flex: "1 1 220px",
                       }}
                     >
-                      Scrivi su WhatsApp
+                      WhatsApp
                     </Link>
                   </div>
                   <p
                     className="muted hero-copy hero-copy-light"
                     style={{ maxWidth: "46ch", lineHeight: 1.65 }}
                   >
-                    Puoi iniziare con un messaggio WhatsApp e poi approfondire con
-                    documenti e inventario disponibile.
+                    Chiama lo Studio al {contacts.phoneDisplay} oppure invia una
+                    richiesta descrivendo il caso e l'eventuale inventario
+                    disponibile. WhatsApp resta secondario.
                   </p>
                 </div>
               </div>
