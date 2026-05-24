@@ -95,6 +95,17 @@ export function ContactActions({
         </Link>
       ) : null}
 
+      {includePhone && timeState?.canCall ? (
+        <a
+          href={contacts.phoneHref}
+          className="button-call"
+          data-track-event="click_phone"
+          data-track-label={`${scope}_phone`}
+        >
+          Chiama lo studio
+        </a>
+      ) : null}
+
       {includeWhatsapp ? (
         <a
           href={contacts.whatsappHref}
@@ -107,17 +118,6 @@ export function ContactActions({
           data-track-label={`${scope}_whatsapp`}
         >
           WhatsApp
-        </a>
-      ) : null}
-
-      {includePhone && timeState?.canCall ? (
-        <a
-          href={contacts.phoneHref}
-          className="button-call"
-          data-track-event="click_phone"
-          data-track-label={`${scope}_phone`}
-        >
-          Chiama
         </a>
       ) : null}
 
