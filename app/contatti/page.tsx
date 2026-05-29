@@ -44,6 +44,10 @@ export default function ContactsPage() {
               mediazione, puoi chiamare lo studio al {contacts.phoneDisplay} oppure
               inviare una richiesta con i dati essenziali del caso.
             </p>
+            <p className="lead">
+              Per richieste professionali più ampie è possibile consultare anche la{" "}
+              <a href="https://www.avvocatodelmonte.com/contatti/">pagina contatti dello Studio</a>.
+            </p>
             <ContactActions scope="contacts_hero" compact />
           </div>
           <div className="hero-side-stack">

@@ -37,6 +37,17 @@ export default function AboutPage() {
             <p className="eyebrow">Chi siamo</p>
             <h1 className="display">Esperienza, rigore tecnico e attenzione al caso concreto</h1>
             <p className="lead">{aboutPage.intro}</p>
+            <p className="lead">
+              Il progetto è curato dall’<a href="https://www.avvocatodelmonte.com/avvocato-cassazionista-roma/">
+                Avv. Federica Del Monte, avvocato cassazionista a Roma
+              </a>
+              , con esperienza in contenzioso civile, successioni ereditarie e ricorsi innanzi alla Corte di Cassazione.
+            </p>
+            <p className="lead">
+              Il portale è collegato allo{" "}
+              <a href="https://www.delmontestudiolegale.it/">Studio Legale Del Monte</a>, struttura professionale che
+              assiste privati e famiglie nelle controversie ereditarie e nelle principali questioni civili.
+            </p>
             <ContactActions scope="about_hero" includeEmail={false} compact />
           </div>
           <div className="editorial-figure editorial-figure-wide">

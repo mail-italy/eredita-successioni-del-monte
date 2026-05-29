@@ -111,6 +111,13 @@ export default function ServicesArchivePage() {
               successioni, testamenti, lesione di legittima, divisioni ereditarie,
               donazioni, mediazione, eredità giacente e recupero somme ereditarie.
             </p>
+            <p className="lead">
+              I servizi indicati sono prestati nell’ambito dello Studio Legale Del Monte, come illustrato anche nel{" "}
+              <a href="https://www.delmontestudiolegale.it/">
+                sito istituzionale dello Studio Legale Del Monte
+              </a>
+              .
+            </p>
             <ContactActions scope="services_archive_hero" includeEmail={false} compact />
           </div>
           <div className="editorial-figure editorial-figure-standard">
