@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
-import { FaqSection, SpecialInheritanceAssetsSection } from "@/components/sections";
+import { ContactFormLink } from "@/components/contact-form-link";
+import { ContactSection, FaqSection, SpecialInheritanceAssetsSection } from "@/components/sections";
 import { JsonLd } from "@/components/json-ld";
 import { contacts } from "@/lib/content";
 import { breadcrumbSchema, faqSchema } from "@/lib/seo";
@@ -158,12 +159,10 @@ export default function DivisioneGioielliEreditaPage() {
                     >
                       Chiama lo studio
                     </Link>
-                    <Link
-                      href="/contatti#modulo-contatti"
-                      className="button-primary"
+                    <ContactFormLink
+                      className="button-request"
                       aria-label="Vai direttamente al form contatti"
-                      data-track-event="contact_form_click"
-                      data-track-label="gioielli_page_request"
+                      label="gioielli_page_request"
                       style={{
                         minWidth: "220px",
                         minHeight: "46px",
@@ -171,7 +170,7 @@ export default function DivisioneGioielliEreditaPage() {
                       }}
                     >
                       Invia una richiesta
-                    </Link>
+                    </ContactFormLink>
                     <Link
                       href={contacts.whatsappHref}
                       className="button-whatsapp"
@@ -396,6 +395,11 @@ export default function DivisioneGioielliEreditaPage() {
       <SpecialInheritanceAssetsSection
         currentHref="/divisione-gioielli-eredita"
         intro="Gioielli, immobili, auto, animali domestici e rapporti bancari possono richiedere verifiche diverse nella stessa successione. Qui trovi le pagine più vicine ai casi di beni particolari."
+      />
+
+      <ContactSection
+        title="Parla con lo Studio per gioielli e beni ereditati"
+        intro="Se devi ricostruire inventario, disponibilità o valore di gioielli e preziosi ereditati, puoi inviare una richiesta descrivendo il caso e i documenti già disponibili."
       />
 
       <style

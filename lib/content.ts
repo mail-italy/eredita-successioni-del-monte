@@ -1601,6 +1601,69 @@ const servicePageEnhancements: Partial<Record<string, Partial<ServicePage>>> = {
       },
     ],
   },
+  "animali-domestici-eredita": {
+    variant: "ads",
+    seoTitle:
+      "Animali domestici in eredità: accordi tra eredi, custodia e spese",
+    seoDescription:
+      "Assistenza su animali domestici nella successione: accordi tra eredi, custodia, spese veterinarie, volontà del defunto e gestione pratica.",
+    keywords: [
+      "animali domestici eredità",
+      "cane ereditato tra eredi",
+      "custodia animale successione",
+      "spese veterinarie eredità",
+    ],
+    heroTitle: "Animali domestici in eredità: custodia, spese e accordi tra eredi",
+    heroIntro:
+      "Quando il defunto lascia un animale domestico, il conflitto tra eredi nasce spesso da decisioni pratiche immediate: chi lo tiene, chi sostiene le spese e come rispettare eventuali indicazioni lasciate in famiglia.",
+    introParagraphs: [
+      "Questa landing riguarda casi in cui l'animale non è solo un tema affettivo, ma un punto concreto della gestione successoria: custodia, spese, documenti veterinari e accordi tra coeredi.",
+      "La prima verifica serve a ricostruire chi si occupava dell'animale, quali costi sono già stati sostenuti e se esistono scritti o messaggi del defunto utili a orientare una soluzione condivisa.",
+    ],
+    studioCanDo: [
+      "Ricostruire volontà espresse, gestione attuale dell'animale e posizioni dei coeredi",
+      "Impostare un accordo scritto su custodia, spese veterinarie e responsabilità pratiche",
+      "Coordinare la questione con casa ereditata, beni mobili o altri profili della successione",
+      "Prevenire iniziative unilaterali quando il rapporto familiare è già conflittuale",
+    ],
+    firstAnalysisDocuments: [
+      "Eventuali scritti, messaggi o indicazioni lasciate dal defunto sull'animale",
+      "Documenti veterinari, microchip, ricevute e spese di mantenimento",
+      "Comunicazioni tra eredi su custodia, visite, spese o disponibilità dell'animale",
+      "Informazioni su abitazione, beni collegati e persona che oggi se ne occupa",
+    ],
+    timeRisksParagraphs: [
+      "Nei casi che coinvolgono animali domestici il rischio è trasformare una decisione pratica urgente in un conflitto stabile tra coeredi. Documentare spese e accordi riduce le incomprensioni.",
+    ],
+    timeRisks: [
+      "Decidere custodia e spese solo verbalmente quando il rapporto tra eredi è teso",
+      "Non conservare ricevute veterinarie, comunicazioni e indicazioni del defunto",
+      "Separare la gestione dell'animale dalla casa o dagli altri beni collegati",
+      "Lasciare che un'iniziativa unilaterale irrigidisca tutta la successione",
+    ],
+    relatedLinks: [
+      {
+        href: "/mediazione-ereditaria",
+        label: "Mediazione ereditaria",
+        description: "Quando serve ricomporre un conflitto familiare anche su scelte pratiche.",
+      },
+      {
+        href: "/casa-ereditata",
+        label: "Casa ereditata",
+        description: "Se l'animale vive nell'immobile caduto in successione.",
+      },
+      {
+        href: "/divisione-ereditaria",
+        label: "Divisione ereditaria",
+        description: "Per coordinare la gestione dell'animale con il resto dei beni ereditari.",
+      },
+      {
+        href: "/contatti",
+        label: "Invia una richiesta",
+        description: "Per descrivere custodia attuale, spese e posizioni dei coeredi.",
+      },
+    ],
+  },
   "conti-correnti-azioni-polizze-eredita": {
     variant: "ads",
     seoTitle: "Conto corrente del defunto bloccato: avvocato per banca, prelievi e polizze",
@@ -2063,6 +2126,68 @@ const servicePageEnhancements: Partial<Record<string, Partial<ServicePage>>> = {
         question: "Cosa fare se temo un'accettazione tacita dell'eredità?",
         answer:
           "Occorre verificare subito quali atti siano stati compiuti dopo il decesso, se ci sia possesso di beni e se la posizione consenta ancora rinuncia, beneficio d'inventario o altre cautele.",
+      },
+    ],
+  },
+  "recupero-somme-ereditarie": {
+    variant: "ads",
+    seoTitle: "Recupero somme ereditarie: conti, prelievi e disponibilità da ricostruire",
+    seoDescription:
+      "Assistenza sul recupero di somme ereditarie, rapporti bancari, prelievi contestati, disponibilità del defunto e richieste documentali agli istituti.",
+    keywords: [
+      "recupero somme ereditarie",
+      "soldi eredità da recuperare",
+      "prelievi conto defunto eredi",
+      "somme del defunto bloccate",
+    ],
+    heroTitle: "Recupero somme ereditarie: rapporti bancari, prelievi e disponibilità da ricostruire",
+    heroIntro:
+      "Quando una parte delle somme del defunto non è chiara, il punto non è solo sbloccare un conto: occorre ricostruire rapporti, movimenti, eventuali prelievi e collegamento con quote e divisione.",
+    introParagraphs: [
+      "Questa pagina riguarda il recupero operativo delle disponibilità ereditarie: somme bloccate, movimenti da chiarire, rapporti non censiti o denaro trattenuto da un familiare.",
+      "La prima analisi serve a capire quali istituti coinvolgere, quali documenti chiedere e come collegare le somme recuperabili al quadro complessivo della successione.",
+    ],
+    studioCanDo: [
+      "Ricostruire rapporti bancari, deleghe, cointestazioni e disponibilità note del defunto",
+      "Analizzare cronologia dei movimenti, prelievi e bonifici rilevanti per gli eredi",
+      "Impostare richieste documentali e confronto con banca, coeredi o soggetti coinvolti",
+      "Coordinare il recupero delle somme con divisione, legittima e possibili donazioni indirette",
+    ],
+    firstAnalysisDocuments: [
+      "Estratti conto, saldi, comunicazioni bancarie e riferimenti degli istituti coinvolti",
+      "Dichiarazione di successione, testamento se presente e documenti anagrafici degli eredi",
+      "Prova di prelievi, bonifici, deleghe, cointestazioni o somme trattenute",
+      "Eventuali richieste già inviate a banche o coeredi e relative risposte",
+    ],
+    timeRisksParagraphs: [
+      "Nel recupero delle somme ereditarie la sequenza dei movimenti conta quanto il saldo finale. Una richiesta generica può non bastare se prima non si delimita bene il periodo e il rapporto da ricostruire.",
+    ],
+    timeRisks: [
+      "Fermarsi al saldo comunicato senza analizzare movimenti e operazioni precedenti",
+      "Chiedere documenti in modo generico senza individuare rapporti e periodi rilevanti",
+      "Separare il recupero delle somme dal calcolo delle quote e dalla divisione",
+      "Trascurare cointestazioni, deleghe o disponibilità gestite da uno dei familiari",
+    ],
+    relatedLinks: [
+      {
+        href: "/conti-correnti-azioni-polizze-eredita",
+        label: "Conti correnti, azioni e polizze",
+        description: "Per la verifica specifica di rapporti bancari, dossier titoli e polizze.",
+      },
+      {
+        href: "/divisione-ereditaria",
+        label: "Divisione ereditaria",
+        description: "Quando le somme recuperate devono essere ripartite tra coeredi.",
+      },
+      {
+        href: "/collazione-e-donazioni",
+        label: "Donazioni e collazione",
+        description: "Se i movimenti bancari fanno emergere trasferimenti ricevuti in vita.",
+      },
+      {
+        href: "/contatti",
+        label: "Richiedi una valutazione",
+        description: "Per anticipare estratti, comunicazioni bancarie e dubbi sui movimenti.",
       },
     ],
   },

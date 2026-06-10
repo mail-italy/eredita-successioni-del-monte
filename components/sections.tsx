@@ -1342,9 +1342,10 @@ function LandingHero({
                 <LandingActionButtons scope={scope} variant={actionVariant} />
                 <p className="landing-template-note">
                   Chiama lo Studio al {contacts.phoneDisplay} oppure descrivi il
-                  caso nel modulo di contatto. Puoi anticipare documenti e
-                  informazioni essenziali. Telefono attivo lunedi-venerdi
-                  09:00-19:30; WhatsApp resta disponibile anche fuori orario.
+                  caso su {eyebrow.toLowerCase()} nel modulo di contatto. Puoi
+                  anticipare documenti e informazioni essenziali. Telefono attivo
+                  lunedi-venerdi 09:00-19:30; WhatsApp resta disponibile anche
+                  fuori orario.
                 </p>
               </div>
             </div>
@@ -1423,8 +1424,9 @@ function AdsInlineCtaBand({
             <h2 className="display-sm">{title}</h2>
             <p className="lead">{intro}</p>
             <p className="muted">
-              Studio legale a Roma, operativo anche per successioni complesse su
-              tutto il territorio nazionale.
+              Studio legale a Roma, operativo anche su pratiche di{" "}
+              {service.shortTitle.toLowerCase()} con documenti e beni da
+              ricostruire.
             </p>
           </div>
           <div className="stack">
@@ -1434,8 +1436,9 @@ function AdsInlineCtaBand({
             </div>
             <LandingActionButtons scope={`${service.slug}_${scope}`} variant="ads" />
             <p className="muted">
-              Telefono {contacts.phoneDisplay}. Attivo lunedi-venerdi
-              09:00-19:30. Modulo disponibile anche fuori orario.
+              Telefono {contacts.phoneDisplay}. Per{" "}
+              {service.shortTitle.toLowerCase()}, puoi usare anche il modulo fuori
+              orario allegando i primi documenti disponibili.
             </p>
           </div>
         </div>
@@ -1609,8 +1612,8 @@ function AdsServicePageTemplate({
       <AdsInlineCtaBand
         service={service}
         scope="mid_cta"
-        title="Chiama lo Studio o invia una richiesta con i dati essenziali del caso"
-        intro="Puoi anticipare documenti, atti, visure, estratti o comunicazioni tra coeredi. Lo Studio valuta il quadro e i possibili passaggi successivi."
+        title={`Chiama lo Studio o invia una richiesta su ${service.shortTitle.toLowerCase()}`}
+        intro={`Puoi anticipare i documenti disponibili e descrivere il problema di ${service.shortTitle.toLowerCase()}. Lo Studio valuta il quadro e i possibili passaggi successivi.`}
       />
 
       <RelatedLinksSection
@@ -1624,11 +1627,15 @@ function AdsServicePageTemplate({
           <div className="panel-inner two-column">
             <div className="stack">
               <p className="eyebrow">Contatto finale</p>
-              <h2 className="display-sm">Hai gia un problema ereditario? Chiama lo Studio o descrivi il caso</h2>
+              <h2 className="display-sm">
+                Hai un problema su {service.shortTitle.toLowerCase()}? Chiama lo
+                Studio o descrivi il caso
+              </h2>
               <p className="lead">
-                Descrivi il caso in pochi minuti. Puoi anticipare documenti e
-                informazioni essenziali. Telefono {contacts.phoneDisplay}; WhatsApp e modulo
-                disponibili anche fuori orario.
+                Descrivi in pochi minuti la situazione relativa a{" "}
+                {service.shortTitle.toLowerCase()}. Puoi anticipare documenti e
+                informazioni essenziali. Telefono {contacts.phoneDisplay}; WhatsApp
+                e modulo disponibili anche fuori orario.
               </p>
             </div>
             <div className="stack">
@@ -1848,6 +1855,8 @@ export function ServicePageTemplate({
   const serviceVisual = getServiceVisual(service, true);
   const heroTitle = getServiceHeroTitle(service);
   const sectionTitles = serviceSectionTitles[service.slug];
+  const introParagraphs = service.introParagraphs ?? [];
+  const studioCanDo = service.studioCanDo ?? [];
 
   return (
     <>
@@ -1878,6 +1887,11 @@ export function ServicePageTemplate({
               {sectionTitles?.frequentCases ?? "Ti trovi in una di queste situazioni?"}
             </h2>
             <p className="lead">{service.description}</p>
+            {introParagraphs.map((paragraph) => (
+              <p key={paragraph} className="muted">
+                {paragraph}
+              </p>
+            ))}
             <ul className="list">
               {service.problemList.map((item) => (
                 <TopicListItem
@@ -1949,14 +1963,22 @@ export function ServicePageTemplate({
             <h2 className="display-sm">
               {sectionTitles?.studioCanDo ?? "Come interviene lo Studio"}
             </h2>
-            <div className="info-list">
-              {workSteps.map((step) => (
-                <div key={step.title} className="info-item">
-                  <strong>{step.title}</strong>
-                  <p>{step.text}</p>
-                </div>
-              ))}
-            </div>
+            {studioCanDo.length > 0 ? (
+              <ul className="list">
+                {studioCanDo.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            ) : (
+              <div className="info-list">
+                {workSteps.map((step) => (
+                  <div key={step.title} className="info-item">
+                    <strong>{step.title}</strong>
+                    <p>{step.text}</p>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
           <div className="card stack">
             <p className="eyebrow">Trust</p>
