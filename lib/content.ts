@@ -1617,7 +1617,7 @@ const servicePageEnhancements: Partial<Record<string, Partial<ServicePage>>> = {
     heroIntro:
       "Quando il defunto lascia un animale domestico, il conflitto tra eredi nasce spesso da decisioni pratiche immediate: chi lo tiene, chi sostiene le spese e come rispettare eventuali indicazioni lasciate in famiglia.",
     introParagraphs: [
-      "Questa landing riguarda casi in cui l'animale non è solo un tema affettivo, ma un punto concreto della gestione successoria: custodia, spese, documenti veterinari e accordi tra coeredi.",
+      "L'animale domestico non è solo un tema affettivo: diventa un punto concreto della gestione successoria — custodia, spese, documenti veterinari e accordi tra coeredi.",
       "La prima verifica serve a ricostruire chi si occupava dell'animale, quali costi sono già stati sostenuti e se esistono scritti o messaggi del defunto utili a orientare una soluzione condivisa.",
     ],
     studioCanDo: [
@@ -1684,7 +1684,7 @@ const servicePageEnhancements: Partial<Record<string, Partial<ServicePage>>> = {
     heroIntro:
       "Quando la banca blocca il conto, mancano estratti conto o un coerede ha gestito da solo le somme, occorre chiarire saldo, movimenti, prelievi, polizze vita e diritti degli eredi con una ricostruzione documentale precisa.",
     introParagraphs: [
-      "Questa landing è pensata per chi cerca aiuto su conto corrente del defunto, soldi dell'eredità, polizze vita, dossier titoli e rendiconto tra coeredi.",
+      "Se cerchi assistenza su conto corrente del defunto, soldi dell'eredità, polizze vita, dossier titoli e rendiconto tra coeredi.",
       "Il problema raramente è solo ottenere il saldo finale: spesso serve verificare accesso agli estratti conto, somme prelevate, cointestazioni, deleghe e coordinamento con divisione, legittima o donazioni.",
     ],
     studioCanDo: [
@@ -2144,7 +2144,7 @@ const servicePageEnhancements: Partial<Record<string, Partial<ServicePage>>> = {
     heroIntro:
       "Quando una parte delle somme del defunto non è chiara, il punto non è solo sbloccare un conto: occorre ricostruire rapporti, movimenti, eventuali prelievi e collegamento con quote e divisione.",
     introParagraphs: [
-      "Questa pagina riguarda il recupero operativo delle disponibilità ereditarie: somme bloccate, movimenti da chiarire, rapporti non censiti o denaro trattenuto da un familiare.",
+      "Recuperare le disponibilità ereditarie significa intervenire su somme bloccate, movimenti da chiarire, rapporti non censiti o denaro trattenuto da un familiare.",
       "La prima analisi serve a capire quali istituti coinvolgere, quali documenti chiedere e come collegare le somme recuperabili al quadro complessivo della successione.",
     ],
     studioCanDo: [
@@ -2371,7 +2371,7 @@ export const hubPages: HubPage[] = [
     description:
       "Guida ai testamenti: validità, pubblicazione, contestazione, tutela dei legittimari e ricadute sulla successione.",
     intro:
-      "Il testamento è spesso il centro del conflitto successorio. In questa sezione trovi le questioni chiave: forme, validità, prova, rapporti con la legittima e strategie in caso di contestazione.",
+      "Il testamento è spesso il centro del conflitto successorio. Qui trovi le questioni chiave: forme, validità, prova, rapporti con la legittima e strategie in caso di contestazione.",
     sections: [
       {
         title: "Nodi da capire subito",
@@ -2464,7 +2464,7 @@ export const hubPages: HubPage[] = [
     description:
       "Approfondimenti su donazioni, collazione, liberalità indirette e impatto delle attribuzioni fatte in vita sulla successione.",
     intro:
-      "Le donazioni sono spesso il vero terreno dello scontro tra coeredi. In questa sezione trovi i criteri per distinguere liberalità rilevanti, prova e impatto sulle quote ereditarie.",
+      "Le donazioni sono spesso il vero terreno dello scontro tra coeredi. Qui trovi i criteri per distinguere liberalità rilevanti, prova e impatto sulle quote ereditarie.",
     sections: [
       {
         title: "Aree di analisi",
@@ -2492,7 +2492,7 @@ export const hubPages: HubPage[] = [
     description:
       "Guida alla successione legittima: quote, coniuge, figli, ascendenti e criteri di ripartizione quando manca il testamento.",
     intro:
-      "Quando non esiste un testamento valido, opera la successione legittima. In questa sezione trovi chi eredita, in che misura e quali nodi operativi emergono nei casi più frequenti.",
+      "Quando non esiste un testamento valido, opera la successione legittima. Qui trovi chi eredita, in che misura e quali nodi operativi emergono nei casi più frequenti.",
     sections: [
       {
         title: "Casi più ricorrenti",
