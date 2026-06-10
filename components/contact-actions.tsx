@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+import { scrollToContactFormIfPresent } from "@/components/contact-form-scroll";
 import { contacts } from "@/lib/content";
 
 type ContactActionsProps = {
@@ -90,6 +91,7 @@ export function ContactActions({
           className="button-request"
           data-track-event="contact_form_click"
           data-track-label={`${scope}_request`}
+          onClick={scrollToContactFormIfPresent}
         >
           Invia una richiesta
         </Link>

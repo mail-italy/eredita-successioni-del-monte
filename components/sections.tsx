@@ -879,6 +879,66 @@ const serviceLandingTitles: Record<string, string> = {
   "recupero-somme-ereditarie": "Devi recuperare somme ereditarie o conti del defunto?",
 };
 
+type ServiceSectionTitles = Partial<{
+  frequentCases: string;
+  whenToCall: string;
+  studioCanDo: string;
+  documents: string;
+  timeRisks: string;
+  checks: string;
+}>;
+
+const serviceSectionTitles: Record<string, ServiceSectionTitles> = {
+  "divisione-ereditaria": {
+    frequentCases: "Quando la divisione tra coeredi si blocca",
+    whenToCall: "Quando serve l'avvocato per sbloccare la divisione",
+    studioCanDo: "Come lo Studio sblocca la divisione ereditaria",
+    documents: "Documenti per impostare la divisione dei beni",
+    timeRisks: "Cosa rende più difficile dividere l'eredità",
+    checks: "Cosa si verifica per impostare la divisione",
+  },
+  "lesione-di-legittima": {
+    frequentCases: "Quando la quota di legittima risulta lesa",
+    whenToCall: "Quando rivolgersi a un avvocato per la legittima",
+    studioCanDo: "Come lo Studio tutela la tua quota di legittima",
+    documents: "Documenti per dimostrare la lesione di legittima",
+    timeRisks: "Errori che indeboliscono l'azione di riduzione",
+    checks: "Cosa si verifica per quantificare la lesione",
+  },
+  "impugnazione-testamento": {
+    frequentCases: "Quando un testamento può essere contestato",
+    whenToCall: "Quando serve l'avvocato per impugnare il testamento",
+    studioCanDo: "Come lo Studio imposta l'impugnazione del testamento",
+    documents: "Documenti utili per contestare il testamento",
+    timeRisks: "Errori che compromettono l'impugnazione",
+    checks: "Cosa si verifica prima di impugnare il testamento",
+  },
+  "conti-correnti-azioni-polizze-eredita": {
+    frequentCases: "Quando conti, polizze e titoli del defunto sono bloccati",
+    whenToCall: "Quando serve l'avvocato per sbloccare le somme",
+    studioCanDo: "Come lo Studio recupera conti, polizze e titoli",
+    documents: "Documenti per sbloccare conti correnti e polizze",
+    timeRisks: "Errori che rallentano il recupero delle somme",
+    checks: "Cosa si verifica per recuperare le somme ereditarie",
+  },
+  "mediazione-ereditaria": {
+    frequentCases: "Quando il conflitto tra eredi richiede una mediazione",
+    whenToCall: "Quando conviene mediare invece di andare in causa",
+    studioCanDo: "Come lo Studio gestisce la mediazione tra eredi",
+    documents: "Documenti utili per avviare la mediazione",
+    timeRisks: "Cosa può far fallire una mediazione ereditaria",
+    checks: "Cosa si valuta prima di avviare la mediazione",
+  },
+  "rinuncia-eredita": {
+    frequentCases: "Quando valutare la rinuncia all'eredità",
+    whenToCall: "Quando serve l'avvocato per rinunciare all'eredità",
+    studioCanDo: "Come lo Studio assiste nella rinuncia all'eredità",
+    documents: "Documenti per formalizzare la rinuncia",
+    timeRisks: "Errori e termini che pesano sulla rinuncia",
+    checks: "Cosa si verifica prima di rinunciare all'eredità",
+  },
+};
+
 function getServiceHeroTitle(service: ServicePage) {
   return service.heroTitle;
 }
@@ -1009,15 +1069,14 @@ function LandingActionButtons({
         >
           Chiama lo studio
         </a>
-        <Link
-          href="/contatti#modulo-contatti"
-          prefetch={false}
-          className="button-primary landing-template-cta"
+        <a
+          href="#modulo-contatti"
+          className="button-request landing-template-cta"
           data-track-event="contact_form_click"
           data-track-label={`${scope}_request`}
         >
           Invia una richiesta
-        </Link>
+        </a>
         <Link
           href={contacts.whatsappHref}
           className="button-whatsapp landing-template-cta"
@@ -1225,6 +1284,7 @@ function AdsServicePageTemplate({
   const studioCanDo = service.studioCanDo ?? service.checks;
   const timeRisks = service.timeRisks ?? service.errors;
   const timeRiskParagraphs = service.timeRisksParagraphs ?? [];
+  const sectionTitles = serviceSectionTitles[service.slug];
 
   return (
     <>
@@ -1251,7 +1311,9 @@ function AdsServicePageTemplate({
         <div className="shell two-column">
           <div className="card stack">
             <p className="eyebrow">Casi frequenti</p>
-            <h2 className="display-sm">Situazioni che richiedono una verifica subito</h2>
+            <h2 className="display-sm">
+              {sectionTitles?.frequentCases ?? "Situazioni che richiedono una verifica subito"}
+            </h2>
             <p className="lead">{introParagraphs[0]}</p>
             {introParagraphs.slice(1).map((paragraph) => (
               <p key={paragraph} className="muted">
@@ -1270,7 +1332,9 @@ function AdsServicePageTemplate({
           </div>
           <div className="card stack">
             <p className="eyebrow">Quando serve assistenza legale</p>
-            <h2 className="display-sm">Quando serve l'avvocato per impostare il caso</h2>
+            <h2 className="display-sm">
+              {sectionTitles?.whenToCall ?? "Quando serve l'avvocato per impostare il caso"}
+            </h2>
             <p className="muted">
               Un confronto iniziale aiuta a capire se serva una verifica tecnica,
               una diffida, una mediazione o un'impostazione piu strutturata.
@@ -1288,7 +1352,9 @@ function AdsServicePageTemplate({
         <div className="shell two-column">
           <div className="card stack">
             <p className="eyebrow">Cosa puo fare subito lo Studio</p>
-            <h2 className="display-sm">Cosa puo fare lo Studio in concreto</h2>
+            <h2 className="display-sm">
+              {sectionTitles?.studioCanDo ?? "Cosa puo fare lo Studio in concreto"}
+            </h2>
             <ul className="list">
               {studioCanDo.map((item) => (
                 <li key={item}>{item}</li>
@@ -1301,7 +1367,9 @@ function AdsServicePageTemplate({
           </div>
           <div className="card stack">
             <p className="eyebrow">Documenti utili</p>
-            <h2 className="display-sm">Documenti da preparare per la prima verifica</h2>
+            <h2 className="display-sm">
+              {sectionTitles?.documents ?? "Documenti da preparare per la prima verifica"}
+            </h2>
             <ul className="list">
               {firstAnalysisDocuments.map((item) => (
                 <li key={item}>{item}</li>
@@ -1315,7 +1383,9 @@ function AdsServicePageTemplate({
         <div className="shell two-column">
           <div className="card stack">
             <p className="eyebrow">Rischi da evitare</p>
-            <h2 className="display-sm">Passaggi che possono complicare la posizione dell'erede</h2>
+            <h2 className="display-sm">
+              {sectionTitles?.timeRisks ?? "Passaggi che possono complicare la posizione dell'erede"}
+            </h2>
             {timeRiskParagraphs.map((paragraph) => (
               <p key={paragraph} className="muted">
                 {paragraph}
@@ -1346,7 +1416,9 @@ function AdsServicePageTemplate({
           </div>
           <div className="card stack">
             <p className="eyebrow">Verifica iniziale</p>
-            <h2 className="display-sm">Cosa viene valutato all'inizio</h2>
+            <h2 className="display-sm">
+              {sectionTitles?.checks ?? "Cosa viene valutato all'inizio"}
+            </h2>
             <div className="info-list">
               {service.checks.map((item) => (
                 <div key={item} className="info-item">

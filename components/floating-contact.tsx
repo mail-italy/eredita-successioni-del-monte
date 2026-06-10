@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
+import { scrollToContactFormIfPresent } from "@/components/contact-form-scroll";
 import { ContactActions, useRomeTimeState } from "@/components/contact-actions";
 import { contacts } from "@/lib/content";
 
@@ -181,7 +182,13 @@ export function FloatingContact() {
                   rel={action.rel}
                   data-track-event={action.key === "request" ? "contact_form_click" : action.key === "phone" ? "click_phone" : action.key === "mail" ? "click_email" : "click_whatsapp"}
                   data-track-label={`mobile_fab_${action.key}`}
-                  onClick={() => setMobileContactsOpen(false)}
+                  onClick={(event) => {
+                    if (action.key === "request") {
+                      scrollToContactFormIfPresent(event);
+                    }
+
+                    setMobileContactsOpen(false);
+                  }}
                 >
                   {action.icon}
                 </Link>
