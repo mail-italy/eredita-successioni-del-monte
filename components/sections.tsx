@@ -886,9 +886,23 @@ type ServiceSectionTitles = Partial<{
   documents: string;
   timeRisks: string;
   checks: string;
+  trust: string;
+  finalCta: string;
+  solutionIntro: string;
+  finalIntro: string;
 }>;
 
 const serviceSectionTitles: Record<string, ServiceSectionTitles> = {
+  "avvocato-successioni": {
+    frequentCases: "Quando la successione richiede una lettura legale completa",
+    whenToCall: "Quando serve l'avvocato per coordinare la pratica successoria",
+    studioCanDo: "Come lo Studio imposta la strategia successoria",
+    documents: "Documenti per inquadrare successione, beni e rapporti familiari",
+    timeRisks: "Errori che rendono più fragile la posizione ereditaria",
+    checks: "Cosa si verifica per scegliere il percorso di tutela",
+    trust: "Assistenza successoria con metodo, prova e coordinamento",
+    finalCta: "Vuoi chiarire una successione complessa?",
+  },
   "divisione-ereditaria": {
     frequentCases: "Quando la divisione tra coeredi si blocca",
     whenToCall: "Quando serve l'avvocato per sbloccare la divisione",
@@ -936,6 +950,166 @@ const serviceSectionTitles: Record<string, ServiceSectionTitles> = {
     documents: "Documenti per formalizzare la rinuncia",
     timeRisks: "Errori e termini che pesano sulla rinuncia",
     checks: "Cosa si verifica prima di rinunciare all'eredità",
+  },
+  "collazione-e-donazioni": {
+    frequentCases: "Quando le donazioni alterano l'equilibrio tra eredi",
+    whenToCall: "Quando serve l'avvocato per valutare donazioni e collazione",
+    studioCanDo: "Come lo Studio ricostruisce donazioni e attribuzioni",
+    documents: "Documenti per verificare donazioni e trasferimenti familiari",
+    timeRisks: "Errori che complicano il confronto sulle donazioni",
+    checks: "Cosa si verifica per valutare donazioni e massa ereditaria",
+    trust: "Analisi di donazioni, documenti e rapporti tra coeredi",
+    finalCta: "Devi valutare donazioni fatte prima della successione?",
+  },
+  "successioni-internazionali": {
+    frequentCases: "Quando l'eredità coinvolge beni o eredi all'estero",
+    whenToCall: "Quando serve l'avvocato per una successione internazionale",
+    studioCanDo: "Come lo Studio coordina documenti e beni in più Paesi",
+    documents: "Documenti per ricostruire una successione con elementi esteri",
+    timeRisks: "Errori che rallentano le successioni transfrontaliere",
+    checks: "Cosa si verifica per coordinare beni, eredi e documenti esteri",
+    trust: "Coordinamento tecnico per successioni con elementi internazionali",
+    finalCta: "Ci sono beni o documenti successori all'estero?",
+  },
+  "eredita-giacente": {
+    frequentCases: "Quando l'eredità resta senza una gestione chiara",
+    whenToCall: "Quando serve l'avvocato per un'eredità giacente",
+    studioCanDo: "Come lo Studio inquadra beni, debiti e soggetti interessati",
+    documents: "Documenti per valutare un'eredità senza gestione definita",
+    timeRisks: "Errori che aggravano un'eredità non ancora gestita",
+    checks: "Cosa si verifica per chiarire la posizione dell'eredità giacente",
+    trust: "Metodo documentale per patrimoni ereditari senza gestione ordinata",
+    finalCta: "L'eredità è ferma o senza un referente certo?",
+  },
+  "recupero-somme-ereditarie": {
+    frequentCases: "Quando somme ereditarie e rapporti bancari non sono chiari",
+    whenToCall: "Quando serve l'avvocato per recuperare somme dell'eredità",
+    studioCanDo: "Come lo Studio ricostruisce rapporti e disponibilità",
+    documents: "Documenti per verificare somme, conti e comunicazioni ricevute",
+    timeRisks: "Errori che rendono più difficile recuperare le somme",
+    checks: "Cosa si verifica per impostare il recupero delle disponibilità",
+    trust: "Ricostruzione ordinata di somme, documenti e posizioni ereditarie",
+    finalCta: "Devi recuperare somme o rapporti del defunto?",
+  },
+  "animali-domestici-eredita": {
+    frequentCases: "Quando gli eredi litigano sulla gestione dell'animale",
+    whenToCall: "Quando serve l'avvocato per un animale nella successione",
+    studioCanDo: "Come lo Studio aiuta a ordinare accordi e responsabilità",
+    documents: "Documenti per chiarire custodia, spese e accordi familiari",
+    timeRisks: "Errori che alimentano il conflitto sulla gestione dell'animale",
+    checks: "Cosa si verifica per trovare una gestione sostenibile",
+    trust: "Approccio pratico per beni affettivi e responsabilità tra eredi",
+    finalCta: "Serve un accordo sulla gestione dell'animale?",
+  },
+  "auto-ereditata": {
+    frequentCases: "Quando l'auto ereditata resta bloccata tra coeredi",
+    whenToCall: "Quando serve l'avvocato per gestire un veicolo ereditato",
+    studioCanDo: "Come lo Studio imposta uso, vendita o assegnazione dell'auto",
+    documents: "Documenti per ricostruire proprietà, valore e uso del veicolo",
+    timeRisks: "Errori che complicano la gestione dell'auto ereditata",
+    checks: "Cosa si verifica per decidere cosa fare del veicolo",
+    trust: "Gestione pratica dei beni mobili registrati in successione",
+    finalCta: "L'auto ereditata è ferma o contesa?",
+  },
+  "casa-ereditata": {
+    frequentCases: "Quando una casa ereditata crea conflitto tra coeredi",
+    whenToCall: "Quando serve l'avvocato per una casa in eredità",
+    studioCanDo: "Come lo Studio imposta uso, vendita o divisione dell'immobile",
+    documents: "Documenti per valutare proprietà, valore e gestione della casa",
+    timeRisks: "Errori che bloccano la gestione dell'immobile ereditato",
+    checks: "Cosa si verifica per scegliere tra accordo, vendita o divisione",
+    trust: "Analisi immobiliare e successoria per case ereditate",
+    finalCta: "La casa ereditata è motivo di conflitto?",
+  },
+  "affitti-immobili-ereditati": {
+    frequentCases: "Quando gli affitti di immobili ereditati non sono condivisi",
+    whenToCall: "Quando serve l'avvocato per canoni e immobili ereditati",
+    studioCanDo: "Come lo Studio ricostruisce locazioni, incassi e accordi",
+    documents: "Documenti per verificare contratti, canoni e gestione dell'immobile",
+    timeRisks: "Errori che complicano affitti e rapporti tra coeredi",
+    checks: "Cosa si verifica per chiarire incassi e responsabilità",
+    trust: "Lettura coordinata di locazioni, proprietà e rapporti successori",
+    finalCta: "Gli affitti dell'immobile ereditato sono contestati?",
+  },
+  "successione-legittima": {
+    frequentCases: "Quando la successione senza testamento non è chiara",
+    whenToCall: "Quando serve l'avvocato per quote ed eredi legittimi",
+    studioCanDo: "Come lo Studio ricostruisce eredi, quote e beni",
+    documents: "Documenti per verificare famiglia, beni e quote ereditarie",
+    timeRisks: "Errori che complicano una successione senza testamento",
+    checks: "Cosa si verifica per applicare correttamente le quote",
+  },
+  "beneficio-inventario": {
+    frequentCases: "Quando l'eredità presenta debiti o passività da chiarire",
+    whenToCall: "Quando serve l'avvocato per valutare il beneficio d'inventario",
+    studioCanDo: "Come lo Studio analizza rischi, beni e passività",
+    documents: "Documenti per valutare patrimonio e debiti dell'eredità",
+    timeRisks: "Errori che riducono le opzioni dell'erede",
+    checks: "Cosa si verifica prima di scegliere come accettare",
+  },
+  "testamento": {
+    frequentCases: "Quando il testamento va letto e interpretato con attenzione",
+    whenToCall: "Quando serve l'avvocato per un testamento da verificare",
+    studioCanDo: "Come lo Studio analizza volontà, beni e possibili criticità",
+    documents: "Documenti per esaminare testamento e quadro successorio",
+    timeRisks: "Errori che complicano la gestione del testamento",
+    checks: "Cosa si verifica per interpretare correttamente le disposizioni",
+  },
+  "conflitti-tra-coeredi": {
+    frequentCases: "Quando il rapporto tra coeredi diventa ingestibile",
+    whenToCall: "Quando serve l'avvocato per conflitti tra eredi",
+    studioCanDo: "Come lo Studio ordina posizioni, documenti e trattativa",
+    documents: "Documenti per ricostruire beni, condotte e richieste dei coeredi",
+    timeRisks: "Errori che irrigidiscono il conflitto familiare",
+    checks: "Cosa si verifica per impostare una tutela efficace",
+  },
+  "accettazione-eredita": {
+    frequentCases: "Quando accettare l'eredità richiede prudenza",
+    whenToCall: "Quando serve l'avvocato prima di accettare",
+    studioCanDo: "Come lo Studio valuta beni, debiti e condotte già tenute",
+    documents: "Documenti per decidere se e come accettare l'eredità",
+    timeRisks: "Errori che possono rendere irreversibili scelte affrettate",
+    checks: "Cosa si verifica prima di assumere la qualità di erede",
+  },
+  "petizione-ereditaria": {
+    frequentCases: "Quando un bene ereditario è detenuto da altri",
+    whenToCall: "Quando serve l'avvocato per rivendicare beni ereditari",
+    studioCanDo: "Come lo Studio ricostruisce titolo, possesso e prove",
+    documents: "Documenti per dimostrare qualità ereditaria e beni da recuperare",
+    timeRisks: "Errori che indeboliscono la richiesta di restituzione",
+    checks: "Cosa si verifica per impostare la rivendicazione ereditaria",
+  },
+  "indegnita-successoria": {
+    frequentCases: "Quando la condotta di un erede va valutata con cautela",
+    whenToCall: "Quando serve l'avvocato per casi di indegnità successoria",
+    studioCanDo: "Come lo Studio raccoglie fatti, documenti e prove rilevanti",
+    documents: "Documenti per ricostruire condotte e rapporti familiari",
+    timeRisks: "Errori che espongono a contestazioni senza basi solide",
+    checks: "Cosa si verifica prima di contestare la posizione di un erede",
+  },
+  "vendita-casa-ereditata": {
+    frequentCases: "Quando vendere una casa ereditata diventa difficile",
+    whenToCall: "Quando serve l'avvocato per la vendita dell'immobile ereditato",
+    studioCanDo: "Come lo Studio coordina accordo, documenti e posizioni dei coeredi",
+    documents: "Documenti per impostare la vendita della casa ereditata",
+    timeRisks: "Errori che bloccano trattative e vendita dell'immobile",
+    checks: "Cosa si verifica prima di vendere un bene ereditario",
+  },
+  "testamento-olografo-falso": {
+    frequentCases: "Quando un testamento olografo appare sospetto",
+    whenToCall: "Quando serve l'avvocato per verificare un testamento olografo",
+    studioCanDo: "Come lo Studio imposta l'analisi del documento contestato",
+    documents: "Documenti utili per valutare autenticità e contesto del testamento",
+    timeRisks: "Errori che indeboliscono la contestazione del testamento",
+    checks: "Cosa si verifica prima di contestare un olografo",
+  },
+  "gioielli-ereditati": {
+    frequentCases: "Quando gioielli e preziosi generano contestazioni",
+    whenToCall: "Quando serve l'avvocato per gioielli ereditati",
+    studioCanDo: "Come lo Studio ricostruisce valore, disponibilità e attribuzioni",
+    documents: "Documenti per verificare inventario, valore e possesso dei preziosi",
+    timeRisks: "Errori che complicano la divisione di gioielli e beni mobili",
+    checks: "Cosa si verifica per trattare correttamente i preziosi ereditati",
   },
 };
 
@@ -1093,13 +1267,14 @@ function LandingActionButtons({
 
   return (
     <div className="landing-template-cta-row">
-      <TrackLink
-        href="/contatti#modulo-contatti"
-        label={`${scope}_contact`}
-        className="button-primary landing-template-cta"
+      <a
+        href="#modulo-contatti"
+        className="button-request landing-template-cta"
+        data-track-event="contact_form_click"
+        data-track-label={`${scope}_contact`}
       >
         Contatta lo Studio
-      </TrackLink>
+      </a>
       <Link
         href={contacts.whatsappHref}
         className="button-whatsapp landing-template-cta"
@@ -1672,6 +1847,7 @@ export function ServicePageTemplate({
 
   const serviceVisual = getServiceVisual(service, true);
   const heroTitle = getServiceHeroTitle(service);
+  const sectionTitles = serviceSectionTitles[service.slug];
 
   return (
     <>
@@ -1698,7 +1874,9 @@ export function ServicePageTemplate({
         <div className="shell two-column">
           <div className="card stack">
             <p className="eyebrow">Problema</p>
-            <h2 className="display-sm">Ti trovi in una di queste situazioni?</h2>
+            <h2 className="display-sm">
+              {sectionTitles?.frequentCases ?? "Ti trovi in una di queste situazioni?"}
+            </h2>
             <p className="lead">{service.description}</p>
             <ul className="list">
               {service.problemList.map((item) => (
@@ -1712,11 +1890,12 @@ export function ServicePageTemplate({
           </div>
           <div className="card stack">
             <p className="eyebrow">Soluzione</p>
-            <h2 className="display-sm">Cosa va chiarito per impostare una soluzione efficace</h2>
+            <h2 className="display-sm">
+              {sectionTitles?.checks ?? "Cosa va chiarito per impostare una soluzione efficace"}
+            </h2>
             <p className="muted">
-              Il punto decisivo non è solo capire se esiste un diritto, ma verificare
-              come provarlo, come misurarlo e quale percorso tutela davvero la tua
-              posizione.
+              {sectionTitles?.solutionIntro ??
+                "Il punto decisivo non è solo capire se esiste un diritto, ma verificare come provarlo, come misurarlo e quale percorso tutela davvero la tua posizione."}
             </p>
             <div className="info-list">
               {service.checks.map((item) => (
@@ -1738,7 +1917,9 @@ export function ServicePageTemplate({
         <div className="shell two-column">
           <div className="card stack">
             <p className="eyebrow">Errori</p>
-            <h2 className="display-sm">Errori frequenti che peggiorano il caso</h2>
+            <h2 className="display-sm">
+              {sectionTitles?.timeRisks ?? "Errori frequenti che peggiorano il caso"}
+            </h2>
             <div className="info-list">
               {service.errors.map((item) => (
                 <div key={item} className="info-item">
@@ -1749,7 +1930,9 @@ export function ServicePageTemplate({
           </div>
           <div className="card stack">
             <p className="eyebrow">Documenti</p>
-            <h2 className="display-sm">Documenti utili per impostare il lavoro</h2>
+            <h2 className="display-sm">
+              {sectionTitles?.documents ?? "Documenti utili per impostare il lavoro"}
+            </h2>
             <ul className="list">
               {service.documents.map((item) => (
                 <li key={item}>{item}</li>
@@ -1763,7 +1946,9 @@ export function ServicePageTemplate({
         <div className="shell two-column">
           <div className="card stack">
             <p className="eyebrow">Metodo</p>
-            <h2 className="display-sm">Come interviene lo Studio</h2>
+            <h2 className="display-sm">
+              {sectionTitles?.studioCanDo ?? "Come interviene lo Studio"}
+            </h2>
             <div className="info-list">
               {workSteps.map((step) => (
                 <div key={step.title} className="info-item">
@@ -1775,7 +1960,9 @@ export function ServicePageTemplate({
           </div>
           <div className="card stack">
             <p className="eyebrow">Trust</p>
-            <h2 className="display-sm">Assistenza concreta, fondata su prova e strategia</h2>
+            <h2 className="display-sm">
+              {sectionTitles?.trust ?? "Assistenza concreta, fondata su prova e strategia"}
+            </h2>
             <p className="lead">{service.trust}</p>
             <div className="meta-grid">
               {getTrustCards("service", service.slug).map((item) => (
@@ -1807,21 +1994,24 @@ export function ServicePageTemplate({
           <div className="panel-inner two-column">
             <div className="stack">
               <p className="eyebrow">Contatto</p>
-              <h2 className="display-sm">Hai bisogno di un primo inquadramento?</h2>
+              <h2 className="display-sm">
+                {sectionTitles?.finalCta ?? "Hai bisogno di un primo inquadramento?"}
+              </h2>
               <p className="lead">
-                Un confronto tempestivo aiuta a evitare errori, accordi sfavorevoli e
-                iniziative inefficaci.
+                {sectionTitles?.finalIntro ??
+                  "Un confronto tempestivo aiuta a evitare errori, accordi sfavorevoli e iniziative inefficaci."}
               </p>
             </div>
             <div className="stack">
               <div className="landing-template-cta-row landing-template-cta-row-final">
-                <TrackLink
-                  href="/contatti#modulo-contatti"
-                  label={`${service.slug}_final_contact`}
-                  className="button-primary landing-template-cta"
+                <a
+                  href="#modulo-contatti"
+                  className="button-request landing-template-cta"
+                  data-track-event="contact_form_click"
+                  data-track-label={`${service.slug}_final_contact`}
                 >
                   Contatta lo Studio
-                </TrackLink>
+                </a>
                 <Link
                   href={contacts.whatsappHref}
                   className="button-whatsapp landing-template-cta"

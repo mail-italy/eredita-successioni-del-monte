@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { ContactFormLink } from "@/components/contact-form-link";
 import {
   ArticleGrid,
   ContactSection,
@@ -117,15 +118,12 @@ export default function HomePage() {
                   Analizziamo il caso e individuiamo la strategia più efficace.
                 </p>
                 <div className="homepage-hero-actions">
-                  <Link
-                    href="/contatti#modulo-contatti"
-                    prefetch={false}
+                  <ContactFormLink
                     className="button-primary homepage-cta"
-                    data-track-event="contact_form_click"
-                    data-track-label="home_hero_request"
+                    label="home_hero_request"
                   >
                     Contatta lo Studio
-                  </Link>
+                  </ContactFormLink>
                   <Link
                     href={contacts.whatsappHref}
                     className="button-whatsapp homepage-cta"
@@ -236,15 +234,12 @@ export default function HomePage() {
               documentale ordinata.
             </p>
             <div className="cluster homepage-inline-cta">
-              <Link
-                href="/contatti#modulo-contatti"
-                prefetch={false}
+              <ContactFormLink
                 className="button-primary"
-                data-track-event="contact_form_click"
-                data-track-label="home_inline_request"
+                label="home_inline_request"
               >
                 Contatta ora
-              </Link>
+              </ContactFormLink>
               <Link
                 href={contacts.whatsappHref}
                 className="button-whatsapp"
