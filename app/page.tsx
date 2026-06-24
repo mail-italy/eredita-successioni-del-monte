@@ -298,6 +298,18 @@ export default function HomePage() {
               filter: saturate(0.98) contrast(1.01);
             }
 
+            @media (min-width: 1280px) {
+              .homepage-hero-image {
+                object-position: center 46%;
+              }
+            }
+
+            @media (min-width: 1536px) {
+              .homepage-hero-image {
+                object-position: center 42%;
+              }
+            }
+
             .homepage-hero-overlay {
               position: absolute;
               inset: 0;

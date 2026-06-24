@@ -7,6 +7,14 @@ import { contactRequestTopics } from "@/lib/content";
 const allowedAttachmentExtensions = [".pdf", ".doc", ".docx", ".jpg", ".jpeg", ".png"];
 const attachmentErrorMessage =
   "Formato allegato non supportato. Usa PDF, DOC, DOCX, JPG, JPEG o PNG.";
+const contactFormName = "Modulo contatti ereditaesuccessioni.it";
+const isDevelopment = process.env.NODE_ENV !== "production";
+
+type TrackingWindow = Window &
+  typeof globalThis & {
+    dataLayer?: Array<Record<string, unknown>>;
+    gtag?: (...args: unknown[]) => void;
+  };
 
 type FormState = {
   status: "idle" | "submitting" | "success" | "error";
@@ -17,6 +25,71 @@ const initialState: FormState = {
   status: "idle",
   message: "",
 };
+
+function logTracking(kind: "dataLayer" | "gtag", ...args: unknown[]) {
+  if (!isDevelopment) {
+    return;
+  }
+
+  console.info(`[tracking:${kind}]`, ...args);
+}
+
+function pushDataLayerEvent(payload: Record<string, unknown>) {
+  if (typeof window === "undefined") {
+    return;
+  }
+
+  const trackingWindow = window as TrackingWindow;
+  trackingWindow.dataLayer = trackingWindow.dataLayer || [];
+  trackingWindow.dataLayer.push(payload);
+  logTracking("dataLayer", payload);
+}
+
+function sendGtagEvent(eventName: string, params: Record<string, unknown>) {
+  if (typeof window === "undefined") {
+    return;
+  }
+
+  const trackingWindow = window as TrackingWindow;
+
+  if (typeof trackingWindow.gtag !== "function") {
+    return;
+  }
+
+  trackingWindow.gtag("event", eventName, params);
+  logTracking("gtag", eventName, params);
+}
+
+function trackSuccessfulContactFormSubmit() {
+  if (typeof window === "undefined") {
+    return;
+  }
+
+  const page_location = window.location.href;
+  const page_path = window.location.pathname;
+
+  pushDataLayerEvent({
+    event: 'form_submit',
+    lead_type: "form_submit",
+    form_name: contactFormName,
+    page_location,
+    page_path,
+  });
+
+  sendGtagEvent("generate_lead", {
+    event_category: "lead",
+    event_label: contactFormName,
+    form_name: contactFormName,
+    page_location,
+    page_path,
+  });
+
+  sendGtagEvent("form_submit", {
+    event_category: "lead",
+    event_label: contactFormName,
+    form_name: contactFormName,
+  });
+}
 
 export function ContactForm() {
   const [state, setState] = useState<FormState>(initialState);
@@ -103,6 +176,7 @@ export function ContactForm() {
           payload.message ??
           "Richiesta inviata correttamente. Lo studio ti ricontatterà nel più breve tempo possibile.",
       });
+      trackSuccessfulContactFormSubmit();
       setAttachmentError("");
       form.reset();
     } catch (error) {
@@ -193,8 +267,6 @@ export function ContactForm() {
         type="submit"
         className="button-secondary"
         disabled={state.status === "submitting"}
-        data-track-event="form_submit"
-        data-track-label="contact_form_submit"
       >
         {state.status === "submitting" ? "Invio in corso..." : "Descrivi il caso e invia la richiesta"}
       </button>
