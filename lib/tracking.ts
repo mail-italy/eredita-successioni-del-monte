@@ -18,5 +18,7 @@ export function trackEvent(event: string, params: Record<string, string> = {}) {
   window.dataLayer.push({ event, ...params, page_location: window.location.origin + window.location.pathname, page_path: window.location.pathname });
 }
 
-// Change this only together with the approved GTM trigger migration.
-export const CONTACT_SUCCESS_EVENT = process.env.NEXT_PUBLIC_USE_LEAD_EVENT === "true" ? "lead_eredita" : "form_submit";
+// Reserved for the API-confirmed delivery path. Google's automatic form_submit
+// also fires for failed submissions and must never trigger a lead conversion.
+// GTM maps this signal to the existing GA4 events and Google Ads conversion label.
+export const CONTACT_SUCCESS_EVENT = "lead_eredita";

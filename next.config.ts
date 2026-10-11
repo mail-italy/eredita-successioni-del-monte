@@ -9,6 +9,7 @@ const connectSources = [
   "https://region1.google-analytics.com",
   "https://region1.analytics.google.com",
   "https://www.google.com",
+  "https://google.com",
   "https://ad.doubleclick.net",
   "https://stats.g.doubleclick.net",
   "https://pagead2.googlesyndication.com",
@@ -27,6 +28,7 @@ const scriptSources = [
   "https://www.google-analytics.com",
   "https://www.googleadservices.com",
   "https://www.google.com",
+  "https://googleads.g.doubleclick.net",
 ];
 
 const styleSources = ["'self'", "'unsafe-inline'"];
