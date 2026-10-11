@@ -3615,7 +3615,7 @@ export const privacyPageFaqs: FaqItem[] = [
   {
     question: "Qual è la base giuridica del trattamento dei dati?",
     answer:
-      "La base giuridica è data dal consenso espresso dall’interessato e, ove necessario, dalle misure precontrattuali richieste attraverso il contatto con lo studio.",
+      "La gestione della richiesta di assistenza si basa sulle misure precontrattuali richieste dall’interessato. Il consenso agli strumenti facoltativi di analisi e pubblicità è distinto e il rifiuto non impedisce di contattare lo Studio.",
   },
   {
     question: "I dati inviati tramite WhatsApp, Mail o modulo hanno lo stesso scopo?",
@@ -3625,7 +3625,7 @@ export const privacyPageFaqs: FaqItem[] = [
   {
     question: "Per quanto tempo vengono conservati i dati trasmessi?",
     answer:
-      "I dati sono conservati per il tempo necessario a gestire la richiesta, a svolgere le verifiche connesse e ad adempiere agli obblighi eventualmente applicabili.",
+      "Le richieste senza incarico, la corrispondenza e gli allegati sono conservati per 30 giorni dalla conclusione degli scambi e poi cancellati manualmente dallo Studio. Sono esclusi i dati confluiti in un fascicolo o relativi a un incarico e quelli necessari per obblighi di legge o specifiche esigenze legali documentate, per il tempo pertinente a tali esigenze.",
   },
   {
     question: "Posso chiedere accesso, rettifica o cancellazione dei miei dati?",

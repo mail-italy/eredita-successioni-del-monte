@@ -4,7 +4,7 @@ import { createContactHandler } from "../lib/contact-handler";
 import { CONTACT_LIMITS } from "../lib/contact-validation";
 import type { SendMailOptions } from "nodemailer";
 
-const env = { VERCEL_ENV: "production", CONTACT_FROM_EMAIL: "site@example.test", CONTACT_TO_EMAIL: "office@example.test", SMTP_HOST: "smtp.example.test", SMTP_PORT: "465", SMTP_USER: "mock", SMTP_PASS: "mock" };
+const env = { VERCEL_ENV: "production", CONTACT_FROM_EMAIL: "site@example.test", CONTACT_TO_EMAIL: "info@delmontestudiolegale.it", SMTP_HOST: "smtp.example.test", SMTP_PORT: "465", SMTP_USER: "mock", SMTP_PASS: "mock" };
 function form(changes: Record<string, string | undefined> = {}) {
   const data = new FormData();
   for (const [key, value] of Object.entries({ name: "Mario", surname: "Rossi", phone: "+39 06 1234567", email: "mario@example.test", topic: "Altro", caseSummary: "Esempio di richiesta per test, senza invio.", privacy: "accepted", ...changes })) if (value !== undefined) data.set(key, value);
@@ -18,7 +18,7 @@ function setup(options: { reject?: boolean; smtp?: boolean; accepted?: string[];
   const handler = createContactHandler(async (_, mail) => {
     sent.push(mail);
     if (options.reject) throw new Error("Mock SMTP failure");
-    return { accepted: options.accepted ?? ["office@example.test"] };
+    return { accepted: options.accepted ?? [env.CONTACT_TO_EMAIL] };
   }, options.smtp === false ? { VERCEL_ENV: "production" } : env, options.now);
   return { sent, handler };
 }
@@ -34,6 +34,18 @@ test("production submission reaches only injected SMTP mock with escaped HTML an
   assert.equal(sent[0].disableUrlAccess, true);
   assert.match(String(sent[0].html), /&lt;script&gt;/);
   assert.doesNotMatch(String(sent[0].html), /<script>/);
+});
+
+test("recipient comes from server env and the visible domain cannot be replaced by submitted provenance", async () => {
+  const { sent, handler } = setup();
+  const data = form({ to: "other@example.invalid", CONTACT_TO_EMAIL: "other@example.invalid", source: "forged.example.invalid", origine: "forged.example.invalid", origin: "forged.example.invalid" });
+  assert.equal((await handler(request(data))).status, 200);
+  assert.equal(sent.length, 1);
+  assert.equal(sent[0].to, env.CONTACT_TO_EMAIL);
+  assert.match(String(sent[0].subject), /^\[ereditaesuccessioni\.it\] /);
+  assert.match(String(sent[0].text), /^Sito di provenienza: ereditaesuccessioni\.it/);
+  assert.match(String(sent[0].html), /Sito di provenienza: ereditaesuccessioni\.it/);
+  for (const field of [sent[0].subject, sent[0].text, sent[0].html]) assert.doesNotMatch(String(field), /forged\.example\.invalid|other@example\.invalid/);
 });
 
 for (const [label, deployment] of Object.entries({ preview: "preview", development: "development", absent: undefined, invalid: "Production" })) {

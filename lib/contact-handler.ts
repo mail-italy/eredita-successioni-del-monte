@@ -9,7 +9,9 @@ const deliveryNotConfiguredMessage =
   "Il modulo non è al momento disponibile. Contatta lo studio tramite telefono o email.";
 const deliveryFailureMessage =
   "La richiesta non è stata inviata via email. Riprova oppure usa temporaneamente telefono, WhatsApp o Mail.";
-const emailBannerText = "Richiesta proveniente dal sito Eredità e Successioni";
+// Email provenance is a server-owned identity, never a form field or request header.
+const CONTACT_SITE = "ereditaesuccessioni.it";
+const emailBannerText = `Sito di provenienza: ${CONTACT_SITE} — Eredità e Successioni`;
 
 function escapeHtml(value: string) {
   return value
@@ -73,7 +75,7 @@ export function createContactHandler(deliver: DeliverMessage, env: Record<string
     try {
       const formData = await readLimitedFormData(request);
       if (String(formData.get("website") ?? "").trim()) throw new ContactInputError("Richiesta non valida.");
-      if (formData.get("privacy") !== "accepted") throw new ContactInputError("È necessario accettare l’informativa privacy.");
+      if (formData.get("privacy") !== "accepted") throw new ContactInputError("Conferma di aver letto l’informativa privacy.");
       name = validatedField(formData, "name");
       surname = validatedField(formData, "surname");
       phone = validatedField(formData, "phone");
@@ -110,7 +112,7 @@ export function createContactHandler(deliver: DeliverMessage, env: Record<string
   );
 
   const fullName = `${name} ${surname}`.trim();
-  const subject = `Nuova richiesta contatti: ${fullName} - ${topic}`;
+  const subject = `[${CONTACT_SITE}] Nuova richiesta contatti: ${fullName} - ${topic}`;
   const escapedSummary = escapeHtml(caseSummary).replaceAll("\n", "<br />");
   const attachmentSummary =
     attachments.length > 0

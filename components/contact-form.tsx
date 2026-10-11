@@ -59,7 +59,7 @@ export function ContactForm() {
     if (formData.get("privacy") !== "accepted") {
       setState({
         status: "error",
-        message: "Per inviare la richiesta è necessario accettare l’informativa privacy.",
+        message: "Conferma di aver letto l’informativa privacy.",
       });
       return;
     }
@@ -187,8 +187,7 @@ export function ContactForm() {
         <label className="field-checkbox field-full">
           <input name="privacy" type="checkbox" value="accepted" required />
           <span>
-            Ho letto l’informativa privacy e acconsento al trattamento dei dati per
-            la gestione della richiesta.
+            Ho letto l’informativa privacy.
           </span>
         </label>
       </div>
