@@ -7,6 +7,12 @@ const connectSources = [
   "https://www.googletagmanager.com",
   "https://www.google-analytics.com",
   "https://region1.google-analytics.com",
+  "https://region1.analytics.google.com",
+  "https://www.google.com",
+  "https://ad.doubleclick.net",
+  "https://stats.g.doubleclick.net",
+  "https://pagead2.googlesyndication.com",
+  "https://www.google.it",
   "https://www.googleadservices.com",
   "https://googleads.g.doubleclick.net",
 ];
@@ -19,10 +25,12 @@ const scriptSources = [
   ...(isDev ? ["'unsafe-eval'"] : []),
   "https://www.googletagmanager.com",
   "https://www.google-analytics.com",
+  "https://www.googleadservices.com",
+  "https://www.google.com",
 ];
 
 const styleSources = ["'self'", "'unsafe-inline'"];
-const frameSources = ["'self'", "https://www.google.com"];
+const frameSources = ["'self'", "https://www.google.com", "https://www.googletagmanager.com"];
 
 const contentSecurityPolicy = [
   "default-src 'self'",
@@ -50,6 +58,7 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      { source: "/donazioni", destination: "/collazione-e-donazioni", permanent: true },
       {
         source: "/sitemap_index.xml",
         destination: "/sitemap.xml",

@@ -2,20 +2,14 @@
 
 import { ChangeEvent, FormEvent, useState } from "react";
 
-import { contactRequestTopics } from "@/lib/content";
+import { CONTACT_SUCCESS_EVENT, trackEvent } from "@/lib/tracking";
+import { CONTACT_LIMITS, validateAttachments } from "@/lib/contact-validation";
+
+import { contactRequestTopics } from "@/lib/site-config";
 
 const allowedAttachmentExtensions = [".pdf", ".doc", ".docx", ".jpg", ".jpeg", ".png"];
 const attachmentErrorMessage =
   "Formato allegato non supportato. Usa PDF, DOC, DOCX, JPG, JPEG o PNG.";
-const contactFormName = "Modulo contatti ereditaesuccessioni.it";
-const isDevelopment = process.env.NODE_ENV !== "production";
-
-type TrackingWindow = Window &
-  typeof globalThis & {
-    dataLayer?: Array<Record<string, unknown>>;
-    gtag?: (...args: unknown[]) => void;
-  };
-
 type FormState = {
   status: "idle" | "submitting" | "success" | "error";
   message: string;
@@ -25,71 +19,6 @@ const initialState: FormState = {
   status: "idle",
   message: "",
 };
-
-function logTracking(kind: "dataLayer" | "gtag", ...args: unknown[]) {
-  if (!isDevelopment) {
-    return;
-  }
-
-  console.info(`[tracking:${kind}]`, ...args);
-}
-
-function pushDataLayerEvent(payload: Record<string, unknown>) {
-  if (typeof window === "undefined") {
-    return;
-  }
-
-  const trackingWindow = window as TrackingWindow;
-  trackingWindow.dataLayer = trackingWindow.dataLayer || [];
-  trackingWindow.dataLayer.push(payload);
-  logTracking("dataLayer", payload);
-}
-
-function sendGtagEvent(eventName: string, params: Record<string, unknown>) {
-  if (typeof window === "undefined") {
-    return;
-  }
-
-  const trackingWindow = window as TrackingWindow;
-
-  if (typeof trackingWindow.gtag !== "function") {
-    return;
-  }
-
-  trackingWindow.gtag("event", eventName, params);
-  logTracking("gtag", eventName, params);
-}
-
-function trackSuccessfulContactFormSubmit() {
-  if (typeof window === "undefined") {
-    return;
-  }
-
-  const page_location = window.location.href;
-  const page_path = window.location.pathname;
-
-  pushDataLayerEvent({
-    event: 'form_submit',
-    lead_type: "form_submit",
-    form_name: contactFormName,
-    page_location,
-    page_path,
-  });
-
-  sendGtagEvent("generate_lead", {
-    event_category: "lead",
-    event_label: contactFormName,
-    form_name: contactFormName,
-    page_location,
-    page_path,
-  });
-
-  sendGtagEvent("form_submit", {
-    event_category: "lead",
-    event_label: contactFormName,
-    form_name: contactFormName,
-  });
-}
 
 export function ContactForm() {
   const [state, setState] = useState<FormState>(initialState);
@@ -115,9 +44,10 @@ export function ContactForm() {
       return;
     }
 
+    const validation = validateAttachments(files);
     const hasInvalidFile = files.some((file) => !hasAllowedAttachmentExtension(file.name));
 
-    setAttachmentError(hasInvalidFile ? attachmentErrorMessage : "");
+    setAttachmentError(validation ?? (hasInvalidFile ? attachmentErrorMessage : ""));
   }
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -142,11 +72,12 @@ export function ContactForm() {
       (file) => !hasAllowedAttachmentExtension(file.name),
     );
 
-    if (hasInvalidAttachment) {
-      setAttachmentError(attachmentErrorMessage);
+    const attachmentValidation = validateAttachments(selectedFiles);
+    if (hasInvalidAttachment || attachmentValidation) {
+      setAttachmentError(attachmentValidation ?? attachmentErrorMessage);
       setState({
         status: "error",
-        message: attachmentErrorMessage,
+        message: attachmentValidation ?? attachmentErrorMessage,
       });
       return;
     }
@@ -176,7 +107,7 @@ export function ContactForm() {
           payload.message ??
           "Richiesta inviata correttamente. Lo studio ti ricontatterà nel più breve tempo possibile.",
       });
-      trackSuccessfulContactFormSubmit();
+      trackEvent(CONTACT_SUCCESS_EVENT, { lead_type: "form_submit", form_name: "Modulo contatti ereditaesuccessioni.it" });
       setAttachmentError("");
       form.reset();
     } catch (error) {
@@ -197,19 +128,19 @@ export function ContactForm() {
       <div className="form-grid">
         <label className="field">
           <span>Nome</span>
-          <input name="name" required autoComplete="given-name" />
+          <input name="name" maxLength={CONTACT_LIMITS.name} required autoComplete="given-name" />
         </label>
         <label className="field">
           <span>Cognome</span>
-          <input name="surname" required autoComplete="family-name" />
+          <input name="surname" maxLength={CONTACT_LIMITS.surname} required autoComplete="family-name" />
         </label>
         <label className="field">
           <span>Telefono</span>
-          <input name="phone" type="tel" required autoComplete="tel" />
+          <input name="phone" maxLength={CONTACT_LIMITS.phone} type="tel" required autoComplete="tel" />
         </label>
         <label className="field">
           <span>Email</span>
-          <input name="email" type="email" required autoComplete="email" />
+          <input name="email" maxLength={CONTACT_LIMITS.email} type="email" required autoComplete="email" />
         </label>
         <label className="field field-full">
           <span>Ambito della richiesta</span>
@@ -228,6 +159,7 @@ export function ContactForm() {
           <span>Sintesi del caso</span>
           <textarea
             name="caseSummary"
+            maxLength={CONTACT_LIMITS.caseSummary}
             rows={6}
             required
             placeholder="Descrivi il problema concreto, chi e coinvolto, cosa si e gia bloccato e quali documenti hai disponibili."
@@ -244,7 +176,7 @@ export function ContactForm() {
           />
           <small className="muted">
             Puoi allegare documenti utili alla prima valutazione. Formati consigliati:
-            PDF, DOC, DOCX, JPG, JPEG, PNG.
+            PDF, DOC, DOCX, JPG, JPEG, PNG. Massimo 3 file, 2 MB ciascuno e 3,5 MB complessivi.
           </small>
           {attachmentError ? <small className="form-field-error">{attachmentError}</small> : null}
         </label>
@@ -261,7 +193,7 @@ export function ContactForm() {
         </label>
       </div>
 
-      {state.message ? <div className={successClassName}>{state.message}</div> : null}
+      {state.message ? <div role={state.status === "error" ? "alert" : "status"} className={successClassName}>{state.message}</div> : null}
 
       <button
         type="submit"

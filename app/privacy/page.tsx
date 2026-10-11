@@ -54,6 +54,14 @@ export default function PrivacyPage() {
           </div>
         </div>
       </section>
+      <section id="cookie" className="section">
+        <div className="shell stack">
+          <h2 className="display-sm">Cookie e strumenti di misurazione</h2>
+          <p>Al primo accesso gli strumenti facoltativi di Google sono disattivati. Puoi accettare, rifiutare o personalizzare la scelta dal pannello e riaprirlo tramite «Preferenze cookie» in fondo a ogni pagina.</p>
+          <p>La preferenza è memorizzata nel browser per 180 giorni. Le statistiche riguardano l’uso delle pagine e dei contatti; il marketing riguarda misurazione delle campagne e personalizzazione degli annunci Google. Rifiutare non impedisce di usare i contenuti o il modulo di contatto.</p>
+          <p>La mappa Google viene caricata soltanto quando premi «Mostra la mappa Google». I collegamenti a WhatsApp, email e telefono si aprono su tua iniziativa.</p>
+        </div>
+      </section>
       <FaqSection title="Domande frequenti sulla privacy e sui dati di contatto" items={privacyPageFaqs} />
     </>
   );

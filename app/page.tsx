@@ -66,7 +66,7 @@ const serviceLinks = [
   },
   {
     title: "Donazioni e collazione",
-    href: "/donazioni",
+    href: "/collazione-e-donazioni",
     text: "Per capire come incidono liberalità pregresse e beni trasferiti prima della morte.",
   },
   {

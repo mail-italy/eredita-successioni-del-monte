@@ -5,7 +5,8 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 import { ContactActions } from "@/components/contact-actions";
-import { contacts, navigationGroups, primaryNav, siteConfig } from "@/lib/content";
+import { contacts, primaryNav, siteConfig } from "@/lib/site-config";
+import { openConsentPreferences } from "@/lib/consent";
 
 function NavLink({
   href,
@@ -30,7 +31,9 @@ function NavLink({
   );
 }
 
-export function SiteHeader() {
+type NavigationGroup = { label: string; items: { href: string; label: string }[] };
+
+export function SiteHeader({ navigationGroups }: { navigationGroups: NavigationGroup[] }) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [expandedGroup, setExpandedGroup] = useState<string | null>(null);
 
@@ -160,6 +163,7 @@ export function SiteFooter() {
 
           <nav className="nav" aria-label="Footer">
             <Link href="/privacy">Privacy</Link>
+            <button type="button" className="privacy-preferences-link" onClick={openConsentPreferences}>Preferenze cookie</button>
             <Link href="/faq-tematiche">FAQ</Link>
             <Link href="/glossario-successorio">Glossario</Link>
             <Link href="/approfondimenti">Approfondimenti</Link>

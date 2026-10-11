@@ -23,10 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...articles.map((article) => `/approfondimenti/${article.slug}`),
   ];
 
-  return allPaths.map((path) => ({
+  return [...new Set(allPaths)].map((path) => ({
     url: `${siteConfig.domain}${path}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly",
-    priority: path === "" ? 1 : 0.7,
   }));
 }

@@ -7,7 +7,8 @@ import { AnalyticsScript } from "@/components/analytics-script";
 import { DeferredFloatingContact } from "@/components/deferred-floating-contact";
 import { JsonLd } from "@/components/json-ld";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
-import { siteConfig } from "@/lib/content";
+import { navigationGroups } from "@/lib/content";
+import { siteConfig } from "@/lib/site-config";
 import { organizationSchema, websiteSchema } from "@/lib/seo";
 
 const display = localFont({
@@ -36,17 +37,9 @@ export default function RootLayout({
   return (
     <html lang="it">
       <body className={display.variable}>
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-P2M4SXP4"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
-        </noscript>
         <AnalyticsScript />
         <JsonLd data={[websiteSchema(), organizationSchema()]} />
-        <SiteHeader />
+        <SiteHeader navigationGroups={navigationGroups} />
         <main>{children}</main>
         <SiteFooter />
         <DeferredFloatingContact />

@@ -1,182 +1,74 @@
-import Script from "next/script";
+"use client";
+
+import { useEffect } from "react";
+import { CookieConsent } from "@/components/cookie-consent";
+import { CONSENT_EVENT, CONSENT_KEY, DENIED_CONSENT, googleConsent, hasTagConsent, isTrackingHost, readConsent, type ConsentChange, type ConsentPreferences } from "@/lib/consent";
+import { trackEvent } from "@/lib/tracking";
 
 const GTM_ID = "GTM-P2M4SXP4";
-const isDevelopment = process.env.NODE_ENV !== "production";
+
+function clearMeasurementCookies(preferences: ConsentPreferences) {
+  for (const part of document.cookie.split(";")) {
+    const name = part.split("=")[0].trim();
+    if ((!preferences.analytics && /^_ga(?:_|$)|^_gid$|^_gat/.test(name)) || (!preferences.marketing && /^_gcl_/.test(name))) {
+      for (const domain of ["", window.location.hostname, ".ereditaesuccessioni.it"]) {
+        document.cookie = `${name}=; Max-Age=0; Path=/;${domain ? ` Domain=${domain};` : ""} SameSite=Lax; Secure`;
+      }
+    }
+  }
+}
 
 export function AnalyticsScript() {
-  const trackingBootstrap = `
+  useEffect(() => {
+    // Local development, preview hosts and tests never load Google tags.
+    if (!isTrackingHost(window.location.hostname)) return;
+    let current: ConsentPreferences = DENIED_CONSENT;
     window.dataLayer = window.dataLayer || [];
-    window.__leadTrackingDebug = ${isDevelopment ? "true" : "false"};
+    // Google Tag expects an Arguments object in the queue, not a rest-parameter array.
+    // eslint-disable-next-line prefer-rest-params
+    window.gtag = window.gtag || function () { window.dataLayer?.push(arguments); };
+    window.gtag("consent", "default", googleConsent(DENIED_CONSENT));
+    window.gtag("set", "ads_data_redaction", true);
 
-    window.__pushTrackingEvent = function(payload) {
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push(payload);
-
-      if (window.__leadTrackingDebug) {
-        console.info('[tracking:dataLayer]', payload);
+    const apply = (next: ConsentPreferences, canReload = true) => {
+      const revoked = (current.analytics && !next.analytics) || (current.marketing && !next.marketing);
+      current = next;
+      window.__ereditaAnalyticsAllowed = next.analytics && hasTagConsent(next);
+      window.gtag?.("consent", "update", googleConsent(next));
+      if (revoked) {
+        clearMeasurementCookies(next);
+        // Already-running third-party scripts cannot be unloaded reliably.
+        // Reload with the saved choice so the gate is applied before tags restart.
+        if (window.__ereditaGtmLoaded && canReload) { window.location.reload(); return; }
+      }
+      if (!hasTagConsent(next) || window.__ereditaGtmLoaded) return;
+      window.__ereditaGtmLoaded = true;
+      window.dataLayer?.push({ "gtm.start": Date.now(), event: "gtm.js" });
+      const script = document.createElement("script");
+      script.id = "google-tag-manager-consented";
+      script.async = true;
+      script.src = `https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`;
+      document.head.appendChild(script);
+    };
+    apply(readConsent() ?? DENIED_CONSENT);
+    const changed = (event: Event) => { const choice = (event as CustomEvent<ConsentChange>).detail; apply(choice, choice.canReload); };
+    const storageChanged = (event: StorageEvent) => { if (event.key === CONSENT_KEY) apply(readConsent() ?? DENIED_CONSENT); };
+    const clicked = (event: MouseEvent) => {
+      if (!(event.target instanceof Element)) return;
+      const anchor = event.target.closest("a[href]");
+      const href = anchor?.getAttribute("href")?.toLowerCase() ?? "";
+      if (/^(https?:\/\/(wa\.me|api\.whatsapp\.com)\/|whatsapp:)/.test(href)) trackEvent("click_whatsapp", { lead_type: "whatsapp" });
+      else if (href.startsWith("tel:")) trackEvent("click_phone", { lead_type: "phone" });
+      else if (href.startsWith("mailto:")) trackEvent("click_email", { lead_type: "email" });
+      else {
+        const target = event.target.closest<HTMLElement>("[data-track-event]");
+        if (target?.dataset.trackEvent) trackEvent(target.dataset.trackEvent, { event_label: target.dataset.trackLabel ?? "" });
       }
     };
-
-    window.__sendGtagEvent = function(eventName, params) {
-      if (typeof window.gtag !== 'function') {
-        return;
-      }
-
-      window.gtag('event', eventName, params);
-
-      if (window.__leadTrackingDebug) {
-        console.info('[tracking:gtag]', eventName, params);
-      }
-    };
-
-    window.addEventListener(
-      'click',
-      function(event) {
-        if (!(event.target instanceof Element)) {
-          return;
-        }
-
-        var anchor = event.target.closest('a[href]');
-
-        if (anchor) {
-          var rawHref = anchor.getAttribute('href') || '';
-          var normalizedHref = rawHref.toLowerCase();
-          var resolvedHref = anchor.href || rawHref;
-          var pageContext = {
-            page_location: window.location.href,
-            page_path: window.location.pathname
-          };
-
-          if (
-            normalizedHref.indexOf('https://wa.me/') === 0 ||
-            normalizedHref.indexOf('http://wa.me/') === 0 ||
-            normalizedHref.indexOf('https://api.whatsapp.com/') === 0 ||
-            normalizedHref.indexOf('http://api.whatsapp.com/') === 0 ||
-            normalizedHref.indexOf('whatsapp://') === 0
-          ) {
-            window.__pushTrackingEvent({
-              event: 'click_whatsapp',
-              lead_type: 'whatsapp',
-              link_url: resolvedHref,
-              page_location: pageContext.page_location,
-              page_path: pageContext.page_path
-            });
-
-            window.__sendGtagEvent('click_whatsapp', {
-              event_category: 'lead',
-              event_label: 'Click WhatsApp',
-              link_url: resolvedHref,
-              page_location: pageContext.page_location,
-              page_path: pageContext.page_path
-            });
-
-            return;
-          }
-
-          if (normalizedHref.indexOf('tel:') === 0) {
-            window.__pushTrackingEvent({
-              event: 'click_phone',
-              lead_type: 'phone',
-              phone_number: resolvedHref,
-              page_location: pageContext.page_location,
-              page_path: pageContext.page_path
-            });
-
-            window.__sendGtagEvent('chiamata_sito', {
-              event_category: 'lead',
-              event_label: 'Click telefono sito',
-              phone_number: resolvedHref,
-              page_location: pageContext.page_location,
-              page_path: pageContext.page_path
-            });
-
-            return;
-          }
-
-          if (normalizedHref.indexOf('mailto:') === 0) {
-            window.__pushTrackingEvent({
-              event: 'click_email',
-              lead_type: 'email',
-              email_link: resolvedHref,
-              page_location: pageContext.page_location,
-              page_path: pageContext.page_path
-            });
-
-            window.__sendGtagEvent('click_email', {
-              event_category: 'lead',
-              event_label: 'Click email',
-              email_link: resolvedHref,
-              page_location: pageContext.page_location,
-              page_path: pageContext.page_path
-            });
-
-            return;
-          }
-        }
-
-        var target = event.target instanceof Element
-          ? event.target.closest('[data-track-event]')
-          : null;
-
-        if (!target) {
-          return;
-        }
-
-        var trackEvent = target.getAttribute('data-track-event');
-
-        if (!trackEvent) {
-          return;
-        }
-
-        window.__pushTrackingEvent({
-          event: trackEvent,
-          event_category: 'engagement',
-          event_label: target.getAttribute('data-track-label') || undefined
-        });
-      },
-      { passive: true }
-    );
-  `;
-
-  const gtmBootstrap = `
-    (function() {
-      var loadGtm = function() {
-        if (window.__gtmLoaded) {
-          return;
-        }
-
-        window.__gtmLoaded = true;
-        window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-
-        var script = document.createElement('script');
-        script.async = true;
-        script.src = 'https://www.googletagmanager.com/gtm.js?id=${GTM_ID}';
-        document.head.appendChild(script);
-      };
-
-      if ('requestIdleCallback' in window) {
-        requestIdleCallback(loadGtm, { timeout: 3500 });
-        return;
-      }
-
-      window.setTimeout(loadGtm, 2200);
-    })();
-  `;
-
-  return (
-    <>
-      <Script
-        id="tracking-delegation"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: trackingBootstrap }}
-      />
-
-      <Script
-        id="google-tag-manager"
-        strategy="lazyOnload"
-        dangerouslySetInnerHTML={{ __html: gtmBootstrap }}
-      />
-    </>
-  );
+    window.addEventListener(CONSENT_EVENT, changed);
+    window.addEventListener("storage", storageChanged);
+    window.addEventListener("click", clicked, { passive: true });
+    return () => { window.removeEventListener(CONSENT_EVENT, changed); window.removeEventListener("storage", storageChanged); window.removeEventListener("click", clicked); };
+  }, []);
+  return <CookieConsent />;
 }

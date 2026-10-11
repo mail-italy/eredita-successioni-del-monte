@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 import { scrollToContactFormIfPresent } from "@/components/contact-form-scroll";
 import { ContactActions, useRomeTimeState } from "@/components/contact-actions";
-import { contacts } from "@/lib/content";
+import { contacts } from "@/lib/site-config";
 
 function ContactIcon({
   kind,
@@ -79,7 +79,8 @@ type MobileContactAction = {
 export function FloatingContact() {
   const pathname = usePathname();
   const timeState = useRomeTimeState();
-  const [mobileContactsOpen, setMobileContactsOpen] = useState(false);
+  const [openPathname, setOpenPathname] = useState<string | null>(null);
+  const mobileContactsOpen = openPathname === pathname;
 
   const mobileActions: MobileContactAction[] = [];
 
@@ -124,17 +125,13 @@ export function FloatingContact() {
   );
 
   useEffect(() => {
-    setMobileContactsOpen(false);
-  }, [pathname]);
-
-  useEffect(() => {
     if (!mobileContactsOpen) {
       return;
     }
 
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
-        setMobileContactsOpen(false);
+        setOpenPathname(null);
       }
     };
 
@@ -154,7 +151,7 @@ export function FloatingContact() {
           type="button"
           className="mobile-speed-dial-overlay"
           aria-label="Chiudi il menu contatti rapidi"
-          onClick={() => setMobileContactsOpen(false)}
+          onClick={() => setOpenPathname(null)}
         />
       ) : null}
 
@@ -187,7 +184,7 @@ export function FloatingContact() {
                       scrollToContactFormIfPresent(event);
                     }
 
-                    setMobileContactsOpen(false);
+                    setOpenPathname(null);
                   }}
                 >
                   {action.icon}
@@ -203,7 +200,7 @@ export function FloatingContact() {
           aria-label={mobileContactsOpen ? "Chiudi i contatti rapidi" : "Apri i contatti rapidi"}
           aria-expanded={mobileContactsOpen}
           aria-controls="mobile-contact-sheet"
-          onClick={() => setMobileContactsOpen((value) => !value)}
+          onClick={() => setOpenPathname(mobileContactsOpen ? null : pathname)}
         >
           <span className="mobile-contact-fab-icon" aria-hidden="true">
             {mobileContactsOpen ? "×" : "+"}

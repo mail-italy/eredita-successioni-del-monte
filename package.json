@@ -6,20 +6,32 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint . --max-warnings=0",
+    "test": "tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "next": "^16.2.4",
-    "nodemailer": "^8.0.5",
+    "next": "16.3.8",
+    "nodemailer": "10.1.0",
     "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react-dom": "^19.2.5",
+    "sharp": "0.35.5"
   },
   "devDependencies": {
     "@types/node": "22.15.3",
-    "@types/nodemailer": "^8.0.0",
+    "@types/nodemailer": "8.0.2",
     "@types/react": "19.1.2",
     "@types/react-dom": "19.1.2",
-    "sharp": "^0.34.5",
-    "typescript": "5.8.3"
+    "eslint": "9.39.4",
+    "tsx": "4.23.15",
+    "typescript": "5.8.3",
+    "@eslint/js": "9.39.4",
+    "typescript-eslint": "8.71.1",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "globals": "17.4.0"
+  },
+  "engines": {
+    "node": ">=20.9.0"
   }
 }

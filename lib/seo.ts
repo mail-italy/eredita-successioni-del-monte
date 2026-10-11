@@ -14,10 +14,13 @@ type BuildMetadataInput = {
   description: string;
   path: string;
   keywords?: string[];
+  image?: string;
+  type?: "website" | "article";
 };
 
 export function buildMetadata(input: BuildMetadataInput): Metadata {
   const canonical = new URL(input.path, siteConfig.domain).toString();
+  const image = new URL(input.image ?? "/images/homepage-hero-desktop.webp", siteConfig.domain).toString();
 
   return {
     title: {
@@ -33,11 +36,13 @@ export function buildMetadata(input: BuildMetadataInput): Metadata {
       description: input.description,
       url: canonical,
       siteName: siteConfig.brand,
-      type: "website",
+      type: input.type ?? "website",
+      images: [{ url: image, alt: input.title }],
       locale: siteConfig.locale,
     },
     twitter: {
       card: "summary_large_image",
+      images: [image],
       title: input.title,
       description: input.description,
     },
@@ -47,7 +52,9 @@ export function buildMetadata(input: BuildMetadataInput): Metadata {
 export function organizationSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": ["LegalService", "Attorney"],
+    "@type": "LegalService",
+    "@id": `${siteConfig.domain}/#organization`,
+    url: `${siteConfig.domain}/`,
     name: siteConfig.brand,
     legalName: siteConfig.studio,
     areaServed: ["IT", contacts.city],
@@ -59,7 +66,7 @@ export function organizationSchema() {
       addressLocality: contacts.city,
       addressCountry: "IT",
     },
-    sameAs: [contacts.whatsappHref],
+    sameAs: ["https://www.delmontestudiolegale.it/"],
   };
 }
 
@@ -67,13 +74,11 @@ export function websiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": `${siteConfig.domain}/#website`,
+    publisher: { "@id": `${siteConfig.domain}/#organization` },
     name: siteConfig.brand,
     url: siteConfig.domain,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${siteConfig.domain}/approfondimenti?query={search_term_string}`,
-      "query-input": "required name=search_term_string",
-    },
+
   };
 }
 
@@ -124,6 +129,7 @@ export function serviceSchema(page: ServicePage) {
     description: page.description,
     provider: {
       "@type": "LegalService",
+      "@id": `${siteConfig.domain}/#organization`,
       name: siteConfig.studio,
       areaServed: ["IT", contacts.city],
     },
@@ -135,14 +141,19 @@ export function articleSchema(article: ArticleEntry) {
   return {
     "@context": "https://schema.org",
     "@type": "Article",
+    "@id": `${siteConfig.domain}/approfondimenti/${article.slug}#article`,
     headline: article.title,
+    image: `${siteConfig.domain}/images/homepage-hero-desktop.webp`,
     description: article.excerpt,
     author: {
-      "@type": "Person",
-      name: "Studio Legale Del Monte",
+      "@type": "Organization",
+      "@id": `${siteConfig.domain}/#organization`,
+      name: siteConfig.studio,
+      url: `${siteConfig.domain}/chi-siamo`,
     },
     publisher: {
       "@type": "Organization",
+      "@id": `${siteConfig.domain}/#organization`,
       name: siteConfig.brand,
     },
     mainEntityOfPage: new URL(`/approfondimenti/${article.slug}`, siteConfig.domain).toString(),

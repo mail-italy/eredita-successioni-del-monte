@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,7 +5,7 @@ import { ContactFormLink } from "@/components/contact-form-link";
 import { ContactSection, FaqSection, SpecialInheritanceAssetsSection } from "@/components/sections";
 import { JsonLd } from "@/components/json-ld";
 import { contacts } from "@/lib/content";
-import { breadcrumbSchema, faqSchema } from "@/lib/seo";
+import { breadcrumbSchema, faqSchema, buildMetadata } from "@/lib/seo";
 
 const pageFaqs = [
   {
@@ -41,21 +40,25 @@ const pageFaqs = [
   },
 ];
 
-export const metadata: Metadata = {
+export const metadata = buildMetadata({
+  path: "/divisione-gioielli-eredita",
+  image: "/images/generated/gioielli-eredita-og.webp",
   title: "Gioielli ereditati trattenuti da un erede: avvocato per divisione e restituzione",
   description:
     "Assistenza legale su gioielli ereditati trattenuti da un erede, inventario, stima, restituzione, rendiconto e divisione tra coeredi.",
-};
+});
 
 export default function DivisioneGioielliEreditaPage() {
   const legalServiceSchema = {
     "@context": "https://schema.org",
-    "@type": "LegalService",
+    "@type": "Service",
+    url: "https://ereditaesuccessioni.it/divisione-gioielli-eredita",
     name: "Divisione gioielli eredità",
     description:
       "Assistenza legale per inventario, stima, accordo tra eredi o divisione giudiziale di gioielli e preziosi ereditati.",
     provider: {
-      "@type": "Attorney",
+      "@type": "LegalService",
+      "@id": "https://ereditaesuccessioni.it/#organization",
       name: "Studio Legale Del Monte",
     },
     areaServed: ["IT", contacts.city],
@@ -192,7 +195,7 @@ export default function DivisioneGioielliEreditaPage() {
                     style={{ maxWidth: "46ch", lineHeight: 1.65 }}
                   >
                     Chiama lo Studio al {contacts.phoneDisplay} oppure invia una
-                    richiesta descrivendo il caso e l'eventuale inventario
+                    richiesta descrivendo il caso e l’eventuale inventario
                     disponibile. WhatsApp resta secondario.
                   </p>
                 </div>

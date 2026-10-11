@@ -24,6 +24,10 @@ export default function FaqPage() {
         ]}
       />
       <section className="section-tight">
+        <div className="shell stack">
+          <p className="eyebrow">Domande e risposte</p>
+          <h1 className="display-sm">FAQ sul diritto successorio</h1>
+        </div>
         <div className="shell meta-grid">
           <div className="mini-card">
             <h3>Dubbi ricorrenti</h3>

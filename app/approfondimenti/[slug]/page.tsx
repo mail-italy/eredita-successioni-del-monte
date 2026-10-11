@@ -28,6 +28,7 @@ export async function generateMetadata({ params }: Props) {
 
   return buildMetadata({
     title: article.title,
+    type: "article",
     description: article.excerpt,
     path: `/approfondimenti/${article.slug}`,
   });

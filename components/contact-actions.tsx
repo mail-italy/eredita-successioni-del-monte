@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 import { scrollToContactFormIfPresent } from "@/components/contact-form-scroll";
-import { contacts } from "@/lib/content";
+import { contacts } from "@/lib/site-config";
 
 type ContactActionsProps = {
   scope: string;
@@ -44,14 +44,11 @@ export function useRomeTimeState() {
 
 function useRomeTimeStateWhen(enabled: boolean) {
   const [timeState, setTimeState] = useState<ReturnType<typeof getRomeTimeState> | null>(
-    enabled ? getRomeTimeState(new Date()) : null,
+    null,
   );
 
   useEffect(() => {
-    if (!enabled) {
-      setTimeState(null);
-      return;
-    }
+    if (!enabled) return;
 
     let timer = 0;
 
@@ -61,12 +58,12 @@ function useRomeTimeStateWhen(enabled: boolean) {
       timer = window.setTimeout(schedule, 60000 - (Date.now() % 60000) + 50);
     };
 
-    schedule();
+    timer = window.setTimeout(schedule, 0);
 
     return () => window.clearTimeout(timer);
   }, [enabled]);
 
-  return timeState;
+  return enabled ? timeState : null;
 }
 
 export function ContactActions({

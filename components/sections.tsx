@@ -589,14 +589,13 @@ export function HomeVideoSection() {
             Un confronto diretto, dopo aver chiarito i nodi principali della successione
           </h2>
           <p className="lead">
-            Il video resta disponibile su desktop e mobile come approfondimento
-            visivo dello studio, ma entra solo dopo la sezione dedicata alle
-            questioni ereditarie più frequenti e viene caricato in modo differito.
+            Conosci lo studio e il metodo con cui affrontiamo le questioni
+            ereditarie, dalla lettura dei documenti al confronto sulle possibili
+            iniziative.
           </p>
           <p className="muted">
-            In questo modo la homepage mantiene un primo impatto rapido e
-            istituzionale, lasciando spazio al video in una posizione più coerente
-            con il percorso di lettura.
+            Ogni situazione parte dai fatti e dai documenti disponibili.
+            Puoi descrivere il tuo caso attraverso il modulo di contatto.
           </p>
         </div>
 
@@ -865,19 +864,6 @@ export function ContactSection({
     </>
   );
 }
-
-const serviceLandingTitles: Record<string, string> = {
-  "avvocato-successioni": "Hai bisogno di un avvocato per una successione complessa?",
-  "impugnazione-testamento": "Vuoi contestare un testamento?",
-  "divisione-ereditaria": "La divisione ereditaria è bloccata?",
-  "lesione-di-legittima": "La tua quota di legittima è stata lesa?",
-  "collazione-e-donazioni": "Donazioni fatte in vita alterano l’eredità?",
-  "successioni-internazionali": "Ci sono beni o eredi all’estero?",
-  "mediazione-ereditaria": "Vuoi evitare una causa tra eredi?",
-  "eredita-giacente": "L’eredità è senza gestione o senza eredi certi?",
-  "rinuncia-eredita": "Conviene rinunciare all’eredità?",
-  "recupero-somme-ereditarie": "Devi recuperare somme ereditarie o conti del defunto?",
-};
 
 type ServiceSectionTitles = Partial<{
   frequentCases: string;
@@ -1515,7 +1501,7 @@ function AdsServicePageTemplate({
             </h2>
             <p className="muted">
               Un confronto iniziale aiuta a capire se serva una verifica tecnica,
-              una diffida, una mediazione o un'impostazione piu strutturata.
+              una diffida, una mediazione o un’impostazione più strutturata.
             </p>
             <ul className="list">
               {service.whenToCall.map((item) => (
@@ -2159,6 +2145,7 @@ export function ArticlePageTemplate({
               <span>{article.title}</span>
             </nav>
             <p className="eyebrow">{article.category}</p>
+            <p className="muted">A cura dello <Link href="/chi-siamo">Studio Legale Del Monte</Link></p>
             <h1 className="display">{article.title}</h1>
             <p className="lead">{article.answerFirst}</p>
             <div className="tag-list">
