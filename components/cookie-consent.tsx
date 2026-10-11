@@ -47,12 +47,13 @@ export function CookieConsent() {
 
   return <>
     {notice ? <section className="cookie-notice" aria-label="Scelte sui cookie">
-      <div className="cookie-notice-copy"><h2>La tua privacy</h2><p>Usiamo strumenti Google per statistiche e marketing solo con il tuo consenso. Puoi rifiutare e continuare a navigare. <Link href="/privacy#cookie">Informazioni sui cookie</Link>.</p></div>
+      <div className="cookie-notice-copy"><h2>La tua privacy</h2><p>Strumenti Google per statistiche e marketing solo con il tuo consenso. Puoi navigare senza accettare. <Link href="/privacy#cookie">Informazioni sui cookie</Link>.</p></div>
       {storageWarning ? <p role="status">Non è stato possibile salvare la scelta nel browser. Gli strumenti facoltativi restano disattivati; potresti dover scegliere di nuovo alla prossima visita.</p> : null}
       <div className="cookie-actions">
         <button type="button" onClick={() => choose(DENIED_CONSENT)}>Rifiuta tutti</button>
-        <button type="button" onClick={() => { returnFocus.current = document.activeElement as HTMLElement; dialog.current?.showModal(); }}>Personalizza</button>
         <button type="button" onClick={() => choose({ analytics: true, marketing: true })}>Accetta tutti</button>
+        <button type="button" onClick={() => { returnFocus.current = document.activeElement as HTMLElement; dialog.current?.showModal(); }}>Personalizza</button>
+        <button type="button" onClick={() => choose(DENIED_CONSENT)}>Chiudi senza accettare</button>
       </div>
     </section> : null}
     <dialog ref={dialog} className="cookie-dialog" aria-labelledby="cookie-title" aria-describedby="cookie-description" onKeyDown={trapDialogFocus} onCancel={(event) => { event.preventDefault(); closeDialog(); }}>

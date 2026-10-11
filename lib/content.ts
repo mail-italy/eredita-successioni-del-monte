@@ -1122,7 +1122,7 @@ const baseMoneyPages: ServicePage[] = [
 const servicePageEnhancements: Partial<Record<string, Partial<ServicePage>>> = {
   "avvocato-successioni": {
     variant: "ads",
-    seoTitle: "Avvocato successioni Roma: assistenza su eredità e testamenti",
+    seoTitle: "Avvocato successioni Roma | Eredità e Successioni",
     seoDescription:
       "Studio legale a Roma per successioni ereditarie, testamenti, divisioni tra eredi, legittima, donazioni, conti correnti e mediazione.",
     keywords: [
@@ -1135,7 +1135,7 @@ const servicePageEnhancements: Partial<Record<string, Partial<ServicePage>>> = {
     ],
     heroTitle: "Avvocato successioni a Roma per eredità, testamenti e divisioni",
     heroIntro:
-      "Se la successione coinvolge immobili, conti, testamento contestato o conflitti tra eredi, serve una valutazione tecnica rapida. Lo Studio Legale Del Monte, con sede a Roma, assiste su successioni complesse in fase stragiudiziale, di mediazione e giudiziale.",
+      "Una successione può coinvolgere un testamento, beni da dividere, donazioni pregresse o contrasti tra eredi. Il primo passo è individuare il problema e raccogliere i documenti pertinenti. In questa area trovi i percorsi dedicati ai diversi temi e puoi contattare lo Studio Legale Del Monte per l’esame della tua situazione.",
     introParagraphs: [
       "Questa pagina è pensata per chi cerca un avvocato successioni a Roma e vuole capire subito se il problema riguarda quote, testamento, beni indivisi, donazioni o somme del defunto.",
       "L'obiettivo della prima analisi non è dare una risposta generica, ma individuare quali documenti servono, quali rischi esistono e quale percorso conviene impostare fin dall'inizio.",
@@ -2550,9 +2550,9 @@ export const hubPages: HubPage[] = [
 export const articles: ArticleEntry[] = [
   {
     slug: "quota-di-legittima-come-si-calcola",
-    title: "Quota di legittima: come si calcola davvero e quali errori evitare",
+    title: "Quota di legittima: beni, debiti, donazioni e documenti da ricostruire",
     excerpt:
-      "Guida answer-first alla quota di legittima: chi ne ha diritto, come si ricostruisce la massa e perché le donazioni cambiano il risultato.",
+      "Beni ereditari, debiti e donazioni: gli elementi da ricostruire e i documenti utili per valutare la quota di legittima.",
     answerFirst:
       "La quota di legittima non si calcola guardando solo ai beni rimasti al momento della morte. Bisogna ricostruire la massa ereditaria tenendo conto anche di debiti e donazioni rilevanti, per poi distinguere tra quota disponibile e quota riservata ai legittimari.",
     category: "Legittima",
@@ -2594,9 +2594,9 @@ export const articles: ArticleEntry[] = [
   },
   {
     slug: "come-funziona-successione-legittima",
-    title: "Successione legittima: come funziona quando manca il testamento",
+    title: "Successione senza testamento: quando si applicano le regole di legge",
     excerpt:
-      "Chi eredita se non c’è testamento? Una guida chiara alle regole della successione legittima e ai casi più frequenti.",
+      "Quando manca un testamento valido o il patrimonio è regolato solo in parte, occorre chiarire beni, debiti e rapporti tra gli eredi.",
     answerFirst:
       "La successione legittima si applica quando manca un testamento valido o quando il testamento non disciplina tutto il patrimonio. In quel caso la legge stabilisce chi eredita e in quale misura, in base ai rapporti di parentela esistenti.",
     category: "Successione legittima",
@@ -2625,9 +2625,9 @@ export const articles: ArticleEntry[] = [
   },
   {
     slug: "successione-legittima-con-coniuge-e-figli",
-    title: "Successione legittima con coniuge e figli: quote e casi pratici",
+    title: "Coniuge e figli nella successione: cosa verificare prima della divisione",
     excerpt:
-      "Le quote cambiano in base al numero dei figli e alla composizione della famiglia. Ecco cosa verificare davvero.",
+      "Patrimonio, donazioni pregresse e beni indivisi: gli elementi da verificare nella successione con coniuge e figli.",
     answerFirst:
       "Nella successione legittima con coniuge e figli le quote non sono sempre identiche: cambiano in base al numero dei figli e alla struttura familiare. Per applicarle bene bisogna però considerare anche patrimonio, eventuali donazioni e successiva divisione dei beni.",
     category: "Successione legittima",
@@ -2650,9 +2650,9 @@ export const articles: ArticleEntry[] = [
   },
   {
     slug: "divisione-gioielli-eredita",
-    title: "Divisione dei gioielli in eredità: prova, valore e criteri pratici",
+    title: "Gioielli in eredità: inventario, fotografie e stima prima della divisione",
     excerpt:
-      "I gioielli ereditari generano conflitti frequenti perché il problema è spesso provare esistenza, disponibilità e valore prima ancora della divisione.",
+      "Inventario, fotografie, stime e detenzione attuale: cosa raccogliere per ricostruire i gioielli compresi nell’eredità.",
     answerFirst:
       "La divisione dei gioielli in eredità non si risolve con una regola astratta sulla quota. Prima bisogna dimostrare quali beni esistono, dove si trovano, chi li detiene e quale valore hanno.",
     category: "Divisione ereditaria",
@@ -2676,9 +2676,9 @@ export const articles: ArticleEntry[] = [
   },
   {
     slug: "testamento-quando-si-puo-contestare",
-    title: "Quando si può contestare un testamento",
+    title: "Contestare un testamento: motivi e verifiche preliminari",
     excerpt:
-      "Contestare un testamento è possibile solo in presenza di vizi o lesioni giuridicamente rilevanti. Ecco i criteri da usare prima di iniziare una causa.",
+      "Motivi di contestazione e verifiche preliminari su azione, interesse concreto, prove disponibili e conseguenze patrimoniali.",
     answerFirst:
       "Un testamento si può contestare quando esistono motivi giuridicamente fondati, come vizi formali, incapacità del testatore, autenticità dubbia o lesione della quota di legittima. Il semplice dissenso familiare non basta.",
     category: "Testamento",
@@ -2706,9 +2706,9 @@ export const articles: ArticleEntry[] = [
   },
   {
     slug: "conti-correnti-del-de-cuius-cosa-sapere",
-    title: "Conti correnti del de cuius: cosa sapere su blocco, prelievi e recupero somme",
+    title: "Conti del defunto: ricostruire prelievi e movimenti contestati",
     excerpt:
-      "Come affrontare conti bloccati, cointestazioni e movimenti sospetti nella successione.",
+      "Bonifici, prelievi e spostamenti di somme prima del decesso: perché ricostruire la cronologia dei movimenti contestati.",
     answerFirst:
       "I conti correnti del de cuius non sono solo un adempimento bancario. Possono incidere su ricostruzione del patrimonio, divisione, legittima, donazioni indirette e recupero di somme contestate.",
     category: "Patrimonio ereditario",
@@ -2731,9 +2731,9 @@ export const articles: ArticleEntry[] = [
   },
   {
     slug: "mediazione-ereditaria-quando-conviene",
-    title: "Mediazione ereditaria: quando conviene davvero",
+    title: "Mediazione ereditaria: preparare documenti e dati prima dell’incontro",
     excerpt:
-      "Una mediazione ereditaria funziona solo se arriva con un dossier preparato. Altrimenti diventa un rinvio costoso.",
+      "Patrimonio, quote, beni, donazioni e punti di conflitto: gli elementi da mettere in ordine prima della mediazione ereditaria.",
     answerFirst:
       "La mediazione ereditaria conviene quando il caso è già stato messo in ordine: patrimonio, quote, beni, donazioni, valori e punti di conflitto devono essere chiari prima dell’incontro.",
     category: "Mediazione",
@@ -2756,9 +2756,9 @@ export const articles: ArticleEntry[] = [
   },
   {
     slug: "eredita-giacente-significato-e-rischi",
-    title: "Eredità giacente: significato, nomina del curatore e rischi da conoscere",
+    title: "Eredità giacente: perché è importante la gestione dei beni",
     excerpt:
-      "Cos’è l’eredità giacente, quando si apre e quali conseguenze pratiche comporta per beni, debiti ed eredi.",
+      "La gestione dell’eredità giacente e la sua importanza per la conservazione dei beni e i rapporti con i creditori.",
     answerFirst:
       "L’eredità giacente è una fase in cui l’eredità non è ancora stata accettata e necessita di amministrazione. Serve a evitare vuoti di gestione su beni e rapporti patrimoniali del defunto.",
     category: "Eredità giacente",
@@ -2781,9 +2781,9 @@ export const articles: ArticleEntry[] = [
   },
   {
     slug: "rinuncia-eredita-costi-e-conseguenze",
-    title: "Rinuncia all’eredità: costi, conseguenze e errori da evitare",
+    title: "Rinuncia all’eredità: verificare debiti e atti già compiuti",
     excerpt:
-      "Quando rinunciare, cosa succede dopo e perché l’accettazione tacita è il rischio più sottovalutato.",
+      "Beni, debiti e comportamenti già tenuti: cosa esaminare prima della rinuncia, con attenzione al rischio di accettazione tacita.",
     answerFirst:
       "Rinunciare all’eredità può essere opportuno, ma solo dopo aver verificato beni, debiti e comportamenti già tenuti. Il rischio maggiore è credere di poter rinunciare dopo aver compiuto atti che valgono come accettazione tacita.",
     category: "Rinuncia",
@@ -2806,9 +2806,9 @@ export const articles: ArticleEntry[] = [
   },
   {
     slug: "successioni-internazionali-cosa-cambia",
-    title: "Successioni internazionali: cosa cambia davvero quando c’è un elemento estero",
+    title: "Successione internazionale: individuare la legge applicabile",
     excerpt:
-      "Residenza, legge applicabile, immobili esteri e documenti: la guida per non affrontare una successione internazionale con schemi solo italiani.",
+      "Individuare l’elemento estero e la legge che governa la successione prima di discutere quote e ripartizione dei beni.",
     answerFirst:
       "Nelle successioni internazionali cambia prima di tutto il metodo: bisogna identificare l’elemento estero rilevante, la legge applicabile e l’autorità competente, prima ancora di discutere quote e ripartizioni.",
     category: "Successioni internazionali",
