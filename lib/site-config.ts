@@ -13,6 +13,9 @@ export const siteConfig = {
 const whatsappBaseMessage =
   "Messaggio proveniente dal sito Eredità e Successioni.\n\nBuongiorno, desidero richiedere una prima valutazione su una questione di eredità o successione.";
 
+const openingTime = "09:30";
+const closingTime = "19:00";
+
 export const contacts = {
   phoneDisplay: "+39 06 97615122",
   phoneHref: "tel:+390697615122",
@@ -21,7 +24,9 @@ export const contacts = {
   emailHref: "mailto:info@delmontestudiolegale.it",
   address: "Via Costanza Baudana Vaccolini, 5 – 00153 Roma",
   city: "Roma",
-  officeHours: "Lunedì–Venerdì, 09:00–19:30",
+  openingTime,
+  closingTime,
+  officeHours: `Lunedì–Venerdì, ${openingTime}–${closingTime}`,
   mapsUrl:
     "https://www.google.com/maps/search/?api=1&query=Via+Costanza+Baudana+Vaccolini+5+00153+Roma",
   mapsEmbedUrl:

@@ -3395,7 +3395,7 @@ export const contactPageFaqs: FaqItem[] = [
   {
     question: "Quando compare il pulsante Chiama?",
     answer:
-      "Compare nella fascia 09:00–19:30. Fuori fascia restano visibili WhatsApp, Mail e il pulsante Invia una richiesta che porta direttamente al modulo contatti.",
+      "Compare dal lunedì al venerdì nella fascia 09:30–19:00. Fuori fascia restano visibili WhatsApp, Mail e il pulsante Invia una richiesta che porta direttamente al modulo contatti.",
   },
   {
     question: "Posso inviare documenti già nel primo contatto?",

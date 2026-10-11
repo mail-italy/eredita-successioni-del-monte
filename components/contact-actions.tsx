@@ -31,10 +31,12 @@ export function getRomeTimeState(date: Date) {
   const weekday = parts.find((part) => part.type === "weekday")?.value?.toLowerCase() ?? "";
   const totalMinutes = hour * 60 + minute;
   const isWeekday = !weekday.includes("sab") && !weekday.includes("dom");
+  const [openingHour, openingMinute] = contacts.openingTime.split(":").map(Number);
+  const [closingHour, closingMinute] = contacts.closingTime.split(":").map(Number);
 
   return {
     label: `${String(hour).padStart(2, "0")}:${String(minute).padStart(2, "0")}`,
-    canCall: isWeekday && totalMinutes >= 540 && totalMinutes <= 1170,
+    canCall: isWeekday && totalMinutes >= openingHour * 60 + openingMinute && totalMinutes < closingHour * 60 + closingMinute,
   };
 }
 
@@ -137,7 +139,7 @@ export function ContactActions({
 export function ContactAvailabilityNote() {
   return (
     <p className="muted">
-      Telefono disponibile dal lunedì al venerdì, dalle 09:00 alle 19:30. Fuori
+      Telefono disponibile dal lunedì al venerdì, dalle 09:30 alle 19:00. Fuori
       fascia restano sempre disponibili WhatsApp e Mail.
     </p>
   );

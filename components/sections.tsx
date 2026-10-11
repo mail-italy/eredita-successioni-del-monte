@@ -1330,7 +1330,7 @@ function LandingHero({
                   Chiama lo Studio al {contacts.phoneDisplay} oppure descrivi il
                   caso su {eyebrow.toLowerCase()} nel modulo di contatto. Puoi
                   anticipare documenti e informazioni essenziali. Telefono attivo
-                  lunedi-venerdi 09:00-19:30; WhatsApp resta disponibile anche
+                  lunedì-venerdì 09:30–19:00; WhatsApp resta disponibile anche
                   fuori orario.
                 </p>
               </div>

@@ -94,7 +94,7 @@ export default function ContactsPage() {
           </div>
           <div className="mini-card">
             <h3>Orari del telefono</h3>
-            <p>Il pulsante Chiama è disponibile dalle 09:00 alle 19:30. Il modulo resta sempre disponibile per descrivere il caso.</p>
+            <p>Il pulsante Chiama è disponibile dal lunedì al venerdì dalle 09:30 alle 19:00. Il modulo resta sempre disponibile per descrivere il caso.</p>
           </div>
           <div className="mini-card">
             <h3>Sede</h3>

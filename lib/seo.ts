@@ -60,6 +60,12 @@ export function organizationSchema() {
     areaServed: ["IT", contacts.city],
     telephone: contacts.phoneDisplay,
     email: contacts.email,
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: contacts.openingTime,
+      closes: contacts.closingTime,
+    },
     address: {
       "@type": "PostalAddress",
       streetAddress: contacts.address,
