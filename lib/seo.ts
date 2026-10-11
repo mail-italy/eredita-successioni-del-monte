@@ -1,3 +1,4 @@
+import offices from "@/lib/office-locations.json";
 import type { Metadata } from "next";
 
 import {
@@ -60,15 +61,19 @@ export function organizationSchema() {
     areaServed: ["IT", contacts.city],
     telephone: contacts.phoneDisplay,
     email: contacts.email,
-    openingHoursSpecification: {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: contacts.openingTime,
-      closes: contacts.closingTime,
+    hasMap: offices[0].maps,
+    department: {
+      "@type": "LegalService", "@id": `${siteConfig.domain}/#sede-plinio`, name: siteConfig.studio,
+      branchOf: { "@id": `${siteConfig.domain}/#organization` },
+      description: "Ricevimento su appuntamento.", telephone: contacts.phoneDisplay, email: contacts.email,
+      address: { "@type": "PostalAddress", streetAddress: offices[1].street, postalCode: offices[1].postalCode, addressLocality: "Roma", addressCountry: "IT" },
+      hasMap: offices[1].maps,
     },
+    contactPoint: { "@type": "ContactPoint", telephone: contacts.phoneDisplay, contactType: "Segreteria telefonica", hoursAvailable: { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday"], opens: contacts.openingTime, closes: contacts.closingTime } },
     address: {
       "@type": "PostalAddress",
-      streetAddress: contacts.address,
+      streetAddress: offices[0].street,
+      postalCode: offices[0].postalCode,
       addressLocality: contacts.city,
       addressCountry: "IT",
     },
@@ -149,7 +154,8 @@ export function articleSchema(article: ArticleEntry) {
     "@type": "Article",
     "@id": `${siteConfig.domain}/approfondimenti/${article.slug}#article`,
     headline: article.title,
-    image: `${siteConfig.domain}/images/homepage-hero-desktop.webp`,
+    image: new URL(article.image || "/images/homepage-hero-desktop.webp", siteConfig.domain).href,
+    ...(article.publishedAt ? { datePublished: article.publishedAt, dateModified: article.updatedAt || article.publishedAt } : {}),
     description: article.excerpt,
     author: {
       "@type": "Organization",

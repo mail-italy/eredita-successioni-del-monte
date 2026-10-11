@@ -1,4 +1,5 @@
 export { siteConfig, contacts, primaryNav, contactRequestTopics } from "@/lib/site-config";
+import editorialArticles from "@/editorial/site-articles.json";
 import { adsServicePages } from "@/lib/ads-service-pages";
 
 export type FaqItem = {
@@ -12,6 +13,15 @@ export type ArticleSection = {
 };
 
 export type ArticleEntry = {
+  editorialId?: string;
+  seoTitle?: string;
+  image?: string;
+  imageAlt?: string;
+  bodyHtml?: string;
+  publishedAt?: string;
+  updatedAt?: string;
+  reviewedBy?: string;
+  reviewedAt?: string;
   slug: string;
   title: string;
   excerpt: string;
@@ -2547,7 +2557,7 @@ export const hubPages: HubPage[] = [
   },
 ];
 
-export const articles: ArticleEntry[] = [
+const legacyArticles: ArticleEntry[] = [
   {
     slug: "quota-di-legittima-come-si-calcola",
     title: "Quota di legittima: beni, debiti, donazioni e documenti da ricostruire",
@@ -2830,6 +2840,9 @@ export const articles: ArticleEntry[] = [
     ],
   },
 ];
+
+export const articles: ArticleEntry[] = [...(editorialArticles as ArticleEntry[]), ...legacyArticles];
+if (new Set(articles.map((article) => article.slug)).size !== articles.length) throw new Error("Duplicate article slug");
 
 export const glossaryTerms: GlossaryTerm[] = [
   {

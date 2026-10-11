@@ -1,0 +1,93 @@
+name: Pubblicazione editoriale approvata
+on:
+  schedule:
+    - cron: '17 7,13,19 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Verifica senza pubblicare
+        type: boolean
+        default: true
+permissions:
+  contents: write
+concurrency:
+  group: editorial-production
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main' && vars.EDITORIAL_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      CONTACT_DISABLE_DELIVERY: 'true'
+      CI: 'true'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Verifica approvazioni, immagini e calendario
+        id: plan
+        run: node scripts/editorial/cli.mjs plan
+      - name: Verifica configurazione del rilascio
+        if: steps.plan.outputs.action == 'publish' && inputs.dry_run != true
+        env:
+          VERCEL_EDITORIAL_DEPLOY_HOOK: ${{ secrets.VERCEL_EDITORIAL_DEPLOY_HOOK }}
+          EDITORIAL_COMMIT_NAME: ${{ vars.EDITORIAL_COMMIT_NAME }}
+          EDITORIAL_COMMIT_EMAIL: ${{ vars.EDITORIAL_COMMIT_EMAIL }}
+        run: |
+          test -n "$VERCEL_EDITORIAL_DEPLOY_HOOK"
+          test -n "$EDITORIAL_COMMIT_NAME"
+          test -n "$EDITORIAL_COMMIT_EMAIL"
+      - name: Installa dipendenze solo quando serve una build
+        if: steps.plan.outputs.action == 'publish'
+        run: npm ci --no-audit --no-fund
+      - name: Prepara un solo articolo
+        if: steps.plan.outputs.action == 'publish'
+        run: node scripts/editorial/cli.mjs stage
+      - name: Test e build prima del rilascio
+        if: steps.plan.outputs.action == 'publish'
+        run: |
+          npm run test:editorial
+          npm run test --if-present
+          npm run lint
+          npm run build
+      - name: Salva la pubblicazione nel repository
+        if: steps.plan.outputs.action == 'publish' && inputs.dry_run != true
+        env:
+          EDITORIAL_COMMIT_NAME: ${{ vars.EDITORIAL_COMMIT_NAME }}
+          EDITORIAL_COMMIT_EMAIL: ${{ vars.EDITORIAL_COMMIT_EMAIL }}
+        run: |
+          test -n "$EDITORIAL_COMMIT_NAME"
+          test -n "$EDITORIAL_COMMIT_EMAIL"
+          git config user.name "$EDITORIAL_COMMIT_NAME"
+          git config user.email "$EDITORIAL_COMMIT_EMAIL"
+          git add editorial public/images/editorial
+          if test -f data/site-content.json; then git add data/site-content.json data/language-routes.json; fi
+          git commit -m "content: publish reviewed scheduled article"
+          git push origin HEAD:main
+      - name: Richiedi il deploy del commit a Vercel
+        if: steps.plan.outputs.action == 'publish' && inputs.dry_run != true
+        env:
+          VERCEL_EDITORIAL_DEPLOY_HOOK: ${{ secrets.VERCEL_EDITORIAL_DEPLOY_HOOK }}
+        run: node scripts/editorial/cli.mjs deploy
+      - name: Verifica produzione e notifica IndexNow
+        if: (steps.plan.outputs.action == 'publish' || steps.plan.outputs.action == 'verify') && inputs.dry_run != true
+        env:
+          EDITORIAL_COMMIT_NAME: ${{ vars.EDITORIAL_COMMIT_NAME }}
+          EDITORIAL_COMMIT_EMAIL: ${{ vars.EDITORIAL_COMMIT_EMAIL }}
+        run: |
+          verified=false
+          for attempt in $(seq 1 12); do
+            if node scripts/editorial/cli.mjs verify; then verified=true; break; fi
+            sleep 45
+          done
+          test "$verified" = true
+          git config user.name "$EDITORIAL_COMMIT_NAME"
+          git config user.email "$EDITORIAL_COMMIT_EMAIL"
+          git add editorial/state.json
+          git commit -m "chore: record verified editorial deployment"
+          git push origin HEAD:main
