@@ -53,7 +53,7 @@ export default function ContactsPage() {
           <div className="hero-side-stack">
             <div className="editorial-figure editorial-figure-wide">
               <Image
-                src="/images/studio/avvocato-federica-del-monte-consulenza-cliente.png"
+                src="/images/studio/avvocato-federica-del-monte-consulenza-cliente-ottimizzata.webp"
                 alt="Consulenza nello studio legale Del Monte"
                 fill
                 priority

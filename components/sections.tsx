@@ -159,7 +159,7 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
     case "avvocato-successioni":
       return {
         ...base,
-        src: "/images/studio/avvocato-federica-del-monte-ritratto-ufficio.png",
+        src: "/images/studio/avvocato-federica-del-monte-ritratto-ufficio-ottimizzata.webp",
         alt: "Ritratto professionale dell'avvocato Federica Del Monte in studio",
         objectPosition: "center 24%",
         figureClassName: "editorial-figure-wide",
@@ -167,7 +167,7 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
     case "impugnazione-testamento":
       return {
         ...base,
-        src: "/images/dettagli/testamento-penna-ceralacca.png",
+        src: "/images/dettagli/testamento-penna-ceralacca-ottimizzata.webp",
         alt: "Documento testamentario con penna e sigillo",
         objectPosition: "center center",
         figureClassName: "editorial-figure-standard",
@@ -175,7 +175,7 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
     case "divisione-ereditaria":
       return {
         ...base,
-        src: "/images/dettagli/avvocato-firma-documento.png",
+        src: "/images/dettagli/avvocato-firma-documento-ottimizzata.webp",
         alt: "Firma di un documento legale in studio",
         objectPosition: "center center",
         figureClassName: "editorial-figure-standard",
@@ -185,7 +185,7 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
     case "indegnita-successoria":
       return {
         ...base,
-        src: "/images/dettagli/codici-civile-successioni-ereditarie.png",
+        src: "/images/dettagli/codici-civile-successioni-ereditarie-ottimizzata.webp",
         alt: "Codici civili e volumi sulle successioni ereditarie",
         objectPosition: "center center",
         figureClassName: "editorial-figure-standard",
@@ -194,7 +194,7 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
     case "beneficio-inventario":
       return {
         ...base,
-        src: "/images/dettagli/avvocato-sfoglia-codice-civile.png",
+        src: "/images/dettagli/avvocato-sfoglia-codice-civile-ottimizzata.webp",
         alt: "Consultazione di un codice civile in studio legale",
         objectPosition: "center center",
         figureClassName: "editorial-figure-standard",
@@ -203,7 +203,7 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
     case "testamento-olografo-falso":
       return {
         ...base,
-        src: "/images/dettagli/testamento-penna-ceralacca.png",
+        src: "/images/dettagli/testamento-penna-ceralacca-ottimizzata.webp",
         alt: "Documento testamentario con penna e sigillo",
         objectPosition: "center center",
         figureClassName: "editorial-figure-standard",
@@ -211,7 +211,7 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
     case "conflitti-tra-coeredi":
       return {
         ...base,
-        src: "/images/studio/avvocato-federica-del-monte-consulenza-cliente.png",
+        src: "/images/studio/avvocato-federica-del-monte-consulenza-cliente-ottimizzata.webp",
         alt: "Colloquio legale in studio su una questione ereditaria",
         objectPosition: "center 26%",
         figureClassName: "editorial-figure-wide",
@@ -220,7 +220,7 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
     case "petizione-ereditaria":
       return {
         ...base,
-        src: "/images/dettagli/scrivania-legale-penna-occhiali-tazza.png",
+        src: "/images/dettagli/scrivania-legale-penna-occhiali-tazza-ottimizzata.webp",
         alt: "Scrivania legale con documenti utili a una pratica successoria",
         objectPosition: "center center",
         figureClassName: "editorial-figure-standard",
@@ -277,7 +277,7 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
     case "successioni-internazionali":
       return {
         ...base,
-        src: "/images/dettagli/libreria-legale-globo.png",
+        src: "/images/dettagli/libreria-legale-globo-ottimizzata.webp",
         alt: "Globo e volumi giuridici per successioni con elementi internazionali",
         objectPosition: "center center",
         figureClassName: "editorial-figure-standard",
@@ -285,7 +285,7 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
     case "mediazione-ereditaria":
       return {
         ...base,
-        src: "/images/studio/avvocato-federica-del-monte-consulenza-cliente.png",
+        src: "/images/studio/avvocato-federica-del-monte-consulenza-cliente-ottimizzata.webp",
         alt: "Consulenza legale con cliente nello studio",
         objectPosition: "center 26%",
         figureClassName: "editorial-figure-wide",
@@ -293,7 +293,7 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
     case "eredita-giacente":
       return {
         ...base,
-        src: "/images/dettagli/studio-legale-scrivania-penna-occhiali.png",
+        src: "/images/dettagli/studio-legale-scrivania-penna-occhiali-ottimizzata.webp",
         alt: "Scrivania legale con penna, documento e occhiali",
         objectPosition: "center center",
         figureClassName: "editorial-figure-standard",
@@ -301,7 +301,7 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
     case "rinuncia-eredita":
       return {
         ...base,
-        src: "/images/dettagli/scrivania-legale-penna-occhiali-tazza.png",
+        src: "/images/dettagli/scrivania-legale-penna-occhiali-tazza-ottimizzata.webp",
         alt: "Scrivania dello studio con penna, documento, occhiali e tazza",
         objectPosition: "center center",
         figureClassName: "editorial-figure-standard",
@@ -309,7 +309,7 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
     case "recupero-somme-ereditarie":
       return {
         ...base,
-        src: "/images/studio/avvocato-federica-del-monte-ritratto-libreria.png",
+        src: "/images/studio/avvocato-federica-del-monte-ritratto-libreria-ottimizzata.webp",
         alt: "Ritratto dell'avvocato nello studio davanti alla libreria legale",
         objectPosition: "center 18%",
         figureClassName: "editorial-figure-standard",
@@ -317,7 +317,7 @@ function getServiceVisual(service: ServicePage, priority = false): VisualAsset {
     default:
       return {
         ...base,
-        src: "/images/studio/avvocato-federica-del-monte-ritratto-scrivania.png",
+        src: "/images/studio/avvocato-federica-del-monte-ritratto-scrivania-ottimizzata.webp",
         alt: "Ritratto istituzionale dell'avvocato in studio",
         objectPosition: "center 24%",
         figureClassName: "editorial-figure-wide",
@@ -335,49 +335,49 @@ function getHubVisual(hub: HubPage, priority = false): VisualAsset {
     case "testamento":
       return {
         ...base,
-        src: "/images/dettagli/testamento-penna-ceralacca.png",
+        src: "/images/dettagli/testamento-penna-ceralacca-ottimizzata.webp",
         alt: "Testamento con penna e sigillo",
         figureClassName: "editorial-figure-standard",
       };
     case "legittima":
       return {
         ...base,
-        src: "/images/dettagli/codici-civile-successioni-ereditarie.png",
+        src: "/images/dettagli/codici-civile-successioni-ereditarie-ottimizzata.webp",
         alt: "Codici civili e testi sulle successioni ereditarie",
         figureClassName: "editorial-figure-standard",
       };
     case "divisione-ereditaria":
       return {
         ...base,
-        src: "/images/dettagli/avvocato-firma-documento.png",
+        src: "/images/dettagli/avvocato-firma-documento-ottimizzata.webp",
         alt: "Preparazione e firma di documento legale",
         figureClassName: "editorial-figure-standard",
       };
     case "donazioni":
       return {
         ...base,
-        src: "/images/dettagli/avvocato-sfoglia-codice-civile.png",
+        src: "/images/dettagli/avvocato-sfoglia-codice-civile-ottimizzata.webp",
         alt: "Consultazione di un volume giuridico in studio",
         figureClassName: "editorial-figure-standard",
       };
     case "successione-legittima":
       return {
         ...base,
-        src: "/images/dettagli/codici-civile-successioni-ereditarie.png",
+        src: "/images/dettagli/codici-civile-successioni-ereditarie-ottimizzata.webp",
         alt: "Volumi giuridici su diritto civile e successioni",
         figureClassName: "editorial-figure-standard",
       };
     case "successioni-internazionali":
       return {
         ...base,
-        src: "/images/dettagli/libreria-legale-globo.png",
+        src: "/images/dettagli/libreria-legale-globo-ottimizzata.webp",
         alt: "Globo e libreria legale per pratiche con elementi esteri",
         figureClassName: "editorial-figure-standard",
       };
     case "conflitti-tra-coeredi":
       return {
         ...base,
-        src: "/images/studio/avvocato-federica-del-monte-consulenza-cliente.png",
+        src: "/images/studio/avvocato-federica-del-monte-consulenza-cliente-ottimizzata.webp",
         alt: "Colloquio legale in studio su una questione ereditaria",
         objectPosition: "center 26%",
         figureClassName: "editorial-figure-wide",
@@ -385,7 +385,7 @@ function getHubVisual(hub: HubPage, priority = false): VisualAsset {
     default:
       return {
         ...base,
-        src: "/images/studio/avvocato-federica-del-monte-ritratto-libreria.png",
+        src: "/images/studio/avvocato-federica-del-monte-ritratto-libreria-ottimizzata.webp",
         alt: "Ritratto istituzionale in studio legale",
         objectPosition: "center 18%",
         figureClassName: "editorial-figure-standard",
@@ -403,7 +403,7 @@ function getArticleVisual(article: ArticleEntry, priority = false): VisualAsset 
   if (article.slug.includes("testamento")) {
     return {
       ...base,
-      src: "/images/dettagli/testamento-penna-ceralacca.png",
+      src: "/images/dettagli/testamento-penna-ceralacca-ottimizzata.webp",
       alt: "Testamento con penna e sigillo",
       figureClassName: "editorial-figure-standard",
     };
@@ -412,7 +412,7 @@ function getArticleVisual(article: ArticleEntry, priority = false): VisualAsset 
   if (article.slug.includes("successioni-internazionali")) {
     return {
       ...base,
-      src: "/images/dettagli/libreria-legale-globo.png",
+      src: "/images/dettagli/libreria-legale-globo-ottimizzata.webp",
       alt: "Dettaglio di libreria legale con globo",
       figureClassName: "editorial-figure-standard",
     };
@@ -421,7 +421,7 @@ function getArticleVisual(article: ArticleEntry, priority = false): VisualAsset 
   if (article.slug.includes("mediazione")) {
     return {
       ...base,
-      src: "/images/studio/avvocato-federica-del-monte-consulenza-cliente.png",
+      src: "/images/studio/avvocato-federica-del-monte-consulenza-cliente-ottimizzata.webp",
       alt: "Consulenza in studio su pratica ereditaria",
       objectPosition: "center 26%",
       figureClassName: "editorial-figure-wide",
@@ -434,7 +434,7 @@ function getArticleVisual(article: ArticleEntry, priority = false): VisualAsset 
   ) {
     return {
       ...base,
-      src: "/images/dettagli/codici-civile-successioni-ereditarie.png",
+      src: "/images/dettagli/codici-civile-successioni-ereditarie-ottimizzata.webp",
       alt: "Volumi giuridici su diritto civile e successioni",
       figureClassName: "editorial-figure-standard",
     };
@@ -443,7 +443,7 @@ function getArticleVisual(article: ArticleEntry, priority = false): VisualAsset 
   if (article.slug.includes("conti-correnti")) {
     return {
       ...base,
-      src: "/images/dettagli/studio-legale-scrivania-penna-occhiali.png",
+      src: "/images/dettagli/studio-legale-scrivania-penna-occhiali-ottimizzata.webp",
       alt: "Scrivania di studio con documento, penna e occhiali",
       figureClassName: "editorial-figure-standard",
     };
@@ -452,7 +452,7 @@ function getArticleVisual(article: ArticleEntry, priority = false): VisualAsset 
   if (article.slug.includes("rinuncia") || article.slug.includes("giacente")) {
     return {
       ...base,
-      src: "/images/dettagli/scrivania-legale-penna-occhiali-tazza.png",
+      src: "/images/dettagli/scrivania-legale-penna-occhiali-tazza-ottimizzata.webp",
       alt: "Dettaglio di scrivania legale con documenti e penna",
       figureClassName: "editorial-figure-standard",
     };
@@ -461,7 +461,7 @@ function getArticleVisual(article: ArticleEntry, priority = false): VisualAsset 
   if (article.slug.includes("divisione")) {
     return {
       ...base,
-      src: "/images/dettagli/avvocato-firma-documento.png",
+      src: "/images/dettagli/avvocato-firma-documento-ottimizzata.webp",
       alt: "Firma di documento in contesto legale",
       figureClassName: "editorial-figure-standard",
     };
@@ -469,7 +469,7 @@ function getArticleVisual(article: ArticleEntry, priority = false): VisualAsset 
 
   return {
     ...base,
-    src: "/images/dettagli/avvocato-sfoglia-codice-civile.png",
+    src: "/images/dettagli/avvocato-sfoglia-codice-civile-ottimizzata.webp",
     alt: "Consultazione di un codice civile in studio",
     figureClassName: "editorial-figure-standard",
   };

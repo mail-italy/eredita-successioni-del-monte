@@ -46,7 +46,7 @@ export default function HubArchivePage() {
           </div>
           <div className="editorial-figure editorial-figure-wide">
             <Image
-              src="/images/home/eredita-successioni-hero-testamento-codici.png"
+              src="/images/home/eredita-successioni-hero-testamento-codici-ottimizzata.webp"
               alt="Dettaglio editoriale di studio legale con testamento e codici"
               fill
               priority

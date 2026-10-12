@@ -122,7 +122,7 @@ export default function ServicesArchivePage() {
           </div>
           <div className="editorial-figure editorial-figure-standard">
             <Image
-              src="/images/dettagli/codici-civile-successioni-ereditarie.png"
+              src="/images/dettagli/codici-civile-successioni-ereditarie-ottimizzata.webp"
               alt="Codici civili e testi sulle successioni ereditarie"
               fill
               priority

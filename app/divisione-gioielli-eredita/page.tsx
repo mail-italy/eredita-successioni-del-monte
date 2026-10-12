@@ -202,7 +202,7 @@ export default function DivisioneGioielliEreditaPage() {
               </div>
               <div className="hero-image-layer landing-hero-image-layer">
                 <Image
-                  src="/images/dettagli/scrivania-legale-penna-occhiali-tazza.png"
+                  src="/images/dettagli/scrivania-legale-penna-occhiali-tazza-ottimizzata.webp"
                   alt="Gioielli e beni di famiglia da dividere in eredità"
                   width={1600}
                   height={1067}

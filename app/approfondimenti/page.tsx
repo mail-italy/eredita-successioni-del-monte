@@ -46,7 +46,7 @@ export default function ArticlesArchivePage() {
           </div>
           <div className="editorial-figure editorial-figure-standard">
             <Image
-              src="/images/dettagli/avvocato-sfoglia-codice-civile.png"
+              src="/images/dettagli/avvocato-sfoglia-codice-civile-ottimizzata.webp"
               alt="Consultazione di un codice civile nello studio legale"
               fill
               priority

@@ -58,6 +58,75 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: process.cwd(),
   },
+  async rewrites() {
+    // Exact legacy image aliases serve the WebP bytes without storing duplicate PNGs.
+    return [
+      {
+            "source": "/images/dettagli/avvocato-firma-documento.png",
+            "destination": "/images/dettagli/avvocato-firma-documento-ottimizzata.webp"
+      },
+      {
+            "source": "/images/dettagli/avvocato-sfoglia-codice-civile.png",
+            "destination": "/images/dettagli/avvocato-sfoglia-codice-civile-ottimizzata.webp"
+      },
+      {
+            "source": "/images/dettagli/codici-civile-successioni-ereditarie.png",
+            "destination": "/images/dettagli/codici-civile-successioni-ereditarie-ottimizzata.webp"
+      },
+      {
+            "source": "/images/dettagli/libreria-legale-globo.png",
+            "destination": "/images/dettagli/libreria-legale-globo-ottimizzata.webp"
+      },
+      {
+            "source": "/images/dettagli/scrivania-legale-penna-occhiali-tazza.png",
+            "destination": "/images/dettagli/scrivania-legale-penna-occhiali-tazza-ottimizzata.webp"
+      },
+      {
+            "source": "/images/dettagli/studio-legale-scrivania-penna-occhiali.png",
+            "destination": "/images/dettagli/studio-legale-scrivania-penna-occhiali-ottimizzata.webp"
+      },
+      {
+            "source": "/images/dettagli/testamento-penna-ceralacca.png",
+            "destination": "/images/dettagli/testamento-penna-ceralacca-ottimizzata.webp"
+      },
+      {
+            "source": "/images/gallery/studio-legale-del-monte-gallery-moodboard.png",
+            "destination": "/images/gallery/studio-legale-del-monte-gallery-moodboard-ottimizzata.webp"
+      },
+      {
+            "source": "/images/hero-eredita-home.png",
+            "destination": "/images/hero-eredita-home-ottimizzata.webp"
+      },
+      {
+            "source": "/images/hero-successioni-del-monte.png",
+            "destination": "/images/hero-successioni-del-monte-ottimizzata.webp"
+      },
+      {
+            "source": "/images/home/eredita-successioni-hero-editoriale.png",
+            "destination": "/images/home/eredita-successioni-hero-editoriale-ottimizzata.webp"
+      },
+      {
+            "source": "/images/home/eredita-successioni-hero-testamento-codici.png",
+            "destination": "/images/home/eredita-successioni-hero-testamento-codici-ottimizzata.webp"
+      },
+      {
+            "source": "/images/studio/avvocato-federica-del-monte-consulenza-cliente.png",
+            "destination": "/images/studio/avvocato-federica-del-monte-consulenza-cliente-ottimizzata.webp"
+      },
+      {
+            "source": "/images/studio/avvocato-federica-del-monte-ritratto-libreria.png",
+            "destination": "/images/studio/avvocato-federica-del-monte-ritratto-libreria-ottimizzata.webp"
+      },
+      {
+            "source": "/images/studio/avvocato-federica-del-monte-ritratto-scrivania.png",
+            "destination": "/images/studio/avvocato-federica-del-monte-ritratto-scrivania-ottimizzata.webp"
+      },
+      {
+            "source": "/images/studio/avvocato-federica-del-monte-ritratto-ufficio.png",
+            "destination": "/images/studio/avvocato-federica-del-monte-ritratto-ufficio-ottimizzata.webp"
+      }
+];
+  },
   async redirects() {
     return [
       { source: "/donazioni", destination: "/collazione-e-donazioni", permanent: true },

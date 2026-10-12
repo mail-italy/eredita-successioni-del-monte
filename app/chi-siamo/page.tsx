@@ -52,7 +52,7 @@ export default function AboutPage() {
           </div>
           <div className="editorial-figure editorial-figure-wide">
             <Image
-              src="/images/studio/avvocato-federica-del-monte-ritratto-scrivania.png"
+              src="/images/studio/avvocato-federica-del-monte-ritratto-scrivania-ottimizzata.webp"
               alt="Avvocato Federica Del Monte nel proprio studio"
               fill
               priority
