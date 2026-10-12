@@ -1,0 +1,70 @@
+{
+  "article": {
+    "id": "eredita-046",
+    "site": "eredita",
+    "sequence": 46,
+    "area": "Accettazione e debiti",
+    "title": "Mutuo del defunto e polizza collegata: leggere due rapporti distinti",
+    "slug": "mutuo-del-defunto-e-polizza-collegata-leggere-due-rapporti-distinti",
+    "intent": "Debito ipotecario e copertura assicurativa",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/casa-ereditata"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 90,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Mutuo del defunto e assicurazione",
+    "description": "Finanziamento e polizza richiedono verifiche distinte: documenti, debito residuo e copertura effettiva da confrontare.",
+    "bodyMarkdown": "Dopo il decesso di chi pagava il mutuo, i familiari spesso ricordano che «c'era un'assicurazione». Questa informazione non chiarisce ancora se il debito residuo sia coperto. Il finanziamento e la polizza sono rapporti distinti, da leggere insieme ma senza sovrapporne automaticamente gli effetti.\n\nLa [guida IVASS alle polizze collegate a mutui e finanziamenti](https://www.ivass.it/consumatori/imparaconivass/guide/Guida_7_Polizze_connesse_mutui_e_finanziamenti_versione_web.pdf) distingue coperture che proteggono rischi diversi. Una garanzia per danni all'immobile non equivale a una copertura per la morte dell'assicurato.\n\n## Il fascicolo del mutuo\n\nOccorrono contratto, piano di ammortamento aggiornato, conteggio del debito residuo e indicazione di eventuali arretrati. Vanno identificati tutti i debitori, i garanti e i beni gravati. La presenza di un cointestatario rende particolarmente importante distinguere il suo obbligo contrattuale dalla posizione assunta nella successione.\n\nGli [articoli 752 e 754 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) regolano aspetti della responsabilità per i debiti ereditari. La garanzia ipotecaria richiede una valutazione specifica: il riparto interno tra eredi non coincide necessariamente con le possibilità del creditore sul bene gravato.\n\n## Il fascicolo assicurativo\n\nPer la polizza servono condizioni applicabili, certificato o modulo di adesione, dati dell'assicurato, beneficiario e prova dei premi. Non basta la scheda commerciale, che potrebbe descrivere opzioni mai sottoscritte.\n\nI punti da controllare sono l'evento coperto, la durata, gli importi assicurati e le eventuali esclusioni. Anche la corrispondenza temporale conta: una polizza cessata prima del decesso o riferita a un'altra persona non può essere trattata come una copertura disponibile.\n\nLa denuncia dell'evento e la richiesta dei documenti vanno gestite secondo il contratto. È utile ottenere un elenco scritto delle integrazioni richieste, evitando invii ripetuti e privi di un numero di pratica.\n\n## Non presumere che le rate siano sospese\n\nL'apertura di una pratica assicurativa non dimostra da sola che la banca abbia sospeso le scadenze. Occorre chiedere una posizione scritta sul finanziamento e verificare come saranno conteggiati gli eventuali pagamenti intervenuti durante l'istruttoria.\n\nAllo stesso tempo, pagare una rata con denaro dell'eredità o sottoscrivere un nuovo impegno richiede attenzione se non si è ancora definita la scelta di accettare. L'urgenza pratica non elimina le conseguenze degli atti compiuti.\n\n## Un esempio di ricostruzione\n\nUn mutuo è intestato a due coniugi, ma la documentazione assicurativa reperita riguarda soltanto uno dei due. Prima di stimare ciò che resta da pagare, occorre stabilire chi fosse assicurato e quale parte del debito fosse coperta. Il semplice addebito del premio su un conto comune non risolve la questione.\n\nSe la compagnia nega la prestazione, la motivazione deve essere confrontata con le condizioni effettivamente applicabili e con i documenti dell'evento. La risposta della banca non sostituisce quella dell'impresa assicuratrice.\n\n## Preparare una decisione consapevole\n\nUna tabella con debito residuo, rate successive al decesso, importo richiesto all'assicurazione e stato della pratica aiuta a evitare conteggi duplicati. Le somme ipotetiche devono rimanere separate da quelle riconosciute.\n\nLa valutazione della [casa ereditata](https://ereditaesuccessioni.it/casa-ereditata) può così tenere conto del suo valore e dell'esposizione effettiva. Solo dopo la verifica dei due rapporti è possibile discutere con cognizione di causa se conservare, assegnare o vendere l'immobile.\n\n### Conservare le due risposte finali\n\nQuando la compagnia comunica l'esito, va verificato se si tratti di una decisione definitiva, di una richiesta di integrazione o di una semplice conferma di apertura della pratica. La parola “presa in carico” non equivale al riconoscimento della prestazione.\n\nSe viene eseguito un pagamento alla banca, occorre acquisire anche il nuovo conteggio del finanziamento. Importo assicurato, denaro liquidato e debito residuo possono essere dati differenti, soprattutto se nel frattempo sono state versate rate. Conservare entrambi i riscontri consente di accertare come la prestazione sia stata imputata e se rimangano somme da chiarire, evitando di considerare chiuso il mutuo sulla base della sola comunicazione dell'assicuratore.",
+    "faqs": [
+      {
+        "question": "Una polizza incendio estingue il mutuo se il debitore muore?",
+        "answer": "Non per il solo fatto di essere collegata al mutuo. Occorre verificare quali eventi siano assicurati: la copertura dei danni all'immobile è diversa da una copertura per il decesso del debitore."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 754, 490",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 754, 490. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://www.ivass.it/consumatori/imparaconivass/guide/Guida_7_Polizze_connesse_mutui_e_finanziamenti_versione_web.pdf",
+        "title": "IVASS, Polizze connesse a mutui e finanziamenti",
+        "supports": "Distinzione delle coperture e funzione delle polizze collegate al finanziamento.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una casa in legno fra due fascicoli distinti, uno blu e uno avorio, con una chiave davanti. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutte le carte senza testo, senza stemmi, emblemi, sigilli, ceralacca, loghi o intestazioni. Dettaglio editoriale essenziale, sfondo luminoso naturale e inquadratura variata. Nessun luogo deve sembrare una sede dello studio.",
+      "alt": "Una casa in legno fra due fascicoli distinti, uno blu e uno avorio, con una chiave davanti",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-046.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "bb293a446718ac70c9a7d96966551c1dc4253ed86471cfdd17b7a7e01711ceb2",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 602,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 643,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-03-17",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "078d51206659f0d6a823e484c9f2ff006ad808e58a5294de3237b75cc58efda0",
+    "sha256": "360b595def96ae07dd26d060dab39f403424e73cf6d834a045f6f254edef49a5"
+  }
+}

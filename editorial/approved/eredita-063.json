@@ -1,0 +1,78 @@
+{
+  "article": {
+    "id": "eredita-063",
+    "site": "eredita",
+    "sequence": 63,
+    "area": "Banche e patrimonio",
+    "title": "Cassetta di sicurezza del defunto: apertura e inventario del contenuto",
+    "slug": "cassetta-di-sicurezza-del-defunto-apertura-e-inventario-del-contenuto",
+    "intent": "Procedura documentale e verifica della titolarità dei beni",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/gioielli-ereditati"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 124,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Cassetta di sicurezza e inventario",
+    "description": "Apertura, descrizione dei beni e verifica della proprietà: come organizzare la cassetta del defunto prima della divisione.",
+    "bodyMarkdown": "La chiave di una cassetta di sicurezza non autorizza a svuotarla informalmente dopo la morte dell'intestatario. L'apertura richiede una procedura che consenta di documentare il contenuto e affrontare gli adempimenti successori.\n\nLa [risoluzione 2/E dell'Agenzia delle Entrate](https://def.finanze.it/DocTribFrontend/getPrassiDetail.do?id=%7B42D336E6-C18D-4775-B8C0-284A923DD8F3%7D) richiama l'apertura alla presenza di un notaio o di un funzionario dell'amministrazione finanziaria, con inventario e comunicazione prevista dalla disciplina applicabile. L'intestazione congiunta non rende irrilevante il decesso di uno dei concessionari.\n\n## Coordinare banca e professionista\n\nIl primo contatto deve chiarire quali documenti siano necessari, chi debba intervenire e come venga organizzata l'apertura. È utile ottenere un elenco scritto e un appuntamento coordinato, evitando accessi separati dei familiari.\n\nSe la chiave non si trova, la banca deve indicare il percorso previsto. Non bisogna tentare soluzioni materiali che alterino il contenitore o compromettano la documentazione dell'operazione.\n\nVa verificata anche l'eventuale esistenza di deleghe o di altri concessionari, senza confondere la facoltà di accesso avuta in vita con la procedura successiva al decesso.\n\n## Inventariare prima di distribuire\n\nIl verbale dovrebbe permettere di riconoscere gli oggetti rinvenuti. Per gioielli, monete, documenti e piccoli beni di valore, una descrizione generica può rendere difficile il confronto successivo.\n\nFotografie e identificativi, se acquisiti nell'ambito della procedura, possono essere utili per collegare l'oggetto alla descrizione. La stima economica è un'attività ulteriore: sapere che esiste un anello non equivale a conoscerne materiali, autenticità o valore.\n\nÈ opportuno conservare anche gli involucri e le informazioni che possano aiutare a ricostruire la provenienza.\n\n## Contenuto e proprietà sono questioni distinte\n\nUn bene custodito nella cassetta potrebbe essere oggetto di una pretesa di un altro familiare o di un terzo. L'inventario documenta il rinvenimento; la titolarità richiede l'esame di acquisti, donazioni, depositi e altri elementi.\n\nSe vi è una contestazione, conviene annotarla e mantenere i beni identificabili. Una distribuzione affrettata può rendere più difficile la restituzione o la verifica tecnica.\n\nLa persona che rivendica un oggetto dovrebbe indicare il proprio titolo e le prove disponibili, evitando di limitarsi al suo valore affettivo.\n\n## Dall'inventario alla divisione\n\nUna volta definito il quadro, gli oggetti possono essere inseriti nel prospetto successorio e nella proposta di divisione secondo le regole applicabili. Le [disposizioni sulla divisione ereditaria](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) non si esauriscono nella semplice consegna di un astuccio a ciascun familiare.\n\nPer oggetti di valore diverso può essere necessaria una stima e un conguaglio. Per quelli controversi, una custodia concordata può consentire di proseguire sugli altri beni.\n\n## Attenzione alla data della procedura\n\nLa disciplina fiscale è stata oggetto di riordino. Il [testo unico 123/2025](https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getSommario&id=%7B19AA17D8-7C47-4A8A-9C5D-E35BA7134DBC%7D) riporta disposizioni con effetto dal 2027: per una procedura futura occorre controllare la norma applicabile alla data effettiva, senza confondere pubblicazione e decorrenza.\n\nLa valutazione sui [gioielli ereditati](https://ereditaesuccessioni.it/gioielli-ereditati) parte da questa documentazione. Prima si rende verificabile ciò che c'era; poi si affrontano proprietà, valore e assegnazione.\n\n### Preparare identificativi che restino utili dopo l'apertura\n\nQuando il contenuto comprende molti oggetti simili, un numero progressivo collegato a descrizione e fotografia facilita la successiva stima. L'identificativo dovrebbe restare associato al bene anche durante gli spostamenti autorizzati. Scrivere soltanto “gioielli vari” rende difficile stabilire se la perizia riguardi esattamente gli oggetti inventariati.\n\nSe un oggetto viene consegnato per una valutazione, vanno chiariti destinatario, elenco dei beni, finalità e restituzione. La consegna al tecnico non coincide con l'assegnazione definitiva a un erede.\n\nÈ utile predisporre anche un elenco distinto dei documenti rinvenuti, perché possono contenere informazioni su ulteriori rapporti patrimoniali. Un contratto, una ricevuta e una lettera personale non richiedono necessariamente la stessa circolazione tra tutti gli interessati. La custodia ordinata consente di proseguire gli accertamenti senza perdere il collegamento tra luogo di rinvenimento, contenuto dell'inventario e utilizzo successivo delle informazioni.",
+    "faqs": [
+      {
+        "question": "Il contenuto della cassetta appartiene sempre tutto all'intestatario?",
+        "answer": "La presenza dei beni nella cassetta è un dato importante, ma eventuali diritti di altri soggetti devono essere verificati. Inventariare il contenuto non risolve da solo tutte le controversie di proprietà."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 533, 718",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 533, 718. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://def.finanze.it/DocTribFrontend/getPrassiDetail.do?id=%7B42D336E6-C18D-4775-B8C0-284A923DD8F3%7D",
+        "title": "Agenzia Entrate, risoluzione 2/E del 24 gennaio 2013",
+        "supports": "Apertura post mortem con notaio o funzionario e funzione fiscale del verbale.",
+        "checkedAt": "2026-10-12"
+      },
+      {
+        "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getSommario&id=%7B19AA17D8-7C47-4A8A-9C5D-E35BA7134DBC%7D",
+        "title": "Testo unico 123/2025, decorrenza delle disposizioni",
+        "supports": "Controllo della decorrenza 2027 del testo unico; necessità di ricontrollo alla pubblicazione programmata.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una cassetta metallica aperta con piccoli astucci chiusi e un foglio di inventario non leggibile. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo, numero di conto o intestazione: eventuali carte e schermi devono essere anonimi e senza testo. Composizione fotografica semplice specifica del tema, luce naturale, oggetti credibili, nessuna persona riconoscibile.",
+      "alt": "Una cassetta metallica aperta con piccoli astucci chiusi e un foglio di inventario non leggibile",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-063.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "aac4f876c53ac77491d7fa3eb818ac6912703b83d200efd56f3333188af3da33",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 600,
+    "reviewValidUntil": "2026-12-31",
+    "needsLegalRecheckReason": "Verificare i riordini tributari e le rispettive decorrenze dal 2027 prima della pubblicazione; nessuna approvazione legale già acquisita.",
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 639,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-10-20",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2026-12-31",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "b557b065654f2029d90f960560c052866d66bf62df19cd8fd058a3e2ba3d3542",
+    "sha256": "9b21f1918968bc2d8afe7d65cc012742c93d5115a6257eb05a48fb6bc7b31865"
+  }
+}

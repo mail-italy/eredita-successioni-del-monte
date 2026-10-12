@@ -1,0 +1,71 @@
+{
+  "article": {
+    "id": "eredita-089",
+    "site": "eredita",
+    "sequence": 89,
+    "area": "Beni e conflitti",
+    "title": "Accordo ereditario con un immobile: dal verbale alle formalità necessarie",
+    "slug": "accordo-ereditario-con-un-immobile-dal-verbale-alle-formalita-necessarie",
+    "intent": "Attuazione dell'intesa e forma del trasferimento",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/mediazione-ereditaria"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 176,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Accordo immobiliare in mediazione",
+    "description": "Quali verifiche coordinare tra verbale, autenticazione, pagamento e trascrizione di un accordo ereditario.",
+    "bodyMarkdown": "Raggiungere un'intesa su una casa ereditata è un passaggio importante, ma bisogna verificare come l'accordo produca gli effetti voluti. Un verbale con formule generiche può lasciare aperti trasferimento, pagamento e pubblicità immobiliare.\n\nL'[articolo 11, comma 7, del decreto legislativo 28/2010](https://www.normattiva.it/eli/stato/DECRETO_LEGISLATIVO/2010/03/04/28/CONSOLIDATED) richiede, per la trascrizione degli accordi che concludono contratti o compiono atti richiamati dall'articolo 2643 del Codice civile, l'autenticazione delle sottoscrizioni da parte di un pubblico ufficiale autorizzato.\n\n## Capire che cosa stabilisce l'accordo\n\nUn'intesa può attribuire direttamente un diritto oppure prevedere l'obbligo di compiere un atto successivo. La differenza deve essere chiara alle parti.\n\nEspressioni come «la casa andrà a mia sorella» non descrivono da sole tempi, condizioni e formalità. Occorre identificare bene, quota, titolo dell'operazione e rapporto con gli altri beni della successione.\n\nSe si prevede un conguaglio, vanno indicati importo e modalità di pagamento coerenti con l'effetto programmato.\n\n## Verificare i documenti prima della firma\n\nTitoli di provenienza, dati catastali, documentazione tecnica e situazione delle trascrizioni devono essere esaminati per tempo. Un problema scoperto dopo l'incontro può impedire o ritardare l'attuazione.\n\nAnche i poteri di chi firma vanno controllati. La delega per partecipare alla mediazione non deve essere confusa automaticamente con un potere adeguato a qualsiasi disposizione immobiliare.\n\nLa presenza di minori o soggetti rappresentati richiede verifiche ulteriori.\n\n## Coordinare mediatore, avvocati e pubblico ufficiale\n\nIl ruolo del mediatore nel procedimento non coincide con tutte le funzioni necessarie alla circolazione immobiliare. Il professionista competente per autenticazione e formalità deve conoscere il testo e i documenti prima che siano fissate soluzioni impraticabili.\n\nQuesto coordinamento consente di individuare allegati, dichiarazioni e attività necessarie. Non è utile rinviare ogni dettaglio a un generico «ci penserà il notaio» senza aver verificato che l'assetto sia attuabile.\n\nLe parti devono sapere quali costi restino da sostenere e chi li pagherà.\n\n## Regolare la fase tra accordo e attuazione\n\nSe occorre un atto successivo, è opportuno chiarire gestione dell'immobile, consegna delle chiavi, spese, canoni e rischio di nuovi vincoli nel periodo intermedio.\n\nDevono essere definite scadenze realistiche e conseguenze dell'inadempimento, valutate nel contesto. Una data senza indicazione dei documenti da preparare può diventare soltanto un nuovo motivo di lite.\n\nIl pagamento del conguaglio va coordinato con il trasferimento e con le eventuali garanzie concordate.\n\n## Verificare la conclusione\n\nDopo la firma, gli interessati dovrebbero ricevere documentazione degli adempimenti effettuati e dei pagamenti. La sola copia del verbale non dimostra che ogni formalità successiva sia stata eseguita.\n\nÈ utile un elenco finale con atti, trascrizioni, documenti consegnati e voci di rendiconto chiuse. Eventuali questioni escluse devono restare riconoscibili.\n\nLa [mediazione ereditaria](https://ereditaesuccessioni.it/mediazione-ereditaria) raggiunge il suo risultato quando l'accordo può essere eseguito e verificato. Per un immobile, forma e formalità sono parte della soluzione, non un'aggiunta da affrontare soltanto dopo il consenso.\n\n### Una lista di attività con un responsabile per ciascuna\n\nPrima di considerare concluso il percorso, le parti possono individuare chi acquisirà i documenti tecnici, chi verificherà i poteri, chi predisporrà l'atto necessario e chi comunicherà l'esecuzione dei pagamenti. Non si tratta di aggiungere formalità prive di scopo, ma di evitare che ogni partecipante ritenga affidata ad altri la medesima attività.\n\nSe un adempimento dipende da un documento ancora mancante, la dipendenza deve essere visibile nella programmazione. Una scadenza finale può risultare poco realistica se nessuno ha ancora richiesto il titolo indispensabile.\n\nIl fascicolo di chiusura dovrebbe poi contenere i risultati di queste attività, distinguendoli dalle semplici richieste. Una domanda di trascrizione, un appuntamento fissato e una formalità eseguita descrivono fasi differenti. La verifica consente di capire quali effetti dell'accordo siano stati realizzati e quali obblighi rimangano da attuare, senza affidarsi soltanto alla percezione che la lite sia ormai terminata.",
+    "faqs": [
+      {
+        "question": "Il verbale di mediazione sostituisce sempre ogni formalità immobiliare?",
+        "answer": "No. Contenuto dell'accordo, autenticazione, trascrizione e adempimenti devono essere verificati. L'articolo 11 comma 7 prevede una specifica regola per la trascrizione degli atti richiamati."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 713, 728",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 713, 728. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://www.normattiva.it/eli/stato/DECRETO_LEGISLATIVO/2010/03/04/28/CONSOLIDATED",
+        "title": "Decreto legislativo 28/2010, articolo 11 comma 7",
+        "supports": "Autenticazione delle sottoscrizioni per trascrivere gli accordi relativi agli atti dell'articolo 2643.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Una chiave immobiliare accanto a un verbale di accordo e a un secondo fascicolo per le formalità. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Una chiave immobiliare accanto a un verbale di accordo e a un secondo fascicolo per le formalità",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-089.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "4191a5b8ea556680c84b44176571c8f1c49a9318e14ea4cd1feb9d3ed32dba6e",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 601,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 634,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-04-02",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "c5a5b52cc46d4b9f320a98af7e55e991165fe41c8cf0b1075dd1f5a2e6049769",
+    "sha256": "5a4db89f65173862b8fffe5be352e7eed6dc2ff874dc95f5164681b106774648"
+  }
+}

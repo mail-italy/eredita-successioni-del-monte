@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-024",
+    "site": "eredita",
+    "sequence": 24,
+    "area": "Famiglia e chiamata",
+    "title": "Fratelli e sorelle del defunto: quando entrano nella successione",
+    "slug": "fratelli-e-sorelle-del-defunto-quando-entrano-nella-successione",
+    "intent": "Chiamata dei collaterali in assenza di discendenti",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successione-legittima"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 46,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Fratelli e sorelle nella successione",
+    "description": "Quando occorre considerare fratelli e sorelle del defunto e quali rapporti familiari ricostruire prima delle quote.",
+    "bodyMarkdown": "Una persona senza figli muore e i fratelli presumono di essere gli unici eredi. Prima di attribuire quote occorre controllare anche coniuge o parte dell'unione civile, genitori, altri ascendenti e discendenti di fratelli premorti. L'assenza di figli non rende automaticamente esclusiva la chiamata dei collaterali.\n\n### La composizione familiare decide il percorso\n\nGli articoli 565, 570, 571 e 582 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) disciplinano la successione legittima e i relativi concorsi. La presenza di un coniuge o di ascendenti richiede regole diverse da quelle applicabili ai soli fratelli.\n\nUn testamento può inoltre destinare il patrimonio in modo differente. Bisogna quindi verificare anzitutto se esista una successione testamentaria, intera o parziale, invece di iniziare da una tabella standard delle quote.\n\n### Fratello non significa automaticamente legittimario\n\nLa qualità di successibile senza testamento va distinta dalla riserva di legge. Un fratello può essere chiamato nella successione legittima senza rientrare tra i legittimari indicati dall'articolo 536.\n\nQuesto spiega perché un testamento che destini beni ad altri non sia contestabile soltanto perché esclude un fratello. Rimangono eventualmente questioni diverse, come validità della scheda o diritti derivanti da rapporti patrimoniali autonomi, da provare specificamente.\n\n### I rami dei fratelli mancanti\n\nGli articoli 467 e 468 richiedono attenzione quando un fratello del defunto sia premorto o non possa o non voglia accettare. I suoi discendenti possono entrare nella ricostruzione attraverso la rappresentazione nei casi previsti.\n\nEcco perché l'elenco dei fratelli viventi può essere incompleto. Occorre conoscere anche quelli deceduti e la loro discendenza, senza confondere un nipote figlio di fratello con un nipote figlio di figlio: il rapporto va sempre precisato.\n\n### Documentare prima di distribuire\n\nSono utili atti di stato civile, informazioni sui precedenti decessi, testamenti e rinunce. Una dichiarazione familiare generica può essere un punto di partenza, ma deve essere verificata quando l'assetto successorio dipende da rapporti poco noti.\n\nIl fascicolo deve distinguere inoltre germani e unilaterali, poiché la legge può attribuire loro un trattamento differente. Se emergono dubbi, conviene sospendere riparti informali e chiarire i titoli.\n\nLa pagina sulla [successione legittima](https://ereditaesuccessioni.it/successione-legittima) offre l'inquadramento generale; questa verifica mirata serve a evitare che l'espressione “non aveva figli” nasconda altri soggetti che devono partecipare alla successione.\n\n### Un albero che comprenda anche i familiari mancanti\n\nPer iniziare, conviene elencare tutti i fratelli e le sorelle del defunto, indicando per ciascuno se sia vivente, se abbia discendenti e se esistano atti rilevanti per la successione. È necessario affiancare questo quadro a quello degli ascendenti e dello stato coniugale del defunto.\n\nUn esempio mostra perché l'elenco dei soli presenti al funerale non sia sufficiente: un fratello morto molti anni prima potrebbe avere figli con cui gli altri hanno perso i contatti. La distanza personale non permette di ignorare quel ramo. La ricerca deve seguire i rapporti documentati, senza presumere che i contatti più stretti esauriscano la famiglia giuridicamente rilevante.\n\n### Un credito del fratello resta un problema distinto\n\nIl fratello escluso da un testamento potrebbe avere prestato denaro al defunto o pagato una spesa per suo conto. L'eventuale credito va verificato sulla base dei documenti del rapporto, senza confonderlo con una pretesa di quota riservata che non gli spetta in quanto fratello.\n\nBonifici, causali, accordi e restituzioni già avvenute aiutano a comprendere se si tratti di un prestito, di una liberalità o di un rapporto diverso. Il semplice fatto di aver aiutato economicamente il defunto non consente di prelevare beni dall'asse.\n\n### Dal calcolo alla gestione dei beni\n\nUna volta individuate le quote, resta da decidere come amministrare e dividere il patrimonio. Un conto, una casa e una collezione non vengono automaticamente assegnati a persone diverse perché il calcolo matematico è stato completato.\n\nLa proposta di divisione deve partire dai titoli corretti e da una ricostruzione dei valori e delle passività. Chiarire prima chi debba partecipare rende più solido anche l'eventuale accordo fra familiari.",
+    "faqs": [
+      {
+        "question": "Un fratello è sempre legittimario?",
+        "answer": "No. La chiamata nella successione senza testamento e la qualità di legittimario sono piani distinti; i fratelli non rientrano fra i soggetti dell'articolo 536."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 565, 570, 571, 582, 467, 468",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 565, 570, 571, 582, 467, 468. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Tre cornici familiari vuote su un tavolo e una cartella anagrafica, atmosfera sobria. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuna ceralacca o sigillo. Composizione fotografica essenziale con oggetti reali, inquadratura vicina e sfondo sfocato; evita di aggiungere libri, tazze o piante se non richiesti.",
+      "alt": "Tre cornici familiari vuote su un tavolo e una cartella anagrafica, atmosfera sobria",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-024.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "017b8cca8330b934979e0e869c9933ed345d0ce3ec146b1b9a70a1ad71834c7b",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 628,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 657,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-11-23",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "ca95b6ec0aa4cf798ddea00b153a8300859a4763539b43a22a796b82b4a33dee",
+    "sha256": "892c60340d9abcf2de9d0b9ca8a932196c6a59efef5bee85b5a02eeeec237798"
+  }
+}

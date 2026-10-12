@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-029",
+    "site": "eredita",
+    "sequence": 29,
+    "area": "Famiglia e chiamata",
+    "title": "Coniuge separato ed eredità: controllare il provvedimento di separazione",
+    "slug": "coniuge-separato-ed-eredita-controllare-il-provvedimento-di-separazione",
+    "intent": "Differenza tra separazione con e senza addebito",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successione-legittima"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 56,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Coniuge separato e successione",
+    "description": "Per valutare i diritti successori del coniuge separato occorre leggere il provvedimento e verificare l'eventuale addebito.",
+    "bodyMarkdown": "Il defunto viveva separato dal coniuge da molti anni. I familiari concludono che il superstite non abbia più diritti ereditari. La distanza personale, però, non basta: bisogna leggere il titolo della separazione e verificare se il matrimonio fosse ancora esistente e quali provvedimenti fossero definitivi.\n\n### Separazione non significa divorzio\n\nGli articoli 548 e 585 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) disciplinano la posizione successoria del coniuge separato. In particolare, il coniuge cui non sia stata addebitata la separazione con sentenza passata in giudicato conserva i diritti indicati dalla normativa.\n\nUn accordo di fatto sulla vita separata non può essere equiparato automaticamente a un divorzio. Anche una causa in corso richiede di verificare esattamente quali pronunce siano intervenute e con quali effetti.\n\n### Il ruolo dell'addebito\n\nLa norma collega all'addebito definitivo una disciplina diversa. L'articolo 548 prevede, alle condizioni stabilite, un assegno vitalizio quando al momento dell'apertura della successione il coniuge godeva degli alimenti a carico del defunto.\n\nQuesta tutela non coincide con la normale qualità successoria del coniuge non separato. Occorre inoltre distinguere gli alimenti dal mantenimento: utilizzare i due termini come sinonimi può alterare la verifica dei presupposti.\n\n### Quali provvedimenti leggere\n\nPer il primo esame servono sentenza o accordo di separazione, eventuali successive modifiche, documentazione sulla definitività e atti di stato civile aggiornati. È importante conservare anche i provvedimenti provvisori e le informazioni sui procedimenti ancora pendenti.\n\nUn esempio pratico: un familiare dispone soltanto di una pagina che stabilisce un pagamento mensile. Da quel documento incompleto non si può dedurre né l'esistenza dell'addebito definitivo né la precisa natura dell'obbligazione. Va acquisito il testo integrale.\n\n### Patrimonio e rapporti anteriori\n\nLa separazione può avere comportato assegnazioni, trasferimenti o scioglimento della comunione. Questi effetti devono essere ricostruiti prima di calcolare l'asse, perché alcuni beni potrebbero non appartenere più al defunto o essere gravati da diritti differenti.\n\nAnche eventuali crediti per somme non pagate richiedono un'analisi autonoma rispetto ai diritti successori. Essere creditore dell'eredità e partecipare alla successione sono posizioni che non vanno confuse.\n\nLa pagina sulla [successione legittima](https://ereditaesuccessioni.it/successione-legittima) inquadra la chiamata, mentre l'esame dei provvedimenti familiari permette di applicare la regola corretta. Le decisioni su conti e immobili dovrebbero attendere questa verifica documentale, anziché basarsi sul numero di anni trascorsi dalla separazione.\n\n### La durata della separazione non sostituisce la lettura degli atti\n\nUna coppia può aver vissuto separata per decenni senza che sia intervenuto il divorzio. Un'altra può aver avviato un procedimento poco prima del decesso. Il dato temporale, da solo, non permette di applicare la disciplina dell'ex coniuge.\n\nPer questo conviene ricostruire la sequenza dei provvedimenti e delle loro eventuali modifiche. Il documento deve essere letto per intero, comprese le parti sullo stato personale e sugli effetti economici. Un estratto utilizzato per ottenere un pagamento non dimostra necessariamente tutti gli elementi richiesti per la successione.\n\n### Trasferimenti già avvenuti fra i coniugi\n\nL'accordo di separazione può aver previsto attribuzioni patrimoniali, ma occorre verificare quali siano state effettivamente attuate e con quale titolo. Un impegno a trasferire un bene non va confuso con un trasferimento già perfezionato. La differenza può incidere sulla consistenza dell'asse e sull'esistenza di un credito.\n\nSe la casa era stata assegnata per esigenze familiari, bisogna inoltre distinguere quel provvedimento dalla proprietà. Il fatto che una persona vi abiti non consente di ricostruire da solo chi possieda il bene e quali diritti entrino nella successione.\n\n### Preparare le domande corrette\n\nIl primo colloquio dovrebbe chiarire se si discuta della qualità successoria, di un assegno previsto dalla legge o di somme già dovute e non pagate. Riunire tutte queste richieste sotto la formula “diritti dell'ex” rischia di nascondere che il matrimonio possa essere ancora esistente.\n\nDocumentare separatamente ciascun fondamento consente di valutare titoli, importi e rimedi pertinenti. Permette anche agli altri eredi di comprendere quale posizione venga fatta valere, riducendo contrasti basati su parole utilizzate in modo impreciso.",
+    "faqs": [
+      {
+        "question": "La separazione elimina sempre i diritti successori del coniuge?",
+        "answer": "No. Gli articoli 548 e 585 distinguono in particolare l'eventuale addebito pronunciato con sentenza passata in giudicato."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 548, 585",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 548, 585. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia concettuale editoriale 16:9: due cartelle color avorio senza alcuna scritta o simbolo, separate sul tavolo di legno chiaro; davanti a una cartella un semplice anello d'oro, davanti all'altra una chiave domestica. Luce naturale morbida, dettaglio ravvicinato, piccolo elemento tessile blu petrolio. Tema: effetti ereditari della separazione. Nessun documento visibile, nessun emblema, nessuno stemma, nessun sigillo, nessun testo e nessuna persona.",
+      "alt": "Due cartelle separate, un anello e una chiave sul tavolo.",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-029.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "048d56b114b0925ada4559f111a4be4af9d3a8273fc8f7ecd3f682b6f5e425b5",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 632,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 658,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-02-03",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "a6adfc17f76b017cbcd1ec7ee6a1ecef02f67079cbcb9cb4e1408fad5473d6e7",
+    "sha256": "3373cc015bf92b43c5950a07f1be1f55cdce7e3a8f5a0e6e19678a7645b95dde"
+  }
+}

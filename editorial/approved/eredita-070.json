@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-070",
+    "site": "eredita",
+    "sequence": 70,
+    "area": "Banche e patrimonio",
+    "title": "Foto e documenti nel cloud del defunto: preparare una richiesta mirata",
+    "slug": "foto-e-documenti-nel-cloud-del-defunto-preparare-una-richiesta-mirata",
+    "intent": "Accesso a ricordi digitali con minimizzazione e prova dell'interesse",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/avvocato-successioni"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 138,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Recuperare foto dal cloud del defunto",
+    "description": "Come preparare una richiesta circoscritta di fotografie e documenti e conservare le copie ottenute in modo ordinato.",
+    "bodyMarkdown": "Le fotografie di famiglia possono trovarsi soltanto nel cloud di una persona deceduta. Per cercare di recuperarle, la richiesta deve descrivere l'archivio desiderato e il rapporto con il defunto, distinguendo i ricordi familiari da un accesso generale a ogni contenuto dell'account.\n\nL'[articolo 2-terdecies del Codice privacy](https://www.garanteprivacy.it/documents/10160/0/Codice%2Bin%2Bmateria%2Bdi%2Bprotezione%2Bdei%2Bdati%2Bpersonali%2B%28Testo%2Bcoordinato%29.pdf/b1787d6b-6bce-07da-a38f-3742e3888c1d?version=5.0) offre il quadro per l'esercizio dei diritti relativi ai dati di persone decedute. La domanda concreta deve spiegare l'interesse e confrontarsi con eventuali volontà del titolare e con i diritti di altre persone.\n\n## Identificare il servizio corretto\n\nUn indirizzo email può essere collegato a più servizi: posta, foto, disco virtuale e copie di sicurezza del telefono. Chiedere genericamente «il cloud» può non permettere al fornitore di capire che cosa si cerca.\n\nSono utili l'indirizzo esatto, eventuali nomi di album, periodi e informazioni sull'esistenza di cartelle condivise. Non occorre conoscere o comunicare la password per indicare questi dati.\n\nSe una copia è già presente su un dispositivo o presso un familiare, va verificata prima di avviare richieste più ampie. Potrebbe contenere soltanto una parte dell'archivio: completezza e provenienza vanno annotate.\n\n## Formulare una richiesta mirata\n\nUna domanda può specificare, per esempio, fotografie di determinati anni o documenti relativi a un immobile. La delimitazione deve essere abbastanza chiara da consentire una ricerca, senza pretendere che il fornitore conosca la storia della famiglia.\n\nGli allegati devono dimostrare ciò che è necessario: identità, decesso e fondamento dell'interesse. È preferibile seguire il canale ufficiale e conservare un riepilogo di ciò che è stato trasmesso.\n\nSe il fornitore dispone di una procedura per i contatti designati dal titolare, occorre verificarne i requisiti effettivi.\n\n## Chiedere i file nel formato utile\n\nPer le fotografie, una semplice anteprima potrebbe non conservare qualità e informazioni originali. È opportuno chiarire se si richiedano copie dei file e quali dati associati siano disponibili.\n\nPer i documenti, il formato dovrebbe consentire lettura e conservazione. Un archivio compresso va verificato prima di eliminare altre copie, controllando che si apra e che contenga il materiale atteso.\n\nQuesti controlli tecnici non attribuiscono diritti ulteriori sui contenuti: servono a rendere utilizzabile ciò che è stato legittimamente ottenuto.\n\n## Proteggere anche le persone vive\n\nLe fotografie e i documenti possono riguardare altri familiari, minori o terzi. Ottenere una copia per conservarla non equivale a poterla pubblicare liberamente sui social o sul sito di famiglia.\n\nÈ utile separare l'archivio di conservazione dai file che si intende condividere. Per documenti economici o sanitari, la selezione dei destinatari deve essere particolarmente attenta.\n\nUna cartella accessibile a chiunque tramite un collegamento non è sempre la soluzione più adatta.\n\n## Tenere traccia della procedura\n\nLa cronologia delle richieste, delle risposte e delle copie ricevute aiuta se emergono problemi. Un diniego deve essere letto nel suo contenuto: potrebbe riguardare l'intero account, mentre una richiesta più circoscritta pone un problema diverso.\n\nPer le [successioni con beni e archivi digitali](https://ereditaesuccessioni.it/avvocato-successioni), l'obiettivo è recuperare ciò che serve rispettando il contesto. Una richiesta precisa è spesso il primo passo per preservare ricordi e documenti senza trasformare il lutto in un accesso indiscriminato ai dati.\n\n### Controllare la copia senza cancellare la precedente\n\nDopo il recupero, è utile verificare alcuni file di periodi diversi, il numero complessivo degli elementi e l'eventuale presenza di cartelle vuote o allegati mancanti. Una schermata che conferma il download non dimostra da sola che tutti i contenuti attesi siano utilizzabili.\n\nGli errori vanno annotati con nomi dei file e messaggi ricevuti, così da formulare una richiesta tecnica precisa. Prima di eliminare copie precedenti o chiudere la pratica, conviene accertare che l'archivio si apra anche dalla destinazione di conservazione scelta. Si evita così di scoprire troppo tardi che erano state salvate soltanto anteprime o collegamenti non più accessibili.",
+    "faqs": [
+      {
+        "question": "Per ottenere le foto devo chiedere l'intera casella email?",
+        "answer": "Non necessariamente. Una richiesta circoscritta all'archivio o al periodo di interesse può essere più appropriata, ferma la valutazione del fornitore e dei diritti coinvolti."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.garanteprivacy.it/documents/10160/0/Codice%2Bin%2Bmateria%2Bdi%2Bprotezione%2Bdei%2Bdati%2Bpersonali%2B%28Testo%2Bcoordinato%29.pdf/b1787d6b-6bce-07da-a38f-3742e3888c1d?version=5.0",
+        "title": "Codice privacy, articolo 2-terdecies",
+        "supports": "Richiesta di accesso ai dati del defunto per interesse proprio o ragioni familiari meritevoli di protezione.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Un album fotografico aperto accanto a un disco esterno e un portatile con schermo neutro sfocato. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo, numero di conto o intestazione: eventuali carte e schermi devono essere anonimi e senza testo. Composizione fotografica semplice specifica del tema, luce naturale, oggetti credibili, nessuna persona riconoscibile.",
+      "alt": "Un album fotografico aperto accanto a un disco esterno e un portatile con schermo neutro sfocato",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-070.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "b1e9158351f96d2a20e4eed39cf74a144f85b2ef1800e4ece0a9f89aa628ed4f",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 607,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 640,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-04-16",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "0986320087a1ae1b72ae0256b810790308cfe6278ca4aa5ac07515d472abd80b",
+    "sha256": "25da34edbd4e1edea731d99d6870b5e0eba917b51ff415dfc6b8072334851841"
+  }
+}

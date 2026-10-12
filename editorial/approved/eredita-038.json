@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-038",
+    "site": "eredita",
+    "sequence": 38,
+    "area": "Accettazione e debiti",
+    "title": "Inventario ereditario: preparare l'elenco di beni, crediti e passività",
+    "slug": "inventario-ereditario-preparare-l-elenco-di-beni-crediti-e-passivita",
+    "intent": "Contenuto informativo necessario per l'inventario formale",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/beneficio-inventario"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 74,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Preparare l'inventario ereditario",
+    "description": "Come organizzare beni, crediti e passività per l'inventario, distinguendo documenti certi e informazioni da verificare.",
+    "bodyMarkdown": "Prima dell'inventario vengono raccolte visure e saldi bancari, ma mancano crediti, beni mobili e garanzie prestate dal defunto. Il rischio è confondere ciò che è facile trovare con l'intero patrimonio. Una preparazione ordinata deve rappresentare sia l'attivo sia le passività conosciute e i punti ancora da verificare.\n\n### Il rapporto con il beneficio\n\nL'articolo 484 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) collega la dichiarazione beneficiata all'inventario redatto nelle forme prescritte. L'articolo 490 disciplina la separazione patrimoniale e gli effetti del beneficio.\n\nL'elenco preparatorio aiuta il professionista e l'ufficiale incaricato, ma non sostituisce l'atto formale. Neppure la dichiarazione fiscale di successione svolge automaticamente questa funzione.\n\n### Descrivere i beni identificabili\n\nPer immobili e veicoli servono titoli e dati dei registri; per conti e investimenti, rapporti e consistenze alla data rilevante. I beni mobili possono richiedere fotografie, descrizione, ubicazione e indicazione di chi li custodisce.\n\nUn oggetto di valore non dovrebbe essere escluso soltanto perché non esiste una fattura. La prova disponibile va descritta senza trasformare un sospetto in una certezza. Se un familiare sostiene che il bene gli appartenesse, la contestazione deve essere registrata separatamente.\n\n### Crediti e obbligazioni meno visibili\n\nPrestiti concessi, canoni non incassati e rimborsi possono costituire attività da verificare. Sul versante opposto vanno censiti mutui, richieste dei creditori, contenziosi e garanzie potenziali.\n\nPer ciascuna voce conviene distinguere importo documentato, stima e dato ancora ignoto. Un debito contestato non va presentato come inesistente, né riconosciuto senza controllo: deve essere qualificato nel fascicolo con gli atti che lo riguardano.\n\n### Una mappa delle lacune\n\nUna colonna dedicata a “documento mancante” permette di trasformare l'inventario preparatorio in un piano di ricerca. Per esempio: saldo di un rapporto noto ma non certificato; quota societaria della quale manca lo statuto; immobile con titolo da acquisire.\n\nLa ricerca deve rispettare i tempi applicabili all'accettazione e all'inventario. Non si attende di conoscere perfettamente ogni dettaglio prima di verificare scadenze e possesso dei beni.\n\nIl servizio sul [beneficio d'inventario](https://ereditaesuccessioni.it/beneficio-inventario) aiuta a coordinare questi due obiettivi: completezza della ricostruzione e correttezza del procedimento. Una buona lista non è quella più lunga, ma quella che distingue con chiarezza ciò che è provato, contestato e ancora da accertare.\n\n### Una scheda per ogni posizione\n\nUn inventario preparatorio funziona meglio se ogni bene ha un identificativo stabile. Per un immobile si possono collegare titolo, dati catastali, eventuale locazione e documentazione sul finanziamento; per un conto, istituto, numero del rapporto e documenti ricevuti. Non serve ripetere lo stesso bene in più elenchi come se fosse ogni volta un'attività diversa.\n\nPer i crediti è utile distinguere importo nominale, scadenza, debitore e stato della contestazione. Un credito indicato in un contratto non equivale necessariamente a denaro disponibile. La valutazione della sua concreta recuperabilità richiede ulteriori elementi, ma eliminarlo dall'elenco perché non è stato ancora incassato sarebbe altrettanto fuorviante.\n\n### Registrare una richiesta non significa riconoscerla\n\nUna lettera con cui qualcuno pretende un pagamento va conservata e inserita tra le posizioni da verificare. La scheda dovrebbe riportare il titolo invocato, i documenti allegati e le eventuali risposte già date. Una voce “debito certo” non è appropriata se si dispone soltanto di una richiesta priva di giustificazione; viceversa, ignorarla completamente nasconde un problema che potrebbe incidere sulla scelta successoria.\n\nQuando arrivano documenti nuovi, è preferibile mantenere traccia dell'aggiornamento: quale dato è cambiato, perché e sulla base di quale fonte. Sostituire silenziosamente un valore stimato con uno diverso può rendere incomprensibili i conteggi già condivisi. Anche la data della stima deve essere visibile, soprattutto per beni soggetti a variazioni rilevanti.\n\nQuesto lavoro preliminare rende più ordinata la formazione dell'inventario formale, ma non lo sostituisce. Il fascicolo può essere consegnato con un elenco esplicito delle lacune ancora aperte: chi procede saprà così dove servono accertamenti e quali elementi sono già documentati.",
+    "faqs": [
+      {
+        "question": "Un foglio Excel dei beni è già l'inventario previsto dalla legge?",
+        "answer": "No. È uno strumento preparatorio; l'inventario formale deve rispettare il procedimento richiamato dall'articolo 484."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 484, 490",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 484, 490. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Tavolo con fotografie di oggetti, chiavi, estratti bancari sfocati e tre cartelle ordinate. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutti i documenti e le cartelline devono essere completamente privi di stemmi, emblemi, sigilli, ceralacca, intestazioni e simboli ufficiali. Fotografia essenziale con sfondo pulito, varia il punto di vista. Nessuna scritta, neppure sulle chiavi.",
+      "alt": "Tavolo con fotografie di oggetti, chiavi, estratti bancari sfocati e tre cartelle ordinate",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-038.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "e298eba2fec3cdf454b2bb44b0fc494bca050400ff8987d02ba5d145ed846c5f",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 616,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 641,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-11-25",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "689ce4c827e610b67ac204137c7ce946ef70ef6513df279a4b3c8421046d5e17",
+    "sha256": "864b635181cd17f436b81cead8cb337bd741cbb5dcdbd44e2e1167a08c2e9d68"
+  }
+}

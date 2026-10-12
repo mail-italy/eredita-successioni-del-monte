@@ -1,0 +1,65 @@
+{
+  "article": {
+    "id": "eredita-086",
+    "site": "eredita",
+    "sequence": 86,
+    "area": "Beni e conflitti",
+    "title": "Petizione ereditaria: quali documenti provano la qualità di erede",
+    "slug": "petizione-ereditaria-quali-documenti-provano-la-qualita-di-erede",
+    "intent": "Fondamento della domanda restitutoria senza duplicare la pagina servizio",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/petizione-ereditaria"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 170,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Petizione ereditaria: documenti e prova",
+    "description": "Quali elementi provano qualità di erede, appartenenza dei beni e posizione di chi li possiede.",
+    "bodyMarkdown": "La petizione ereditaria serve all'erede per ottenere il riconoscimento della propria qualità e la restituzione di beni posseduti da altri a titolo di erede o senza titolo. Non è una formula generica per qualsiasi lite tra parenti.\n\nL'[articolo 533 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) ne definisce la funzione. Prima di impostare una domanda, occorre costruire la prova della qualità ereditaria e identificare i beni che si intendono recuperare.\n\n## Il titolo della chiamata\n\nSe la successione deriva dalla legge, servono i documenti che ricostruiscono i rapporti familiari e le altre circostanze rilevanti. Se deriva da testamento, occorre il testo completo e la documentazione pertinente alla sua efficacia.\n\nLa parentela da sola non chiarisce sempre il risultato: possono esistere chiamati di grado diverso, rinunce, rappresentazione o disposizioni testamentarie.\n\nUn albero familiare accompagnato dai documenti aiuta a individuare gli anelli mancanti della ricostruzione.\n\n## La qualità di erede\n\nEssere chiamati e avere acquistato l'eredità sono passaggi da distinguere. Occorre verificare accettazioni espresse, comportamenti eventualmente rilevanti e possibili rinunce.\n\nGli articoli 459 e 476 forniscono parte del quadro. La qualificazione degli atti richiede un esame concreto: non ogni documento fiscale o attività compiuta dopo il decesso ha automaticamente lo stesso significato.\n\nSe la posizione successoria è controversa, la prova non può essere sostituita dall'uso abituale della parola «erede» nelle comunicazioni familiari.\n\n## Identificare i beni\n\nLa domanda deve consentire di riconoscere immobili, somme o beni mobili richiesti. Per ciascuno vanno raccolti titoli del defunto, documenti di provenienza e informazioni sul possesso attuale.\n\nUn elenco generico di «tutti i beni della famiglia» non aiuta a individuare ciò che apparteneva davvero alla successione. Eventuali beni già donati o di terzi richiedono una verifica separata.\n\nPer denaro e conti, la ricostruzione dei movimenti può essere necessaria per capire che cosa sia stato trasferito e a chi.\n\n## Comprendere la posizione del possessore\n\nL'articolo 533 considera chi possiede a titolo di erede o senza titolo. Se l'altra persona invoca un diverso rapporto, occorre valutare quale domanda sia appropriata.\n\nQuando il bene è stato trasferito a terzi, entrano in gioco le regole dell'articolo 534, con particolare rilievo di buona fede e trascrizioni per i beni soggetti a pubblicità. Non si può promettere il recupero senza conoscere la sequenza degli acquisti.\n\nAnche frutti, spese e miglioramenti richiedono un esame coerente con l'articolo 535.\n\n## L'imprescrittibilità non invita ad attendere\n\nLa norma qualifica l'azione come imprescrittibile, salvi gli effetti dell'usucapione rispetto ai singoli beni. Ciò non elimina l'utilità di agire tempestivamente per conservare prove e verificare diritti dei terzi.\n\nIl passare del tempo può rendere più difficile reperire documenti, ricostruire possesso e individuare i beni. Non è prudente rinviare soltanto perché si è letto che l'azione «non scade».\n\nLa consulenza sulla [petizione ereditaria](https://ereditaesuccessioni.it/petizione-ereditaria) parte quindi da tre domande documentate: perché si è eredi, quali beni appartenevano al defunto e chi li possiede oggi con quale titolo. La scelta del rimedio segue questa ricostruzione.\n\n### Collegare ogni bene a una catena documentale\n\nPer un immobile, il fascicolo dovrebbe permettere di passare dal titolo del defunto alla situazione attuale dei diritti. Per un oggetto mobile, fotografie, documenti di acquisto e informazioni sul trasferimento materiale possono offrire una ricostruzione diversa ma altrettanto necessaria. La prova della qualità di erede non sostituisce automaticamente quella dell'appartenenza di ogni bene.\n\nQuando un passaggio manca, va indicato quale documento si cerchi e presso quale interlocutore. Una richiesta di restituzione formulata prima di conoscere il possessore attuale può essere indirizzata alla persona sbagliata.\n\nÈ utile predisporre una scheda per ciascun cespite con titolo originario, vicende successive e questione controversa. Il professionista potrà così distinguere una contestazione sulla qualità ereditaria da un problema di proprietà, di contratto o di trasferimento a terzi, scegliendo la domanda adatta invece di estendere indistintamente la petizione a ogni rapporto familiare.",
+    "faqs": [
+      {
+        "question": "Per chiedere un bene basta dimostrare di essere parente del defunto?",
+        "answer": "No. Occorre provare il titolo successorio e la qualità di erede, oltre ai fatti relativi ai beni richiesti e alla posizione di chi li possiede."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 459, 476, 533, 534, 535",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 459, 476, 533, 534, 535. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Un albero genealogico astratto senza nomi accanto a un testamento chiuso e un titolo immobiliare. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Un albero genealogico astratto senza nomi accanto a un testamento chiuso e un titolo immobiliare",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-086.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "b514c88b9f85c5b5953849aa05e7cb38bc3435cdd4ea9ff47d4cabb3e6c45b0d",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 620,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 656,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-01-30",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "d9b5c11b5f53573d9353a1477f1274e2209c52ef3b47dbfb4f53435eb1ad1f1b",
+    "sha256": "2246c14d619d3b1baceb6c0a0bb815926e4aa0c28c9fbdf681b19fd620f6f545"
+  }
+}

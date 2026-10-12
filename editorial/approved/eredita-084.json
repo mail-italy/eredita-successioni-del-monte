@@ -1,0 +1,65 @@
+{
+  "article": {
+    "id": "eredita-084",
+    "site": "eredita",
+    "sequence": 84,
+    "area": "Beni e conflitti",
+    "title": "Quadri ereditati: distinguere autenticità, proprietà e valore",
+    "slug": "quadri-ereditati-distinguere-autenticita-proprieta-e-valore",
+    "intent": "Tre verifiche autonome sui beni d'arte",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/divisione-ereditaria"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 166,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Quadri ereditati: tre verifiche distinte",
+    "description": "Proprietà, autenticità e valore richiedono prove diverse: come preparare il fascicolo di un'opera ereditata.",
+    "bodyMarkdown": "Un quadro trovato nella casa del defunto pone almeno tre domande: a chi appartiene, che cosa rappresenta sotto il profilo dell'autenticità e quanto vale. Una risposta positiva a una di esse non risolve automaticamente le altre.\n\nLa [disciplina della divisione e della tutela dei beni ereditari](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) richiede di identificare ciò che entra nel patrimonio e di stimarlo con un criterio adeguato. Una firma sulla tela o un prezzo ricordato in famiglia non sono sufficienti per tutte le verifiche.\n\n## Documentare l'opera\n\nSono utili fotografie del fronte, del retro, della cornice e degli elementi identificativi. Le dimensioni, la tecnica apparente e lo stato di conservazione devono essere annotati senza attribuire qualificazioni specialistiche non verificate.\n\nNon conviene rimuovere etichette, restaurare o pulire l'opera prima del controllo. Anche un dettaglio sul retro può essere utile per la provenienza.\n\nLa custodia dovrebbe proteggere il bene e consentirne l'identificazione, evitando spostamenti non documentati tra familiari.\n\n## Ricostruire la proprietà\n\nFatture, atti di acquisto, donazioni e documenti di deposito possono chiarire come il quadro sia arrivato nella disponibilità del defunto. Essere appeso nella sua casa è un fatto, non sempre la prova conclusiva del titolo.\n\nSe qualcuno sostiene di averlo regalato o prestato, occorre raccogliere gli elementi pertinenti. Le versioni devono restare distinte dai documenti che le sostengono.\n\nUn eventuale conflitto sulla proprietà va segnalato allo stimatore, così che la relazione non presenti come pacifico ciò che non lo è.\n\n## Autenticità e attribuzione\n\nUna firma o un certificato possono richiedere verifica da parte di chi abbia competenza sull'autore o sul tipo di opera. Non ogni documento denominato «certificato» ha lo stesso valore.\n\nIl professionista dovrebbe chiarire che cosa abbia esaminato e quali limiti presenti la conclusione. Un'attribuzione, una probabilità e un'autenticazione non vanno riportate come sinonimi.\n\nSe esistono precedenti perizie discordanti, devono essere messe a disposizione anziché selezionare soltanto quella economicamente più favorevole.\n\n## La stima dipende dallo scopo\n\nIl valore per una divisione, una vendita o una copertura assicurativa può essere formulato secondo prospettive diverse. La relazione deve indicare criterio e data.\n\nOccorre distinguere prezzo di aggiudicazione, stima d'asta e ricavo netto dopo commissioni e altri costi. Un risultato ottenuto da un'opera simile non è automaticamente applicabile al quadro ereditato.\n\nLo stato di conservazione e la documentazione di provenienza possono incidere sulla commerciabilità.\n\n## Non frammentare il contesto\n\nSe il quadro fa parte di una raccolta, l'articolo 727 invita a considerare l'importanza dell'insieme. Archivio, corrispondenza e cataloghi possono avere un'utilità che si perde se vengono separati dall'opera.\n\nEventuali vincoli culturali o operazioni verso l'estero richiedono verifiche specifiche prima di assumere impegni. Non vanno dedotti né esclusi dalla sola antichità del bene.\n\nLa consulenza sulla [divisione ereditaria](https://ereditaesuccessioni.it/divisione-ereditaria) può così utilizzare tre fascicoli coordinati: titolo, autenticità e valore. Tenerli distinti rende più chiaro ciò che è già provato e ciò che deve ancora essere accertato prima dell'assegnazione o della vendita.\n\n### Chiedere cosa comprende la valutazione proposta\n\nUn preventivo può riferirsi a una semplice stima economica e non comprendere indagini sull'autenticità o verifiche della provenienza. Prima di conferire l'incarico è utile chiarire questi limiti, così da non attribuire alla relazione conclusioni che il professionista non era stato chiamato a formulare.\n\nSe è necessario spostare l'opera, vanno concordati imballaggio, custodia, identificazione e restituzione. Fotografie dello stato precedente alla consegna aiutano a distinguere eventuali danni successivi dalle condizioni già esistenti.\n\nNel confronto tra eredi, la relazione deve essere trasmessa integralmente, comprese riserve e ipotesi. Riportare soltanto il valore più alto di una forchetta può alterare il significato della stima. L'accordo potrà quindi indicare quale criterio sia stato utilizzato e quali questioni, come un'attribuzione ancora incerta, siano state considerate nella scelta di assegnare il quadro o proporlo in vendita.",
+    "faqs": [
+      {
+        "question": "Una perizia di valore prova anche che il quadro appartenga all'eredità?",
+        "answer": "No. Valore, autenticità e proprietà sono verifiche differenti. Il mandato e i documenti devono chiarire quali aspetti siano stati effettivamente esaminati."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 533, 726, 727",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 533, 726, 727. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Il retro di un quadro appoggiato su un cavalletto, con etichette illeggibili e una lente su un tavolo. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Il retro di un quadro appoggiato su un cavalletto, con etichette illeggibili e una lente su un tavolo",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-084.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "56e3b9d589f2a46c13d93c7792c2e584d1d6270d691de79c95af8975b66b9492",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 604,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 636,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-12-21",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "f148ad180753eb1776412ae7c4f227a8d9052db68450323f5027c2579015d72a",
+    "sha256": "bb1ec9f6c5f39c3ac2cd9aa6b83540b8c02330bbaea388ef1d3baba1e1d28de8"
+  }
+}

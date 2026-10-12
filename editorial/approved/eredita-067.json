@@ -1,0 +1,76 @@
+{
+  "article": {
+    "id": "eredita-067",
+    "site": "eredita",
+    "sequence": 67,
+    "area": "Banche e patrimonio",
+    "title": "Il defunto aveva prestato denaro: come ricostruire un credito ereditario",
+    "slug": "il-defunto-aveva-prestato-denaro-come-ricostruire-un-credito-ereditario",
+    "intent": "Crediti attivi, titolo e prova del pagamento",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/recupero-somme-ereditarie"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 132,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Prestiti del defunto e crediti ereditari",
+    "description": "Come ricostruire titolo, rimborsi e saldo di un prestito prima di chiedere il pagamento per conto dell'eredità.",
+    "bodyMarkdown": "Un'eredità può comprendere denaro da recuperare, non soltanto somme da pagare. Se il defunto aveva prestato denaro a un familiare o a un conoscente, gli eredi devono ricostruire il credito e ciò che eventualmente è già stato restituito.\n\nL'[articolo 1813 del Codice civile](https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo%201813&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D) descrive il mutuo attraverso consegna e obbligo di restituzione. Un trasferimento bancario, da solo, non esaurisce la prova di tutti gli elementi del rapporto.\n\n## Ricostruire il titolo del pagamento\n\nSono utili scritture, messaggi, causali, quietanze e corrispondenza. Il documento dovrebbe chiarire chi abbia consegnato il denaro, a chi, con quale accordo e quando fosse prevista la restituzione.\n\nLa causale «prestito» è un elemento da valutare, ma non sostituisce ogni altra verifica. Allo stesso modo, la mancanza di una causale dettagliata non dimostra automaticamente che il denaro fosse un regalo.\n\nÈ importante conservare gli originali e l'intero contesto delle conversazioni, evitando selezioni che possano alterarne il significato.\n\n## Verificare il saldo effettivo\n\nIl debitore potrebbe avere restituito parte della somma, anche attraverso pagamenti che non sono immediatamente riconoscibili. Il conteggio deve cercare questi riscontri e non limitarsi all'uscita iniziale dal conto.\n\nUn prospetto può indicare capitale consegnato, rimborsi documentati, date e importi ancora da chiarire. Gli interessi non vanno aggiunti automaticamente con una percentuale scelta dagli eredi: occorre verificare accordi e disciplina applicabile.\n\nSe più operazioni si sono sovrapposte, bisogna distinguerle prima di chiedere un saldo complessivo.\n\n## Confrontare le versioni senza perdere le scadenze\n\nUna richiesta scritta al presunto debitore può sollecitare la sua ricostruzione e i documenti di pagamento. È utile formulare la domanda in modo preciso, indicando le operazioni note.\n\nL'attesa della risposta non deve far trascurare prescrizione, eventuali scadenze contrattuali o altri atti necessari. Il contenuto giuridico della comunicazione va valutato: non ogni messaggio informale ha lo stesso effetto.\n\nL'[articolo 2697](https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo%202697&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D) richiede di distinguere i fatti che fondano il diritto da quelli che ne impediscono, modificano o estinguono gli effetti. La raccolta delle prove deve seguire questa distinzione.\n\n## Chi formula la richiesta\n\nSe ci sono più eredi, la titolarità e la gestione del credito devono essere chiarite. Un familiare non dovrebbe promettere al debitore una liberazione definitiva senza verificare i propri poteri e la posizione degli altri.\n\nAnche un accordo di saldo può incidere sul patrimonio comune. Occorre definirne oggetto, soggetti e modalità di pagamento, evitando versamenti a un conto personale senza un rendiconto condiviso.\n\n## Inserire il credito nella successione\n\nUn credito contestato non va presentato come denaro già disponibile. Nel quadro patrimoniale è utile distinguere importo nominale, elementi di prova e possibilità concreta di recupero.\n\nLa consulenza sul [recupero delle somme ereditarie](https://ereditaesuccessioni.it/recupero-somme-ereditarie) può così partire da una domanda documentata: esiste un obbligo di restituzione, quale saldo resta e chi può farlo valere? Solo dopo queste verifiche ha senso scegliere tra sollecito, accordo e azione.\n\n### Una restituzione può riferirsi a un rapporto diverso\n\nQuando tra le stesse persone ci sono stati più trasferimenti, un bonifico di ritorno non va imputato automaticamente al prestito oggetto della richiesta. Potrebbe rimborsare una spesa comune oppure regolare un'altra operazione. Causale, importo, data e conversazioni pertinenti aiutano a stabilire il collegamento.\n\nÈ utile predisporre una scheda per ciascun rapporto ipotizzato, mantenendo separati i movimenti ancora non attribuiti. Se il presunto debitore indica un pagamento come saldo definitivo, occorre chiedere il documento o la comunicazione cui si riferisce. Un conteggio corretto deve considerare le restituzioni provate senza rinunciare a verificare il loro oggetto.\n\nQuando si raggiunge un accordo, il testo dovrebbe identificare il credito regolato, le somme e i soggetti coinvolti. Una formula generica di “saldo di ogni rapporto familiare” può estendersi oltre il prestito ricostruito e richiede quindi una valutazione consapevole.",
+    "faqs": [
+      {
+        "question": "Un bonifico dal conto del defunto prova sempre un prestito?",
+        "answer": "Prova il trasferimento, ma la sua causa va ricostruita. Potrebbe trattarsi di un prestito, di una liberalità o di un pagamento con un altro titolo."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 533",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 533. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo%201813&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+        "title": "Codice civile, articolo 1813",
+        "supports": "Obbligo di restituzione nel mutuo.",
+        "checkedAt": "2026-10-12"
+      },
+      {
+        "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo%202697&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+        "title": "Codice civile, articolo 2697",
+        "supports": "Ripartizione dell'onere della prova.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Un bonifico stampato non leggibile accanto a una scrittura privata chiusa e una penna. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo, numero di conto o intestazione: eventuali carte e schermi devono essere anonimi e senza testo. Composizione fotografica semplice specifica del tema, luce naturale, oggetti credibili, nessuna persona riconoscibile.",
+      "alt": "Un bonifico stampato non leggibile accanto a una scrittura privata chiusa e una penna",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-067.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "17ee88d7e77871b11196cf2490912b4bfd1e803744a2f2567e5a800481de1deb",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 602,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 637,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-02-17",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "2ac8e35fa7b5916acc379cec742542452389eaad022b67197161e209041cf97c",
+    "sha256": "2bcf93be7934ac7d67adf08bedb7d4418439a72ef6250fe8b7146aa63edef3ed"
+  }
+}

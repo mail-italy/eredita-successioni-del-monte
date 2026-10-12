@@ -1,0 +1,76 @@
+{
+  "article": {
+    "id": "eredita-068",
+    "site": "eredita",
+    "sequence": 68,
+    "area": "Banche e patrimonio",
+    "title": "Deposito cauzionale dell'inquilino: separarlo dagli affitti ereditati",
+    "slug": "deposito-cauzionale-dell-inquilino-separarlo-dagli-affitti-ereditati",
+    "intent": "Somma da restituire e reddito della comunione",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/affitti-immobili-ereditati"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 134,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Cauzione dell'inquilino nell'eredità",
+    "description": "Perché il deposito cauzionale va separato dai canoni e considerato nel rendiconto e nella divisione dell'immobile.",
+    "bodyMarkdown": "Quando si eredita un immobile affittato, sul conto del defunto può essere presente anche il deposito cauzionale versato dall'inquilino. Quella somma non ha la stessa funzione dei canoni: è collegata alla garanzia degli obblighi del rapporto e alla futura restituzione secondo la disciplina applicabile.\n\nL'[articolo 11 della legge 392/1978](https://www.normattiva.it/eli/id/1978/07/29/078U0392/CONSOLIDATED) disciplina il deposito e gli interessi. Nel rendiconto successorio occorre quindi tenere distinta la cauzione dalle entrate maturate per il godimento dell'immobile.\n\n## Cercare prova dell'importo ricevuto\n\nIl contratto può indicare una somma, ma bisogna verificare se sia stata effettivamente versata e se sia cambiata durante il rapporto. Ricevute, bonifici e accordi successivi aiutano a ricostruire il dato.\n\nPotrebbero esserci integrazioni, restituzioni parziali o trasferimenti da un precedente proprietario. Un saldo di conto non permette da solo di identificarli.\n\nÈ utile chiedere all'inquilino una copia della documentazione in suo possesso e confrontarla con quella del defunto, evitando di considerare una divergenza come prova immediata di scorrettezza.\n\n## Registrare la posizione nel quadro ereditario\n\nIl denaro materialmente presente e l'obbligo di restituzione sono due aspetti da tenere insieme. Se si distribuiscono tutte le disponibilità senza considerare la cauzione, alla fine della locazione può emergere una richiesta che nessuno aveva previsto.\n\nGli [articoli 752 e 754 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) richiedono di esaminare i rapporti relativi a debiti e pesi ereditari. La concreta posizione verso l'inquilino va coordinata con il subentro nel rapporto e con gli accordi tra eredi.\n\nUn'intesa interna secondo cui «se ne occuperà chi tiene la casa» deve essere formulata con precisione e non presupporre effetti automatici verso terzi.\n\n## La fine della locazione\n\nAlla riconsegna servono verbale, chiavi, letture delle utenze se pertinenti e documentazione dello stato dell'immobile. L'[articolo 1590](https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo%201590&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D) distingue la restituzione della cosa dal deterioramento dovuto all'uso conforme e alla vetustà.\n\nNon ogni difetto consente di trattenere la cauzione. Occorre individuare la contestazione, documentarla e valutarne il fondamento. Anche eventuali canoni non pagati devono essere ricostruiti separatamente.\n\nL'assenza di fotografie iniziali può rendere il confronto più difficile, ma non autorizza a sostituirle con una stima arbitraria dei danni.\n\n## Se un solo erede gestisce il rapporto\n\nChi riceve canoni e comunicazioni dovrebbe mantenere un rendiconto accessibile agli altri. La cauzione deve comparire come voce distinta, con indicazione di importo e vicende.\n\nSe viene restituita, occorre conservare la prova del pagamento e l'eventuale accordo di chiusura. Se resta una controversia, il prospetto deve indicare la somma contestata e il motivo, senza presentarla come guadagno definitivo.\n\n## Preparare la divisione dell'immobile\n\nQuando la casa viene assegnata a un coerede o venduta, la cauzione va considerata nella regolazione dei rapporti. Lasciarla fuori dall'accordo può generare un conflitto successivo tra chi ha ricevuto il denaro e chi deve affrontare la richiesta dell'inquilino.\n\nLa gestione degli [affitti degli immobili ereditati](https://ereditaesuccessioni.it/affitti-immobili-ereditati) richiede quindi un rendiconto che comprenda anche ciò che dovrà essere restituito. Un'entrata bancaria non è sempre un reddito liberamente distribuibile.\n\n### Inserire la cauzione nel verbale di passaggio\n\nSe la gestione della locazione passa a un altro coerede, il verbale può riepilogare importo ricevuto, documenti disponibili e questioni ancora aperte con l'inquilino. Un dato non verificato deve restare riconoscibile come tale: trascriverlo in un nuovo documento non lo rende automaticamente certo.\n\nÈ utile indicare anche chi conservi le ricevute e a chi siano state inviate le comunicazioni. In questo modo il nuovo referente non dovrà chiedere all'inquilino di dimostrare nuovamente fatti già documentati.\n\nIl passaggio delle informazioni non sostituisce la corretta regolazione giuridica dei rapporti, ma evita che denaro e obbligo collegato si separino nella contabilità familiare. La divisione potrà così affrontare espressamente la cauzione invece di lasciarla emergere soltanto alla fine della locazione.",
+    "faqs": [
+      {
+        "question": "La cauzione ricevuta dal defunto può essere distribuita come un canone?",
+        "answer": "Non va trattata automaticamente come reddito disponibile. Occorre ricostruire l'obbligo di restituzione e le eventuali contestazioni relative alla locazione."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 752, 754",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 752, 754. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://www.normattiva.it/eli/id/1978/07/29/078U0392/CONSOLIDATED",
+        "title": "Legge 392/1978, articolo 11",
+        "supports": "Disciplina del deposito cauzionale e degli interessi.",
+        "checkedAt": "2026-10-12"
+      },
+      {
+        "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo%201590&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+        "title": "Codice civile, articolo 1590",
+        "supports": "Restituzione della cosa locata e deterioramento da uso.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una chiave di appartamento accanto a due contenitori separati di ricevute, uno per canoni e uno per cauzione. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo, numero di conto o intestazione: eventuali carte e schermi devono essere anonimi e senza testo. Composizione fotografica semplice specifica del tema, luce naturale, oggetti credibili, nessuna persona riconoscibile.",
+      "alt": "Una chiave di appartamento accanto a due contenitori separati di ricevute, uno per canoni e uno per cauzione",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-068.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "a1b96d7a005919e80dfdbc0ab8760091f615f3d30eeaa11164798a2f6bed1895",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 599,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 629,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-03-07",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "a42248d62c44f92ef8fe9a723c60f4d9fea63aec5627c18a782e303b2ebe5ec0",
+    "sha256": "abafb49e30c9e93a5dd9d4d53966863443710e270f198d712984162c99b6eeea"
+  }
+}

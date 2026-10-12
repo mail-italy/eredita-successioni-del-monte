@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-011",
+    "site": "eredita",
+    "sequence": 11,
+    "area": "Testamenti",
+    "title": "Esecutore testamentario: accettazione dell'incarico e rapporti con gli eredi",
+    "slug": "esecutore-testamentario-accettazione-dell-incarico-e-rapporti-con-gli-eredi",
+    "intent": "Funzione e limiti operativi dell'esecutore",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/testamento"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 20,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Esecutore testamentario: incarico e poteri",
+    "description": "Come verificare accettazione dell'incarico, compiti e rapporti tra esecutore testamentario ed eredi.",
+    "bodyMarkdown": "Il testamento nomina un esecutore, ma gli eredi non sanno se debbano consegnargli chiavi e documenti. La nomina non attribuisce una proprietà sui beni: introduce un ufficio finalizzato all'esecuzione delle volontà del defunto, con regole di accettazione, gestione e controllo.\n\n### Verificare che l'incarico sia stato accettato\n\nGli articoli 700 e seguenti del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) disciplinano l'esecutore testamentario. L'articolo 702 richiede una dichiarazione di accettazione o rinuncia nella cancelleria del tribunale competente, da annotare nel registro delle successioni. Un messaggio ai familiari non sostituisce questo passaggio.\n\nL'esecutore può essere anche un erede o un legatario, ma le qualità rimangono distinte. Accettare l'ufficio non equivale ad accettare ogni attribuzione patrimoniale; l'eventuale interesse personale richiede inoltre una gestione particolarmente trasparente.\n\n### Quali attività può svolgere\n\nL'articolo 703 indica la cura dell'esatta esecuzione delle disposizioni e disciplina l'amministrazione della massa. Occorre leggere anche il testamento: la volontà del defunto può incidere sull'assetto dei poteri entro i limiti di legge.\n\nL'esecutore non dispone liberamente dell'eredità come un proprietario. Quando occorre alienare beni, la norma prevede l'autorizzazione dell'autorità giudiziaria, sentiti gli eredi. La presenza dell'ufficio non elimina quindi i controlli richiesti per una vendita.\n\n### Regolare la consegna materiale\n\nPrima di trasferire documenti o chiavi conviene predisporre un elenco sottoscritto: bene o documento, copia oppure originale, data e destinatario. Per i valori materiali possono essere utili fotografie e inventari, senza confondere questo verbale pratico con l'inventario formale eventualmente necessario.\n\nGli eredi dovrebbero conoscere quali rapporti bancari e contratti siano gestiti e con quali modalità verranno comunicati incassi e spese. L'articolo 707 disciplina la consegna all'erede dei beni non necessari all'ufficio: non è corretto presumere che ogni bene debba rimanere indisponibile fino alla chiusura dell'intera successione.\n\n### Se la collaborazione si interrompe\n\nUna divergenza va descritta in termini concreti: mancata consegna di un documento, pagamento non spiegato, vendita proposta senza chiarimenti. Una richiesta precisa permette di valutare il rimedio adeguato e distingue la vigilanza legittima dall'interferenza nell'incarico.\n\nServono testamento, prova dell'accettazione, inventari disponibili e comunicazioni scambiate. La [consulenza sul testamento](https://ereditaesuccessioni.it/testamento) può chiarire il rapporto tra ufficio, diritti dei beneficiari ed esecuzione dei singoli lasciti.\n\n### Un incarico distinto dalla delega di famiglia\n\nSi immagini che i figli abbiano affidato a uno di loro il compito di raccogliere documenti, mentre il testamento nomina come esecutore un'altra persona. I due ruoli non coincidono. La collaborazione pratica fra familiari non sostituisce l'ufficio testamentario e non permette di attribuire al delegato i poteri che la legge disciplina per l'esecutore.\n\nPrima di inviare istruzioni alla banca o agli occupanti di un immobile, è quindi utile chiarire in quale veste ciascuno intervenga. Le comunicazioni dovrebbero indicare il ruolo e richiamare il documento che lo dimostra. Una formula ambigua può indurre un terzo a chiedere ulteriori chiarimenti e rallentare attività che, se correttamente impostate, sarebbero più semplici.\n\n### Una consegna proporzionata alle attività\n\nNon tutti i documenti hanno la stessa funzione. Un contratto di locazione serve a comprendere gli incassi e gli obblighi relativi a un immobile; una collezione di fotografie private può non essere necessaria all'amministrazione. L'elenco di consegna dovrebbe distinguere ciò che occorre per l'ufficio da materiali personali privi di utilità rispetto al compito.\n\nAnche per le chiavi conviene identificare l'immobile e le copie consegnate. Il verbale può registrare la situazione materiale senza affermare che l'esecutore acquisti un diritto personale di abitazione o una disponibilità illimitata.\n\n### Le domande da risolvere prima di vendere\n\nSe viene prospettata un'alienazione, gli eredi devono poter comprendere quale disposizione la renda necessaria, quale bene sia interessato e quale percorso autorizzativo occorra. La valutazione economica della proposta e la verifica dei poteri sono passaggi collegati, ma diversi. Un prezzo favorevole non elimina la necessità dei controlli previsti, mentre una divergenza sul prezzo non dimostra automaticamente un abuso dell'ufficio.",
+    "faqs": [
+      {
+        "question": "La nomina nel testamento basta per iniziare l'incarico?",
+        "answer": "No. L'accettazione dell'ufficio segue la dichiarazione prevista dall'articolo 702 e va distinta dall'eventuale accettazione dell'eredità."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 700, 701, 702, 703, 707",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 700, 701, 702, 703, 707. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Un mazzo di chiavi ordinato accanto a una cartellina testamentaria e un registro vuoto su scrivania. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Non aggiungere ceralacca o sigilli decorativi. Varia l'inquadratura rispetto ad altre immagini editoriali: fotografia zenitale oppure dettaglio ravvicinato coerente con il soggetto.",
+      "alt": "Un mazzo di chiavi ordinato accanto a una cartellina testamentaria e un registro vuoto su scrivania",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-011.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "509123c94b8b22be9e221b1b4d77ffdb2d47d1d3fe68cf1fe691d2d71531a133",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 615,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 638,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-01-22",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "1a631475568b45333505ea012026bba17f323bb9d203b03ac06aeb393a5c3899",
+    "sha256": "6d7c546b58ca19933c72d6a69fda533b0a91afea6e0cf5494fee2df4b0bb1be6"
+  }
+}

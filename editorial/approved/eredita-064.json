@@ -1,0 +1,82 @@
+{
+  "article": {
+    "id": "eredita-064",
+    "site": "eredita",
+    "sequence": 64,
+    "area": "Banche e patrimonio",
+    "title": "Polizza vita e beneficiario: distinguere capitale e premi versati",
+    "slug": "polizza-vita-e-beneficiario-distinguere-capitale-e-premi-versati",
+    "intent": "Diritto proprio del beneficiario e tutela successoria",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/conti-correnti-azioni-polizze-eredita"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 126,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Polizza vita: capitale e premi",
+    "description": "Perché diritto del beneficiario e rilevanza dei premi nella successione richiedono verifiche e conteggi distinti.",
+    "bodyMarkdown": "La somma liquidata da una polizza vita e i premi versati dal defunto non sono la stessa voce patrimoniale. Confonderli può alterare sia la richiesta all'assicurazione sia il confronto tra familiari sulla legittima.\n\nL'[articolo 1920 del Codice civile](https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo%201920&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D) attribuisce al terzo designato un diritto proprio ai vantaggi dell'assicurazione. L'[articolo 1923](https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo%201923&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D) fa invece salve, rispetto ai premi pagati, le regole richiamate su collazione, imputazione e riduzione delle donazioni.\n\n## Identificare le persone del contratto\n\nContraente, assicurato e beneficiario possono essere soggetti differenti. Occorre sapere chi abbia stipulato, sulla vita di chi operi la copertura e a chi sia destinata la prestazione.\n\nLa designazione può essere nominativa o generica e può essere stata modificata. Perciò serve il testo applicabile, non soltanto il modulo iniziale o il ricordo di ciò che era stato deciso molti anni prima.\n\nAnche la qualificazione del prodotto concreto deve essere verificata prima di applicare automaticamente le regole dell'assicurazione sulla vita.\n\n## Separare i due prospetti economici\n\nIl primo prospetto riguarda la prestazione assicurativa: evento, beneficiario, importo richiesto e somma liquidata. Il secondo riguarda i premi: date, ammontare, provenienza del denaro ed eventuali variazioni.\n\nL'aumento o la diminuzione del valore del contratto non permette di sostituire automaticamente un prospetto all'altro. Se si discute una lesione di legittima, occorre individuare il dato giuridicamente rilevante e inserirlo nella ricostruzione complessiva.\n\nUna richiesta formulata come «restituite metà della polizza» può essere prematura se non è ancora chiaro che cosa si contesti.\n\n## L'accesso alle informazioni ha limiti e finalità\n\nSapere che esiste una polizza non attribuisce un diritto indiscriminato ai dati personali di ogni terzo. Il [Garante, nel provvedimento del 26 ottobre 2023](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9954881), affronta il rapporto tra riservatezza dei beneficiari ed esigenze di tutela giudiziaria.\n\nUna richiesta deve spiegare il suo fondamento concreto e i dati necessari, evitando finalità puramente esplorative. L'eventuale rifiuto va esaminato insieme alla motivazione e al contenuto della domanda.\n\nQuesta verifica è distinta dalla procedura con cui il beneficiario chiede la liquidazione della propria prestazione.\n\n## Il rapporto con gli altri beni\n\nLa presenza di una polizza non consente di ignorare donazioni, immobili, conti e debiti. Una contestazione successoria richiede il quadro complessivo e non soltanto la somma più evidente.\n\nSe un familiare ha ricevuto altre attribuzioni, anche queste devono essere documentate. L'obiettivo è evitare sia una duplicazione dei valori sia l'esclusione ingiustificata di dati rilevanti.\n\n## Preparare una valutazione concreta\n\nÈ utile raccogliere contratto, designazioni, rendiconti, versamenti e comunicazioni dell'impresa. I documenti mancanti vanno elencati, distinguendo ciò che è certo da ciò che si presume.\n\nLa pagina su [conti, azioni e polizze nell'eredità](https://ereditaesuccessioni.it/conti-correnti-azioni-polizze-eredita) offre il contesto. Per la polizza vita, il passaggio decisivo è tenere separati il diritto alla prestazione e l'eventuale rilevanza successoria dei premi, prima di proporre un riparto o una domanda di riduzione.\n\n### Controllare che i documenti descrivano la stessa fase contrattuale\n\nUna designazione iniziale e una comunicazione più recente potrebbero appartenere a momenti diversi. È utile ordinare i documenti per data, indicando quali siano completi e quali soltanto riepiloghi. Una modifica ricordata da un familiare va verificata, non ricostruita come se fosse già provata.\n\nAnche i rendiconti possono usare espressioni differenti: premi cumulati, valore della posizione e prestazione prevista non sono necessariamente cifre equivalenti. Il confronto dovrebbe mantenere l'etichetta attribuita dall'impresa a ciascun dato e chiedere chiarimenti sulle differenze.\n\nSe il problema riguarda una possibile lesione, la raccolta delle informazioni va coordinata con quella relativa agli altri beni. Cercare soltanto il nome del beneficiario non permette di conoscere la consistenza complessiva necessaria al calcolo. Una richiesta ben fondata spiega quindi quali dati manchino e in che modo siano pertinenti, evitando di confondere curiosità familiare, diritto alla prestazione e tutela giudiziaria.",
+    "faqs": [
+      {
+        "question": "Il capitale della polizza si divide sempre secondo le quote ereditarie?",
+        "answer": "No. Il beneficiario designato acquista un diritto proprio ai vantaggi dell'assicurazione. Occorre leggere la designazione e distinguere il capitale dai premi rilevanti per eventuali tutele successorie."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 741, 737",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 741, 737. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo%201920&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+        "title": "Codice civile, articolo 1920",
+        "supports": "Diritto proprio del terzo beneficiario.",
+        "checkedAt": "2026-10-12"
+      },
+      {
+        "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo%201923&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+        "title": "Codice civile, articolo 1923",
+        "supports": "Salvezza delle regole su collazione imputazione riduzione rispetto ai premi.",
+        "checkedAt": "2026-10-12"
+      },
+      {
+        "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9954881",
+        "title": "Garante, provvedimento 26 ottobre 2023",
+        "supports": "Accesso ai dati dei beneficiari valutato rispetto a necessità difensive, non accesso indiscriminato.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Un fascicolo assicurativo e due pile distinte di schede neutre, una per capitale e una per versamenti. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo, numero di conto o intestazione: eventuali carte e schermi devono essere anonimi e senza testo. Composizione fotografica semplice specifica del tema, luce naturale, oggetti credibili, nessuna persona riconoscibile.",
+      "alt": "Un fascicolo assicurativo e due pile distinte di schede neutre, una per capitale e una per versamenti",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-064.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "2f3b0b03e0c5d82c0f3fe4d7ab474870114072181a77ad2f08887e5347ecd79d",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 604,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 641,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-12-17",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "91d24a847732755a9709f9261e4dbfba71d1dd01afb406df72de40d01cbfb60e",
+    "sha256": "ee8af22c9e86041ff8f0e96eb6e1a3bc2312312d5c14d142efb3a7207bc9fa4f"
+  }
+}

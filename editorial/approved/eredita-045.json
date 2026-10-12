@@ -1,0 +1,70 @@
+{
+  "article": {
+    "id": "eredita-045",
+    "site": "eredita",
+    "sequence": 45,
+    "area": "Accettazione e debiti",
+    "title": "Fideiussioni del defunto: ricostruire il rischio prima di accettare",
+    "slug": "fideiussioni-del-defunto-ricostruire-il-rischio-prima-di-accettare",
+    "intent": "Garanzie personali e passività potenziali dell'eredità",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/beneficio-inventario"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 88,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Fideiussioni e debiti potenziali del defunto",
+    "description": "Come ricostruire garanzie personali e richieste dei creditori prima di valutare l'accettazione dell'eredità.",
+    "bodyMarkdown": "Un conto in attivo e nessuna rata scaduta non bastano a dimostrare che un'eredità sia priva di rischi. Il defunto potrebbe avere garantito il debito di un figlio, di una società o di un altro soggetto. La richiesta di pagamento può emergere dopo il decesso, quando il debitore principale smette di adempiere.\n\nLa prima attività utile è quindi ricostruire le garanzie personali, senza confonderle con i finanziamenti intestati direttamente al defunto. Le [regole sui debiti ereditari e sul beneficio d'inventario](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) vanno applicate a una situazione documentata, non soltanto al saldo dei conti.\n\n## Cercare il contratto, non solo una voce bancaria\n\nPer ogni possibile garanzia servono il testo sottoscritto, gli eventuali allegati, le modifiche e la corrispondenza con il creditore. La parola «garante» usata in una lettera non chiarisce da sola natura e limiti dell'impegno.\n\nOccorre identificare il debitore garantito, il rapporto coperto, l'importo massimo se previsto, la durata e le condizioni che consentono di chiedere il pagamento. Una garanzia riferita a una singola operazione non può essere letta automaticamente come se coprisse qualsiasi debito futuro.\n\nÈ utile chiedere per iscritto al creditore quali somme ritenga dovute e su quale documento fondi la pretesa. Il conteggio deve distinguere capitale, interessi, spese e pagamenti già ricevuti.\n\n## Ricostruire anche la posizione del debitore principale\n\nLa garanzia ha senso rispetto a un rapporto sottostante. Conoscere soltanto il massimale indicato nel contratto può produrre due errori opposti: trattarlo come un debito già integralmente maturato oppure ignorare un'esposizione che potrebbe concretizzarsi.\n\nNel fascicolo vanno separati gli importi già richiesti, quelli contestati e quelli soltanto potenziali. Questa distinzione permette di valutare il patrimonio ereditario senza presentare come certi dati ancora da verificare.\n\nSe il debitore è una società della famiglia, non si deve dedurre dal rapporto personale che la questione sarà risolta informalmente. I rapporti societari e la successione hanno piani distinti.\n\n## Prima di accettare o disporre dei beni\n\nLa scoperta di una fideiussione è un motivo per esaminare tempestivamente la scelta successoria, soprattutto se il chiamato possiede beni dell'eredità. Il beneficio d'inventario può avere una funzione protettiva, ma richiede forme, termini e gestione coerenti: non è una semplice dicitura su un modulo.\n\nVendere un bene ereditario per «mettere da parte il denaro» o riconoscere la pretesa del creditore senza averla analizzata può compromettere la posizione che si intende preservare. Ogni atto va valutato per il suo contenuto effettivo.\n\n## Se arriva una richiesta di pagamento\n\nConservare la busta, la ricevuta elettronica e gli allegati consente di ricostruire la data e il contenuto della richiesta. La risposta deve affrontare il titolo e la qualità attribuita al destinatario: essere un parente non basta, da solo, a spiegare perché quella somma sarebbe dovuta personalmente.\n\nNon bisogna però ignorare un atto giudiziario mentre si attende documentazione dalla banca. La verifica delle scadenze procede insieme alla raccolta delle prove.\n\nPer un esame del [beneficio d'inventario](https://ereditaesuccessioni.it/beneficio-inventario), è utile portare una tabella con patrimonio noto, garanzie individuate e documenti mancanti. L'obiettivo è scegliere conoscendo anche le passività possibili, senza trasformare né il timore né l'ottimismo in una stima del rischio.\n\n### Non confondere limite della garanzia e somma esigibile\n\nL'[articolo 1936 del Codice civile](https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo%201936&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D) identifica la fideiussione nell'obbligazione personale assunta verso il creditore a garanzia di un'obbligazione altrui. Per ricostruire l'esposizione servono quindi entrambi i rapporti.\n\nSe un prospetto indica un limite massimo e un altro un debito residuo inferiore, i due numeri non vanno sommati. Devono essere confrontati per capire cosa rappresentino, quali somme siano già state pagate e quale richiesta sia concretamente formulata. Anche un rinnovo del finanziamento richiede di verificare i documenti applicabili, senza presumere che una garanzia originaria segua ogni modifica successiva alle medesime condizioni.",
+    "faqs": [
+      {
+        "question": "Se il defunto non aveva rate arretrate, posso escludere una fideiussione?",
+        "answer": "No. Una garanzia personale può esistere senza avere ancora generato una richiesta di pagamento. Servono il contratto e la ricostruzione del rapporto garantito."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 490, 752, 754",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 490, 752, 754. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo%201936&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+        "title": "Codice civile, articolo 1936",
+        "checkedAt": "2026-10-12",
+        "supports": "Definizione della fideiussione e distinzione tra garante e debitore principale. Testo ufficiale acquisito in sources/codice-articoli-mef.json."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una casa in miniatura accanto a una cartellina di garanzie e due fili che collegano oggetti distinti. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutte le carte senza testo, senza stemmi, emblemi, sigilli, ceralacca, loghi o intestazioni. Dettaglio editoriale essenziale, sfondo luminoso naturale e inquadratura variata. Nessun luogo deve sembrare una sede dello studio.",
+      "alt": "Una casa in miniatura accanto a una cartellina di garanzie e due fili che collegano oggetti distinti",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-045.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "8cfe0cddc98ff481eeec24de42ce99a013042d3f05a70b0951e6155297bda64a",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 605,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 639,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-03-01",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "ecfd3d34a1aa11e4bf001e4cc87bfc36b81a6eaff9d9a685df9ccf954eebd3ea",
+    "sha256": "d649c80d0629a605a66c47c119a51671fbe7d888fce7c4d558c286eebe425db7"
+  }
+}

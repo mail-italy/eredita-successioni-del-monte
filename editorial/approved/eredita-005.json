@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-005",
+    "site": "eredita",
+    "sequence": 5,
+    "area": "Testamenti",
+    "title": "Firma nel testamento: posizione, riconoscibilità e originali da conservare",
+    "slug": "firma-nel-testamento-posizione-riconoscibilita-e-originali-da-conservare",
+    "intent": "Requisiti della sottoscrizione senza diagnosi grafologiche fai da te",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/testamento-olografo-falso"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 8,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Firma del testamento: originali e verifiche",
+    "description": "Posizione e riconoscibilità della firma nel testamento olografo: i documenti utili per una verifica concreta.",
+    "bodyMarkdown": "La firma è in fondo alla prima pagina, ma il testamento continua sul retro. Oppure compare un nome abbreviato che i familiari riconoscono. Sono situazioni da esaminare sull'originale: una fotografia ritagliata e il confronto a occhio con una carta d'identità non bastano a stabilire validità e provenienza della scheda.\n\n### Posizione e identificazione del testatore\n\nL'articolo 602 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) colloca la sottoscrizione alla fine delle disposizioni. La norma aggiunge che non è indispensabile l'indicazione di nome e cognome quando la sottoscrizione designa con certezza la persona del testatore.\n\nQueste indicazioni non autorizzano a trasformare ogni segno grafico in una firma valida. Vanno considerate struttura del documento, continuità del testo, collocazione delle aggiunte e riconoscibilità del sottoscrittore. Un soprannome può porre questioni diverse da un foglio privo di qualsiasi segno di sottoscrizione.\n\n### Tre domande da tenere separate\n\nLa prima riguarda l'esistenza della firma; la seconda la sua posizione rispetto alle disposizioni; la terza la sua autenticità. Confondere questi piani rende imprecisa anche la richiesta di una consulenza tecnica.\n\nL'articolo 606 disciplina la mancanza della sottoscrizione tra i difetti che possono comportare nullità dell'olografo. Il sospetto che una firma materialmente presente sia falsa richiede invece una ricostruzione probatoria adeguata. Né la pubblicazione notarile né la familiarità di un parente con la grafia risolvono, da sole, questa questione.\n\n### Come conservare il documento\n\nL'originale non dovrebbe essere plastificato, ripassato, pinzato nuovamente o segnato con evidenziatori. Anche la sequenza dei fogli e le eventuali buste possono avere interesse. Le copie di lavoro vanno chiaramente distinte dagli originali.\n\nÈ utile annotare chi ha rinvenuto il testamento, dove si trovava e quali passaggi di custodia sono successivamente avvenuti. La cronologia va scritta con fatti verificabili, senza accuse. Se una persona riferisce di aver visto il testatore firmare, quella circostanza deve essere descritta separatamente da ciò che emerge dal documento.\n\n### Quando serve il confronto tecnico\n\nUna valutazione sulla provenienza della scrittura può richiedere materiale comparativo affidabile: documenti sicuramente attribuibili al testatore, preferibilmente originali e pertinenti al periodo. Una firma molto lontana nel tempo può essere influenzata da età, malattia o modalità di esecuzione diverse.\n\nLa verifica legale deve infine chiedersi quale attribuzione dipenda dalla sottoscrizione contestata e quale risultato concreto si voglia ottenere. Il percorso sul [testamento olografo sospetto](https://ereditaesuccessioni.it/testamento-olografo-falso) serve a collegare conservazione dell'originale, analisi tecnica e interesse successorio, evitando giudizi frettolosi fondati sulla sola somiglianza visiva.\n\n### Aggiunte successive e più fogli\n\nUn caso frequente di dubbio riguarda una frase collocata sotto la firma. Prima di attribuirle lo stesso valore delle disposizioni sovrastanti, bisogna stabilire come si presenti materialmente il documento, se l'aggiunta abbia una propria sottoscrizione e quale rapporto abbia con il testo precedente. La risposta non può essere ricavata dalla sola posizione di una fotografia sullo schermo.\n\nQuando la scheda comprende più fogli, numerarli oggi sulla carta originale altererebbe il materiale disponibile. Si può invece numerare una copia di lavoro, registrando come apparivano gli originali al rinvenimento. Anche eventuali pieghe, continuità del testo e modalità di conservazione sono circostanze da descrivere, lasciando al professionista la valutazione della loro rilevanza.\n\n### Scegliere bene il materiale comparativo\n\nNon ogni firma conservata in casa è certamente autentica. Prima del confronto occorre chiedersi da quale documento provenga, chi lo custodisse e se la sua attribuzione sia contestata. Usare come riferimento una riproduzione incerta può trasferire il problema da un foglio all'altro.\n\nÈ inoltre utile raccogliere scritti spontanei del periodo interessato senza pretendere di svolgere in famiglia una perizia. Lettere, appunti o altri documenti leciti possono essere sottoposti al consulente perché ne valuti l'utilità. Una selezione equilibrata comprende anche gli elementi che sembrano smentire il sospetto iniziale. Il fine della verifica è stabilire una provenienza attendibile e le sue conseguenze, non costruire un confronto visivo che confermi a ogni costo una convinzione.",
+    "faqs": [
+      {
+        "question": "La firma deve necessariamente contenere nome e cognome per esteso?",
+        "answer": "L'articolo 602 ammette una sottoscrizione diversa se identifica con certezza il testatore; la valutazione richiede il documento concreto."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 602, 606",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 602, 606. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Dettaglio di mano anonima ferma vicino a un foglio con segni illeggibili, lente e custodia trasparente archivistica. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Dettaglio di mano anonima ferma vicino a un foglio con segni illeggibili, lente e custodia trasparente archivistica",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-005.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "ba359a3b55c8674422d8297f862c0689087e75418e4f6e00b15df6b58665839a",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 620,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 648,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-11-21",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "f5dd985b28cfd965d79beb5680165faabaff7981c09ea7461145bf114379e3e5",
+    "sha256": "2e8b9a0993f81172830f58e0a2d4db48ab24b82b7cd85d8190668772e6cb1bfc"
+  }
+}

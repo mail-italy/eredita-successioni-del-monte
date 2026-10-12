@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-031",
+    "site": "eredita",
+    "sequence": 31,
+    "area": "Famiglia e chiamata",
+    "title": "Comunione legale e morte di un coniuge: individuare prima i beni propri",
+    "slug": "comunione-legale-e-morte-di-un-coniuge-individuare-prima-i-beni-propri",
+    "intent": "Separare scioglimento del regime patrimoniale e asse ereditario",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/casa-ereditata"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 60,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Comunione legale e patrimonio ereditario",
+    "description": "Prima di calcolare l'eredità del coniuge, occorre distinguere beni comuni, beni personali e quote già appartenenti al superstite.",
+    "bodyMarkdown": "La casa risulta intestata al defunto, ma era stata acquistata durante il matrimonio. Prima di applicare le quote ereditarie bisogna verificare il regime patrimoniale: una parte del bene potrebbe spettare già al superstite per effetto della comunione, senza derivare dalla successione.\n\n### Il patrimonio da dividere viene prima delle percentuali\n\nGli articoli 177 e 179 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) distinguono beni comuni e personali. L'acquisto durante il matrimonio è un dato rilevante, ma non esclude le categorie di beni personali previste dalla legge.\n\nServono l'atto di acquisto e la documentazione sul regime patrimoniale, comprese eventuali convenzioni. Non basta guardare un'intestazione catastale o il nome presente su una ricevuta. Anche la data dell'acquisto rispetto a matrimonio e cambiamenti di regime deve essere ricostruita.\n\n### Scioglimento della comunione e successione\n\nLa disciplina dello scioglimento e della divisione della comunione, fra cui gli articoli 191 e 194, richiede di individuare attivo e passivo prima di determinare ciò che entra nell'eredità.\n\nUn esempio di metodo: se un bene risulta effettivamente comune, il superstite può avere una posizione propria sulla comunione e un'ulteriore posizione successoria sulla parte del defunto. Sommare o applicare le quote senza separare questi titoli porta facilmente a risultati errati.\n\n### Beni ricevuti da una precedente successione\n\nL'articolo 179 tratta anche i beni acquisiti per donazione o successione, con le precisazioni previste dalla norma. Una casa ereditata da un coniuge durante il matrimonio non va quindi considerata automaticamente comune soltanto perché utilizzata dalla famiglia.\n\nAnalogamente, la provenienza del denaro e le dichiarazioni contenute nell'atto possono richiedere verifiche per acquisti sostitutivi di beni personali. Una ricostruzione bancaria può essere utile, ma va coordinata con il titolo giuridico.\n\n### Un inventario con due colonne\n\nPer ciascun cespite conviene annotare titolo, data, intestatari, regime applicabile e ragione dell'inclusione nell'asse. I dubbi devono restare evidenziati, invece di essere nascosti in una percentuale provvisoria presentata come definitiva.\n\nMutui, spese e crediti fra coniugi richiedono a loro volta una qualificazione. La titolarità del bene e l'obbligazione verso la banca non sono necessariamente descritti dallo stesso documento.\n\nPrima di discutere vendita o assegnazione della [casa ereditata](https://ereditaesuccessioni.it/casa-ereditata), questa separazione consente di stabilire che cosa appartenga già al superstite e che cosa debba essere effettivamente attribuito nella successione.\n\n### Un confronto tra tre immobili\n\nImmaginiamo una famiglia con tre beni: un appartamento comprato prima del matrimonio, una casa acquistata durante il matrimonio e un piccolo terreno ricevuto per successione. L'elenco catastale intestato al defunto può presentarli insieme, ma il percorso giuridico di ciascuno è diverso. Occorre verificare il regime patrimoniale e gli atti: la data del matrimonio, da sola, non risolve la classificazione del secondo acquisto, né trasforma il terreno ereditato in un bene comune.\n\nAnche l'origine del denaro merita una colonna distinta. Il fatto che le rate siano uscite da un conto cointestato è un elemento da esaminare, non una scorciatoia per riscrivere la proprietà. Eventuali rapporti di rimborso o restituzione vanno individuati separatamente dal titolo sull'immobile.\n\n### Come consegnare un fascicolo utilizzabile\n\nPer ogni cespite conviene raccogliere l'atto completo, comprese dichiarazioni e allegati pertinenti, e indicare gli estremi di eventuali precedenti trasferimenti. Una visura recente aiuta a orientarsi, ma non sostituisce questa lettura. Se manca un atto, la scheda può riportare “titolo da acquisire”: attribuire subito il bene per intero all'asse crea un'apparenza di certezza difficile da correggere nelle trattative.\n\nIl prospetto finale dovrebbe distinguere almeno la posizione del coniuge derivante dal regime patrimoniale, la parte riconducibile al defunto e le questioni ancora aperte. Soltanto dopo questa ricostruzione si applicano le regole della successione alla massa individuata. Questo ordine evita che una proposta di divisione comprenda, come concessione degli eredi al coniuge, qualcosa che gli apparteneva già per un diverso titolo. Prima di firmare conteggi e quietanze è quindi utile verificare quale di questi passaggi sia stato effettivamente completato.",
+    "faqs": [
+      {
+        "question": "Se la casa è intestata al defunto, entra sempre tutta nell'eredità?",
+        "answer": "No. Occorre verificare regime patrimoniale, data e titolo dell'acquisto e l'eventuale natura personale del bene."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 177, 179, 191, 194",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 177, 179, 191, 194. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Due mazzi di chiavi separati e una casa in miniatura su tre cartelle neutre, tavolo chiaro. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutti i documenti e le cartelline devono essere completamente privi di stemmi, emblemi, sigilli, ceralacca, intestazioni e simboli ufficiali. Fotografia essenziale con sfondo pulito, varia il punto di vista. Nessuna scritta, neppure sulle chiavi.",
+      "alt": "Due mazzi di chiavi separati e una casa in miniatura su tre cartelle neutre, tavolo chiaro",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-031.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "17e26c3edcb2798ed75e599ffa9c9f45ed8353c1f641e8a8ab4da0ddd3aaea3e",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 623,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 649,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-02-27",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "bef8011b1dcfd996e64c31ff3a0fd962753d675db922b8fa636771dbb8a5d0f5",
+    "sha256": "7035946ce17b510edba81213a61aa73b071ed65c6d6e2063990ebcc36f1c4bfe"
+  }
+}

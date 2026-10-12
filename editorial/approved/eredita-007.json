@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-007",
+    "site": "eredita",
+    "sequence": 7,
+    "area": "Testamenti",
+    "title": "Testamento pubblico e capacità del testatore: perché conta il momento dell'atto",
+    "slug": "testamento-pubblico-e-capacita-del-testatore-perche-conta-il-momento-dell-atto",
+    "intent": "Distinguere atto notarile e accertamento della capacità",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/impugnazione-testamento"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 12,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Capacità nel testamento pubblico",
+    "description": "Per valutare la capacità del testatore conta il momento dell'atto: come ricostruire una cronologia documentata.",
+    "bodyMarkdown": "Un testamento è stato ricevuto da un notaio mentre il testatore era molto anziano e seguiva cure mediche. Questo dato merita un esame, ma non dimostra di per sé incapacità. Allo stesso modo, la forma pubblica non permette di liquidare qualsiasi contestazione come impossibile.\n\n### La forma dell'atto e la capacità sono due piani\n\nIl testamento pubblico segue le formalità dell'articolo 603 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED). La capacità di testare è regolata dall'articolo 591. Le garanzie documentali dell'atto notarile non cancellano la necessità di distinguere ciò che il pubblico ufficiale attesta dalle questioni cliniche e giuridiche relative alla volontà del testatore.\n\nNon è corretto dedurre dalla sola diagnosi di una malattia che ogni atto compiuto durante quel periodo sia invalido. Occorre esaminare il tipo di condizione, la sua evoluzione e il rapporto temporale con la redazione del testamento.\n\n### Individuare il momento rilevante\n\nL'articolo 591 considera anche l'incapacità di intendere e di volere, per qualunque causa e anche transitoria, nel momento in cui il testamento fu fatto. La precisione temporale è quindi essenziale: una cartella di anni precedenti può offrire contesto, ma non sostituisce i dati relativi alla fase interessata.\n\nLa cronologia dovrebbe collegare visite, ricoveri, terapie, valutazioni cognitive e fatti della vita quotidiana. Gli elementi favorevoli e contrari all'ipotesi di incapacità vanno raccolti con lo stesso rigore. Selezionare soltanto le frasi che confermano un sospetto rende il fascicolo meno affidabile.\n\n### Documenti e testimonianze hanno funzioni differenti\n\nI documenti sanitari descrivono accertamenti e cure; le persone presenti possono riferire comportamenti osservati. Un familiare dovrebbe quindi distinguere ciò che ha visto da un giudizio personale sulla capacità. Espressioni come “era confuso” acquistano utilità quando sono collegate a episodi, date e circostanze concrete.\n\nL'accesso alla documentazione sanitaria del defunto deve avvenire attraverso richieste legittime e mirate. Non è utile diffonderla in gruppi familiari o pubblicarla per sostenere una contestazione: contiene informazioni riservate che richiedono una gestione proporzionata.\n\n### Prima dell'azione\n\nServono copia integrale del testamento, verbale o documentazione disponibile, cronologia clinica e ricostruzione delle disposizioni già eseguite. La decorrenza dell'azione prevista dall'articolo 591 va verificata sul fascicolo concreto; attendere la raccolta perfetta di ogni documento può essere rischioso.\n\nIl professionista dovrà inoltre distinguere incapacità, eventuali vizi della volontà e lesione di legittima: sono problemi diversi, che non si risolvono con la stessa prova. L'[analisi dell'impugnazione](https://ereditaesuccessioni.it/impugnazione-testamento) parte da questa distinzione e dall'interesse patrimoniale effettivo del soggetto che chiede tutela.\n\n### Una diagnosi lontana e un episodio vicino all'atto\n\nSi immagini che la documentazione attesti una patologia cronica diagnosticata anni prima, mentre la contestazione riguarda un testamento ricevuto in un giorno preciso. Occorre collegare la patologia alle condizioni effettive in quel momento, senza trasformare automaticamente il nome della malattia in un giudizio giuridico di incapacità.\n\nPuò avere interesse una visita prossima all'atto, ma deve essere letta integralmente e nel suo contesto clinico. Anche un episodio riferito da un familiare richiede precisione: che cosa accadde, chi era presente, quanto durò e quali riscontri esistono. Una descrizione circostanziata consente di formulare al consulente una domanda verificabile; un'etichetta generica rende più difficile il lavoro.\n\n### Leggere anche il contenuto patrimoniale\n\nUna scelta testamentaria inattesa non dimostra, da sola, che il testatore non comprendesse ciò che faceva. Il contenuto può però suggerire questioni interpretative o elementi da approfondire insieme alla cronologia. È utile individuare quali disposizioni siano cambiate rispetto a eventuali schede precedenti e quali fatti della vita possano spiegare la variazione.\n\nQuesto confronto deve restare distinto dalla valutazione clinica. Un erede deluso potrebbe avere interesse a far verificare la tutela della propria quota riservata anche quando non vi siano elementi sufficienti per sostenere un'incapacità. Definire correttamente la domanda evita di impegnare risorse in una prova diversa da quella necessaria e permette di valutare con maggiore chiarezza anche un eventuale accordo.",
+    "faqs": [
+      {
+        "question": "L'età avanzata rende automaticamente incapaci di testare?",
+        "answer": "No. La verifica riguarda le condizioni e i presupposti previsti dalla legge, con particolare attenzione al momento in cui il testamento fu formato."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 591, 603",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 591, 603. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Cartella sanitaria anonima chiusa e documento notarile senza scritte riconoscibili, due linee temporali astratte su carta. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Cartella sanitaria anonima chiusa e documento notarile senza scritte riconoscibili, due linee temporali astratte su carta",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-007.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "de2ed2c91da552f72b8957c56d1b3cd66f9c11202e20b52cf1099bd886c9f3e8",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 618,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 648,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-12-13",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "d825bfbb50dffb5bafa0396765480d29630c76452f09c5e139ec6249d1eb42d2",
+    "sha256": "85822a2a16415682e779b10cf4f4303f5ff335c4b8260e43abd9af63c74a3e98"
+  }
+}

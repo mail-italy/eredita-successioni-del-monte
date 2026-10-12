@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-009",
+    "site": "eredita",
+    "sequence": 9,
+    "area": "Testamenti",
+    "title": "Legato di una somma di denaro: pagamento, richiesta e rapporti con gli eredi",
+    "slug": "legato-di-una-somma-di-denaro-pagamento-richiesta-e-rapporti-con-gli-eredi",
+    "intent": "Attuazione di un lascito pecuniario distinto dalla quota ereditaria",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/testamento"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 16,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Legato di denaro: richiesta e pagamento",
+    "description": "Documenti e verifiche per chiedere il pagamento di un legato di denaro e individuare chi debba eseguirlo.",
+    "bodyMarkdown": "Il testamento attribuisce a una persona una somma di denaro, ma gli eredi rispondono che il conto è bloccato oppure che il patrimonio non è ancora stato diviso. Per capire come procedere occorre leggere la clausola e individuare chi sia tenuto al pagamento: il legato non coincide con una quota del saldo bancario.\n\n### Leggere come è formulato il lascito\n\nUna somma indicata in modo generale può porre problemi diversi dal lascito del denaro presente su uno specifico rapporto. L'articolo 653 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) ammette il legato di una cosa determinata nel genere anche se non ve ne sia nel patrimonio del testatore.\n\nQuesto principio non consente tuttavia di ignorare le parole utilizzate nella scheda. Un riferimento a un conto, a una disponibilità residua o a una condizione può cambiare l'interpretazione. La clausola deve essere esaminata insieme al resto delle disposizioni.\n\n### Individuare il soggetto obbligato\n\nGli articoli 662 e 663 disciplinano il peso dei legati e l'eventuale imposizione a uno specifico erede. È quindi necessario verificare se il testatore abbia designato un onerato oppure se operino le regole previste dalla legge.\n\nUna richiesta inviata genericamente “alla famiglia” può lasciare irrisolto il problema. È più utile indicare il titolo, allegare il testo rilevante e chiedere una risposta precisa sulle modalità di esecuzione. Prima di intimare pagamenti o rinunciare a una parte della somma, vanno valutati capacità patrimoniale dell'eredità, eventuali contestazioni e posizione degli interessati.\n\n### Il diritto non autorizza l'accesso al conto\n\nL'articolo 649 stabilisce l'acquisto del legato senza bisogno di accettazione, salva rinuncia, ma prevede anche la richiesta del possesso all'onerato. Nel caso del denaro, la modalità di soddisfacimento non può essere sostituita da un prelievo effettuato con credenziali o deleghe del defunto.\n\nAnche una promessa informale dell'erede va distinta dall'adempimento. Se si concorda un pagamento dilazionato, occorre documentare importi, scadenze, causale, eventuali garanzie e valore della quietanza. Una dichiarazione liberatoria troppo ampia potrebbe coinvolgere pretese diverse dal solo lascito.\n\n### Verificare il quadro della successione\n\nL'esistenza di debiti, di un'accettazione beneficiata o di pretese dei legittimari può incidere sull'esecuzione. Il legato non deve essere presentato come un pagamento garantito a prescindere dalla situazione patrimoniale.\n\nPer l'analisi servono testamento completo, pubblicazione, richieste già inviate, risposte e documenti disponibili sulle passività. Se sono previsti oneri a carico del beneficiario, va considerato anche l'articolo 671. La [pagina sul testamento](https://ereditaesuccessioni.it/testamento) collega queste verifiche all'interpretazione della volontà del defunto e alla corretta attuazione delle attribuzioni.\n\n### La richiesta dovrebbe rendere identificabile la prestazione\n\nUna comunicazione utile riporta il testamento cui si riferisce, la clausola rilevante e la somma richiesta, distinguendo il capitale da eventuali ulteriori pretese da valutare. Se il documento condiziona il pagamento o ne indica una scadenza, quella parte non deve essere omessa per semplificare la lettera.\n\nÈ opportuno chiedere che l'eventuale rifiuto sia motivato. “Il conto è bloccato” può descrivere una difficoltà operativa, ma non chiarisce se si contesti l'esistenza del legato, la sua interpretazione o la disponibilità necessaria per soddisfarlo. Sono ostacoli diversi e richiedono risposte differenti.\n\n### Un accordo di pagamento da leggere fino in fondo\n\nSi immagini che l'onerato proponga un primo versamento e il saldo dopo la vendita di un immobile. Prima di accettare, il beneficiario dovrebbe capire se la vendita sia soltanto una previsione oppure una condizione contrattuale, quale termine sia previsto e che cosa accada in caso di mancato pagamento. Una formula generica può rinviare il problema anziché risolverlo.\n\nLa quietanza del primo versamento dovrebbe corrispondere a quanto effettivamente ricevuto. Firmare una dichiarazione che affermi il soddisfacimento integrale, quando si tratta soltanto di un acconto, crea una discordanza da evitare. Anche il rapporto con altre posizioni ereditarie del medesimo beneficiario va chiarito: una persona può avere interessi ulteriori che non intende abbandonare con la riscossione della somma. La verifica del testo dell'accordo è quindi parte della gestione del legato.",
+    "faqs": [
+      {
+        "question": "Il legatario può prendere il denaro direttamente dal conto del defunto?",
+        "answer": "Non deve confondere il proprio diritto con il potere di operare sul conto: va individuato l'onerato e richiesto l'adempimento secondo il titolo."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 649, 653, 662, 663, 671",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 649, 653, 662, 663, 671. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Busta di lascito accanto a calcolatrice spenta e monete non riconoscibili, composizione sobria senza contante in primo piano. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Busta di lascito accanto a calcolatrice spenta e monete non riconoscibili, composizione sobria senza contante in primo piano",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-009.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "a71bfd7a62472f0a553de4be00e1351b8a31a913cc239dcd1c5b8cecf61effd1",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 629,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 662,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-12-31",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "3ce2c9cf09e9c030b3654ca19e332fc7ff5d1f9f2972c74c3cbfeca9a8acce20",
+    "sha256": "dcc4125febec2238ddff81b478c632c89d3aa9a808921dc0c2bedea5e8949628"
+  }
+}

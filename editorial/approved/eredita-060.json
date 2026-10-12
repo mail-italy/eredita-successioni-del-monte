@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-060",
+    "site": "eredita",
+    "sequence": 60,
+    "area": "Legittima e donazioni",
+    "title": "Donazione a un nipote: collazione, parentela e chiamata concreta",
+    "slug": "donazione-a-un-nipote-collazione-parentela-e-chiamata-concreta",
+    "intent": "Obbligo di conferimento e discendenza per rappresentazione",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/collazione-e-donazioni"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 118,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Donazione al nipote e collazione",
+    "description": "Parentela, chiamata concreta e rappresentazione incidono sul conferimento: perché non basta sommare per ramo familiare.",
+    "bodyMarkdown": "La parola «nipote» può indicare un discendente oppure il figlio di un fratello o di una sorella. Nella collazione questa differenza conta, così come conta sapere chi partecipi effettivamente alla successione.\n\nLe [regole degli articoli 737, 739 e 740 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) non impongono un generico pareggio tra tutti i rami familiari. Collegano l'obbligo di conferimento a rapporti e situazioni successorie precisi.\n\n## Partire dall'albero familiare\n\nOccorre indicare il rapporto di parentela tra donante, beneficiario e persone chiamate dopo il decesso. Un diagramma semplice evita equivoci che il linguaggio quotidiano tende a nascondere.\n\nPoi bisogna verificare il titolo della chiamata: legge, testamento, eventuali sostituzioni e rappresentazione. Essere parente e avere ricevuto una donazione non significa automaticamente essere coerede obbligato alla collazione.\n\nLa situazione va ricostruita alla luce della successione concreta, non soltanto di come era composta la famiglia quando fu fatto il regalo.\n\n## La donazione al discendente dell'erede\n\nL'articolo 739 prevede che l'erede non sia tenuto a conferire le donazioni fatte ai propri discendenti o al coniuge, anche quando ne abbia successivamente conseguito il vantaggio succedendo a tali persone.\n\nQuesto impedisce di attribuire automaticamente al genitore ogni beneficio ricevuto dal figlio. Occorre però accertare a chi sia stata realmente fatta la liberalità: un'intestazione apparente e l'effettiva operazione economica non possono essere confuse senza verifica.\n\nSe l'attribuzione è stata fatta congiuntamente a due coniugi, la norma contiene una regola specifica sulla porzione donata al discendente del donante.\n\n## Il caso della rappresentazione\n\nL'articolo 740 considera il discendente che succede per rappresentazione: questi deve conferire ciò che è stato donato all'ascendente, anche se abbia rinunciato all'eredità di quest'ultimo.\n\nIl punto è diverso dal precedente. Qui non si tratta di imputare al genitore una donazione fatta al figlio, ma di ricostruire la posizione di chi subentra per rappresentazione nella successione di un altro familiare.\n\nDue donazioni simili possono quindi richiedere risultati diversi se cambiano la persona chiamata e il titolo con cui concorre.\n\n## Un esempio per organizzare i documenti\n\nUn nonno ha aiutato economicamente sia un figlio sia il figlio di quest'ultimo. Alla morte del nonno occorre distinguere le due attribuzioni. Se il figlio concorre personalmente, si esamina la sua posizione; se concorre il discendente per rappresentazione, entrano in gioco ulteriori regole.\n\nNon si risolve la questione sommando tutto sotto il nome del «ramo familiare». Ogni operazione deve avere beneficiario, data, oggetto e prova propri.\n\n## Collazione e tutela della legittima restano distinte\n\nUna donazione non soggetta a collazione in capo a una determinata persona può comunque richiedere un esame diverso sotto il profilo della legittima. L'assenza di un obbligo di conferimento non è una dichiarazione generale di intangibilità.\n\nPer la verifica su [collazione e donazioni](https://ereditaesuccessioni.it/collazione-e-donazioni), è utile portare gli atti e un elenco delle persone coinvolte con il loro rapporto di parentela. La precisione dell'albero familiare è il primo strumento per evitare che una parola ambigua conduca a un riparto sbagliato.\n\n### Usare nomi e rapporti di parentela senza abbreviazioni ambigue\n\nNella prima ricostruzione è utile scrivere, accanto a ogni persona, il rapporto preciso con il defunto: figlio, figlia del figlio, figlio della sorella. La stessa parola usata in famiglia può altrimenti descrivere posizioni giuridiche differenti.\n\nPer ogni attribuzione va poi indicato chi compare nell'atto e chi abbia materialmente ricevuto il denaro o il bene. Eventuali divergenze richiedono approfondimento, senza presumere automaticamente che l'uno agisse per l'altro. Se una persona è morta tra la donazione e l'apertura della successione, anche quella data entra nella mappa. Una rappresentazione chiara permette di verificare la chiamata concreta e di tenere distinti gli effetti di successioni diverse, che il linguaggio del “ramo familiare” tende invece a sovrapporre.",
+    "faqs": [
+      {
+        "question": "Il genitore deve sempre conferire ciò che il nonno ha donato al nipote?",
+        "answer": "No. L'articolo 739 esclude, nei termini previsti, il conferimento da parte dell'erede delle donazioni fatte ai suoi discendenti. Diversa è la posizione del discendente che succede per rappresentazione, regolata anche dall'articolo 740."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 737, 739, 740, 467",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 737, 739, 740, 467. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Tre generazioni rappresentate da tre diverse dimensioni di cornici vuote e un piccolo pacco regalo neutro. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione: eventuali carte devono essere anonime. Composizione semplice e visivamente diversa per questo specifico tema, senza persone riconoscibili né testo visibile.",
+      "alt": "Tre generazioni rappresentate da tre diverse dimensioni di cornici vuote e un piccolo pacco regalo neutro",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-060.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "40e205b9e74e718cf1fba73c7ac53096dd448c0cea66a95ec2942d4a4cece0c4",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 597,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 642,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-04-14",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "110c6a810717e9fc2434726056d623e178bf99f7991af555a95e0ab7afebea3b",
+    "sha256": "7fed6ad88c15adaada3d64a6ea122f47d93c42c2da7b53205d98519491f6ed10"
+  }
+}

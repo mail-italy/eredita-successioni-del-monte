@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-002",
+    "site": "eredita",
+    "sequence": 2,
+    "area": "Testamenti",
+    "title": "Pubblicazione del testamento olografo: cosa cambia per gli eredi",
+    "slug": "pubblicazione-del-testamento-olografo-cosa-cambia-per-gli-eredi",
+    "intent": "Distinguere verbale notarile, validità e acquisto dell'eredità",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/testamento"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 2,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Pubblicazione del testamento olografo",
+    "description": "Che cosa comporta la pubblicazione del testamento olografo e quali verifiche restano necessarie per gli eredi.",
+    "bodyMarkdown": "Il notaio ha pubblicato un testamento olografo: questo significa che il documento può avere esecuzione, ma non che ogni questione ereditaria sia risolta. Pubblicazione, validità e accettazione dell'eredità sono passaggi diversi. Confonderli porta a firmare atti o distribuire beni senza averne valutato gli effetti.\n\n### Che cosa documenta il verbale\n\nL'articolo 620 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) disciplina la presentazione e la pubblicazione dell'olografo. Il notaio descrive lo stato del documento, ne riproduce il contenuto e compie gli adempimenti previsti. L'originale viene collegato al verbale secondo le formalità di legge.\n\nPer gli interessati il primo documento da acquisire è quindi la copia completa del verbale con gli allegati. Una fotografia di una sola pagina non consente di verificare se esistano aggiunte, disposizioni successive, una seconda facciata o informazioni sulla provenienza della scheda.\n\n### Ciò che rimane da controllare\n\nLa pubblicazione non trasforma una grafia falsa in autentica e non dimostra da sola la capacità del testatore. Anche una scheda pubblicata può presentare difetti di forma da valutare secondo l'articolo 606. Inoltre un documento formalmente valido può incidere sui diritti riservati ai legittimari.\n\nLa prima lettura dovrebbe distinguere almeno quattro domande: chi è chiamato; con quale ruolo; quali beni sono interessati; quali clausole richiedono un'interpretazione. L'attribuzione di una casa, per esempio, non può essere qualificata automaticamente leggendo una singola frase fuori dal contesto.\n\n### Pubblicare non equivale ad accettare\n\nL'articolo 459 collega l'acquisto dell'eredità all'accettazione. Il rapporto tra gli atti compiuti dal chiamato e l'eventuale accettazione deve essere esaminato separatamente: non è sufficiente dire che una pubblicazione è avvenuta per concludere che tutti siano diventati eredi.\n\nIl problema può cambiare se, oltre a presentare il documento, una persona vende beni, riscuote somme o sottoscrive accordi qualificandosi come erede. È la sequenza concreta degli atti a richiedere attenzione. Se vi sono debiti o minori, conviene organizzare questa verifica prima di dare esecuzione alle attribuzioni.\n\n### Come organizzare il seguito\n\nConservare una copia integrale del verbale, la documentazione familiare e un elenco iniziale dei beni consente di confrontare il testo con la situazione reale. Se il testamento nomina un esecutore, occorre controllarne l'accettazione e i poteri; se contiene legati, vanno individuati i soggetti tenuti a eseguirli.\n\nLa dichiarazione fiscale di successione resta un adempimento ulteriore. Non sostituisce l'interpretazione delle clausole, la valutazione di un'eventuale lesione né la divisione tra coeredi. La pagina sulla [consulenza testamentaria](https://ereditaesuccessioni.it/testamento) aiuta a collocare questi passaggi nel medesimo fascicolo, senza attribuire al solo verbale effetti che non possiede.\n\n### Una comunicazione bancaria non chiude l'interpretazione\n\nSi consideri un testamento che menzioni un appartamento, un conto e una somma destinata a un nipote. Dopo la pubblicazione, la banca può chiedere documenti per identificare chi abbia titolo a operare. Questa richiesta pratica non risolve da sola la qualificazione delle singole attribuzioni: occorre ancora capire chi sia erede, chi sia legatario e chi debba eseguire il lascito di denaro.\n\nAnche l'espressione “abbiamo già fatto la successione” può indicare attività molto diverse. Nel fascicolo conviene sostituirla con la descrizione dell'atto compiuto: pubblicazione, dichiarazione fiscale, richiesta di sblocco, accettazione, pagamento oppure divisione. Solo così il professionista può valutare le conseguenze effettive e individuare il documento mancante.\n\n### Se arriva una contestazione dopo il verbale\n\nChi riceve una lettera che contesta il testamento dovrebbe conservare la lettera e la prova della sua ricezione, insieme alle risposte eventualmente inviate. Prima di disporre dei beni contestati, vanno verificate la natura della contestazione e le eventuali scadenze. Il verbale di pubblicazione rimane nel fascicolo, ma non costituisce una risposta universale a ogni censura.\n\nSe invece tutti concordano sul contenuto, resta utile predisporre un ordine delle operazioni: chiarire i ruoli, ricostruire attività e passività, verificare le formalità e documentare le consegne. Il consenso familiare facilita il lavoro, ma non elimina i diritti di soggetti assenti o le regole poste a tutela dei minori.",
+    "faqs": [
+      {
+        "question": "La pubblicazione rende valido un testamento difettoso?",
+        "answer": "No. Il verbale di pubblicazione non elimina eventuali vizi del testamento né risolve le contestazioni sulla legittima."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 459, 620, 606",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 459, 620, 606. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Un documento manoscritto volutamente illeggibile su cartellina aperta con busta, penna e occhiali, nessun nome visibile. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Un documento manoscritto volutamente illeggibile su cartellina aperta con busta, penna e occhiali, nessun nome visibile",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-002.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "98e6f1b137da3f121699963f322868dbfe5790f8c2a13218784813a1b31dee11",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 626,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 650,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-10-28",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "f4e9ea9570ebbd9bc9165debd1e6acd9ee4bcefad85d03621a6ec8611ecd87ff",
+    "sha256": "f844d2f434d013f50fe9175b70c8c2189b12ca866336b27b49515c660908f128"
+  }
+}

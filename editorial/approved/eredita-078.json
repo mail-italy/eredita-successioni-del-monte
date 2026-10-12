@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-078",
+    "site": "eredita",
+    "sequence": 78,
+    "area": "Immobili e divisione",
+    "title": "Affitti riscossi da un solo erede: costruire un rendiconto verificabile",
+    "slug": "affitti-riscossi-da-un-solo-erede-costruire-un-rendiconto-verificabile",
+    "intent": "Metodo contabile per canoni, spese e saldi",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/affitti-immobili-ereditati"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 154,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Rendiconto degli affitti ereditati",
+    "description": "Un metodo per collegare canoni, spese, anticipi e distribuzioni ai documenti e ottenere un saldo controllabile.",
+    "bodyMarkdown": "Quando un solo erede riceve i canoni di un immobile comune, il problema non si risolve comunicando ogni tanto una cifra finale. Gli altri devono poter comprendere quanto è entrato, quali spese sono state pagate e come si è formato il saldo.\n\nGli [articoli 723, 1101 e 1104 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) offrono il quadro per rendiconto, vantaggi e pesi della comunione. Il metodo contabile deve rendere visibili i passaggi, senza trasformare la gestione materiale del conto in un potere esclusivo sul denaro.\n\n## Partire dal contratto di locazione\n\nServono canone previsto, scadenze, eventuali aggiornamenti e accordi successivi. Occorre distinguere l'importo dovuto da quello effettivamente incassato.\n\nSe l'inquilino ha arretrati, il prospetto deve indicarli separatamente. Un mancato pagamento non è un'uscita, e un canone ancora da ricevere non è liquidità già distribuibile.\n\nAnche il deposito cauzionale va tenuto distinto: non ha la stessa funzione dei canoni e può generare un obbligo di restituzione.\n\n## Una riga per ogni movimento\n\nPer ogni entrata si annotano mese di riferimento, data di incasso, importo e documento bancario. Per ogni uscita si indicano fornitore, oggetto, pagamento e giustificativo.\n\nLe voci aggregate come «spese varie» impediscono il controllo. Se una fattura riguarda più immobili o periodi, il criterio di riparto deve essere spiegato.\n\nUn foglio di calcolo è utile se rimanda ai documenti originali; da solo non dimostra che la somma sia stata pagata.\n\n## Distinguere spese comuni e personali\n\nInterventi di conservazione, costi della locazione e anticipi personali richiedono qualificazioni differenti. Anche un compenso per l'attività di gestione non va dato per scontato soltanto perché una persona si è occupata delle incombenze.\n\nGli accordi tra coeredi devono essere raccolti e confrontati con le spese effettive. Se manca un'intesa, il rendiconto deve segnalarlo invece di presentare ogni voce come già approvata.\n\nLe spese contestate possono essere evidenziate separatamente per consentire di regolare quelle pacifiche.\n\n## Collegare saldo iniziale e finale\n\nIl rendiconto dovrebbe partire dalla disponibilità iniziale e arrivare al saldo finale, includendo eventuali distribuzioni già effettuate agli eredi. Se si cambia periodo, il saldo precedente deve essere riportato coerentemente.\n\nQuesta continuità permette di individuare errori frequenti: un canone contato due volte, un anticipo dimenticato o una somma distribuita senza annotazione.\n\nSe il denaro è passato su un conto personale, occorre comunque renderne ricostruibile il percorso.\n\n## Concordare una frequenza di aggiornamento\n\nUn aggiornamento periodico riduce il lavoro necessario a ricostruire anni di gestione. Gli interessati possono definire quali documenti condividere e con quale modalità, limitando la diffusione dei dati dell'inquilino a ciò che serve.\n\nL'accordo dovrebbe affrontare anche le decisioni future: lavori, solleciti, rinnovi e utilizzo dei fondi. Rendicontare non equivale a ottenere automaticamente il consenso per qualunque nuova operazione.\n\nLa gestione degli [affitti ereditati](https://ereditaesuccessioni.it/affitti-immobili-ereditati) diventa più semplice quando il denaro è leggibile. Un rendiconto verificabile non elimina ogni dissenso, ma consente di discutere soltanto le voci sulle quali esiste una differenza reale.\n\n### Verificare gli incassi ricevuti in ritardo\n\nUn versamento effettuato a marzo può saldare più mensilità precedenti. Nel rendiconto devono comparire sia la data dell'incasso sia i periodi ai quali viene attribuito. Senza questa distinzione, una mensilità può apparire ancora insoluta oppure essere conteggiata due volte.\n\nLo stesso criterio vale per un pagamento parziale: registrare semplicemente “affitto pagato” nasconde il saldo ancora aperto. Se l'inquilino contesta l'imputazione, la questione va segnalata accanto al movimento e documentata con la corrispondenza.\n\nQuando si distribuisce denaro agli eredi, è utile indicare il rendiconto cui il pagamento si riferisce. Ciascuno potrà così distinguere un acconto dalla liquidazione definitiva del periodo, senza attribuire a un semplice bonifico l'effetto di approvazione di tutte le voci pregresse.",
+    "faqs": [
+      {
+        "question": "Chi incassa gli affitti può trattenere tutte le spese che ritiene utili?",
+        "answer": "Le spese devono essere documentate e valutate secondo titolo, necessità e accordi. Il rendiconto deve mostrare entrate e uscite separatamente, non soltanto un saldo deciso da chi gestisce."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 723, 1101, 1104",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 723, 1101, 1104. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Un registro di entrate e spese senza dati leggibili, una chiave e ricevute raggruppate per mese. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione. Carte e planimetrie senza testo identificativo. Scena singola di fotografia editoriale, proporzioni credibili, non deve sembrare una sede dello studio né un suo immobile reale.",
+      "alt": "Un registro di entrate e spese senza dati leggibili, una chiave e ricevute raggruppate per mese",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-078.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "1983f12108be7994ad047d2eedf8b6532f5566738c1dc5454fcc837f54174763",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 592,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 632,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-03-09",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "f5c48c41c767b2fdd982755da91483ba78908ac7ecef7b76a82b81fae56dfbe3",
+    "sha256": "dce67989bab74dc0971e6af02063837cdf976852649158b27a175613a1f7751b"
+  }
+}

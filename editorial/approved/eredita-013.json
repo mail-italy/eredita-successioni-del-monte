@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-013",
+    "site": "eredita",
+    "sequence": 13,
+    "area": "Testamenti",
+    "title": "Testamento con un obbligo a carico del beneficiario: leggere l'onere",
+    "slug": "testamento-con-un-obbligo-a-carico-del-beneficiario-leggere-l-onere",
+    "intent": "Disposizione modale e conseguenze dell'inadempimento",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/testamento"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 24,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Onere testamentario: obblighi del beneficiario",
+    "description": "Come leggere un obbligo imposto nel testamento e distinguere il lascito dalla prestazione richiesta al beneficiario.",
+    "bodyMarkdown": "Il testamento lascia denaro a un familiare e gli impone di curare una determinata attività. Il beneficiario riceve un vantaggio, ma anche un possibile obbligo. Per capire che cosa debba fare occorre verificare se la clausola costituisca un onere giuridico, quale ne sia il contenuto e chi abbia interesse all'adempimento.\n\n### Un lascito può avere un peso\n\nL'articolo 647 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) consente di apporre un onere sia all'istituzione di erede sia al legato. Non ogni espressione affettuosa o raccomandazione generica va però trasformata automaticamente in un obbligo coercibile.\n\nServono le parole integrali della scheda e la collocazione della clausola. “Desidero che” e “a condizione che” non sono formule da interpretare isolatamente: il documento complessivo permette di distinguere desiderio, onere, condizione e finalità dell'attribuzione.\n\n### Rendere l'attività concretamente verificabile\n\nUna volta qualificato l'obbligo, occorre individuare prestazione, durata, risorse e beneficiari. Se si tratta di sostenere spese periodiche, il rendiconto dovrebbe distinguere importi ricevuti e somme impiegate. Se occorre conservare un bene, vanno chiariti stato iniziale e attività richieste.\n\nUn obbligo impossibile o illecito ha un trattamento specifico nell'articolo 647. Non è prudente modificarne unilateralmente il contenuto pensando di rispettare comunque lo spirito del testatore: potrebbe essere necessaria una valutazione sulla sorte della clausola e dell'intera attribuzione.\n\n### Chi può chiedere l'adempimento\n\nL'articolo 648 prevede l'azione di ogni interessato. La medesima norma disciplina quando l'inadempimento possa condurre alla risoluzione della disposizione: non introduce una perdita automatica del lascito a ogni contestazione.\n\nSe l'onerato è un legatario, l'articolo 671 pone il limite del valore della cosa legata per gli obblighi indicati. Il ruolo del beneficiario conta quindi anche nella valutazione economica dell'impegno.\n\n### Documenti prima del conflitto\n\nSono utili testamento, prova dei beni ricevuti, descrizione dell'attività svolta e giustificativi. Una richiesta dovrebbe specificare quale prestazione manca e in base a quale clausola, lasciando distinta l'interpretazione giuridica dai rapporti personali.\n\nPrima di accettare una soluzione sostitutiva o firmare una liberatoria, è necessario verificarne effetti e soggetti coinvolti. La [pagina sul testamento](https://ereditaesuccessioni.it/testamento) inquadra l'esecuzione delle disposizioni anche quando il problema riguarda un obbligo accessorio, anziché la semplice attribuzione di quote.\n\n### La raccomandazione generica e l'attività determinata\n\nSi immagini una scheda che attribuisca un immobile a una persona e aggiunga il desiderio che sia mantenuto “in memoria della famiglia”. Una simile espressione deve essere letta nel contesto. Non si può dedurre subito quale intervento sia obbligatorio, per quanto tempo e a favore di chi. Diversa è una disposizione che descrive una specifica attività e la collega chiaramente al vantaggio attribuito.\n\nAnche quando l'obbligo è riconoscibile, occorre comprenderne l'estensione. Curare un giardino, finanziare una borsa di studio o conservare una raccolta comporta prestazioni differenti, con documenti e modalità di verifica propri. Una clausola poco precisa può richiedere interpretazione prima di poter essere eseguita o contestata.\n\n### Se il beneficiario propone una prestazione diversa\n\nIl destinatario potrebbe ritenere più utile versare denaro anziché svolgere l'attività indicata. Questa proposta non diventa automaticamente equivalente solo perché ha un valore economico simile. Bisogna verificare quale interesse perseguisse il testatore, chi possa far valere l'onere e quali soggetti siano coinvolti nell'eventuale accordo.\n\nPrima di sostituire la prestazione, conviene raccogliere i motivi della difficoltà e le soluzioni concretamente disponibili. La documentazione può comprendere preventivi, dinieghi, condizioni del bene o comunicazioni dell'ente cui l'attività era destinata. Non serve moltiplicare carte generiche: occorrono elementi che spieghino l'ostacolo specifico.\n\n### Non confondere ritardo e impossibilità\n\nUn'attività non ancora eseguita può essere in ritardo, contestata oppure divenuta impossibile. Sono qualificazioni diverse. La richiesta di adempimento dovrebbe descrivere ciò che manca e le circostanze note, evitando di annunciare automaticamente la perdita del lascito. La valutazione della conseguenza deve seguire l'interpretazione della clausola e l'accertamento dei fatti.",
+    "faqs": [
+      {
+        "question": "Ogni mancato adempimento fa perdere automaticamente il lascito?",
+        "answer": "No. La risoluzione della disposizione testamentaria è soggetta ai presupposti specifici dell'articolo 648."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 647, 648, 671",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 647, 648, 671. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Cartellina testamentaria e piccola lista di attività con caselle vuote, oggetti sobri da scrivania. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Non aggiungere ceralacca o sigilli decorativi. Varia l'inquadratura rispetto ad altre immagini editoriali: fotografia zenitale oppure dettaglio ravvicinato coerente con il soggetto.",
+      "alt": "Cartellina testamentaria e piccola lista di attività con caselle vuote, oggetti sobri da scrivania",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-013.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "f134d52b713fe34bbab295fe71031fe8a85069429e8ed22acbcb19c5b9f65a67",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 603,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 624,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-02-09",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "ca571e9f3fd34a9a8c1ebf2f6f3635db52c4fc045aab538ba0289481d833ca5d",
+    "sha256": "a463d383f2ce2f8174190cf7d538e7507557812fddf6cdfdc53f5ae6f5424bd4"
+  }
+}

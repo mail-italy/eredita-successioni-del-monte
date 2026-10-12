@@ -1,0 +1,70 @@
+{
+  "article": {
+    "id": "eredita-030",
+    "site": "eredita",
+    "sequence": 30,
+    "area": "Famiglia e chiamata",
+    "title": "Ex coniuge divorziato: successione e assegno a carico dell'eredità",
+    "slug": "ex-coniuge-divorziato-successione-e-assegno-a-carico-dell-eredita",
+    "intent": "Separare qualità di erede da tutela specifica dell'ex coniuge",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successione-legittima"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 58,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Ex coniuge e assegno sull'eredità",
+    "description": "Come distinguere la successione dall'eventuale assegno a carico dell'eredità previsto per l'ex coniuge divorziato.",
+    "bodyMarkdown": "Dopo la morte dell'ex coniuge, chi riceveva un assegno divorzile si chiede se possa continuare a ottenere somme dagli eredi. La questione non si risolve attribuendogli una quota come coniuge: divorzio, eventuali crediti arretrati e assegno a carico dell'eredità seguono percorsi diversi.\n\n### Il divorzio cambia lo stato personale\n\nLa successione legittima prevista dal [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) non può essere applicata all'ex coniuge come se il matrimonio fosse ancora in essere. Occorre verificare gli effetti del provvedimento di divorzio e le annotazioni pertinenti.\n\nUn eventuale testamento a suo favore va esaminato autonomamente. Essere destinatario di un lascito è cosa diversa dal succedere in virtù dello stato coniugale.\n\n### La tutela dell'articolo 9-bis\n\nL'articolo 9-bis della [legge 898/1970](https://www.normattiva.it/eli/id/1970/12/03/070U0898/CONSOLIDATED) consente al tribunale, dopo il decesso dell'obbligato, di attribuire un assegno periodico a carico dell'eredità a chi aveva diritto alle somme periodiche previste dall'articolo 5 e versi in stato di bisogno.\n\nLa norma richiede una valutazione che comprende importo precedente, bisogno, eventuale pensione di reversibilità, sostanze ereditarie, numero e qualità degli eredi e loro condizioni economiche. Non prevede quindi la semplice continuazione automatica dello stesso pagamento.\n\n### La precedente liquidazione conta\n\nLa legge esclude l'assegno quando gli obblighi patrimoniali dell'articolo 5 siano stati soddisfatti in unica soluzione. È perciò essenziale leggere la decisione o l'accordo che ha regolato i rapporti economici, non soltanto un vecchio estratto conto.\n\nIl diritto può estinguersi nei casi previsti, tra cui nuove nozze o cessazione dello stato di bisogno. La valutazione va aggiornata rispetto alla situazione effettiva, evitando di presentare la misura come rendita garantita per tutta la vita.\n\n### Arretrati e altre prestazioni\n\nSomme già maturate e non pagate prima del decesso possono porre un distinto problema di credito verso l'eredità. Anche la reversibilità ha presupposti propri: non va confusa con l'assegno dell'articolo 9-bis, pur essendo un elemento considerato dalla norma.\n\nPer l'analisi servono provvedimenti completi, storico dei pagamenti, situazione economica attuale e informazioni disponibili sul patrimonio ereditario. La richiesta deve chiarire quale tutela venga invocata.\n\nIl percorso sulla [successione legittima](https://ereditaesuccessioni.it/successione-legittima) aiuta a separare la posizione degli eredi da quella di chi faccia valere un credito o una specifica prestazione collegata alla morte, mantenendo ciascuna domanda sul proprio fondamento.\n\n### Ricostruire il rapporto economico precedente\n\nIl fascicolo dovrebbe mostrare da quale provvedimento nascesse l'assegno, se vi fossero modifiche successive e quali pagamenti siano stati effettuati. La presenza di un bonifico periodico non prova, da sola, tutti i presupposti della tutela dell'articolo 9-bis: potrebbe riferirsi a un obbligo diverso o a una fase precedente del rapporto.\n\nÈ utile distinguere inoltre un pagamento ricevuto in unica soluzione da più versamenti eseguiti per adempiere arretrati. La qualificazione dipende dagli atti e dall'accordo, non soltanto dal numero delle operazioni bancarie. Per questo vanno conservati provvedimento, eventuale accordo e quietanze.\n\n### Documentare la situazione attuale\n\nLa valutazione dello stato di bisogno richiede informazioni aggiornate e pertinenti. Redditi, disponibilità e altre prestazioni devono essere descritti con documenti, senza presumere che la situazione coincida con quella esaminata anni prima nel divorzio.\n\nAnche le informazioni sul patrimonio ereditario possono essere incomplete. Conviene distinguere i beni conosciuti da quelli soltanto ipotizzati e segnalare le passività note. Una richiesta fondata su una rappresentazione esagerata dell'asse rischia di rendere meno chiaro il confronto.\n\n### Arretrati e domanda di assegno restano separati\n\nSi immagini che manchino alcuni pagamenti anteriori alla morte e che, nello stesso tempo, il superstite chieda una prestazione per il futuro. Le due domande non dovrebbero essere sommate senza spiegazione. La prima riguarda somme che si assumono già maturate; la seconda richiede la valutazione prevista dalla disciplina specifica.\n\nQuesta distinzione deve comparire nelle comunicazioni e nei conteggi. Un accordo con gli eredi dovrebbe chiarire quali pretese regoli, così che una quietanza relativa agli arretrati non venga utilizzata inconsapevolmente per definire anche questioni diverse.",
+    "faqs": [
+      {
+        "question": "L'assegno a carico dell'eredità rende l'ex coniuge un normale coerede?",
+        "answer": "No. È una tutela specifica prevista dall'articolo 9-bis della legge sul divorzio, soggetta a condizioni e valutazione del tribunale."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 565",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 565. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://www.normattiva.it/eli/id/1970/12/03/070U0898/CONSOLIDATED",
+        "title": "Legge 898/1970, articolo 9-bis",
+        "supports": "Presupposti dell'assegno periodico a carico dell'eredità; testo ufficiale acquisito in sources/divorzio.txt.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Fascicolo chiuso con due cartelle economiche distinte e una calcolatrice, ambiente discreto. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuna ceralacca o sigillo. Composizione fotografica essenziale con oggetti reali, inquadratura vicina e sfondo sfocato; evita di aggiungere libri, tazze o piante se non richiesti.",
+      "alt": "Fascicolo chiuso con due cartelle economiche distinte e una calcolatrice, ambiente discreto",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-030.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "7327f7c4066d1b3c3ffb5dbd4692913fc9a28edafb4c9654ae5e3c8243fc5f6b",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 624,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 654,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-02-11",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "e648b30e3c16edb4e725830338716f5e90b75efd67dcde5ad80fcce1f8c6f4c0",
+    "sha256": "0f67427ed90d44088d0084423f69b558b71ad0c51d034fc016df5ce2085fa60d"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "article": {
+    "id": "eredita-098",
+    "site": "eredita",
+    "sequence": 98,
+    "area": "Successioni internazionali",
+    "title": "Banca estera e qualità di erede: presentare documenti coerenti",
+    "slug": "banca-estera-e-qualita-di-erede-presentare-documenti-coerenti",
+    "intent": "Richieste bancarie transfrontaliere e CSE",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successioni-internazionali"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 194,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Banca estera e documenti degli eredi",
+    "description": "Come rispondere alle richieste della banca con certificati, copie e poteri coerenti con l'operazione.",
+    "bodyMarkdown": "Una banca estera può chiedere prova della qualità di erede, dei poteri di chi agisce e del diritto a ricevere le somme. La risposta più utile non è inviare indiscriminatamente tutti i documenti italiani, ma costruire un fascicolo coerente con la richiesta.\n\nIl [regolamento UE 650/2012](https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650) prevede il certificato successorio europeo come possibile strumento per far valere qualità e diritti negli Stati partecipanti. Il suo uso va però collegato al contenuto della certificazione e all'operazione bancaria concreta.\n\n## Chiedere un elenco scritto\n\nLa banca dovrebbe indicare quali documenti richieda e per quale finalità. È utile distinguere identificazione del richiedente, prova del decesso, titolo successorio e istruzioni sulla destinazione delle somme.\n\nSe la richiesta è formulata con termini locali, occorre comprenderne la funzione prima di cercare un equivalente italiano. Un documento fiscale non dimostra necessariamente i poteri di amministrazione, e un testamento non risolve da solo ogni passaggio.\n\nIl numero della pratica e il referente aiutano a evitare risposte contrastanti da uffici diversi.\n\n## Verificare il ruolo del certificato europeo\n\nGli articoli 63 e 69 riguardano gli elementi che il certificato può dimostrare e i suoi effetti. La persona indicata deve essere letta insieme a diritti, quote, poteri e restrizioni riportati.\n\nSe il documento attesta soltanto una qualità, va verificato se sia sufficiente per l'operazione richiesta. La banca potrebbe dover conoscere anche chi sia legittimato a ricevere o disporre delle somme.\n\nIl sistema non va esteso automaticamente a banche situate in Paesi non partecipanti.\n\n## Controllare copia e traduzione\n\nLa copia autentica del certificato ha una validità temporale disciplinata dall'articolo 70. Prima dell'invio occorre verificare scadenza, completezza e corrispondenza dei dati.\n\nPer atti emessi ai sensi del regolamento, l'articolo 74 esclude legalizzazione e formalità analoghe. Questo non equivale a escludere qualunque esigenza linguistica o identificativa.\n\nÈ utile chiarire prima quale formato e quale traduzione siano necessari, evitando di sostenere costi per documenti che non verranno utilizzati.\n\n## Collegare il conto al patrimonio\n\nOccorrono saldo alla data del decesso e movimenti successivi rilevanti. Eventuali cointestazioni, vincoli o prodotti collegati richiedono analisi separata.\n\nUna somma indicata nel rendiconto non è necessariamente già disponibile per il trasferimento. Devono essere chiariti valuta, costi, eventuali scadenze e soggetti aventi diritto.\n\nLe istruzioni di pagamento devono essere coerenti con l'accordo tra eredi e con i poteri di chi le impartisce.\n\n## Tenere traccia dei dinieghi\n\nSe la banca rifiuta il documento, è utile chiedere una motivazione scritta. Il problema potrebbe essere un dato mancante, una copia scaduta oppure una diversa interpretazione degli effetti del certificato.\n\nLa risposta va analizzata prima di ripetere la stessa richiesta. Se si contesta il rifiuto, occorre individuare il canale appropriato nel Paese interessato.\n\nLa consulenza sulle [successioni internazionali](https://ereditaesuccessioni.it/successioni-internazionali) può trasformare il fascicolo in una sequenza di verifiche: quale diritto si deve provare, quale documento lo attesta e quale adempimento resta. Questo evita che la pratica si blocchi per un accumulo di copie senza un collegamento chiaro con l'operazione richiesta.\n\n### Verificare il trasferimento sul conto destinatario\n\nQuando la banca esegue il pagamento, il fascicolo dovrebbe conservare importo originario, valuta, costi applicati e somma effettivamente ricevuta. Le differenze possono dipendere da cambio o commissioni, ma devono essere spiegabili attraverso documenti.\n\nSe la somma arriva a una persona incaricata di gestirla per più eredi, il successivo rendiconto deve mantenere riconoscibile quella destinazione. Il fatto che il pagamento sia tecnicamente riuscito non dimostra che il riparto tra interessati sia concluso.\n\nÈ utile conservare anche l'istruzione inviata alla banca e i poteri sui quali si fondava. Si potrà così confrontare l'operazione richiesta con quella eseguita, distinguendo un problema bancario da una questione ancora aperta nei rapporti tra eredi.",
+    "faqs": [
+      {
+        "question": "Una banca estera deve liquidare subito appena riceve una scansione del certificato?",
+        "answer": "Il certificato ha gli effetti previsti dal regolamento, ma occorre verificare contenuto, copia utilizzata, identificazione e adempimenti pertinenti. Una scansione non risolve automaticamente ogni requisito operativo."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650",
+        "title": "Regolamento UE 650/2012, articoli 63,69,70,74",
+        "supports": "Uso del CSE per qualità e poteri, effetti, copie e assenza di legalizzazione nel suo ambito.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Una cartellina bancaria con due documenti in lingue diverse e un certificato neutro senza sigilli. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Una cartellina bancaria con due documenti in lingue diverse e un certificato neutro senza sigilli",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-098.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "3c0e1434150c4d0112f439dba29b087b921435a2236fc4512f744bd9454f9c58",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 597,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 635,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-03-13",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "5568f67b95536087a32ddb797e3930241849ba950f587f8a60b3b3761bba14d6",
+    "sha256": "f8f1b7540b85d44331eea7820cb537d3361d5b97683499c52d1599afecb60964"
+  }
+}

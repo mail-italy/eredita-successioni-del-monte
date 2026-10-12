@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-053",
+    "site": "eredita",
+    "sequence": 53,
+    "area": "Legittima e donazioni",
+    "title": "Denaro dato per comprare casa: ricostruire una liberalità indiretta",
+    "slug": "denaro-dato-per-comprare-casa-ricostruire-una-liberalita-indiretta",
+    "intent": "Collegare finanziamento familiare e acquisto concreto",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/collazione-e-donazioni"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 104,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Denaro per comprare casa e donazione indiretta",
+    "description": "Documenti e movimenti da collegare per capire se l'aiuto familiare all'acquisto costituisca una liberalità rilevante.",
+    "bodyMarkdown": "Quando un genitore fornisce il denaro con cui un figlio compra casa, nella successione può emergere una liberalità indiretta. Ma occorre dimostrare l'operazione concreta: non ogni trasferimento di denaro equivale automaticamente alla donazione dell'immobile.\n\nGli [articoli 737 e 809 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) rendono rilevanti anche attribuzioni liberali realizzate attraverso atti diversi dalla donazione formale. La ricostruzione deve chiarire che cosa sia stato attribuito e in quale rapporto con l'acquisto.\n\n## Seguire il percorso del denaro\n\nIl fascicolo dovrebbe collegare disponibilità del genitore, trasferimento e pagamento del prezzo. Sono utili estratti conto, assegni, bonifici, preliminare, rogito e quietanze.\n\nLa semplice presenza di un accredito sul conto del figlio non prova tutto. Il denaro potrebbe essere stato prestato, restituito, utilizzato solo in parte oppure destinato a spese diverse. Anche la causale va letta insieme agli altri documenti, senza attribuirle un valore assoluto.\n\nSe il prezzo è stato pagato da più persone, occorre distinguere gli apporti. L'acquisto di un immobile cointestato aggiunge un ulteriore livello: chi ha ricevuto il vantaggio e in quale misura?\n\n## Donazione di denaro e liberalità collegata all'acquisto\n\nLa qualificazione può incidere sul modo in cui l'attribuzione viene considerata nella successione. Le regole sulla collazione del denaro non si applicano senza esame a qualsiasi operazione con la quale una casa sia stata finanziata.\n\nLa differenza non va risolta scegliendo la formula economicamente più favorevole dopo il decesso. Serve ricostruire la volontà e la struttura dell'operazione originaria, attraverso elementi coerenti.\n\nPer questo è rischioso preparare un conteggio partendo soltanto dalla somma nominale bonificata o, all'opposto, dall'intero valore attuale dell'immobile.\n\n## Quali documenti cercare oltre alla banca\n\nIl rogito può indicare mezzi di pagamento e provenienza delle somme, ma non sempre esaurisce la ricostruzione. Possono essere pertinenti corrispondenza, accordi sul finanziamento e documenti di un eventuale mutuo.\n\nLe testimonianze familiari devono essere separate dai documenti. Un'affermazione come «era un aiuto per la casa» è utile da approfondire, ma non dovrebbe diventare automaticamente la conclusione giuridica.\n\nSe parte delle somme è stata restituita, occorre indicare quando e con quali prove. Un rimborso documentato può cambiare la lettura dell'attribuzione.\n\n## Evitare il conteggio doppio\n\nNelle ricostruzioni frettolose capita di inserire sia il denaro trasferito sia l'intero immobile come due donazioni autonome. Può essere lo stesso valore economico visto in due fasi della medesima operazione.\n\nUn prospetto cronologico aiuta a evitare questo errore. Per ogni passaggio si indicano data, importo, soggetto e documento, poi si formula la qualificazione dell'operazione complessiva.\n\n## Dalla ricostruzione al confronto tra eredi\n\nUna volta chiariti i fatti, si può verificare se e come la liberalità rilevi per collazione o riduzione. Sono controlli diversi, che richiedono anche la situazione degli altri beni e degli altri beneficiari.\n\nLa pagina su [collazione e donazioni](https://ereditaesuccessioni.it/collazione-e-donazioni) inquadra il problema generale. Nel caso del denaro destinato alla casa, il passaggio decisivo è però probatorio: ricostruire l'acquisto con documenti contemporanei, prima di trasformare un aiuto familiare in una cifra da aggiungere al riparto.\n\n### Collegare i pagamenti alle fasi dell'acquisto\n\nIl prezzo può essere versato attraverso più passaggi: caparra, anticipi e saldo. Conviene affiancare a ciascun pagamento la corrispondente previsione del preliminare o del rogito, segnalando ciò che non coincide. Un trasferimento vicino alla data dell'acquisto è un dato utile, ma la vicinanza temporale non sostituisce la ricostruzione del collegamento.\n\nSe parte della provvista proviene da un mutuo e parte da familiari, le fonti devono rimanere distinguibili. Lo stesso vale per somme utilizzate per imposte, arredi o lavori successivi. Attribuire tutto al prezzo dell'immobile senza leggere le destinazioni effettive può alterare la qualificazione e il valore da discutere. Il prospetto dei flussi prepara l'analisi giuridica; non la decide in anticipo.",
+    "faqs": [
+      {
+        "question": "Ogni bonifico di un genitore è una donazione della casa acquistata dal figlio?",
+        "answer": "No. Bisogna ricostruire finalità, collegamento con l'acquisto e struttura dell'operazione. La qualificazione non dipende dalla sola vicinanza temporale fra bonifico e rogito."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 737, 751, 809",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 737, 751, 809. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una chiave di casa sopra un rogito chiuso e una sequenza ordinata di ricevute bancarie senza testo leggibile. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione: eventuali carte devono essere anonime. Composizione semplice e visivamente diversa per questo specifico tema, senza persone riconoscibili né testo visibile.",
+      "alt": "Una chiave di casa sopra un rogito chiuso e una sequenza ordinata di ricevute bancarie senza testo leggibile",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-053.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "3cbb3beb0d4eb5fc871308fbc942bfaa7226667f47b66c6127b4822c94d518da",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 598,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 633,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-11-27",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "605cc44bcd3e2337f9fa1c0ef984775f386d1b5322cec7bec82f4db8179e15e7",
+    "sha256": "c675062c530a08f0d829ceb87b62000984229d71053930bea123db9915d8582a"
+  }
+}

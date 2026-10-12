@@ -1,0 +1,71 @@
+{
+  "article": {
+    "id": "eredita-092",
+    "site": "eredita",
+    "sequence": 92,
+    "area": "Successioni internazionali",
+    "title": "Residenza abituale del defunto all'estero: quali fatti documentare",
+    "slug": "residenza-abituale-del-defunto-all-estero-quali-fatti-documentare",
+    "intent": "Ricostruire il centro effettivo di vita",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successioni-internazionali"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 182,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Residenza abituale nella successione estera",
+    "description": "Come documentare luoghi di vita e legami del defunto per valutare il criterio della residenza abituale.",
+    "bodyMarkdown": "Chi trascorreva parte dell'anno in Italia e parte all'estero può lasciare una successione nella quale la residenza abituale non sia immediata da individuare. Il dato anagrafico è utile, ma non esaurisce sempre la ricostruzione.\n\nL'[articolo 21 del regolamento UE 650/2012](https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650) utilizza, come criterio generale della legge applicabile, la residenza abituale del defunto al momento della morte, salvo le disposizioni del regolamento e la specifica eccezione prevista. I considerando 23 e 24 indicano una valutazione complessiva delle circostanze.\n\n## Ricostruire il centro della vita\n\nOccorre esaminare durata e regolarità dei soggiorni, ragioni dei trasferimenti e legami familiari e sociali. L'analisi non consiste soltanto nel contare giorni o localizzare il bene più costoso.\n\nIl [portale Aldricus del Ministero della Giustizia](https://aldricus.giustizia.it/la-residenza-abituale-del-de-cuius/) richiama la necessità di una ricostruzione concreta. Un trasferimento per lavoro o una permanenza temporanea possono richiedere di valutare collegamenti che non coincidono con l'indirizzo formale.\n\nIl risultato dipende dall'insieme dei fatti, non da una preferenza degli eredi per la legge più conveniente.\n\n## Costruire una cronologia utile\n\nÈ opportuno elencare i luoghi nei quali il defunto viveva negli anni precedenti, indicando periodi e motivi. Contratti di abitazione, lavoro, assistenza sanitaria e altri documenti possono sostenere la ricostruzione.\n\nLe informazioni devono essere pertinenti e raccolte legittimamente. Non serve acquisire indiscriminatamente ogni comunicazione privata se i fatti possono essere provati con documenti meno invasivi.\n\nAnche eventuali rientri stabili o cambiamenti vicini al decesso devono essere descritti con precisione.\n\n## Separare residenza abituale e cittadinanza\n\nLa cittadinanza può assumere rilievo in varie parti del sistema, ma non sostituisce automaticamente il criterio generale della residenza abituale. Un cittadino italiano stabilmente radicato all'estero non ha per questo necessariamente una successione regolata dalla legge italiana.\n\nVa inoltre cercata un'eventuale scelta di legge nel testamento. Se esiste una scelta valida, l'analisi cambia e non può fermarsi al solo luogo di vita.\n\nLa verifica della competenza delle autorità è collegata ma richiede un esame distinto.\n\n## I casi con legami in più Stati\n\nUna persona può lavorare in un Paese, avere famiglia in un altro e beni in un terzo. In questi casi è utile evitare conclusioni costruite su un solo elemento.\n\nLa possibilità eccezionale di collegamenti manifestamente più stretti, prevista dall'articolo 21, non è una libera scelta successiva degli eredi. Richiede il confronto con le circostanze e con il criterio generale.\n\nLe posizioni divergenti dei familiari dovrebbero essere raccolte insieme ai documenti che ciascuno invoca.\n\n## Perché chiarirlo all'inizio\n\nLa legge applicabile può incidere su beneficiari, quote, accettazione e altri aspetti della successione. Iniziare pratiche sulla base di un presupposto non verificato può generare documenti incoerenti.\n\nPer la consulenza sulle [successioni internazionali](https://ereditaesuccessioni.it/successioni-internazionali), una cronologia dei luoghi di vita è spesso più utile di una cartella composta soltanto da visure immobiliari. Prima di dividere i beni, occorre capire quale collegamento giuridico governi la loro trasmissione.\n\n### Confrontare i documenti senza attribuire un peso automatico\n\nUn contratto di locazione dimostra l'esistenza di un rapporto relativo a una casa, ma non descrive necessariamente tutta la vita della persona. Un'iscrizione anagrafica, una permanenza per cure e un soggiorno di lavoro devono essere letti insieme alle ragioni e alla continuità dei collegamenti.\n\nLa cronologia può riportare per ogni periodo il luogo, il motivo e la fonte del dato. Quando le versioni familiari divergono, è utile registrare entrambe e indicare quali documenti possano chiarire il contrasto. Non si risolve l'incertezza scegliendo soltanto gli elementi favorevoli alla legge desiderata.\n\nSe il trasferimento più recente era legato a un'esigenza temporanea, la sua funzione deve essere spiegata e documentata. Il professionista potrà così valutare la vicenda complessiva invece di identificare automaticamente la residenza abituale con l'ultimo indirizzo presente in un modulo.",
+    "faqs": [
+      {
+        "question": "L'iscrizione anagrafica decide da sola la legge della successione?",
+        "answer": "Non necessariamente. La residenza abituale richiede una valutazione complessiva della vita del defunto; i dati anagrafici sono elementi da considerare insieme agli altri."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650",
+        "title": "Regolamento UE 650/2012, articolo 21 e considerando 23–24",
+        "supports": "Residenza abituale come criterio generale e valutazione complessiva delle circostanze.",
+        "checkedAt": "2026-10-12"
+      },
+      {
+        "url": "https://aldricus.giustizia.it/la-residenza-abituale-del-de-cuius/",
+        "title": "Ministero Giustizia, Aldricus: residenza abituale del de cuius",
+        "supports": "Ricostruzione fattuale e distinzione rispetto a meri elementi formali.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Due abitazioni in miniatura collegate da un percorso, con una valigia e documenti familiari neutri. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Due abitazioni in miniatura collegate da un percorso, con una valigia e documenti familiari neutri",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-092.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "e02e7519b403e9900229e6649d962ef0bb38a82ab1141c3df11b87f11e3f78be",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 600,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 632,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-11-13",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "1dc61a8db8991d69e1b3005a842ebfa5219e66e77474746d61a4799430853c1f",
+    "sha256": "c22015b1dac2bde3468e7f18f866239f34585e36d5d5faf52db962700080c385"
+  }
+}

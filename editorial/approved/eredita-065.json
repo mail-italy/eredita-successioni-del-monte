@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-065",
+    "site": "eredita",
+    "sequence": 65,
+    "area": "Banche e patrimonio",
+    "title": "Ricerca delle polizze del defunto: quali richieste preparare",
+    "slug": "ricerca-delle-polizze-del-defunto-quali-richieste-preparare",
+    "intent": "Strumenti ufficiali di ricerca e dati necessari",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/conti-correnti-azioni-polizze-eredita"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 128,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Cercare le polizze del defunto",
+    "description": "Come organizzare richieste a imprese, intermediari e canali ufficiali, conservando indizi e risposte della ricerca.",
+    "bodyMarkdown": "Trovare un addebito assicurativo senza il contratto è un buon punto di partenza, ma non dimostra ancora che esista una prestazione da ricevere dopo il decesso. Occorre identificare impresa, prodotto, persona assicurata ed evento coperto.\n\nLa pagina [IVASS sulle polizze vita dormienti](https://www.ivass.it/consumatori/azioni-tutela/polizze-dormienti/index.html) indica canali di ricerca, tra cui il servizio ANIA dedicato alle coperture vita e le richieste all'intermediario, alla banca o all'impresa presso cui il familiare si serviva. La ricerca deve essere organizzata e documentata.\n\n## Partire dagli indizi disponibili\n\nEstratti conto, lettere, rendiconti e dichiarazioni fiscali possono contenere riferimenti utili. È bene annotare la denominazione dell'impresa, eventuali numeri di contratto e date degli ultimi pagamenti.\n\nUn addebito potrebbe riguardare una polizza danni, una copertura collegata a un finanziamento o un contratto già cessato. La prima richiesta dovrebbe quindi mirare a identificare il rapporto, senza anticipare conclusioni sul diritto alla liquidazione.\n\nSe l'impresa ha cambiato nome o il contratto è stato trasferito, serve ricostruire l'attuale interlocutore attraverso canali ufficiali.\n\n## Preparare i dati del defunto\n\nLe ricerche funzionano meglio con dati anagrafici esatti e codice fiscale. Errori nel nome, nei luoghi o nelle date possono produrre risposte incomplete.\n\nLa posizione del richiedente e la documentazione necessaria vanno indicate secondo le istruzioni del canale utilizzato. È preferibile inviare soltanto gli allegati pertinenti, conservando una copia della richiesta e della ricevuta.\n\nLe credenziali personali del defunto non sono un requisito da cercare per sostituirsi a lui nei portali: la richiesta deve essere presentata nella propria qualità.\n\n## Tenere un registro delle richieste\n\nUn prospetto può contenere destinatario, canale, data, oggetto, numero di pratica e risposta. Questo evita di ripetere invii identici e permette di seguire gli approfondimenti ancora aperti.\n\nQuando la risposta è negativa, va verificato a che cosa si riferisca: rapporti con una singola impresa, dati trasmessi o specifica tipologia di prodotto. Non bisogna trasformarla automaticamente nella prova che non esista alcuna copertura ovunque.\n\nSe emerge un contratto, il lavoro cambia: occorre passare dalla ricerca alla verifica delle condizioni e dei beneficiari.\n\n## Non confondere assicurato e beneficiario\n\nLa persona deceduta potrebbe essere stata contraente, assicurata o beneficiaria di un rapporto diverso. Ogni ruolo produce domande proprie.\n\nAnche sapere che gli eredi sono indicati come beneficiari non permette di improvvisare il riparto senza leggere il contratto e la designazione. La qualità successoria e il diritto assicurativo devono essere coordinati, non assimilati.\n\n## La ricerca non sospende ogni scadenza\n\nIVASS richiama l'attenzione sulla prescrizione dei diritti derivanti dalle polizze vita. Per la singola posizione vanno controllati evento, date e atti utili, senza presumere che una ricerca informativa mantenga automaticamente aperto qualsiasi diritto.\n\nSe ci sono indizi concreti di una polizza, è opportuno chiarire rapidamente quale richiesta formalizzare all'impresa. Attendere che tutti i familiari siano d'accordo sulla successione può non essere necessario per avviare la raccolta delle informazioni.\n\nLa ricostruzione di [conti e polizze ereditarie](https://ereditaesuccessioni.it/conti-correnti-azioni-polizze-eredita) beneficia di questa separazione: prima individuare il contratto, poi accertare chi abbia diritto a che cosa e con quali documenti.\n\n### Quando una risposta rinvia a un altro interlocutore\n\nUn intermediario può indicare l'impresa competente senza possedere il contratto completo. Il rinvio va registrato nel fascicolo, insieme agli estremi forniti, e seguito con una richiesta al soggetto corretto. La semplice trasmissione del nominativo non dimostra che la ricerca sia conclusa.\n\nSe la denominazione commerciale differisce da quella trovata nei vecchi addebiti, è opportuno verificare il collegamento attraverso recapiti ufficiali. Non bisogna inviare documenti personali a indirizzi ricavati da messaggi non verificati. La catena delle richieste dovrebbe permettere di capire da quale indizio sia emerso il contratto e quale risposta abbia effettivamente chiarito se esista una prestazione ancora da richiedere.",
+    "faqs": [
+      {
+        "question": "Una ricerca negativa dimostra che non esiste alcuna polizza?",
+        "answer": "Va letto l'ambito della ricerca effettuata. Un esito negativo non dovrebbe essere esteso a soggetti, contratti o dati che non rientravano nella verifica."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ivass.it/consumatori/azioni-tutela/polizze-dormienti/index.html",
+        "title": "IVASS, Polizze vita dormienti",
+        "supports": "Canali di ricerca tramite ANIA e interlocutori del defunto; attenzione alla prescrizione.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una lente sopra vecchie cartelline assicurative neutre e una busta aperta su una scrivania. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo, numero di conto o intestazione: eventuali carte e schermi devono essere anonimi e senza testo. Composizione fotografica semplice specifica del tema, luce naturale, oggetti credibili, nessuna persona riconoscibile.",
+      "alt": "Una lente sopra vecchie cartelline assicurative neutre e una busta aperta su una scrivania",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-065.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "498035e61af9d8dd8b63bec3483b5072153348734be95f525a5f5464074a921a",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 596,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 628,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-01-08",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "f5ad3fbc31290970a4387cb2dd1c2ad86387f80e37c29aa03677cd35f4fbd313",
+    "sha256": "3442f08b10962dbcd3e07ed894391ca06a2324dfe07305ac54b2b43061552c09"
+  }
+}

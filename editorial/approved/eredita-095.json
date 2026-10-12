@@ -1,0 +1,65 @@
+{
+  "article": {
+    "id": "eredita-095",
+    "site": "eredita",
+    "sequence": 95,
+    "area": "Successioni internazionali",
+    "title": "Testamento straniero da utilizzare in Italia: forma, copie e traduzioni",
+    "slug": "testamento-straniero-da-utilizzare-in-italia-forma-copie-e-traduzioni",
+    "intent": "Verifica documentale del testamento estero",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successioni-internazionali"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 188,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Testamento estero da usare in Italia",
+    "description": "Forma, contenuto, copie e traduzioni: quali verifiche distinguere prima di utilizzare un testamento straniero.",
+    "bodyMarkdown": "Un testamento redatto all'estero non può essere valutato soltanto confrontandolo con il modello italiano che si conosce. Forma, validità sostanziale e uso del documento in Italia sono verifiche differenti.\n\nIl [regolamento UE 650/2012](https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650) disciplina questi profili attraverso disposizioni distinte. L'articolo 27 considera più criteri di collegamento per la validità formale delle disposizioni scritte; l'articolo 75 coordina il regolamento con convenzioni internazionali, compresa quella dell'Aia del 1961 nei casi indicati.\n\n## Acquisire il documento completo\n\nServe una copia affidabile del testamento e degli eventuali atti collegati: modifiche, revoche, verbali o provvedimenti pertinenti. Un estratto informale può omettere una clausola che cambia il significato delle attribuzioni.\n\nOccorre conoscere data, luogo e modalità di formazione, oltre all'autorità che abbia eventualmente ricevuto o conservato l'atto. La provenienza del documento deve essere verificabile.\n\nSe esistono più testamenti, vanno raccolti tutti prima di concludere quale sia applicabile.\n\n## La forma non coincide con il contenuto\n\nUn atto formalmente valido può porre questioni sulla capacità, sulla volontà o sugli effetti delle disposizioni. Al contrario, una forma insolita rispetto al diritto italiano può essere ammessa secondo la disciplina pertinente.\n\nNon è utile tradurre subito il problema in «vale» o «non vale». Bisogna identificare quale profilo si sta esaminando e quale legge lo governi.\n\nLa presenza di testimoni, di una firma notarile o di un documento dattiloscritto deve essere valutata nel contesto giuridico corretto.\n\n## Tradurre con attenzione ai termini\n\nUna traduzione dovrebbe conservare il contenuto senza sostituire automaticamente istituti stranieri con parole italiane apparentemente simili. Erede, esecutore, amministratore e beneficiario possono avere funzioni diverse.\n\nÈ utile affiancare originale e traduzione, mantenendo riferimenti a pagine e allegati. I passaggi dubbi devono essere segnalati al professionista, non risolti dal traduttore con una scelta sostanziale non discussa.\n\nLa forma richiesta per la traduzione dipende dall'uso e dal destinatario.\n\n## Verificare autenticazione e circolazione\n\nApostille o legalizzazione non sono sempre necessarie per ogni documento europeo. L'articolo 74 esclude tali formalità per atti e documenti emessi in uno Stato membro ai sensi del regolamento; fuori da quell'ambito occorre verificare le regole applicabili.\n\nLa formalità autentica l'origine nei termini previsti, ma non risolve da sola ogni questione di validità del testamento.\n\nPrima di sostenere costi, è utile chiedere al destinatario quale documento richieda e su quale base.\n\n## Coordinare il testamento con i beni italiani\n\nL'atto deve essere letto insieme alla legge applicabile alla successione e alle formalità relative ai beni. Un immobile richiede identificazione e verifiche registrali; una banca può avere bisogno di prova della qualità e dei poteri di chi agisce.\n\nAnche gli adempimenti fiscali rimangono distinti dall'efficacia civile.\n\nLa consulenza sulle [successioni internazionali](https://ereditaesuccessioni.it/successioni-internazionali) può ordinare queste verifiche prima di iniziare trasferimenti. Il risultato utile è sapere quale documento usare, che cosa provi e quali ulteriori passaggi siano necessari in Italia.\n\n### Non correggere le differenze senza chiarirle\n\nIl nome di una persona può comparire in forme diverse tra testamento e documenti anagrafici. Prima di uniformarlo nella traduzione, occorre verificare che si tratti dello stesso soggetto e come rappresentare correttamente la divergenza. Una correzione silenziosa può nascondere proprio il punto che l'autorità deve comprendere.\n\nLo stesso vale per beni descritti con indirizzi o identificativi non più attuali. È utile raccogliere documenti che colleghino la descrizione originaria a quella corrente, mantenendo il testo del testamento integro.\n\nQuando una clausola rimane ambigua, la nota di lavoro dovrebbe distinguere la traduzione linguistica dalle possibili interpretazioni giuridiche. Il professionista potrà valutare il significato alla luce della legge pertinente e degli altri atti. In questo modo non si attribuisce al traduttore la decisione sostanziale su chi riceva un bene o su quali poteri abbia l'amministratore indicato nel documento.",
+    "faqs": [
+      {
+        "question": "Un testamento scritto in una forma diversa da quella italiana è sempre invalido?",
+        "answer": "No. Per le disposizioni transfrontaliere occorre verificare i criteri di validità formale e le convenzioni applicabili, distinguendoli dalla legge che regola il contenuto della successione."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650",
+        "title": "Regolamento UE 650/2012, articoli 24–27,74,75",
+        "supports": "Distinzione validità sostanziale/formale, criteri di forma e convenzioni.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Due copie di un testamento in lingue diverse con pagine non leggibili e segnalibri coordinati. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Due copie di un testamento in lingue diverse con pagine non leggibili e segnalibri coordinati",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-095.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "a3dee07b77568c13f82f9752f124999c62781c3bf9a6920b1263b09711cae0c7",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 596,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 634,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-01-14",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "5aafda7e25fd7687d6681854748a7f57b45d0588353c6a224ffab9d7d3409952",
+    "sha256": "d887a6d2f035ca965ff148f9e642c54139448f720b2808cd98a9d42ea43971ef"
+  }
+}

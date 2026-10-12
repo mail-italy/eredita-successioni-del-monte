@@ -1,0 +1,70 @@
+{
+  "article": {
+    "id": "eredita-027",
+    "site": "eredita",
+    "sequence": 27,
+    "area": "Famiglia e chiamata",
+    "title": "Convivente superstite: eredità e diritto temporaneo sulla casa",
+    "slug": "convivente-superstite-eredita-e-diritto-temporaneo-sulla-casa",
+    "intent": "Distinguere convivenza, testamento e tutele abitative",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successione-legittima"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 52,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Convivente superstite e casa",
+    "description": "Eredità e permanenza temporanea nell'abitazione hanno regole diverse: cosa verificare per il convivente superstite.",
+    "bodyMarkdown": "Il partner superstite vive da anni nella casa del defunto e teme di doverla lasciare immediatamente. La risposta richiede di separare tre piani: proprietà, eventuale qualità di erede o legatario e tutela temporanea della comune abitazione.\n\n### Convivenza e chiamata ereditaria\n\nLe categorie della successione legittima sono indicate dall'articolo 565 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED). La convivenza di fatto non attribuisce automaticamente la stessa posizione del coniuge o della parte di un'unione civile.\n\nUn testamento può destinare beni al convivente, rispettando i limiti applicabili e i diritti dei legittimari. Un contratto di convivenza e una cointestazione patrimoniale hanno invece funzioni da esaminare autonomamente: non vanno presentati come sostituti universali del testamento.\n\n### La tutela della casa comune\n\nL'articolo 1, commi 42 e 43, della [legge 76/2016](https://www.normattiva.it/eli/id/2016/05/21/16G00082/CONSOLIDATED) prevede, alle condizioni indicate, la continuazione dell'abitazione nella casa di comune residenza di proprietà del defunto. La durata ordinaria è di due anni o, se superiore, pari alla convivenza, entro il limite di cinque; la norma contiene una specifica tutela in presenza dei figli minori o disabili del superstite che vi coabitino.\n\nIl diritto può cessare nelle situazioni previste dalla legge, tra cui l'abbandono stabile della casa e la formazione dei nuovi rapporti indicati dalla disposizione. Non è quindi equivalente a una proprietà o a un diritto vitalizio generalizzato.\n\n### Quali fatti dimostrare\n\nOccorre documentare il rapporto di convivenza, la sua durata, la comune residenza e la titolarità dell'abitazione. Se esistono figli conviventi, servono i dati pertinenti alla tutela invocata.\n\nUn esempio mostra la distinzione: il convivente può essere comproprietario di una quota acquistata in vita, mentre l'altra quota entra nella successione. Il suo diritto già esistente non nasce dal decesso; eventuali ulteriori tutele devono essere esaminate separatamente.\n\n### Locazione, spese e rapporti con gli eredi\n\nSe la casa è locata, il comma 44 disciplina il possibile subentro nel contratto nei casi previsti. Bisogna dunque leggere il titolo di godimento prima di applicare la regola destinata alla casa di proprietà.\n\nLe comunicazioni con gli eredi dovrebbero evitare formule generiche come “la casa è ormai tutta mia” oppure “non ho alcun diritto”. È più utile presentare i documenti e indicare quale posizione si intenda far valere. La [consulenza successoria](https://ereditaesuccessioni.it/successione-legittima) può coordinare queste tutele senza confondere convivenza, eredità e titolarità immobiliare.\n\n### Proprietà, abitazione e locazione richiedono fascicoli diversi\n\nUn convivente potrebbe avere acquistato una quota della casa, aver contribuito alle spese oppure esservi entrato soltanto come componente della coppia. Queste situazioni non sono equivalenti. Il titolo di acquisto documenta la proprietà; le ricevute possono descrivere contributi economici da qualificare; la prova della comune residenza serve a verificare la tutela abitativa prevista.\n\nLa raccolta dovrebbe quindi comprendere gli atti pertinenti senza utilizzare una bolletta come prova universale di ogni diritto. Anche le richieste rivolte agli eredi devono indicare con chiarezza quale posizione si intenda far valere.\n\n### Se viene chiesta la consegna immediata delle chiavi\n\nPrima di rispondere, il superstite dovrebbe acquisire la richiesta e confrontarla con il titolo di godimento della casa e con i requisiti della tutela invocata. Non è utile affermare genericamente di poter restare per sempre, ma neppure assumere che l'assenza di matrimonio imponga sempre l'uscita immediata.\n\nÈ importante documentare la situazione abitativa concreta e le date, soprattutto se il rapporto di convivenza o la sua durata sono contestati. Le iniziative materiali sulla casa devono essere valutate nel contesto dei diritti esistenti, evitando che il conflitto sulla proprietà venga risolto autonomamente attraverso serrature o rimozione di beni.\n\n### La pianificazione in vita\n\nChi desidera proteggere il partner può far esaminare insieme titolo della casa, rapporti familiari e possibili disposizioni testamentarie. Un lascito deve essere costruito tenendo conto delle riserve e delle esigenze reali, compreso il bisogno di liquidità per le spese.\n\nIl progetto va aggiornato quando cambiano proprietà, residenza o composizione familiare. La durata della convivenza, da sola, non sostituisce questa pianificazione patrimoniale.",
+    "faqs": [
+      {
+        "question": "La convivenza rende automaticamente eredi come il matrimonio?",
+        "answer": "No. La convivenza di fatto non coincide con il matrimonio o l'unione civile; vanno distinti eventuali lasciti e specifiche tutele abitative."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 565, 587",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 565, 587. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://www.normattiva.it/eli/id/2016/05/21/16G00082/CONSOLIDATED",
+        "title": "Legge 76/2016, articolo 1",
+        "supports": "Unioni civili e tutele del convivente; testo ufficiale acquisito in sources/unioni-convivenze.txt.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Due tazze sul tavolo di una casa italiana, una chiave e una cartella documenti, immagine rispettosa senza persone. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuna ceralacca o sigillo. Composizione fotografica essenziale con oggetti reali, inquadratura vicina e sfondo sfocato; evita di aggiungere libri, tazze o piante se non richiesti.",
+      "alt": "Due tazze sul tavolo di una casa italiana, una chiave e una cartella documenti, immagine rispettosa senza persone",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-027.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "8344d48c829bec7ba45f318dc4fe01bdf3a1b4501a3531796f41e8af4f6da173",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 633,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 662,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-01-02",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "26de1242e39da39e0c166e5108b45dba3947dba7bbf8b35e8fc7428f9a616b41",
+    "sha256": "b2c9b9e49f8409f3505ac1ed532dc2f7b146323389a662569c0de38118924289"
+  }
+}

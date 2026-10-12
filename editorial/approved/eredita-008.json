@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-008",
+    "site": "eredita",
+    "sequence": 8,
+    "area": "Testamenti",
+    "title": "Erede o legatario: come capire il ruolo attribuito dal testamento",
+    "slug": "erede-o-legatario-come-capire-il-ruolo-attribuito-dal-testamento",
+    "intent": "Qualificare attribuzione universale e particolare senza fermarsi alle parole",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/testamento"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 14,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Erede o legatario nel testamento",
+    "description": "Come distinguere erede e legatario leggendo l'intero testamento e verificando oggetto ed effetti dell'attribuzione.",
+    "bodyMarkdown": "Il testamento dice “lascio a mia nipote il conto” e “nomino mio fratello beneficiario del resto”. Prima di discutere le percentuali, bisogna capire chi sia erede e chi legatario. Il nome scelto dal testatore è un indizio; la qualificazione dipende dal contenuto complessivo delle disposizioni.\n\n### La differenza che cambia il percorso\n\nL'articolo 588 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) considera universali le disposizioni che comprendono l'intero patrimonio o una sua quota, attribuendo la qualità di erede. Le attribuzioni particolari conferiscono invece la qualità di legatario.\n\nLa distinzione incide sull'acquisto del diritto e sul rapporto con le passività. L'eredità si acquista con l'accettazione secondo l'articolo 459; il legato, ai sensi dell'articolo 649, si acquista senza necessità di accettazione, salva la possibilità di rinunciarvi. Non si devono quindi usare moduli o dichiarazioni pensando che i due ruoli siano equivalenti.\n\n### Un bene determinato non risolve sempre il dubbio\n\nLa stessa norma precisa che l'indicazione di beni determinati può costituire un'attribuzione universale quando il testatore abbia voluto assegnarli come quota del patrimonio. Perciò “ha ricevuto soltanto la casa, dunque è sicuramente legatario” non è una conclusione affidabile.\n\nOccorre leggere come il documento distribuisce l'intero asse, quali parole utilizza e che rapporto stabilisce tra singoli cespiti e restante patrimonio. Anche le disposizioni successive possono chiarire oppure complicare l'interpretazione.\n\n### Conseguenze pratiche da controllare\n\nChi riceve un legato non dovrebbe prelevare autonomamente il bene solo perché il diritto può sorgere al decesso. L'articolo 649 prevede la richiesta del possesso all'onerato. Se il lascito è di denaro, vanno individuati il soggetto obbligato e il contenuto preciso della prestazione.\n\nLa presenza di pesi, oneri o ulteriori legati richiede attenzione. L'articolo 671 disciplina i limiti degli obblighi posti a carico del legatario. È dunque improprio descrivere ogni legato come attribuzione sempre priva di conseguenze economiche.\n\n### Il prospetto iniziale\n\nPer una prima analisi può essere utile riportare, per ogni persona, la clausola integrale che la riguarda, i beni richiamati, gli eventuali oneri e le attività già compiute. Gli atti vanno descritti concretamente: richiesta di un saldo, vendita, riscossione, firma di una quietanza.\n\nQuesta mappa rende visibili i punti da qualificare prima di avviare la divisione. Se un destinatario teme passività, la questione deve essere affrontata subito, senza desumere il proprio ruolo da una comunicazione bancaria o dal linguaggio usato dagli altri familiari. La [consulenza sul testamento](https://ereditaesuccessioni.it/testamento) comprende proprio la lettura delle attribuzioni e dei loro effetti, prima dell'esecuzione materiale.\n\n### Quando la distinzione incide su una richiesta ricevuta\n\nSi immagini che una persona riceva un sollecito per un debito del defunto perché il suo nome compare nel testamento. Prima di pagare o dichiararsi estranea, deve verificare la propria qualificazione e il contenuto della pretesa. La sola indicazione di un bene a suo favore non consente di stabilire, senza leggere la scheda, se sia chiamata come erede o destinataria di un legato.\n\nIl fascicolo dovrebbe includere anche la lettera del creditore e gli atti già compiuti dal beneficiario. Una richiesta di consegna del bene, una dichiarazione di accettazione e un accordo con gli altri chiamati non sono la stessa cosa. Descrivere precisamente i comportamenti permette di valutarli nel quadro corretto.\n\n### Una mappa che includa il patrimonio residuo\n\nPer comprendere la funzione di un'attribuzione, può essere utile confrontare i beni nominati nel testamento con quelli effettivamente esistenti al decesso. Se la scheda menziona soltanto alcuni immobili, bisogna chiedersi come disciplini il resto e se contenga formule di chiusura. Non occorre anticipare una perizia economica completa, ma è utile evitare che il documento venga letto come se il patrimonio fosse composto esclusivamente dai beni citati.\n\nLa mappa deve inoltre evidenziare eventuali obblighi imposti al destinatario. Una clausola che attribuisce una somma e richiede una prestazione ulteriore merita una lettura integrale. Chiarire prima il ruolo aiuta a scegliere correttamente le successive richieste, le dichiarazioni e le eventuali rinunce.",
+    "faqs": [
+      {
+        "question": "Essere chiamato erede nel testo basta sempre per esserlo giuridicamente?",
+        "answer": "No. L'articolo 588 impone di leggere il contenuto dell'attribuzione, non soltanto la denominazione usata dal testatore."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 588, 459, 649, 671",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 588, 459, 649, 671. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Due cartelle di dimensioni differenti, una con insieme di chiavi e una con singola busta, tavolo ordinato. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Due cartelle di dimensioni differenti, una con insieme di chiavi e una con singola busta, tavolo ordinato",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-008.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "4533db5c9b84d0fdb56e7e10164afac5a28d8d8d5432d75ef07e91655a804993",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 629,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 655,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-12-29",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "219e7c2688ccc7cc6299fd0cb7cb3c747d2a37291e149473c9874b7fe17d9602",
+    "sha256": "0501ce2a5a8957188e3e436c776d28ad9a9843737d00cd294a2e2e17e17adf0c"
+  }
+}

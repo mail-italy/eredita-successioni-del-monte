@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-056",
+    "site": "eredita",
+    "sequence": 56,
+    "area": "Legittima e donazioni",
+    "title": "Legato in sostituzione di legittima: una scelta da valutare prima di agire",
+    "slug": "legato-in-sostituzione-di-legittima-una-scelta-da-valutare-prima-di-agire",
+    "intent": "Alternativa tra conseguimento del legato e richiesta di legittima",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/lesione-di-legittima"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 110,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Legato in sostituzione di legittima",
+    "description": "Quali alternative e documenti valutare prima di scegliere tra il legato sostitutivo e la richiesta della quota riservata.",
+    "bodyMarkdown": "Un testamento può lasciare a un legittimario un bene in sostituzione della quota che la legge gli riserva. In questo caso non basta confrontare il valore del lascito con le aspettative familiari: occorre comprendere la scelta prevista dall'[articolo 551 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED).\n\nIl beneficiario può rinunciare al legato e chiedere la legittima. Se preferisce conseguire il legato, di regola perde il diritto al supplemento qualora il valore sia inferiore alla quota riservata e non acquista per questo la qualità di erede. La norma fa salva l'espressa attribuzione testamentaria della facoltà di chiedere il supplemento.\n\n## Verificare che sia davvero un legato sostitutivo\n\nNon ogni bene lasciato al coniuge o a un figlio ha questa funzione. Il testo deve essere interpretato nel suo insieme, considerando le altre disposizioni e il rapporto tra attribuzioni.\n\nUn legato in conto di legittima e un legato in sostituzione di legittima non producono necessariamente lo stesso risultato. La distinzione non va risolta leggendo soltanto una frase riportata da un familiare.\n\nPer questo è necessario disporre della copia completa del testamento pubblicato e degli eventuali altri testamenti pertinenti.\n\n## Valutare ciò che si riceve\n\nIl valore economico conta, ma non è l'unico dato. Un bene può avere costi di gestione, vincoli, occupazioni o difficoltà di vendita. Un diritto di godimento può rispondere a esigenze abitative senza equivalere alla disponibilità di un capitale.\n\nSe il lascito consiste in un immobile, occorrono documenti di proprietà e una valutazione attendibile. Se consiste in denaro o in altri beni, vanno verificati esistenza, disponibilità e condizioni della prestazione.\n\nLa scelta non dovrebbe basarsi su una stima proposta da una sola parte senza elementi di confronto.\n\n## Ricostruire anche la legittima\n\nPer capire l'alternativa bisogna conoscere il patrimonio complessivo. L'articolo 556 richiede di considerare attività, debiti e donazioni rilevanti. Valutare soltanto i beni rimasti visibili può sottostimare o sovrastimare la quota riservata.\n\nÈ utile preparare due prospetti: ciò che attribuisce il legato e ciò che potrebbe derivare dalla tutela della legittima, con i relativi presupposti e punti incerti. Non sono promesse di risultato, ma strumenti per una decisione informata.\n\n## Attenzione ai comportamenti prima della scelta\n\nLa disciplina del legato e quella della rinuncia devono essere esaminate prima di compiere atti incompatibili con la posizione che si vuole conservare. Usare, disporre o chiedere formalmente la consegna del bene può assumere rilievo nel caso concreto.\n\nNon conviene quindi firmare quietanze o accordi descritti come «semplici formalità» senza leggerne gli effetti. Anche la formulazione di una richiesta agli altri eredi deve essere coerente con la scelta giuridica.\n\nSe il legato riguarda diritti immobiliari, le forme degli atti meritano una specifica verifica professionale.\n\n## Un confronto che comprende anche la praticabilità\n\nUna controversia sulla legittima può richiedere ricostruzioni e valutazioni; il conseguimento del legato può avere vantaggi e limiti propri. La scelta va fatta conoscendo entrambi i percorsi, senza assumere che uno sia sempre preferibile.\n\nLa consulenza sulla [lesione di legittima](https://ereditaesuccessioni.it/lesione-di-legittima) può aiutare a leggere l'alternativa prevista dal testamento. Il momento utile per farlo è prima di consolidare una scelta attraverso atti che non si sono ancora compresi.\n\n### Confrontare anche tempi e disponibilità effettiva\n\nDue alternative di valore stimato simile possono avere conseguenze pratiche diverse. Un immobile occupato, un credito contestato e denaro disponibile non rispondono allo stesso bisogno immediato. Nel confronto vanno quindi annotate le condizioni concrete del bene e le incertezze della ricostruzione patrimoniale.\n\nQuesto non significa scegliere soltanto la soluzione più rapida. Significa sapere quali informazioni manchino prima di compiere atti rilevanti. Una tabella con documento, dato verificato e questione aperta aiuta a formulare domande precise al professionista: che cosa attribuisce davvero il testamento, quale alternativa esiste e quali comportamenti potrebbero incidere sulla possibilità di esercitarla.",
+    "faqs": [
+      {
+        "question": "Posso tenere il legato sostitutivo e chiedere sempre la differenza?",
+        "answer": "La regola dell'articolo 551 esclude il supplemento se si preferisce conseguire il legato, salvo che il testatore abbia espressamente attribuito tale facoltà."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 551, 649, 556",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 551, 649, 556. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Due percorsi delineati da fogli separati, uno con una chiave e l'altro con un insieme di beni in miniatura. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione: eventuali carte devono essere anonime. Composizione semplice e visivamente diversa per questo specifico tema, senza persone riconoscibili né testo visibile.",
+      "alt": "Due percorsi delineati da fogli separati, uno con una chiave e l'altro con un insieme di beni in miniatura",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-056.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "efbad8406391cce9684ba22888f091257e24cd3d511e85fd8644cd12d3f88d08",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 609,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 641,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-01-24",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "c174ba7e2de221ae731474a71dfd6656508ca7f9a885aadb5d00da31970158be",
+    "sha256": "19d8933bf47b81c4d1ab7a028bdf5e826d457baa30389cbbdf88c069e0ed69c9"
+  }
+}

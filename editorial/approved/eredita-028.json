@@ -1,0 +1,70 @@
+{
+  "article": {
+    "id": "eredita-028",
+    "site": "eredita",
+    "sequence": 28,
+    "area": "Famiglia e chiamata",
+    "title": "Unione civile e successione: documenti e tutele del superstite",
+    "slug": "unione-civile-e-successione-documenti-e-tutele-del-superstite",
+    "intent": "Applicazione successoria alla parte dell'unione civile",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successione-legittima"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 54,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Unione civile: diritti nella successione",
+    "description": "Documenti e tutele da considerare nella successione della parte di un'unione civile, senza confonderla con la convivenza.",
+    "bodyMarkdown": "Alla morte di una parte dell'unione civile, il superstite deve poter documentare il proprio stato e ricostruire il patrimonio. La pratica non può essere trattata come una semplice convivenza: la legge richiama specifiche tutele successorie a favore delle parti dell'unione.\n\n### Il riferimento normativo\n\nL'articolo 1, comma 21, della [legge 76/2016](https://www.normattiva.it/eli/id/2016/05/21/16G00082/CONSOLIDATED) estende alle parti dell'unione civile le disposizioni successorie espressamente indicate, comprendendo le regole sui legittimari e sulla successione legittima. Il quadro va coordinato con il [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED).\n\nNon si tratta di attribuire una quota invariabile in ogni famiglia. La presenza di discendenti, ascendenti e altri aventi diritto richiede il calcolo pertinente, mentre un testamento impone la verifica delle disposizioni e delle riserve.\n\n### I documenti sul rapporto\n\nÈ utile acquisire la documentazione di stato civile completa, incluse eventuali annotazioni. Se vi sono atti esteri, precedenti rapporti o procedimenti di scioglimento, il loro effetto deve essere chiarito prima di presentare un elenco definitivo degli eredi.\n\nLa sola convivenza nella stessa abitazione non prova necessariamente l'esistenza dell'unione civile; viceversa, abitazioni diverse non devono portare a negarla senza leggere gli atti. Il dato giuridico e quello abitativo hanno funzioni differenti.\n\n### Ricostruire il patrimonio prima delle quote\n\nVanno individuati regime patrimoniale, beni personali e beni comuni. Una parte dell'immobile può appartenere già al superstite, mentre un'altra rientra nell'asse. Applicare le percentuali successorie al valore dell'intera casa senza questo passaggio può alterare il risultato.\n\nOccorre controllare anche i presupposti dei diritti relativi alla casa familiare e ai mobili che la corredano. Proprietà, destinazione dell'abitazione ed eventuali diritti di terzi devono emergere dagli atti.\n\n### Testamento, donazioni e accettazione\n\nLa tutela riservata può richiedere la ricostruzione delle donazioni e delle passività, non soltanto la lettura dei saldi al decesso. Un testamento che attribuisca beni a terzi non va quindi esaminato separatamente dalla consistenza patrimoniale.\n\nCome per ogni chiamato, devono inoltre essere valutati gli atti compiuti e la scelta sull'accettazione, soprattutto in presenza di debiti. Una posizione familiare tutelata non elimina i rischi di gestione dell'eredità.\n\nIl servizio sulla [successione legittima](https://ereditaesuccessioni.it/successione-legittima) permette di organizzare questi controlli, partendo dal titolo del rapporto e mantenendo distinta l'unione civile dalla disciplina della convivenza di fatto.\n\n### Una quota già propria va tenuta fuori dal calcolo ereditario\n\nSi immagini che la casa sia stata acquistata con un assetto che attribuisca al superstite una parte del diritto. Quella posizione deve essere ricostruita prima di applicare le regole successorie alla parte del defunto. Fare il calcolo sull'intero valore dell'immobile può sovrastimare ciò che viene trasmesso con la morte.\n\nÈ necessario quindi leggere l'atto di acquisto e il regime patrimoniale, anziché dedurre le quote da chi abbia pagato le rate o da chi risulti intestatario delle utenze. I pagamenti possono avere rilievo per altri rapporti, ma non sostituiscono il titolo.\n\n### Quando vi sono atti formati all'estero\n\nLa denominazione di un rapporto straniero non basta a stabilire gli effetti che produrrà nella pratica italiana. Occorre acquisire l'atto completo, le eventuali trascrizioni e le informazioni necessarie a qualificarlo. Una traduzione informale del nome dell'istituto può nascondere differenze rilevanti.\n\nSe la successione presenta anche collegamenti internazionali, la verifica dello stato personale va coordinata con quella della legge applicabile. Sono passaggi collegati, ma non intercambiabili: conoscere il rapporto familiare non risolve automaticamente ogni questione sui beni situati all'estero.\n\n### Una richiesta documentale coerente\n\nIl superstite può predisporre un fascicolo con documentazione dell'unione, titoli patrimoniali, eventuale testamento e informazioni sui debiti. Se una banca richiede chiarimenti, è utile capire quale presupposto ritenga non dimostrato, invece di inviare ripetutamente gli stessi documenti.\n\nLa tutela prevista dalla legge deve così essere tradotta in una ricostruzione concreta e verificabile. Questo permette di distinguere un problema di documentazione incompleta da una controversia effettiva sul diritto a partecipare alla successione.",
+    "faqs": [
+      {
+        "question": "Unione civile e semplice convivenza producono gli stessi effetti successori?",
+        "answer": "No. La legge 76/2016 disciplina le due situazioni in modo distinto; per l'unione civile richiama specifiche disposizioni successorie."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 536, 540, 565",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 536, 540, 565. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://www.normattiva.it/eli/id/2016/05/21/16G00082/CONSOLIDATED",
+        "title": "Legge 76/2016, articolo 1",
+        "supports": "Unioni civili e tutele del convivente; testo ufficiale acquisito in sources/unioni-convivenze.txt.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia concettuale editoriale 16:9: due anelli d'oro semplici affiancati e due chiavi domestiche su un tessuto blu petrolio, luce naturale calda, sfondo avorio sfocato, macro elegante e realistica. Tema: successione della persona unita civilmente. Nessun foglio, documento, libro, stemma, logo, sigillo o scritta. Nessuna persona. Una sola scena.",
+      "alt": "Due anelli dorati e chiavi domestiche su tessuto blu petrolio.",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-028.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "4c4ea3f432d1d40a4b0c7a4377784b371e52a49544fe6d11e58fbe6db060d051",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 613,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 642,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-01-18",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "6f3d58be06f18f1fa194160f32dfaa44eb67f8ac36a6ed10cb4c8d1d2c430b54",
+    "sha256": "8267b521c3f8f41278afb9f22eec70bcde5446b0c6b39e5ecc62af1d6f4be005"
+  }
+}

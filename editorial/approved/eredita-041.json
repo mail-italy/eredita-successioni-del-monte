@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-041",
+    "site": "eredita",
+    "sequence": 41,
+    "area": "Accettazione e debiti",
+    "title": "Un chiamato non decide: il termine giudiziale per accettare l'eredità",
+    "slug": "un-chiamato-non-decide-il-termine-giudiziale-per-accettare-l-eredita",
+    "intent": "Funzione dell'actio interrogatoria",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/accettazione-eredita"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 80,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Termine giudiziale per accettare",
+    "description": "Quando un chiamato non decide, l'articolo 481 consente di chiedere un termine: presupposti, documenti e conseguenze.",
+    "bodyMarkdown": "Quando una persona chiamata all'eredità non prende posizione, l'incertezza può impedire agli altri di organizzare la gestione dei beni. Non sempre occorre attendere il termine ordinario per l'accettazione: chi vi ha interesse può chiedere che sia fissato un termine entro il quale il chiamato dichiari se accetta o rinuncia.\n\nL'[articolo 481 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) disciplina questo strumento, spesso chiamato *actio interrogatoria*. La conseguenza del silenzio entro il termine giudiziale è la perdita del diritto di accettare. Proprio per questo la richiesta e la comunicazione del provvedimento richiedono attenzione: non sono una normale sollecitazione familiare.\n\n## Quale problema risolve\n\nL'obiettivo è definire la posizione successoria di un chiamato. Non serve a stabilire immediatamente a chi andrà la casa, a liquidare una quota o a obbligare qualcuno a firmare una divisione. Prima viene la scelta sull'eredità; il confronto sulla distribuzione dei beni può restare aperto anche dopo.\n\nIl richiedente deve spiegare il proprio interesse concreto. Un coerede, un chiamato successivo o un creditore possono avere ragioni diverse per ottenere chiarezza. Essere semplicemente contrariati dalla lentezza di un familiare non sostituisce la ricostruzione della situazione giuridica.\n\n## Prima della richiesta: verificare se la scelta esiste già\n\nUna persona può avere accettato senza una dichiarazione formale, attraverso un comportamento che la legge considera accettazione tacita. Può anche avere già rinunciato davanti al soggetto competente. In entrambi i casi, impostare il problema come se fosse ancora del tutto indecisa conduce fuori strada.\n\nOccorre quindi ricostruire:\n\n- il titolo della chiamata, testamentario o legale;\n- eventuali dichiarazioni già rese;\n- atti di disposizione o gestione dei beni;\n- possesso dei beni ereditari e scadenze dell'inventario;\n- eventuali chiamati successivi o minori interessati.\n\nLa presenza di beni nel possesso del chiamato merita un controllo autonomo: i termini del beneficio d'inventario non coincidono con il termine ordinario del diritto di accettare.\n\n## Come leggere il provvedimento ricevuto\n\nChi riceve il provvedimento deve conservarlo con la prova della notifica e verificare subito da quando decorre il termine. Una telefonata tra parenti non lo sospende. Nemmeno una trattativa sulla futura vendita della casa equivale alla dichiarazione richiesta.\n\nLa scelta deve essere valutata con informazioni su attività e passività. Se il patrimonio è incerto, va esaminato il beneficio d'inventario e il coordinamento delle relative formalità con il termine assegnato. Non basta scrivere informalmente che si accetta «solo se non ci sono debiti».\n\n## Un esempio pratico\n\nDue sorelle vogliono definire una successione; il fratello non risponde. Prima di chiedere il termine giudiziale, verificano se egli abbia già venduto un bene dell'eredità o disposto di denaro come proprietario. Se emerge un'accettazione, la soluzione non è più farlo decidere, ma affrontare i rapporti tra eredi.\n\nSe invece la chiamata resta aperta, la richiesta può servire a rimuovere quell'incertezza. L'effetto non è però assegnare automaticamente tutta l'eredità alle sorelle: la devoluzione successiva dipende da testamento, sostituzioni, rappresentazione e altri presupposti.\n\nPer preparare una valutazione utile sulla [accettazione dell'eredità](https://ereditaesuccessioni.it/accettazione-eredita), conviene portare un prospetto delle persone coinvolte e una cronologia degli atti già compiuti. Sono questi dati a distinguere un ritardo affrontabile con una richiesta formale da un conflitto che richiede strumenti diversi.\n\n### Una scadenza da comunicare anche a chi raccoglie i documenti\n\nQuando il provvedimento arriva, chi sta cercando estratti bancari o atti immobiliari deve conoscere la scadenza effettiva. Un fascicolo patrimoniale molto accurato, consegnato troppo tardi, può non essere utile alla decisione richiesta. Conviene distinguere le informazioni indispensabili per scegliere da quelle che potranno essere approfondite nella gestione successiva.\n\nSe un dato manca, va segnalato con precisione: rapporto bancario individuato ma saldo non ricevuto, garanzia sospetta ma contratto non reperito. L'assenza di un documento non equivale all'assenza del rischio. Il professionista può così valutare il coordinamento tra scelta, protezione patrimoniale e formalità, senza affidarsi alla speranza che una trattativa familiare renda irrilevante il termine giudiziale.",
+    "faqs": [
+      {
+        "question": "Una lettera del fratello può far perdere il diritto di accettare?",
+        "answer": "Il termine dell'articolo 481 è fissato dall'autorità giudiziaria. Una semplice scadenza indicata unilateralmente in una lettera non produce da sola lo stesso effetto."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 480, 481, 487",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 480, 481, 487. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una clessidra accanto a una cartellina chiusa e tre sedie vuote intorno a un tavolo. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutte le carte senza testo, senza stemmi, emblemi, sigilli, ceralacca, loghi o intestazioni. Dettaglio editoriale essenziale, sfondo luminoso naturale e inquadratura variata. Nessun luogo deve sembrare una sede dello studio.",
+      "alt": "Una clessidra accanto a una cartellina chiusa e tre sedie vuote intorno a un tavolo",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-041.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "4ebe41ac25fddf51014046e5e00c5e5534fc86eb9ca8bd7115c637b84f8962d8",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 623,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 657,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-01-04",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "65e998b14b217b0e1fb2fa352690d36d2921958a33daf42537f5be554543db57",
+    "sha256": "d343b77fcf11f7061348957830905ea9532c8a71a699b4d1501dad340dfb721a"
+  }
+}

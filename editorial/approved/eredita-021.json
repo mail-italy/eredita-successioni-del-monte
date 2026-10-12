@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-021",
+    "site": "eredita",
+    "sequence": 21,
+    "area": "Famiglia e chiamata",
+    "title": "Figlio morto prima del genitore: come ricostruire la rappresentazione",
+    "slug": "figlio-morto-prima-del-genitore-come-ricostruire-la-rappresentazione",
+    "intent": "Discendenti del figlio premorto e divisione per stirpi",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successione-legittima"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 40,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Figlio premorto e rappresentazione",
+    "description": "Documenti familiari e titoli da verificare quando un figlio muore prima del genitore e subentrano i discendenti.",
+    "bodyMarkdown": "Una persona muore lasciando un figlio vivente e i due figli di un altro figlio morto prima di lei. Per ricostruire la chiamata non basta contare le persone rimaste: bisogna verificare se operi la rappresentazione, che organizza il subentro lungo la stirpe del familiare mancante.\n\n### Il meccanismo della rappresentazione\n\nGli articoli 467 e 468 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) individuano funzione e soggetti della rappresentazione. Il discendente può subentrare nel luogo e nel grado dell'ascendente nei casi previsti, quando quest'ultimo non possa o non voglia accettare.\n\nLa regola deve essere coordinata con l'eventuale testamento. Una sostituzione predisposta dal testatore può modificare il percorso; non si applica quindi la rappresentazione limitandosi all'albero genealogico senza leggere le disposizioni.\n\n### Perché si ragiona per stirpi\n\nL'articolo 469 stabilisce la divisione per stirpi. Nell'esempio iniziale, ipotizzando una successione senza testamento, senza coniuge superstite e senza altre variabili, non si dividerebbe il patrimonio in tre quote uguali soltanto perché vi sono tre persone. Il ramo del figlio premorto occupa la posizione che va ricostruita secondo la legge.\n\nL'esempio serve a mostrare il metodo, non a sostituire il calcolo della singola successione. La presenza di un coniuge, di ulteriori discendenti o di rinunce cambia la mappa e richiede un nuovo esame.\n\n### Due decessi, due fascicoli\n\nÈ essenziale distinguere il decesso del genitore da quello dell'ascendente. La rappresentazione non significa automaticamente che si debbano acquisire gli stessi beni attraverso l'eredità del genitore premorto. L'articolo 468 disciplina anche situazioni in cui il discendente abbia rinunciato all'eredità della persona rappresentata.\n\nPer questo vanno raccolti separatamente certificati di morte, atti di nascita e eventuali rinunce relativi alle due successioni. La frase “non ho ereditato da mio padre, quindi non posso ereditare dal nonno” può essere giuridicamente scorretta.\n\n### La ricostruzione da consegnare\n\nUn prospetto utile indica per ogni componente relazione con il defunto, data di nascita, eventuale decesso e discendenti. La documentazione deve provare i rapporti, senza dedurli dal solo cognome o dalla convivenza.\n\nSe tra i discendenti vi sono minori, accettazione e amministrazione richiedono ulteriori cautele. Prima di distribuire somme o presentare elenchi definitivi degli aventi diritto, è opportuno verificare questa struttura. Il servizio sulla [successione legittima](https://ereditaesuccessioni.it/successione-legittima) collega parentela, titolo e quote alla gestione concreta dei beni.\n\n### Come disegnare l'albero senza saltare una generazione\n\nIl prospetto parte dal defunto e distingue i suoi figli dai figli di questi ultimi. Per ogni ramo si indicano i soggetti viventi, quelli deceduti e le date rilevanti. Non basta raggruppare tutti sotto l'etichetta “nipoti”, perché la rappresentazione utilizza rapporti familiari precisi.\n\nSi consideri il figlio premorto che abbia lasciato a sua volta più discendenti. Il numero delle persone appartenenti a quel ramo non modifica automaticamente la quota spettante all'altro ramo. Prima si individua la posizione rappresentata, poi si ricostruisce la distribuzione al suo interno secondo le regole applicabili. Questa sequenza evita errori nel passaggio dall'albero al prospetto economico.\n\n### Separare i documenti delle due successioni\n\nUna rinuncia all'eredità del genitore premorto va conservata nel relativo fascicolo e segnalata quando si esamina la successione del nonno. Non deve però essere utilizzata come una rinuncia generale a qualsiasi successiva chiamata familiare. Ogni successione ha un proprio defunto, un proprio patrimonio e una propria apertura.\n\nAnche i debiti devono essere riferiti al patrimonio corretto. Una richiesta del creditore del genitore e una passività del nonno sono elementi differenti; confonderli può alterare la valutazione sull'accettazione.\n\n### Se un ramo è poco conosciuto\n\nL'assenza di rapporti personali con un familiare non prova l'assenza di discendenti. Quando una parte dell'albero è incerta, occorre dichiarare il limite e cercare la documentazione pertinente. È preferibile consegnare al professionista una ricostruzione con un punto da verificare piuttosto che presentare come completo un elenco basato soltanto sui contatti abituali. Il controllo deve precedere il riparto dei beni.",
+    "faqs": [
+      {
+        "question": "I nipoti dividono sempre l'eredità in parti uguali con gli zii?",
+        "answer": "No. Quando opera la rappresentazione, la divisione avviene per stirpi secondo l'articolo 469."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 467, 468, 469",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 467, 468, 469. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Albero genealogico astratto realizzato con piccoli dischi di legno collegati da fili, un ramo con due discendenti, nessun testo. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuna ceralacca o sigillo. Composizione fotografica essenziale con oggetti reali, inquadratura vicina e sfondo sfocato; evita di aggiungere libri, tazze o piante se non richiesti.",
+      "alt": "Albero genealogico astratto realizzato con piccoli dischi di legno collegati da fili, un ramo con due discendenti, nessun testo",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-021.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "055e31a583e4929212274448d42ddf5138459a761f816ccb591f7f515146dba2",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 618,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 642,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-10-14",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "7df6968ff1a1483fe9adc40564e8486d1153a9807639cc020e0a0b1e1a4e6850",
+    "sha256": "6ac7cc33e57d3818b218f5093ae0c54f4bb54ec458f0af44fb0df098779b78cc"
+  }
+}

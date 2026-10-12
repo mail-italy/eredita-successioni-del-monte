@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-034",
+    "site": "eredita",
+    "sequence": 34,
+    "area": "Famiglia e chiamata",
+    "title": "Concepito chiamato all'eredità: tutela del patrimonio durante l'attesa",
+    "slug": "concepito-chiamato-all-eredita-tutela-del-patrimonio-durante-l-attesa",
+    "intent": "Capacità di succedere e amministrazione provvisoria",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/accettazione-eredita"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 66,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Concepito chiamato all'eredità",
+    "description": "Quali aspetti della chiamata e della conservazione del patrimonio verificare quando è coinvolto un concepito.",
+    "bodyMarkdown": "La successione si apre mentre un possibile discendente è ancora concepito. Gli altri familiari vorrebbero dividere subito le somme. Prima di procedere occorre verificare la posizione del nascituro e le regole di amministrazione: l'attesa della nascita non rende il suo possibile diritto irrilevante.\n\n### La capacità di succedere\n\nL'articolo 462 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) considera capaci di succedere le persone nate o concepite al momento dell'apertura della successione. La norma contiene una presunzione sul concepimento e disciplina anche una distinta ipotesi testamentaria relativa ai figli di una persona determinata vivente, benché non ancora concepiti.\n\nQueste categorie non vanno confuse. Un figlio concepito e un futuro figlio non ancora concepito possono essere interessati da disposizioni differenti. Serve quindi ricostruire il titolo e la relazione con il defunto.\n\n### Conservare il patrimonio durante l'attesa\n\nGli articoli 643 e seguenti regolano profili di amministrazione nelle ipotesi previste. La gestione deve essere organizzata senza anticipare attribuzioni definitive che possano pregiudicare il soggetto atteso.\n\nQuesto non implica lasciare deteriorare una casa o ignorare scadenze urgenti. Significa individuare chi possa compiere gli atti necessari, con quali poteri e sotto quali controlli. Vendite, riparti e rinunce richiedono una verifica diversa dalla semplice custodia dei documenti.\n\n### I dati da raccogliere\n\nOccorrono testamento, documenti familiari, informazioni sulla successione e dati pertinenti alla situazione del concepito, da trattare con riservatezza. La documentazione sanitaria deve essere limitata allo scopo concreto, senza circolazione indiscriminata tra parenti.\n\nÈ utile elencare anche le operazioni che gli altri chiamati intendono compiere: sblocco di un conto, vendita di un veicolo, accordo sulla casa. Il professionista può così distinguere le attività urgenti da quelle che devono attendere o essere autorizzate.\n\n### Dopo la nascita\n\nLa posizione del minore richiede il coordinamento con le regole sulla rappresentanza, sulle autorizzazioni e sull'accettazione beneficiata prevista dall'articolo 471. Non basta aggiornare il nome in una dichiarazione già predisposta.\n\nIl fascicolo dovrebbe mantenere traccia delle somme conservate e delle spese sostenute durante l'attesa. In questo modo la successiva ricostruzione non dipende soltanto dalle dichiarazioni di chi ha gestito il patrimonio.\n\nLa pagina sull'[accettazione dell'eredità](https://ereditaesuccessioni.it/accettazione-eredita) inquadra la scelta successoria; la presenza di un concepito impone di aggiungere la tutela della sua posizione e di organizzare la gestione senza considerarla un vuoto temporaneo di diritti.\n\n### L'attesa non rende identiche tutte le decisioni\n\nPuò essere necessario riparare una perdita nell'immobile ereditario, rinnovare una copertura indispensabile oppure rispondere a una proposta di acquisto. Sono operazioni diverse: l'urgenza materiale della prima non consente di trattare la vendita con lo stesso procedimento. Per ciascuna attività occorre identificare chi rappresenti gli interessi coinvolti, quali poteri abbia e se serva un'autorizzazione.\n\nUn elenco delle decisioni pendenti è spesso più utile di una generica richiesta di “bloccare tutto”. Per ogni voce si possono annotare conseguenze dell'attesa, costo stimato, documenti disponibili e soggetti interessati. La scelta sull'atto resta giuridica, ma poggia su elementi concreti. In questo modo la cautela protegge il patrimonio senza tradursi automaticamente in abbandono dei beni.\n\n### Informazioni pertinenti e passaggio successivo\n\nLa documentazione relativa alla gravidanza va raccolta soltanto nella misura necessaria alla questione successoria. Non è utile distribuire tra tutti i familiari un'intera cartella sanitaria per dimostrare un dato circoscritto. Il professionista può individuare quali informazioni servano e a chi debbano essere presentate, preservando la riservatezza sulle altre.\n\nDopo la nascita, il fascicolo dell'amministrazione precedente dovrebbe consentire di ricostruire movimenti, spese e decisioni: estratti conto, ricevute, autorizzazioni eventualmente ottenute e situazione aggiornata dei beni. La nascita non sostituisce gli adempimenti previsti per l'acquisto ereditario del minore. Nemmeno consente agli altri familiari di utilizzare liberamente somme che erano state conservate nell'attesa. La continuità documentale tra le due fasi permette di verificare che cosa sia stato protetto e quali decisioni restino necessarie, soprattutto quando un genitore abbia anche un proprio interesse nella medesima successione.",
+    "faqs": [
+      {
+        "question": "È possibile ignorare il concepito nel riparto finché non nasce?",
+        "answer": "No. La capacità successoria e l'amministrazione durante l'attesa devono essere valutate secondo le regole applicabili; un riparto definitivo può essere prematuro."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 462, 643, 644, 471",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 462, 643, 644, 471. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Piccola coperta infantile piegata accanto a una cartella familiare chiusa, immagine delicata senza persone. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutti i documenti e le cartelline devono essere completamente privi di stemmi, emblemi, sigilli, ceralacca, intestazioni e simboli ufficiali. Fotografia essenziale con sfondo pulito, varia il punto di vista. Nessuna scritta, neppure sulle chiavi.",
+      "alt": "Piccola coperta infantile piegata accanto a una cartella familiare chiusa, immagine delicata senza persone",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-034.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "c3b475be870416ec881b1414a13789b64571cd9b34e2216c11c4f123aebbd678",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 621,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 652,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-04-08",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "14b49654c6b633a578be3a19d27e75585d52e6f15858b16d1ac8d9ea0b4eb73a",
+    "sha256": "64a82e2ceaba13ff748152bdd0fcfe388e7c652427a551b85e2d160e9c951c67"
+  }
+}

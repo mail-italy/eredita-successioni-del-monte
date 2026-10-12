@@ -1,0 +1,77 @@
+{
+  "article": {
+    "id": "eredita-094",
+    "site": "eredita",
+    "sequence": 94,
+    "area": "Successioni internazionali",
+    "title": "Erede residente all'estero e beni in Italia: organizzare procure e firme",
+    "slug": "erede-residente-all-estero-e-beni-in-italia-organizzare-procure-e-firme",
+    "intent": "Distinguere ubicazione erede da legge successoria",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successioni-internazionali"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 186,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Erede all'estero: procure per beni in Italia",
+    "description": "Come definire poteri, canale di firma e documenti per gestire una successione italiana vivendo all'estero.",
+    "bodyMarkdown": "Vivere all'estero può rendere più difficile firmare documenti per un'eredità con beni in Italia, ma non cambia da solo la legge della successione. Prima si chiarisce il quadro giuridico; poi si organizza la rappresentanza per gli atti che non si possono compiere personalmente.\n\nGli [articoli 21 e 22 del regolamento UE 650/2012](https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650) guardano ai collegamenti del defunto e all'eventuale scelta di legge. La posizione geografica dell'erede è soprattutto un dato operativo, pur potendo rilevare per specifici adempimenti.\n\n## Elencare le attività necessarie\n\nRichiedere documenti, accettare o rinunciare, vendere un bene e sottoscrivere una divisione sono attività diverse. La procura deve attribuire poteri coerenti con ciò che si vuole fare.\n\nUn elenco preliminare consente di evitare due errori: una procura troppo limitata, da rifare, e una procura più ampia di quanto il rappresentato desideri.\n\nIl [MAECI descrive la funzione delle procure generali e speciali](https://www.esteri.it/it/servizi-opportunita/italiani-all-estero/attinotarili/procure-generali-e-speciali/). Nel caso concreto, il testo dovrebbe essere coordinato con chi riceverà o utilizzerà l'atto in Italia.\n\n## Preparare la bozza prima dell'appuntamento\n\nDati del defunto, del rappresentato e del procuratore devono essere esatti. Per immobili e operazioni particolari possono servire identificativi e clausole specifiche.\n\nInviare la bozza al professionista che curerà l'atto finale permette di verificare in anticipo se i poteri siano sufficienti. Una traduzione successiva non corregge una procura che autorizza l'operazione sbagliata.\n\nAnche eventuali limiti di prezzo, condizioni e conflitti di interessi devono essere valutati prima della firma.\n\n## Scegliere il canale nel Paese interessato\n\nI [servizi notarili indicati dal MAECI](https://www.esteri.it/it/servizi-opportunita/italiani-all-estero/attinotarili/) possono comprendere, secondo cittadinanza e sede, l'intervento consolare o quello di un notaio locale. Non tutti gli uffici offrono gli stessi servizi.\n\nOccorre verificare appuntamenti, documenti e utilizzabilità in Italia. Apostille, legalizzazione e traduzione dipendono dal Paese, dall'atto e dalle eventuali esenzioni applicabili.\n\nNon è prudente far autenticare un modello qualsiasi e controllarne l'efficacia solo dopo averlo spedito.\n\n## Coordinare originali e copie\n\nIl destinatario deve indicare se occorra l'originale, una copia autentica o un documento elettronico con determinate caratteristiche. La spedizione richiede tempi che vanno considerati nella programmazione.\n\nUna scansione può servire per il controllo preliminare, ma non equivale sempre al documento necessario per firmare l'atto finale.\n\nÈ utile conservare una copia integrale della procura e una traccia della consegna.\n\n## La distanza non sospende i termini\n\nAccettazione, inventario, notifiche e adempimenti fiscali possono avere scadenze proprie. L'attesa di un appuntamento consolare non deve essere considerata automaticamente una proroga.\n\nLa cronologia della pratica dovrebbe indicare termini, responsabili e documenti mancanti. Se un canale non è disponibile in tempo, occorre valutare subito un'alternativa giuridicamente idonea.\n\nNelle [successioni internazionali](https://ereditaesuccessioni.it/successioni-internazionali), una procura ben preparata riduce viaggi e ripetizioni. Il suo valore sta nella corrispondenza tra poteri conferiti e operazioni reali, non nella maggiore lunghezza del modulo.\n\n### Concordare una verifica dopo la firma all'estero\n\nPrima della spedizione definitiva è utile far controllare una copia integrale al destinatario italiano, comprese autenticazioni e allegati. Un errore nel nome o nell'identificativo del bene può rendere necessario intervenire quando il firmatario è ancora vicino all'ufficio che ha formato l'atto.\n\nIl controllo preliminare non trasforma la scansione nell'originale eventualmente richiesto. Serve a individuare per tempo difformità rispetto alla bozza approvata o documenti mancanti. Anche la traduzione deve corrispondere alla versione realmente sottoscritta.\n\nSe la procura consente più operazioni, il rappresentato dovrebbe sapere quali verranno eseguite e come riceverà copia degli atti conclusi. Un rendiconto essenziale può collegare potere conferito, atto compiuto e risultato ottenuto. La distanza viene così gestita attraverso documenti verificabili, senza affidare a una formula ampia o a rapporti personali la comprensione di ciò che è stato fatto in nome dell'erede.",
+    "faqs": [
+      {
+        "question": "Se vivo all'estero, la successione italiana segue automaticamente la legge del mio Paese?",
+        "answer": "No. La residenza dell'erede non è il criterio generale dell'articolo 21, che riguarda il defunto. Occorre verificare l'intero caso e l'eventuale scelta di legge."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650",
+        "title": "Regolamento UE 650/2012, articoli 21,22",
+        "supports": "Criteri di legge applicabile distinti dalla residenza dell'erede.",
+        "checkedAt": "2026-10-12"
+      },
+      {
+        "url": "https://www.esteri.it/it/servizi-opportunita/italiani-all-estero/attinotarili/procure-generali-e-speciali/",
+        "title": "MAECI, procure generali e speciali",
+        "supports": "Funzione della procura e distinzione dei poteri.",
+        "checkedAt": "2026-10-12"
+      },
+      {
+        "url": "https://www.esteri.it/it/servizi-opportunita/italiani-all-estero/attinotarili/",
+        "title": "MAECI, atti notarili all'estero",
+        "supports": "Canali consolari e notaio locale, con limiti e formalità da verificare per Paese.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Una procura da firmare accanto a una valigia e una chiave di casa, con nessun dato leggibile. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Una procura da firmare accanto a una valigia e una chiave di casa, con nessun dato leggibile",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-094.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "968abf7d8d974b25eb1be830262310b870a658ec6db4e881aeea72b916cfebb7",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 587,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 624,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-12-23",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "503ba98535ad7dfaa5fe9d06531b9f2c67f9370746c190ba62ddad6e6aa0cf0d",
+    "sha256": "85cac3629757a67e11719518eb96d327ba892f42582acf37fe3c4a70ed950a98"
+  }
+}

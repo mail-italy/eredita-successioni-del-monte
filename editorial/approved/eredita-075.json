@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-075",
+    "site": "eredita",
+    "sequence": 75,
+    "area": "Immobili e divisione",
+    "title": "Spese condominiali della casa ereditata: ordinare periodi e pagamenti",
+    "slug": "spese-condominiali-della-casa-ereditata-ordinare-periodi-e-pagamenti",
+    "intent": "Rendiconto fra coeredi e rapporto con il condominio",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/casa-ereditata"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 148,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Condominio della casa ereditata",
+    "description": "Come separare periodi, debiti precedenti e anticipi per ricostruire spese condominiali e saldi tra coeredi.",
+    "bodyMarkdown": "Le spese condominiali di una casa ereditata possono riferirsi a periodi e decisioni diversi. Un sollecito ricevuto dopo il decesso potrebbe riguardare debiti precedenti, gestione corrente o lavori straordinari.\n\nPer capire chi debba contribuire e come regolare i pagamenti tra eredi, bisogna separare il rapporto con il condominio dal rendiconto interno. Le [regole sui debiti ereditari e sulle spese della comunione](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) non si applicano correttamente a un totale privo di dettaglio.\n\n## Chiedere il prospetto analitico\n\nAll'amministratore vanno richiesti gli esercizi interessati, le delibere pertinenti, il riparto e l'elenco dei pagamenti già registrati. Una cifra riportata in una email non permette di verificare eventuali arretrati o duplicazioni.\n\nL'anno di gestione condominiale può non coincidere con l'anno solare. È quindi utile utilizzare i periodi indicati nei rendiconti, conservando il collegamento con le singole rate.\n\nPer lavori straordinari servono anche le decisioni assembleari e le informazioni sullo stato dell'intervento.\n\n## Separare ciò che era dovuto dal defunto\n\nGli importi maturati prima della morte richiedono un esame come possibili passività ereditarie. Le spese successive devono essere valutate in rapporto alla proprietà e alla gestione del bene.\n\nIl solo momento del pagamento non individua sempre la natura della spesa. Una rata versata oggi può riferirsi a una decisione o a un periodo precedente.\n\nGli articoli 752 e 754 regolano aspetti del riparto dei debiti e pesi ereditari; l'articolo 1104 riguarda obblighi dei partecipanti alla comunione. La qualificazione concreta viene prima del conteggio.\n\n## Chi usa la casa e chi sostiene le spese\n\nL'uso esclusivo da parte di un coerede può generare ulteriori questioni, ma non permette di spostare indistintamente ogni costo su quella persona. Vanno considerate natura delle voci, eventuali accordi e titoli di godimento.\n\nSpese legate ai consumi, manutenzione e costi di conservazione non dovrebbero essere mescolati senza criterio. Se un familiare ha assunto un impegno particolare, occorre documentarlo.\n\nÈ utile tenere separato questo confronto da eventuali domande relative all'occupazione della casa.\n\n## Registrare gli anticipi\n\nChi paga per evitare conseguenze negative deve conservare prova del versamento e causale. Il prospetto interno dovrebbe indicare la voce saldata, la quota richiesta agli altri e la base del calcolo.\n\nSe sono state usate somme comuni, non si tratta necessariamente di un anticipo personale. Se invece il pagamento è stato eseguito con denaro proprio, questo dato deve risultare chiaramente.\n\nLe compensazioni con canoni o altre entrate richiedono trasparenza: un saldo finale senza passaggi intermedi è difficile da verificare.\n\n## Preparare vendita o divisione\n\nPrima di attribuire o vendere la casa, la situazione condominiale deve essere aggiornata. L'accordo dovrebbe stabilire come regolare arretrati, rate future e lavori già deliberati, coordinandosi con i diritti del condominio.\n\nUn conteggio vecchio può non comprendere nuovi addebiti o pagamenti intervenuti. È utile fissare una data di aggiornamento e conservare i documenti utilizzati.\n\nNella gestione della [casa ereditata](https://ereditaesuccessioni.it/casa-ereditata), il risultato utile è un rendiconto leggibile per tutti: quali spese esistono, chi le ha pagate e quali somme restano da regolare. Questo riduce il rischio che il problema condominiale diventi un secondo conflitto successorio.\n\n### Riconciliare il prospetto familiare con quello condominiale\n\nIl pagamento annotato da un erede può essere stato imputato dall'amministratore a un esercizio diverso da quello immaginato. Per questo occorre confrontare causale del versamento, ricevuta e registrazione contabile, chiedendo chiarimenti sulle differenze.\n\nSe un anticipo copre più rate, il prospetto interno dovrebbe mostrarne il collegamento senza replicare il totale su ogni voce. Anche eventuali crediti o rimborsi devono essere considerati prima di chiedere denaro agli altri. Una riconciliazione periodica evita che un errore amministrativo venga scambiato per mancato contributo di un familiare, oppure che una somma già saldata resti inclusa nella richiesta preparata per la divisione.",
+    "faqs": [
+      {
+        "question": "Se un erede paga il condominio, il rimborso dagli altri è automatico per qualunque importo?",
+        "answer": "Occorre verificare natura della spesa, periodo, titolo del pagamento e criterio di riparto interno. La richiesta del condominio e il rendiconto tra coeredi sono piani da distinguere."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 752, 754, 1104",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 752, 754, 1104. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Un prospetto condominiale neutro con ricevute separate per periodi e una chiave di appartamento. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione. Carte e planimetrie senza testo identificativo. Scena singola di fotografia editoriale, proporzioni credibili, non deve sembrare una sede dello studio né un suo immobile reale.",
+      "alt": "Un prospetto condominiale neutro con ricevute separate per periodi e una chiave di appartamento",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-075.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "d2c1bc19f91ebdc4853f3a5255d9572f1db3baf003c6570f20b30141b7a54626",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 600,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 642,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-01-10",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "f99a48be3f28d4f2c73ebc112d64dcdd26e14c209c9f81cef1d58c0e8a8f8bfc",
+    "sha256": "a192c0aead7cc4ddfc9b1b0f6039696942d15b3ac3cb2394bbf52336aade4270"
+  }
+}

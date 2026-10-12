@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-004",
+    "site": "eredita",
+    "sequence": 4,
+    "area": "Testamenti",
+    "title": "Testamento olografo senza data: quali verifiche servono",
+    "slug": "testamento-olografo-senza-data-quali-verifiche-servono",
+    "intent": "Vizio della data distinto dalla mancanza di autografia",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/impugnazione-testamento"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 6,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Testamento senza data: verifiche utili",
+    "description": "Quali elementi conservare e quali problemi esaminare quando un testamento olografo non riporta una data completa.",
+    "bodyMarkdown": "Una scheda è scritta a mano e firmata, ma la data manca oppure indica soltanto l'anno. Prima di definirla nulla bisogna qualificare correttamente il difetto. Nel testamento olografo data, autografia e sottoscrizione sono requisiti distinti, con conseguenze che non possono essere confuse.\n\n### Quale data richiede la legge\n\nL'articolo 602 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) richiede che l'olografo sia interamente scritto, datato e sottoscritto dal testatore. La data deve contenere giorno, mese e anno. La sua funzione emerge soprattutto quando occorre confrontare più testamenti o valutare la capacità nel momento della redazione.\n\nLa prima operazione è leggere l'intero originale. Una data può trovarsi in una parte diversa da quella riprodotta in una fotografia; viceversa, una data stampata su una busta o aggiunta da un familiare non risolve automaticamente il requisito della scheda.\n\n### Non tutti i difetti producono lo stesso effetto\n\nL'articolo 606 distingue la mancanza di autografia o sottoscrizione dagli altri difetti di forma. Per questi ultimi prevede un'azione di annullamento, con presupposti e disciplina propri. Perciò l'espressione comune “testamento senza data, quindi inesistente” rischia di portare fuori strada.\n\nÈ necessario verificare chi abbia interesse ad agire e quando siano state eseguite le disposizioni, perché la decorrenza prevista dalla norma si collega a quel fatto. La data del decesso, quella del ritrovamento e quella della pubblicazione non sono informazioni intercambiabili. Il calcolo del termine va affidato alla valutazione del caso, evitando di ricavarlo da una formula generica trovata online.\n\n### Data assente, incompleta o non vera\n\nLa mancanza materiale della data non coincide con il sospetto che la data scritta sia inesatta. L'articolo 602 limita la prova della non verità a questioni per le quali il tempo del testamento abbia rilevanza, tra cui capacità e priorità fra schede.\n\nOccorre dunque descrivere il dubbio: manca un elemento, vi è una correzione, il foglio proviene da un blocco successivo, esistono documenti incompatibili con quella cronologia? Le informazioni vanno raccolte senza alterare la scheda e senza presentare una semplice impressione come accertamento tecnico.\n\n### Preparare una verifica utile\n\nIl fascicolo dovrebbe contenere copia integrale del testamento, verbale di pubblicazione, eventuali schede precedenti e documenti sulle attività già compiute in esecuzione. Se si discute della capacità, serve una cronologia clinica mirata, non una raccolta indiscriminata di documenti sanitari.\n\nIl risultato della verifica non è necessariamente contestare tutto. Può essere necessario chiarire un difetto, valutare un accordo o distinguere il problema formale dalla lesione di legittima. Questa distinzione è centrale nella pagina dedicata all'[impugnazione del testamento](https://ereditaesuccessioni.it/impugnazione-testamento).\n\n### Quando la cronologia modifica davvero la decisione\n\nSi immagini che esistano due schede con disposizioni contrastanti e che una indichi soltanto mese e anno. La ricostruzione temporale diventa rilevante per stabilire il rapporto fra i documenti, ma il problema della data incompleta non scompare soltanto perché un familiare ricorda quando il foglio fu scritto. La questione formale e la prova della cronologia devono essere affrontate ciascuna con il proprio inquadramento.\n\nIn un'altra situazione la scheda riporta una data completa, ma un documento successivo sembra dimostrare che il testatore fosse altrove. Quel fatto richiede approfondimento: non equivale automaticamente alla prova che il testamento sia falso. Luogo, modalità di redazione, origine delle informazioni e significato della data vanno verificati prima di formulare accuse.\n\n### Quali informazioni portare al primo colloquio\n\nÈ utile precisare se la scheda sia stata trovata già separata dalla busta, se qualcuno abbia trascritto il contenuto e se esistano fotografie precedenti alla pubblicazione. Questi elementi aiutano a capire che cosa appartenga all'originale e che cosa derivi da successive manipolazioni materiali.\n\nOccorre inoltre riferire se qualcuno abbia già consegnato beni in esecuzione del testamento, anche quando il trasferimento sia avvenuto senza un atto complesso. Il professionista non deve ricavare questi fatti da formule generiche come “non abbiamo ancora fatto nulla”. L'obiettivo della raccolta è consentire una valutazione tempestiva del difetto e della posizione di chi lo contesta, senza attendere che l'intera famiglia concordi sulla lettura della scheda.",
+    "faqs": [
+      {
+        "question": "La mancanza della data coincide con la mancanza della firma?",
+        "answer": "No. Il Codice distingue i difetti di forma: autografia e sottoscrizione hanno un trattamento diverso dagli altri difetti, inclusa la data."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 602, 606",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 602, 606. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Calendario da tavolo privo di numeri leggibili accanto a manoscritto sfocato e penna, inquadratura ravvicinata. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Calendario da tavolo privo di numeri leggibili accanto a manoscritto sfocato e penna, inquadratura ravvicinata",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-004.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "cf33cc4eb1892d66b932a1c307934382445677bee7b40d81b0a3bb41fe5d8588",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 643,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 674,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-11-19",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "3a845f083fa00960401dd8b853df2e4e2c1c4bb371a1242079409dd34a709d58",
+    "sha256": "5499717f1a4bcc6168119c963a94772ae133dd5558b5488a046c93212079a305"
+  }
+}

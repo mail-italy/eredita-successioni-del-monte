@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-010",
+    "site": "eredita",
+    "sequence": 10,
+    "area": "Testamenti",
+    "title": "Lasciare una casa nel testamento: bene specifico o quota del patrimonio",
+    "slug": "lasciare-una-casa-nel-testamento-bene-specifico-o-quota-del-patrimonio",
+    "intent": "Interpretazione dell'attribuzione di un immobile determinato",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/testamento"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 18,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Casa lasciata nel testamento",
+    "description": "Una casa indicata nel testamento può richiedere di distinguere bene specifico e quota: come impostare la lettura.",
+    "bodyMarkdown": "“Lascio l'appartamento a mio figlio”: una frase apparentemente semplice può attribuire un legato oppure concorrere a istituire un erede. La distinzione non dipende dal valore affettivo della casa, ma dal modo in cui il testatore ha organizzato l'intero patrimonio.\n\n### La casa come bene o come quota\n\nL'articolo 588 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) distingue disposizioni universali e particolari. Precisa inoltre che l'assegnazione di beni determinati può avere natura universale quando il testatore intenda utilizzarli come quota del patrimonio.\n\nLa lettura deve quindi confrontare la clausola con le altre attribuzioni. Se il documento distribuisce tutti i beni fra più persone, occorre comprendere quale funzione abbia ciascuna assegnazione. Una formula isolata non basta per decidere chi risponda come erede o quale percorso sia necessario per acquistare i diritti.\n\n### Verificare che cosa appartenesse al defunto\n\nPrima di parlare di trasferimento bisogna acquisire il titolo di provenienza e controllare il diritto effettivamente posseduto: intera proprietà, quota, nuda proprietà o altro diritto. Catasto, registri immobiliari e atti hanno funzioni diverse; una sola visura non sostituisce la ricostruzione del titolo.\n\nSe la casa era di un'altra persona, oppure soltanto in parte del testatore, entrano in gioco regole ulteriori. L'articolo 651, per esempio, tratta il legato di cosa altrui con presupposti specifici. Non si può concludere che la scheda trasferisca automaticamente più di quanto risulti dal quadro giuridico.\n\n### Acquisto e disponibilità concreta\n\nQualora si tratti di legato di una cosa determinata appartenente al testatore, l'articolo 649 disciplina il trasferimento del diritto al momento della morte, prevedendo però la richiesta del possesso all'onerato. Ricevere la casa non autorizza quindi a cambiare serrature ignorando chi la occupa o altri diritti esistenti.\n\nVanno esaminati eventuali locazioni, diritti di abitazione, ipoteche e oneri testamentari. La posizione del coniuge superstite e la tutela dei legittimari possono richiedere una verifica distinta dall'interpretazione della sola attribuzione.\n\n### Preparare un fascicolo leggibile\n\nSono utili testamento completo, verbale di pubblicazione, atto di acquisto, dati dei comproprietari, documentazione delle garanzie e informazioni sull'uso attuale. Se la casa è stata venduta dopo la redazione della scheda, anche quel fatto deve essere ricostruito.\n\nPrima di firmare una vendita o un accordo di divisione, occorre ottenere una risposta precisa su ruolo del beneficiario, diritto trasferito e formalità necessarie. Una [consulenza testamentaria](https://ereditaesuccessioni.it/testamento) consente di collegare il testo alla situazione immobiliare effettiva, evitando di scambiare una destinazione desiderata con un assetto già definitivamente chiarito.\n\n### Se il bene è cambiato dopo il testamento\n\nIl documento può descrivere un appartamento con un vecchio indirizzo o con dati catastali successivamente variati. Prima di concludere che l'attribuzione sia diventata incomprensibile, bisogna ricostruire le modifiche e verificare se riguardino l'identificazione del bene o il diritto di proprietà. Un cambio di numerazione non coincide con una vendita.\n\nIl quadro è diverso quando l'immobile sia stato frazionato, accorpato, ceduto oppure sostituito con un acquisto successivo. Qui servono gli atti e le date delle operazioni. Non si può presumere che ogni nuovo bene prenda automaticamente il posto di quello menzionato nella scheda: l'effetto deve essere valutato secondo il contenuto della disposizione e le regole applicabili.\n\n### Un controllo prima di impegnarsi con un compratore\n\nChi pensa di avere ricevuto la casa può essere tentato di accettare subito un'offerta. Prima di assumere impegni, occorre chiarire la propria posizione successoria e quali altri diritti insistano sull'immobile. Anche la presenza di chiavi e il pagamento delle utenze descrivono fatti materiali, non sostituiscono l'accertamento del titolo.\n\nIl fascicolo utile al notaio e al legale comprende quindi sia la documentazione successoria sia quella immobiliare. Se vi sono occupanti, vanno raccolti i titoli che giustificano l'uso, senza avviare iniziative autonome per liberare l'abitazione. Una lettura coordinata permette di distinguere il diritto attribuito dal testamento dalla concreta possibilità di consegnare il bene libero e trasferibile alle condizioni promesse.",
+    "faqs": [
+      {
+        "question": "Chi riceve una casa nel testamento è sempre legatario?",
+        "answer": "No. L'articolo 588 ammette che beni determinati rappresentino una quota ereditaria se questa era la volontà del testatore."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 588, 649, 651",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 588, 649, 651. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Chiave antica di abitazione italiana su planimetria sfocata e cartella testamentaria, nessuna scritta leggibile. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Chiave antica di abitazione italiana su planimetria sfocata e cartella testamentaria, nessuna scritta leggibile",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-010.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "24147a78d1eb35cebbbb2bbafa378b2cb414b36ecfe9ee10f02c603286360b36",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 617,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 644,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-01-16",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "88f678ddfcbd2fbca53cf7c07c6c7b2f52ea608c01fcc070d770822e3bfd39ff",
+    "sha256": "7aa06208f06efb9033187a97a24b5a3681d68d4e7b33af4af4c12eca9b17c8e5"
+  }
+}

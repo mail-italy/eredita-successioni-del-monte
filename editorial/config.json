@@ -1,7 +1,7 @@
 {
   "site": "eredita",
-  "enabled": false,
-  "startDate": null,
+  "enabled": true,
+  "startDate": "2026-10-12",
   "publishHour": 8,
   "timezone": "Europe/Rome",
   "cadenceDays": 2,

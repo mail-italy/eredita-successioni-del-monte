@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-044",
+    "site": "eredita",
+    "sequence": 44,
+    "area": "Accettazione e debiti",
+    "title": "Revocare la rinuncia all'eredità: quali condizioni controllare",
+    "slug": "revocare-la-rinuncia-all-eredita-quali-condizioni-controllare",
+    "intent": "Accettazione successiva dopo la rinuncia e diritti già acquisiti",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/rinuncia-eredita"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 86,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Revocare una rinuncia all'eredità",
+    "description": "Termini, acquisti degli altri chiamati e diritti dei terzi da controllare prima di accettare dopo una rinuncia.",
+    "bodyMarkdown": "Dopo una rinuncia possono emergere un conto, un immobile o informazioni sui debiti diverse da quelle iniziali. Cambiare idea è possibile soltanto entro i limiti previsti dalla legge: non basta comunicare ai parenti che la rinuncia «non vale più».\n\nL'[articolo 525 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) consente a chi ha rinunciato di accettare successivamente quando il diritto non è prescritto e l'eredità non è già stata acquistata da un altro chiamato. Restano inoltre salvi i diritti acquisiti dai terzi sui beni ereditari.\n\n## La prima verifica riguarda gli altri chiamati\n\nIl tempo trascorso non è l'unico elemento. Anche una rinuncia recente può avere aperto la strada all'acquisto da parte di un altro soggetto. Occorre individuare chi fosse chiamato dopo il rinunciante e quali atti abbia compiuto.\n\nNon basta chiedere se qualcuno abbia firmato un'accettazione dal notaio. Anche i comportamenti possono assumere rilievo. Perciò vanno raccolti atti di vendita, prelievi, accordi di divisione e altri documenti pertinenti, da valutare senza dare per scontata la loro qualificazione.\n\nSe vi sono discendenti, bisogna considerare l'eventuale rappresentazione. La rinuncia non mette necessariamente la quota a disposizione del familiare che la desidera di più.\n\n## Un nuovo acquisto, non la cancellazione della storia\n\nLa cosiddetta revoca della rinuncia va letta insieme alla successiva accettazione. Il percorso deve rispettare la situazione ormai prodotta e i diritti dei terzi. Non è una procedura per riscrivere retroattivamente qualsiasi vicenda avvenuta nel frattempo.\n\nQuesto conta quando un bene è stato alienato o un creditore ha fatto valere diritti. Un'intesa familiare può essere utile per trovare una soluzione, ma non basta da sola a eliminare posizioni già protette dalla legge.\n\n## Il patrimonio va ricostruito nuovamente\n\nLa scoperta di un conto attivo può indurre a ripensare la scelta, ma non dimostra che l'eredità sia conveniente. Devono essere ricontrollati anche debiti, garanzie, spese e controversie. Valutare un solo bene significa ripetere l'incertezza che aveva accompagnato la prima decisione.\n\nSe il patrimonio resta dubbio, va esaminata l'eventuale accettazione con beneficio d'inventario, verificando tutti i presupposti e i termini applicabili. Non esiste un beneficio ottenuto aggiungendo una riserva generica a una lettera.\n\n## Distinguere revoca e impugnazione\n\nUn'altra questione è la rinuncia che si assume determinata da violenza o dolo. L'articolo 526 prevede una disciplina specifica per impugnarla. Questo problema non coincide con il semplice ripensamento dopo avere appreso che l'eredità vale più del previsto.\n\nPer inquadrare correttamente il caso, è utile annotare ciò che si sapeva al momento della rinuncia, da chi provenivano le informazioni e quali documenti sono emersi dopo. Le affermazioni vanno separate dalle prove disponibili.\n\n## Il fascicolo da preparare\n\nOccorrono una copia autentica o comunque verificabile della rinuncia, la data del decesso, i titoli di chiamata e una cronologia delle attività successive. Vanno aggiunti i nuovi documenti patrimoniali e gli elementi relativi agli altri chiamati.\n\nLa consulenza sulla [rinuncia all'eredità](https://ereditaesuccessioni.it/rinuncia-eredita) può così concentrarsi sulla domanda decisiva: esiste ancora lo spazio giuridico per accettare? Soltanto dopo questa verifica ha senso discutere come esercitare la scelta e quali conseguenze economiche produrrà.\n\n### Un documento nuovo va letto nel suo contesto\n\nLa comunicazione di una banca potrebbe indicare il saldo alla data del decesso, mentre nel frattempo sono intervenuti pagamenti, spese o pretese di terzi. Prima di fondare su quel saldo il ripensamento, occorre capire quale momento rappresenti e quali movimenti siano successivi.\n\nÈ utile allegare il documento alla cronologia già preparata, evitando di sostituire il vecchio quadro con una nuova cifra isolata. Anche il familiare che dichiara di “lasciare tornare” il rinunciante deve chiarire che cosa abbia già fatto: il consenso personale non dimostra che manchino acquisti o diritti protetti. La possibilità giuridica di accettare e la convenienza economica della scelta restano due verifiche autonome.",
+    "faqs": [
+      {
+        "question": "Scoprire un nuovo bene annulla automaticamente la rinuncia?",
+        "answer": "No. Occorre verificare se sia ancora possibile accettare ai sensi dell'articolo 525; l'esistenza di un bene sconosciuto non cancella da sola la rinuncia già resa."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 480, 525, 526",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 480, 525, 526. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una cartellina precedentemente chiusa che viene riaperta accanto a un calendario privo di scritte leggibili. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutte le carte senza testo, senza stemmi, emblemi, sigilli, ceralacca, loghi o intestazioni. Dettaglio editoriale essenziale, sfondo luminoso naturale e inquadratura variata. Nessun luogo deve sembrare una sede dello studio.",
+      "alt": "Una cartellina precedentemente chiusa che viene riaperta accanto a un calendario privo di scritte leggibili",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-044.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "f5333c3ac774889017c896dfb081fa811f4f19b9f3e281b0777b6e583bffabc0",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 608,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 641,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-02-13",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "085ddaa3bdb03291e7265a14466b85377d60654fe14f58f772e48192ec96fbec",
+    "sha256": "225ccdc897b71a891064a804161cc21e3eafbfc678500c8a61b99d5a4488f8f6"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-057",
+    "site": "eredita",
+    "sequence": 57,
+    "area": "Legittima e donazioni",
+    "title": "Rinunciare alla futura legittima mentre il genitore è in vita: quali limiti",
+    "slug": "rinunciare-alla-futura-legittima-mentre-il-genitore-e-in-vita-quali-limiti",
+    "intent": "Divieto di rinuncia anticipata alla riduzione",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/lesione-di-legittima"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 112,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Rinuncia alla legittima futura",
+    "description": "Perché l'assenso a una donazione non elimina automaticamente la futura riduzione mentre il donante è ancora in vita.",
+    "bodyMarkdown": "Un genitore può chiedere ai figli di dichiarare che non contesteranno una donazione fatta a uno di loro. L'obiettivo di evitare conflitti è comprensibile, ma una dichiarazione preventiva non ha automaticamente l'effetto di eliminare la futura tutela della legittima.\n\nL'[articolo 557 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) stabilisce che i legittimari non possono rinunciare al diritto di riduzione finché vive il donante, né con una dichiarazione espressa né prestando assenso alla donazione. Il divieto va letto insieme alla disciplina dei patti successori e alle eventuali eccezioni previste dalla legge.\n\n## Perché la successione futura non è già un patrimonio disponibile\n\nDurante la vita del genitore, il patrimonio e la composizione familiare possono cambiare. Beni, debiti e altre attribuzioni incidono sul calcolo che potrà essere svolto all'apertura della successione.\n\nUna stima fatta oggi non equivale quindi alla determinazione definitiva della futura legittima. Anche l'accordo tra tutti i figli attualmente coinvolti non consente di ignorare i limiti posti dalla legge.\n\nQuesto non impedisce di pianificare, ma richiede strumenti validi e una verifica dell'obiettivo perseguito.\n\n## Assenso, conoscenza e rinuncia non sono la stessa cosa\n\nDichiarare di essere informati di una donazione può servire a documentare la conoscenza di un fatto. È diverso dal rinunciare validamente a una futura azione.\n\nIl contenuto preciso dell'atto resta essenziale. Una clausola può comprendere dichiarazioni di natura diversa, alcune delle quali richiedono una valutazione autonoma. Non è utile concludere che l'intero documento sia privo di qualunque effetto soltanto perché una rinuncia anticipata incontra un divieto.\n\nChi viene invitato a firmare dovrebbe ricevere una copia completa e chiarire quale funzione venga attribuita a ciascuna dichiarazione.\n\n## I trasferimenti compensativi vanno esaminati\n\nA volte un figlio riceve denaro mentre un altro riceve una casa, con l'intenzione di «pareggiare tutto». Queste operazioni devono essere documentate e qualificate: non basta una formula secondo cui nessuno avrà più nulla da chiedere.\n\nLe attribuzioni compiute possono essere rilevanti nei successivi calcoli. Occorre però verificare oggetti, valori, provenienza delle somme e clausole, senza trasformare un'intesa familiare in una rinuncia efficace solo perché accompagnata da un pagamento.\n\nPer gli strumenti soggetti a discipline speciali serve una verifica specifica; non vanno utilizzati nomi tecnici come scorciatoie senza accertarne i requisiti.\n\n## Dopo il decesso il quadro è diverso\n\nUna volta aperta la successione, i diritti e le possibilità di accordo richiedono una nuova analisi. Non si deve confondere il divieto di rinuncia anticipata con l'impossibilità assoluta di comporre una controversia successoria già sorta.\n\nAnche in quella fase, però, il consenso deve essere informato: prima si ricostruiscono patrimonio e attribuzioni, poi si valuta il contenuto dell'accordo e la forma necessaria.\n\n## Pianificare senza promettere effetti inesistenti\n\nPer un confronto utile conviene raccogliere gli atti già compiuti, la bozza proposta e una descrizione del risultato desiderato. Il problema può essere ridurre l'incertezza, assicurare l'abitazione a qualcuno o organizzare il passaggio di un bene: sono obiettivi diversi.\n\nLa pagina sulla [lesione di legittima](https://ereditaesuccessioni.it/lesione-di-legittima) aiuta a inquadrare la tutela. Nella pianificazione, il passaggio decisivo è scegliere strumenti che producano davvero l'effetto voluto, senza affidare la pace familiare a una rinuncia che la legge non consente in quel momento.\n\n### Separare il progetto dall'impegno a firmare\n\nUna riunione familiare può essere utile per capire le esigenze di ciascuno senza tradursi subito in un documento definitivo. Abitazione, liquidità e continuità di un'attività sono bisogni diversi: presentarli distintamente permette di cercare strumenti adeguati.\n\nLa bozza dovrebbe poi essere esaminata con gli atti delle attribuzioni già effettuate. Non basta che tutti ricordino di avere ricevuto “più o meno la stessa cosa”. Valori, titoli e clausole devono essere riconoscibili. Se una disposizione non può produrre l'effetto di rinuncia sperato, occorre chiarirlo prima della firma, così che il consenso riguardi un assetto comprensibile e non una promessa di stabilità giuridica inesistente.",
+    "faqs": [
+      {
+        "question": "Firmare per assenso alla donazione del genitore elimina ogni futura azione?",
+        "answer": "No. L'articolo 557 esclude la rinuncia al diritto di riduzione finché il donante è in vita, anche attraverso l'assenso alla donazione. Occorre comunque esaminare l'atto concreto e le eventuali discipline speciali."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 458, 557",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 458, 557. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una penna lasciata accanto a un foglio non firmato, con fotografie familiari rivolte verso il basso. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione: eventuali carte devono essere anonime. Composizione semplice e visivamente diversa per questo specifico tema, senza persone riconoscibili né testo visibile.",
+      "alt": "Una penna lasciata accanto a un foglio non firmato, con fotografie familiari rivolte verso il basso",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-057.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "f4d15d7b86168cdb131647a171c1752c37d358b5b769f25c484afc3fec682899",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 617,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 659,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-02-15",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "13ad78dd465f8e23a626b4b1be2586ff6c3cbc747cb10c9f964a4d45ab905f84",
+    "sha256": "7237b401d91d05ea9ef5b99aff79743a3fe9223606a8f70660774af6510b606c"
+  }
+}

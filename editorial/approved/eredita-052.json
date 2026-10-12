@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-052",
+    "site": "eredita",
+    "sequence": 52,
+    "area": "Legittima e donazioni",
+    "title": "Dispensa dalla collazione: cosa leggere nell'atto di donazione",
+    "slug": "dispensa-dalla-collazione-cosa-leggere-nell-atto-di-donazione",
+    "intent": "Limiti della dispensa e coordinamento con quota disponibile",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/collazione-e-donazioni"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 102,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Dispensa dalla collazione: limiti",
+    "description": "Come leggere la dispensa nell'atto di donazione e coordinarla con disponibile, patrimonio e tutela dei legittimari.",
+    "bodyMarkdown": "Nell'atto di donazione può comparire una dispensa dalla collazione. Per il beneficiario è una clausola importante, ma non significa che il bene sia sottratto a qualunque verifica al momento della successione.\n\nL'[articolo 737 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) stabilisce che la dispensa non produce effetto oltre la quota disponibile. Il suo significato va quindi coordinato con il patrimonio complessivo e con i diritti delle persone che concorrono alla successione.\n\n## Partire dal testo integrale\n\nLa clausola non dovrebbe essere ricostruita da un ricordo familiare o dal riassunto di una visura. Occorre leggere l'atto completo, comprese le indicazioni sulla provenienza del bene, gli eventuali oneri e le altre disposizioni del donante.\n\nVanno cercati anche testamenti o atti successivi pertinenti. Una frase isolata può essere stata ricordata in modo incompleto oppure confusa con un'altra disposizione, come una regola sull'imputazione alla legittima.\n\nNon è corretto trattare «dispensa dalla collazione» e «dispensa dall'imputazione» come espressioni sempre equivalenti. Prima di calcolare le quote bisogna capire quale effetto sia stato effettivamente previsto.\n\n## La quota disponibile non è una cifra fissata per sempre\n\nIl limite della disponibile viene valutato nel quadro della successione. Nel frattempo il patrimonio può essersi modificato: nuovi beni, debiti, altre liberalità e cambiamenti della situazione familiare possono incidere sul calcolo.\n\nIl valore indicato molti anni prima nell'atto non risolve da solo il problema. L'[articolo 556](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) richiede una ricostruzione della massa di riferimento; le regole di valutazione devono essere applicate al tipo di bene e alla questione concreta.\n\nPer questo una dispensa che sembrava economicamente sostenibile al momento della donazione può richiedere un controllo diverso dopo la morte.\n\n## Un esempio senza scorciatoie\n\nUn genitore dona un immobile a un figlio dispensandolo dalla collazione. Alla morte lascia altri beni e alcuni debiti. Il beneficiario non può concludere che l'immobile sia irrilevante soltanto perché la clausola esiste.\n\nOccorre stabilire chi siano i coeredi, quali altre attribuzioni vi siano state, come si calcoli la disponibile e se un legittimario abbia subito una lesione. L'esito dipende dai dati, non dalla maggiore o minore insistenza degli altri familiari.\n\nAllo stesso modo, gli altri eredi non possono ignorare la dispensa e pretendere automaticamente il conferimento integrale come se non fosse stata scritta.\n\n## Preparare due prospetti distinti\n\nÈ utile avere un elenco delle donazioni e un elenco del patrimonio rimasto alla morte. Per ogni liberalità si annotano data, beneficiario, oggetto, clausole e documenti di valore.\n\nUn secondo prospetto può separare ciò che è pacifico da ciò che è contestato: esistenza della donazione, interpretazione della clausola, valore del bene o composizione della massa. Questo evita che un dissenso su una sola stima venga presentato come invalidità dell'intero atto.\n\n## Discutere la divisione con dati verificabili\n\nLa dispensa va inserita in una proposta di riparto coerente, non utilizzata come slogan per escludere il confronto. Se le parti concordano sui documenti ma non sul valore, una valutazione tecnica può restringere il conflitto.\n\nIl controllo su [collazione e donazioni](https://ereditaesuccessioni.it/collazione-e-donazioni) serve precisamente a tradurre la clausola nel suo effetto concreto. La domanda non è se sia scritta, ma entro quali limiti operi nella successione che si è effettivamente aperta.\n\n### Verificare la clausola nella proposta finale\n\nQuando si arriva a una bozza di divisione, non basta allegare l'atto di donazione: occorre comprendere come la dispensa sia stata tradotta nei valori e nelle attribuzioni proposte. Una clausola formalmente riconosciuta potrebbe essere stata poi ignorata nel calcolo del conguaglio, oppure applicata oltre i limiti emersi dall'analisi.\n\nÈ utile chiedere un prospetto leggibile che mostri le ipotesi accolte e quelle ancora controverse. Se l'accordo risolve anche una contestazione sulla legittima, tale funzione deve risultare chiaramente. Firmare una quietanza generale pensando di approvare soltanto una stima può altrimenti chiudere questioni più ampie di quelle effettivamente discusse.",
+    "faqs": [
+      {
+        "question": "La dispensa dalla collazione rende inattaccabile la donazione?",
+        "answer": "No. La dispensa opera nei limiti della quota disponibile e non elimina le verifiche sulla tutela dei legittimari."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 737, 556, 557",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 737, 556, 557. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Un atto notarile chiuso con un segnalibro blu e una piccola porzione separata di blocchi in legno. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione: eventuali carte devono essere anonime. Composizione semplice e visivamente diversa per questo specifico tema, senza persone riconoscibili né testo visibile.",
+      "alt": "Un atto notarile chiuso con un segnalibro blu e una piccola porzione separata di blocchi in legno",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-052.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "c64baa8ceaf03b620c554958a6b37a609668511fac110734b5cb15f58b409f05",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 613,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 639,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-11-05",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "59d52cadca7307c3e8586f2da36626296e0ff250599e6b8ae3d36e789447ab27",
+    "sha256": "351dab42d4dfaa95b219ae1a6903ced6e1f77e8208d7e535f7af050873768b3c"
+  }
+}

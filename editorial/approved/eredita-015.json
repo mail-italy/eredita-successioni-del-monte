@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-015",
+    "site": "eredita",
+    "sequence": 15,
+    "area": "Testamenti",
+    "title": "Due persone possono scrivere un unico testamento insieme?",
+    "slug": "due-persone-possono-scrivere-un-unico-testamento-insieme",
+    "intent": "Divieto di testamento congiuntivo e autonomia delle volontà",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/testamento"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 28,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Testamento scritto insieme da due persone",
+    "description": "Perché il testamento congiuntivo richiede attenzione e come distinguere documenti personali e volontà separate.",
+    "bodyMarkdown": "Una coppia vorrebbe scrivere un unico foglio con due firme: “chi resta riceve tutto”. La semplicità materiale del documento non corrisponde alla disciplina giuridica. L'articolo 589 del Codice civile vieta il testamento di due o più persone nel medesimo atto, anche quando le disposizioni siano reciproche.\n\n### Perché le volontà devono restare autonome\n\nIl testamento è un atto personale e revocabile. Gli articoli 587 e 679 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) rendono centrale la possibilità di modificare le proprie disposizioni. Un unico documento con volontà intrecciate può invece creare un vincolo incompatibile con questo assetto.\n\nIl divieto non si supera aggiungendo una seconda firma o scrivendo che le parti sono d'accordo. Né è sufficiente dividere il foglio in due colonne se il risultato rimane un medesimo atto congiuntivo: la forma concreta richiede verifica professionale.\n\n### Due schede non autorizzano qualsiasi accordo\n\nIl problema del documento congiunto va distinto da quello dei patti successori, disciplinato dall'articolo 458. Un impegno contrattuale a mantenere una determinata disposizione può porre questioni autonome, anche se le schede materiali sono separate.\n\nLa preparazione di testamenti distinti deve quindi preservare l'indipendenza della volontà di ciascuno. Non occorre costruire promesse reciproche irrevocabili per rendere coerente la pianificazione familiare; bisogna invece verificare diritti riservati, proprietà dei beni e finalità delle attribuzioni.\n\n### Leggere il patrimonio di ognuno\n\nIn una coppia non tutto ciò che viene chiamato “nostro” appartiene necessariamente a entrambi nella stessa misura. Prima di disporre vanno individuati beni personali, comunione legale, comproprietà e rapporti bancari.\n\nLa presenza di figli, anche di precedenti relazioni, e di altri legittimari richiede un esame delle riserve previste dalla legge. La frase “tutto al superstite” non elimina questi diritti. Una disposizione valida nella forma può comunque generare una contestazione patrimoniale.\n\n### Se il documento è già stato scritto\n\nNon bisogna correggerlo informalmente aggiungendo fogli o cancellando la firma di una persona. Occorre mostrarlo integralmente al professionista, chiarire se uno dei sottoscrittori sia già deceduto e verificare eventuali atti esecutivi.\n\nSe entrambi sono in vita, la pianificazione può essere ricostruita attraverso strumenti appropriati, conservando libertà e chiarezza. La [consulenza sul testamento](https://ereditaesuccessioni.it/testamento) serve anche a prevenire questi difetti, prima che una formula domestica apparentemente intuitiva produca incertezza fra i futuri chiamati.\n\n### Un progetto comune può contenere scelte differenti\n\nDue persone possono desiderare entrambe di proteggere chi sopravvive, ma avere patrimoni e rapporti familiari diversi. Una potrebbe possedere la casa, l'altra soltanto risparmi; una potrebbe avere figli, l'altra no. Copiare la stessa formula in due documenti non garantisce che il risultato sia adatto a entrambe.\n\nIl lavoro iniziale consiste nel chiarire l'obiettivo di ciascuno: consentire l'uso dell'abitazione, attribuire una somma, lasciare un bene oppure organizzare la sorte del patrimonio residuo. Queste esigenze devono essere confrontate con i diritti degli altri soggetti e con la libertà di modificare le disposizioni.\n\n### Non scambiare la conoscenza reciproca per un vincolo\n\nIl fatto che due persone conoscano il contenuto delle rispettive volontà non significa che possano renderle irrevocabili mediante una promessa privata. È proprio il passaggio da una pianificazione conosciuta a un impegno vincolante sulla futura successione che richiede attenzione.\n\nOccorre quindi evitare formule inserite in lettere, messaggi o accordi collaterali con cui si pretende di obbligare l'altro a mantenere per sempre la medesima attribuzione. Il professionista deve conoscere anche questi materiali, perché limitarsi alle due schede potrebbe nascondere una parte del problema.\n\n### Un controllo materiale prima della conservazione\n\nPer l'olografo, ciascun documento deve rispettare i requisiti propri della forma testamentaria. Far scrivere a una sola persona il testo destinato a entrambe, aggiungendo poi due firme, non risolve il difetto. Se vi sono difficoltà di scrittura o altre esigenze, occorre valutare una forma idonea.\n\nUna volta predisposti gli atti, anche la loro conservazione deve consentire di identificarli come documenti autonomi. La scelta di dove custodirli dovrebbe essere comprensibile a chi dovrà ricercarli, senza creare equivoci sulla loro provenienza.",
+    "faqs": [
+      {
+        "question": "Due coniugi possono nominarsi reciprocamente beneficiari in testamenti distinti?",
+        "answer": "L'autonomia delle disposizioni va mantenuta. Il divieto dell'articolo 589 riguarda il medesimo atto; restano da verificare anche patti successori e libertà di revoca."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 458, 587, 589, 679",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 458, 587, 589, 679. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Due fogli separati con due penne parallele e buste distinte, sfondo domestico neutro, nessuna scritta. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Non aggiungere ceralacca o sigilli decorativi. Varia l'inquadratura rispetto ad altre immagini editoriali: fotografia zenitale oppure dettaglio ravvicinato coerente con il soggetto.",
+      "alt": "Due fogli separati con due penne parallele e buste distinte, sfondo domestico neutro, nessuna scritta",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-015.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "e26630da03b7d63943b5201ad022757b0ca022059545d5b300b4db8a12484559",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 633,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 665,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-03-03",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "ba66eac0f250a8ca2501669a86a5e41de12679b76a9fd27d1548b3d53edbbc0f",
+    "sha256": "7d691aca8749c0b9d0134683834b59841f5d0499537ccd6c78b7e6ef5bde4f29"
+  }
+}
