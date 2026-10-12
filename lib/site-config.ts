@@ -11,7 +11,7 @@ export const siteConfig = {
 };
 
 const whatsappBaseMessage =
-  "Messaggio proveniente dal sito Eredità e Successioni.\n\nBuongiorno, desidero richiedere una prima valutazione su una questione di eredità o successione.";
+  "Messaggio dal sito: ereditaesuccessioni.it (Eredità e Successioni)\n\nBuongiorno, desidero richiedere una prima valutazione su una questione di eredità o successione.";
 
 const openingTime = "09:30";
 const closingTime = "19:00";
