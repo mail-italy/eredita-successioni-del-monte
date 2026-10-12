@@ -34,9 +34,9 @@ for (const item of published) {
   if (item.publishedDate > today || !item.publishedAt) throw new Error('Data di pubblicazione futura o assente');
 }
 const hour = Number(new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Rome', hour: '2-digit', hourCycle: 'h23' }).format(new Date()));
-const plan = planNext({ config, entries, published, today, hour, pending: state.pending });
 const command = process.argv[2] || 'plan';
-if (!['plan', 'stage', 'generate', 'verify', 'deploy'].includes(command)) throw new Error('Comando non riconosciuto');
+if (!['plan', 'stage', 'generate', 'verify', 'deploy', 'probe'].includes(command)) throw new Error('Comando non riconosciuto');
+const plan = ['plan', 'stage'].includes(command) ? planNext({ config, entries, published, today, hour, pending: state.pending, lastVerified: state.lastVerified }) : null;
 if (command === 'plan') {
   const summary = { action: plan.action, id: plan.id, url: plan.url, reason: plan.reason };
   console.log(JSON.stringify({ ...summary, site: config.site, approved: entries.length, published: published.length }, null, 2));
@@ -76,18 +76,7 @@ if (command === 'generate') {
   }
   console.log(`${feed.length} articoli pubblicati caricati; nessuna bozza nel sito.`);
 }
-if (command === 'deploy') {
-  if (!state.pending) throw new Error('Nessun rilascio da distribuire');
-  const hook = process.env.VERCEL_EDITORIAL_DEPLOY_HOOK;
-  if (!hook || !/^https:\/\/api\.vercel\.com\/v1\/integrations\/deploy\//.test(hook)) throw new Error('Deploy Hook Vercel assente o non valido');
-  const response = await fetch(hook, { method: 'POST', redirect: 'error', signal: AbortSignal.timeout(20000) });
-  if (!response.ok) throw new Error(`Deploy Hook HTTP ${response.status}`);
-  const body = await response.json();
-  if (!body.job?.id) throw new Error('Vercel non ha restituito un job di deploy');
-  console.log('Deploy richiesto a Vercel; attendo la verifica del sito pubblico.');
-}
-if (command === 'verify') {
-  if (!state.pending) { console.log('Nessun rilascio pendente'); process.exit(0); }
+async function checkLive() {
   const record = published.find((item) => item.article.id === state.pending.id);
   if (!record) throw new Error('Stato pendente senza articolo');
   const a = record.article;
@@ -100,6 +89,39 @@ if (command === 'verify') {
   const image = await fetch(new URL(a.image.path, config.origin), { redirect: 'manual', signal: AbortSignal.timeout(20000) });
   if (image.status !== 200 || !(image.headers.get('content-type') || '').startsWith('image/')) throw new Error('Immagine pubblica non disponibile');
   if (hash(Buffer.from(await image.arrayBuffer())) !== a.image.sha256) throw new Error('Immagine pubblica diversa da quella approvata');
+  await runIndexNow({ config: await read('indexnow.config.json'), urls: [url], submit: false });
+  return { a, url };
+}
+if (command === 'probe') {
+  if (!state.pending) throw new Error('Nessun rilascio pendente da verificare');
+  await checkLive();
+  console.log('Versione approvata online, nessuna notifica inviata.');
+}
+if (command === 'deploy') {
+  if (!state.pending) throw new Error('Nessun rilascio da distribuire');
+  try {
+    await checkLive();
+    console.log('Versione approvata già online: nessun nuovo deploy richiesto.');
+    process.exit(0);
+  } catch { /* Missing or stale deployment: bounded retry below. */ }
+  const record = published.find((item) => item.article.id === state.pending.id);
+  if (!record || record.approval.validUntil < today) throw new Error('Revisione scaduta: rinnovo necessario prima di ritentare il deploy');
+  const attempts = state.pending.deployAttempts || 0;
+  if (attempts >= 3) throw new Error('Tre richieste di deploy senza esito verificato: controllare Vercel prima di riprovare');
+  if (state.pending.deployRequestedAt && Date.now() - Date.parse(state.pending.deployRequestedAt) < 3600000) throw new Error('Attendere almeno un’ora fra richieste di deploy');
+  const hook = process.env.VERCEL_EDITORIAL_DEPLOY_HOOK;
+  if (!hook || !/^https:\/\/api\.vercel\.com\/v1\/integrations\/deploy\//.test(hook)) throw new Error('Deploy Hook Vercel assente o non valido');
+  state.pending = { ...state.pending, deployAttempts: attempts + 1, deployRequestedAt: new Date().toISOString() };
+  await write('editorial/state.json', state);
+  const response = await fetch(hook, { method: 'POST', redirect: 'error', signal: AbortSignal.timeout(20000) });
+  if (!response.ok) throw new Error(`Deploy Hook HTTP ${response.status}`);
+  const body = await response.json();
+  if (!body.job?.id) throw new Error('Vercel non ha restituito un job di deploy');
+  console.log('Deploy richiesto a Vercel; attendo la verifica del sito pubblico.');
+}
+if (command === 'verify') {
+  if (!state.pending) { console.log('Nessun rilascio pendente'); process.exit(0); }
+  const { a, url } = await checkLive();
   const result = await runIndexNow({ config: await read('indexnow.config.json'), urls: [url], submit: true });
   await write('editorial/state.json', { pending: null, lastVerified: { id: a.id, url, checkedAt: new Date().toISOString(), indexNowStatus: result.httpStatus, indexingVerified: false } });
   console.log(JSON.stringify({ id: a.id, url, verification: 'HTTP, immagine, canonical, robots e sitemap verificati', indexNowStatus: result.httpStatus, indexingVerified: false }, null, 2));

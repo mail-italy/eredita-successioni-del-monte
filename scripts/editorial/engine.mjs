@@ -36,13 +36,15 @@ export function validateEntry(entry, config, imageBytes, today) {
   if (!Array.isArray(a.relatedExistingUrls) || a.relatedExistingUrls.some((url) => !/^https:\/\//.test(url))) throw new Error(`Collegamenti non validi: ${a.id}`);
   return entry;
 }
-export function planNext({ config, entries, published, today, hour, pending }) {
+export function planNext({ config, entries, published, today, hour, pending, lastVerified }) {
   if (!config.enabled) return { action: 'paused', reason: 'Calendario non attivato' };
   if (!validDate(config.startDate) || config.cadenceDays !== 2) throw new Error('Calendario non configurato');
   if (pending) return { action: 'verify', id: pending.id, reason: 'Verificare il rilascio precedente prima di pubblicare altro' };
   if (today < config.startDate || hour < config.publishHour) return { action: 'wait' };
   const ids = new Set(published.map((x) => x.article.id));
-  const last = published.map((x) => x.publishedDate).sort().at(-1);
+  const dates = published.map((x) => x.publishedDate);
+  if (lastVerified?.checkedAt) dates.push(romeDate(new Date(lastVerified.checkedAt)));
+  const last = dates.sort().at(-1);
   if (last && today < addDays(last, config.cadenceDays)) return { action: 'wait', reason: 'Intervallo minimo di due giorni' };
   const ordered = entries.filter((x) => !ids.has(x.article.id)).sort((a,b) => a.releaseDate.localeCompare(b.releaseDate) || a.article.id.localeCompare(b.article.id));
   const next = ordered[0];

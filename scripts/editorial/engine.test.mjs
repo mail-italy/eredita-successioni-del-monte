@@ -53,3 +53,12 @@ test('known future legal change cannot be approved beyond its recheck date', () 
   entry.approval.validUntil = '2026-12-31';
   assert.equal(validateEntry(entry, config, image, '2026-10-12'), entry);
 });
+
+
+test('a late verified deployment starts a fresh two-day interval', () => {
+  const history = [{article:{id:'avvocato-099'},publishedDate:'2026-10-12'}];
+  const verified = {id:'avvocato-099',checkedAt:'2026-10-15T10:00:00Z'};
+  assert.equal(plan({today:'2026-10-15',published:history,lastVerified:verified}).action,'wait');
+  assert.equal(plan({today:'2026-10-16',published:history,lastVerified:verified}).action,'wait');
+  assert.equal(plan({today:'2026-10-17',published:history,lastVerified:verified}).action,'publish');
+});

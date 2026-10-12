@@ -33,7 +33,7 @@ jobs:
         id: plan
         run: node scripts/editorial/cli.mjs plan
       - name: Verifica configurazione del rilascio
-        if: steps.plan.outputs.action == 'publish' && inputs.dry_run != true
+        if: (steps.plan.outputs.action == 'publish' || steps.plan.outputs.action == 'verify') && inputs.dry_run != true
         env:
           VERCEL_EDITORIAL_DEPLOY_HOOK: ${{ secrets.VERCEL_EDITORIAL_DEPLOY_HOOK }}
           EDITORIAL_COMMIT_NAME: ${{ vars.EDITORIAL_COMMIT_NAME }}
@@ -70,10 +70,24 @@ jobs:
           git commit -m "content: publish reviewed scheduled article"
           git push origin HEAD:main
       - name: Richiedi il deploy del commit a Vercel
-        if: steps.plan.outputs.action == 'publish' && inputs.dry_run != true
+        id: deploy
+        if: (steps.plan.outputs.action == 'publish' || steps.plan.outputs.action == 'verify') && inputs.dry_run != true
         env:
           VERCEL_EDITORIAL_DEPLOY_HOOK: ${{ secrets.VERCEL_EDITORIAL_DEPLOY_HOOK }}
         run: node scripts/editorial/cli.mjs deploy
+      - name: Conserva i tentativi di deploy anche in caso di errore
+        if: always() && steps.deploy.outcome != 'skipped' && (steps.plan.outputs.action == 'publish' || steps.plan.outputs.action == 'verify') && inputs.dry_run != true
+        env:
+          EDITORIAL_COMMIT_NAME: ${{ vars.EDITORIAL_COMMIT_NAME }}
+          EDITORIAL_COMMIT_EMAIL: ${{ vars.EDITORIAL_COMMIT_EMAIL }}
+        run: |
+          git config user.name "$EDITORIAL_COMMIT_NAME"
+          git config user.email "$EDITORIAL_COMMIT_EMAIL"
+          git add editorial/state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: record editorial deployment attempt"
+            git push origin HEAD:main
+          fi
       - name: Verifica produzione e notifica IndexNow
         if: (steps.plan.outputs.action == 'publish' || steps.plan.outputs.action == 'verify') && inputs.dry_run != true
         env:
@@ -82,10 +96,11 @@ jobs:
         run: |
           verified=false
           for attempt in $(seq 1 12); do
-            if node scripts/editorial/cli.mjs verify; then verified=true; break; fi
+            if node scripts/editorial/cli.mjs probe; then verified=true; break; fi
             sleep 45
           done
           test "$verified" = true
+          node scripts/editorial/cli.mjs verify
           git config user.name "$EDITORIAL_COMMIT_NAME"
           git config user.email "$EDITORIAL_COMMIT_EMAIL"
           git add editorial/state.json
