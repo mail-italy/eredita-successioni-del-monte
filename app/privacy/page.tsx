@@ -65,9 +65,10 @@ export default function PrivacyPage() {
       <section id="cookie" className="section">
         <div className="shell stack">
           <h2 className="display-sm">Cookie e strumenti di misurazione</h2>
-          <p>Al primo accesso gli strumenti facoltativi di Google sono disattivati. Puoi accettare, rifiutare o personalizzare la scelta dal pannello e riaprirlo tramite «Preferenze cookie» in fondo a ogni pagina.</p>
-          <p>Il sito considera valida la preferenza per 180 giorni. Il dato nella memoria locale può restare fino a una nuova scelta o alla cancellazione dei dati del sito nel browser. Al momento gli strumenti Google si attivano soltanto quando autorizzi entrambe le categorie, statistiche e marketing: se ne scegli una sola restano disattivati. Le statistiche riguardano l’uso delle pagine e dei contatti; il marketing riguarda la misurazione delle campagne e la personalizzazione degli annunci Google. Rifiutare non impedisce di usare i contenuti o il modulo di contatto.</p>
-          <p>La mappa Google viene caricata soltanto quando premi «Mostra la mappa Google». I collegamenti a WhatsApp, email e telefono si aprono su tua iniziativa.</p>
+          <p>Al primo accesso Google Analytics e Google Ads sono disattivati. Puoi accettare, rifiutare o personalizzare la scelta dal pannello e riaprirlo tramite «Preferenze cookie» in fondo a ogni pagina.</p>
+          <p>Il sito considera valida la preferenza per 180 giorni. Il dato nella memoria locale può restare fino a una nuova scelta o alla cancellazione dei dati del sito nel browser. Al momento Google Analytics e Google Ads si attivano soltanto quando autorizzi entrambe le categorie, statistiche e marketing: se ne scegli una sola restano disattivati. Le statistiche riguardano l’uso delle pagine e dei contatti; il marketing riguarda la misurazione delle campagne e la personalizzazione degli annunci Google. Rifiutare non impedisce di usare i contenuti o il modulo di contatto.</p>
+          <p>La mappa incorporata di Google Maps si carica automaticamente quando ti avvicini alla sezione «Dove siamo», anche se rifiuti statistiche e marketing. Il browser si collega a Google e comunica dati tecnici, come l’indirizzo IP; Google può trattare ulteriori dati secondo la propria <a href="https://policies.google.com/privacy?hl=it" target="_blank" rel="noopener noreferrer">informativa privacy</a>. Il caricamento della mappa non attiva Google Analytics o Google Ads e non modifica le preferenze salvate.</p>
+          <p>I collegamenti a WhatsApp, email e telefono si aprono su tua iniziativa.</p>
         </div>
       </section>
       <FaqSection title="Domande frequenti sulla privacy e sui dati di contatto" items={privacyPageFaqs} />

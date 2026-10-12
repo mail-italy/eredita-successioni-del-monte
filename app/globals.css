@@ -820,9 +820,73 @@ video:focus-visible {
   font-size: 0.84rem;
 }
 
+/* Article reading layout stays independent of service-page two-column grids. */
+.article-hero {
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 28px;
+}
+
+.article-hero .display {
+  font-size: clamp(2.3rem, 4.5vw, 4.3rem);
+  line-height: 1.05;
+}
+
+.article-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  align-items: start;
+  gap: 28px;
+}
+
 .article-body {
   display: grid;
   gap: 24px;
+  min-width: 0;
+  padding: clamp(20px, 3vw, 36px);
+  overflow-wrap: anywhere;
+}
+
+.article-body h2 {
+  font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+  line-height: 1.25;
+}
+
+.article-body .article-prose > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.article-body .article-prose > * + * {
+  margin-top: 1.1em;
+}
+
+.article-prose > h2:not(:first-child) {
+  margin-top: 1.6em;
+}
+
+.article-sidebar {
+  display: grid;
+  gap: 16px;
+  align-self: start;
+  align-content: start;
+  min-width: 0;
+}
+
+.article-sidebar .card {
+  align-content: start;
+}
+
+.article-sidebar h3,
+.article-sidebar .list {
+  margin: 0;
+}
+
+@media (min-width: 981px) and (min-height: 900px) {
+  .article-sidebar {
+    position: sticky;
+    top: 120px;
+  }
 }
 
 .breadcrumbs {
@@ -1329,6 +1393,7 @@ a.tag:hover {
 
 @media (max-width: 980px) {
   .hero-grid,
+  .article-layout,
   .two-column,
   .three-column,
   .contact-grid,

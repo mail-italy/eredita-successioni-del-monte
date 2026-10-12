@@ -2138,7 +2138,7 @@ export function ArticlePageTemplate({
   return (
     <>
       <section className="section">
-        <div className="shell hero-grid">
+        <div className="shell hero-grid article-hero">
           <div className="stack">
             <nav className="breadcrumbs" aria-label="Breadcrumb">
               <Link href="/">Home</Link>
@@ -2187,11 +2187,11 @@ export function ArticlePageTemplate({
       </section>
 
       <section className="section-tight">
-        <div className="shell two-column">
+        <div className="shell article-layout">
           <article className="card article-body">
             {article.reviewedBy ? <p>Revisione professionale: {article.reviewedBy}, {article.reviewedAt}.</p> : null}
             {article.publishedAt ? <p>Pubblicato il {new Date(article.publishedAt).toLocaleDateString("it-IT", { timeZone: "Europe/Rome" })}.</p> : null}
-            {article.bodyHtml ? <div dangerouslySetInnerHTML={{ __html: article.bodyHtml }} /> : null}
+            {article.bodyHtml ? <div className="article-prose" dangerouslySetInnerHTML={{ __html: article.bodyHtml }} /> : null}
             {article.sections.map((section) => (
               <section key={section.title}>
                 <h2>{section.title}</h2>
@@ -2201,8 +2201,8 @@ export function ArticlePageTemplate({
               </section>
             ))}
           </article>
-          <aside className="stack">
-            <div className="card stack">
+          <aside className="article-sidebar" aria-label="Servizi e contatti utili">
+            {relatedServices.length > 0 ? <div className="card stack">
               <h3>Servizi collegati</h3>
               {relatedServices.map((service) => (
                 <TrackLink
@@ -2214,7 +2214,7 @@ export function ArticlePageTemplate({
                   {service.shortTitle}
                 </TrackLink>
               ))}
-            </div>
+            </div> : null}
             <div className="card stack">
               <h3>Quando è utile un parere legale</h3>
               <ul className="list">
@@ -2225,9 +2225,6 @@ export function ArticlePageTemplate({
             </div>
             <div className="card stack">
               <h3>Contatto rapido</h3>
-              <TrackLink href="/contatti#modulo-contatti" label={`article_${article.slug}_form`} className="button-primary">
-                Vai al modulo contatti
-              </TrackLink>
               <ContactActions scope={`article_${article.slug}_side`} compact />
             </div>
           </aside>
