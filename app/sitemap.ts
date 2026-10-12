@@ -25,5 +25,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [...new Set(allPaths)].map((path) => ({
     url: `${siteConfig.domain}${path}`,
+    ...(articles.find((article) => `/approfondimenti/${article.slug}` === path)?.updatedAt ? { lastModified: articles.find((article) => `/approfondimenti/${article.slug}` === path)!.updatedAt } : {}),
   }));
 }

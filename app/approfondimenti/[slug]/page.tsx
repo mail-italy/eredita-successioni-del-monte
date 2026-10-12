@@ -27,7 +27,8 @@ export async function generateMetadata({ params }: Props) {
   }
 
   return buildMetadata({
-    title: article.title,
+    title: article.seoTitle || article.title,
+    image: article.image,
     type: "article",
     description: article.excerpt,
     path: `/approfondimenti/${article.slug}`,

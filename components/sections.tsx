@@ -1,3 +1,4 @@
+import offices from "@/lib/office-locations.json";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -393,6 +394,7 @@ function getHubVisual(hub: HubPage, priority = false): VisualAsset {
 }
 
 function getArticleVisual(article: ArticleEntry, priority = false): VisualAsset {
+  if (article.image) return { src: article.image, alt: article.imageAlt || article.title, priority };
   const base = {
     priority,
     sizes: "(max-width: 980px) 100vw, 46vw",
@@ -837,8 +839,9 @@ export function ContactSection({
                   <div className="muted">{contacts.email}</div>
                 </div>
                 <div className="contact-item">
-                  <strong>Sede</strong>
-                  <div className="muted">{contacts.address}</div>
+                  <strong>Sedi a Roma</strong>
+                  {offices.map((office) => <div className="muted" key={office.id}><a href={office.maps} target="_blank" rel="noopener noreferrer">{office.address}</a></div>)}
+                  <div className="muted">Ricevimento su appuntamento in entrambe le sedi.</div>
                 </div>
               </div>
               <ContactAvailabilityNote />
@@ -2186,6 +2189,9 @@ export function ArticlePageTemplate({
       <section className="section-tight">
         <div className="shell two-column">
           <article className="card article-body">
+            {article.reviewedBy ? <p>Revisione professionale: {article.reviewedBy}, {article.reviewedAt}.</p> : null}
+            {article.publishedAt ? <p>Pubblicato il {new Date(article.publishedAt).toLocaleDateString("it-IT", { timeZone: "Europe/Rome" })}.</p> : null}
+            {article.bodyHtml ? <div dangerouslySetInnerHTML={{ __html: article.bodyHtml }} /> : null}
             {article.sections.map((section) => (
               <section key={section.title}>
                 <h2>{section.title}</h2>

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "vaccolini",
+    "street": "Via Costanza Baudana Vaccolini, 5",
+    "postalCode": "00153",
+    "city": "Roma",
+    "address": "Via Costanza Baudana Vaccolini, 5 – 00153 Roma",
+    "maps": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x132f6039587eb3f7:0xb15fa323faa5075f",
+    "appointmentOnly": true
+  },
+  {
+    "id": "plinio",
+    "street": "Via Plinio, 27",
+    "postalCode": "00193",
+    "city": "Roma",
+    "address": "Via Plinio, 27 – 00193 Roma",
+    "maps": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x132f617fcf57abf7:0x5b97314a0f7eee94",
+    "appointmentOnly": true
+  }
+]

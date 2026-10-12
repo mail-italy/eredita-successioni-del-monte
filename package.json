@@ -9,7 +9,11 @@
     "lint": "eslint . --max-warnings=0",
     "test": "tsx --test tests/*.test.ts tests/*.test.mjs",
     "typecheck": "tsc --noEmit",
-    "indexnow": "node scripts/indexnow.mjs"
+    "indexnow": "node scripts/indexnow.mjs",
+    "test:editorial": "node --test scripts/editorial/*.test.mjs",
+    "editorial:plan": "node scripts/editorial/cli.mjs plan",
+    "prebuild": "node scripts/editorial/cli.mjs generate",
+    "predev": "node scripts/editorial/cli.mjs generate"
   },
   "dependencies": {
     "next": "16.3.8",
