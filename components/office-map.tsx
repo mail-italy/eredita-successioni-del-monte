@@ -1,6 +1,3 @@
-"use client";
-
-import { useState } from "react";
 import Link from "next/link";
 
 import { contacts } from "@/lib/site-config";
@@ -12,7 +9,6 @@ export function OfficeMap({
   title?: string;
   compact?: boolean;
 }) {
-  const [showMap, setShowMap] = useState(false);
   return (
     <section className={compact ? "section-tight" : "section"}>
       <div className="shell">
@@ -40,13 +36,13 @@ export function OfficeMap({
           </div>
 
           <div className="map-frame-wrap">
-            {showMap ? <iframe
+            <iframe
               title="Mappa Studio Legale Del Monte"
               src={contacts.mapsEmbedUrl}
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer"
               className="map-frame"
-            /> : <div className="map-frame stack" style={{ padding: "24px", display: "grid", alignContent: "center" }}><p>La mappa interattiva è fornita da Google. Si collegherà al servizio solo quando la apri.</p><button type="button" className="button-ghost" onClick={() => setShowMap(true)}>Mostra la mappa Google</button></div>}
+            />
           </div>
         </div>
       </div>
