@@ -2,7 +2,9 @@
   "pending": {
     "id": "eredita-001",
     "url": "https://ereditaesuccessioni.it/approfondimenti/come-cercare-un-testamento-dopo-il-decesso-registri-notai-e-documenti",
-    "stagedAt": "2026-10-12T13:15:48.122Z"
+    "stagedAt": "2026-10-12T13:15:48.122Z",
+    "deployAttempts": 1,
+    "deployRequestedAt": "2026-10-12T13:16:08.645Z"
   },
   "lastVerified": null
 }
