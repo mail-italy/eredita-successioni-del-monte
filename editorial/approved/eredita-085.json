@@ -1,0 +1,65 @@
+{
+  "article": {
+    "id": "eredita-085",
+    "site": "eredita",
+    "sequence": 85,
+    "area": "Beni e conflitti",
+    "title": "Accordo sui ricordi di famiglia: separare valore economico e preferenze",
+    "slug": "accordo-sui-ricordi-di-famiglia-separare-valore-economico-e-preferenze",
+    "intent": "Metodo di assegnazione dei beni affettivi",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/divisione-ereditaria"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 168,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Dividere i ricordi di famiglia",
+    "description": "Come raccogliere preferenze e valori per assegnare oggetti familiari con un accordo chiaro e documentato.",
+    "bodyMarkdown": "Un orologio, una fotografia o un mobile possono provocare più tensione di un conto bancario. Il motivo è che il valore economico non descrive il significato dell'oggetto per ciascun familiare.\n\nNella divisione dei ricordi di famiglia, le [regole sui beni in natura, sulla stima e sui conguagli](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) restano il quadro giuridico. Un buon accordo può però utilizzare le preferenze personali per trovare attribuzioni soddisfacenti, senza confonderle con diritti automatici.\n\n## Fare l'elenco prima delle scelte\n\nOccorre sapere quali beni esistano e dove si trovino. Fotografie e descrizioni riducono gli equivoci tra oggetti simili e consentono di discutere anche a distanza.\n\nLa custodia provvisoria deve essere distinta dall'assegnazione definitiva. Portare a casa un oggetto per proteggerlo non dovrebbe trasformarsi silenziosamente nella sua appropriazione.\n\nSe un bene è rivendicato come già donato in vita o appartenente a un terzo, questa questione va annotata e affrontata separatamente.\n\n## Raccogliere le preferenze individuali\n\nCiascuno può indicare gli oggetti ai quali tiene di più e quelli che non desidera. Farlo prima della trattativa sul valore può far emergere combinazioni compatibili.\n\nLe preferenze non devono essere giustificate con una gara su chi abbia amato di più il defunto. È sufficiente spiegare il legame personale, senza usarlo per negare la posizione degli altri.\n\nSe più persone desiderano lo stesso bene, si possono valutare alternative come copie di fotografie o digitalizzazione dei documenti, quando appropriate e lecite.\n\n## Individuare i beni economicamente significativi\n\nUn oggetto considerato soltanto un ricordo può avere un valore rilevante; al contrario, un mobile ritenuto prezioso potrebbe avere scarsa commerciabilità. Per gioielli, arte o collezioni può essere necessaria una stima.\n\nÈ utile separare le voci di modesto valore da quelle che incidono sensibilmente sull'equilibrio delle porzioni. Questo consente di non trasformare ogni fotografia in una perizia, senza ignorare un bene importante.\n\nLa stima deve essere riferita all'oggetto reale e al suo stato.\n\n## Costruire lotti comprensibili\n\nLe attribuzioni possono combinare preferenze e valori. Se un erede riceve un oggetto più costoso, il conguaglio o l'assegnazione di altri beni possono riequilibrare il risultato, nei termini dell'accordo.\n\nLe raccolte con importanza storica, scientifica o artistica richiedono attenzione alla conservazione dell'insieme, come previsto dall'articolo 727. Spezzarle soltanto per ottenere lo stesso numero di pezzi può essere poco razionale.\n\nIl numero degli oggetti non equivale al valore delle porzioni.\n\n## Scrivere ciò che viene consegnato\n\nUn elenco finale con fotografie, destinatari e data della consegna evita discussioni su oggetti mancanti o scambiati. Devono essere indicati eventuali beni lasciati in custodia comune o ancora controversi.\n\nLa formula di chiusura deve corrispondere al perimetro dell'accordo: definire i ricordi domestici non significa necessariamente rinunciare a ogni altra questione successoria.\n\nLa [divisione ereditaria](https://ereditaesuccessioni.it/divisione-ereditaria) può così rispettare sia i diritti sia le preferenze. Il risultato più utile è un accordo nel quale ciascuno sappia che cosa riceve, quale valore è stato considerato e quali rapporti restano da definire.\n\n### Gestire gli oggetti desiderati da più persone\n\nSe due eredi indicano lo stesso ricordo come prioritario, è utile distinguere ciò che rende per ciascuno importante l'originale. Per una fotografia può bastare una copia di qualità; per un oggetto con uso personale la soluzione può richiedere una diversa combinazione di attribuzioni. Nessuna di queste possibilità va imposta come equivalente dal solo valore economico.\n\nLe alternative possono essere annotate prima di arrivare a una decisione, evitando consegne provvisorie presentate poi come definitive. Quando si sceglie, l'elenco finale dovrebbe riportare l'originale attribuito, le eventuali copie e chi conservi documenti o accessori collegati.\n\nSe il dissenso riguarda pochi oggetti, mantenerli identificati e custoditi può permettere di proseguire sugli altri. È però necessario chiarire che cosa resti irrisolto, così che l'accordo parziale non venga successivamente letto come abbandono delle pretese su quei beni.",
+    "faqs": [
+      {
+        "question": "Il valore affettivo dà automaticamente diritto a un oggetto?",
+        "answer": "Non sostituisce il titolo giuridico. Può però essere considerato nella costruzione di un accordo consapevole, distinguendolo dal valore economico e dalle quote."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 718, 726, 727, 728",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 718, 726, 727, 728. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Una scatola di ricordi con un orologio da tasca, lettere chiuse e fotografie non riconoscibili. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Una scatola di ricordi con un orologio da tasca, lettere chiuse e fotografie non riconoscibili",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-085.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "bc0b8a618bd42712a9b0b2b85053afa6efb2bb5cbb0d86187ef7df2359021aa7",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 608,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 639,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-01-12",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "d67d43af1bff547f58bff248afb9eb5e096fb043bf31fd57d395400c745e496a",
+    "sha256": "f077a009100ebea6c5a755c0560a45f1a91b52e8162aa9be14a85bcf3b777b41"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "article": {
+    "id": "eredita-047",
+    "site": "eredita",
+    "sequence": 47,
+    "area": "Accettazione e debiti",
+    "title": "Sanzioni amministrative e debiti del defunto: non sono la stessa cosa",
+    "slug": "sanzioni-amministrative-e-debiti-del-defunto-non-sono-la-stessa-cosa",
+    "intent": "Distinguere sanzione personale da altre obbligazioni",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/rinuncia-eredita"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 92,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Sanzioni e debiti del defunto",
+    "description": "Come distinguere una sanzione amministrativa personale da altre somme richieste agli eredi e preparare un riesame mirato.",
+    "bodyMarkdown": "Una richiesta di pagamento arrivata dopo il decesso non va classificata soltanto in base al mittente. Un ente pubblico può chiedere una sanzione, un tributo, un canone o altre somme: la morte del destinatario non produce lo stesso effetto su tutte queste voci.\n\nPer le sanzioni amministrative, l'[articolo 7 della legge 689/1981](https://www.normattiva.it/eli/id/1981/11/30/081U0689/CONSOLIDATED) stabilisce che l'obbligazione di pagare la somma dovuta per la violazione non si trasmette agli eredi. Questa regola non autorizza a considerare cancellato ogni debito indicato nello stesso fascicolo.\n\n## Leggere il dettaglio della pretesa\n\nIl documento deve permettere di individuare il fatto contestato, la persona tenuta al pagamento, la norma applicata e le singole componenti dell'importo. Se queste informazioni mancano, occorre chiedere gli atti presupposti e il prospetto analitico.\n\nLa parola «multa» viene spesso usata nel linguaggio comune per qualunque pagamento spiacevole. Sul piano giuridico, invece, la qualificazione conta. La somma principale e gli accessori non possono essere trattati come un blocco indistinto senza conoscerne l'origine.\n\nAnche il destinatario va verificato. Un atto può essere riferito alla condotta del defunto, a un obbligo proprio di un'altra persona oppure a una situazione verificatasi dopo il decesso. La sola parentela non decide a chi sia imputabile ogni voce.\n\n## Cosa comunicare all'ente\n\nUna comunicazione utile indica gli estremi dell'atto, la data del decesso e il motivo per cui si chiede il riesame della specifica voce sanzionatoria. Va conservata la prova dell'invio e della ricezione, insieme agli eventuali allegati richiesti.\n\nNon occorre inviare indistintamente tutti i documenti della successione. È preferibile trasmettere ciò che serve a identificare il caso e a dimostrare il fatto rilevante, evitando di diffondere dati di altri familiari senza necessità.\n\nLa richiesta di chiarimenti o di annullamento non deve però essere scambiata automaticamente con la sospensione dei termini di impugnazione. Se il documento prevede una scadenza, questa deve essere valutata mentre si attende la risposta.\n\n## Distinguere sanzioni e debiti ereditari\n\nGli [articoli 752 e 754 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) disciplinano aspetti dei debiti e pesi ereditari. Sono un piano diverso dalla regola sulla non trasmissibilità della sanzione personale. Inoltre, le obbligazioni tributarie possono richiedere l'esame di norme speciali.\n\nUn controllo serio evita entrambe le semplificazioni: «gli eredi pagano tutto» e «con la morte non si paga più nulla». Il lavoro consiste nel ricondurre ogni importo al suo titolo e alla disciplina applicabile.\n\n## Una tabella evita pagamenti o contestazioni sbagliati\n\nPer ciascun atto conviene annotare ente, numero, data di notifica, fatto contestato, importo principale, sanzioni e altre spese. In una colonna separata si segnano i documenti mancanti e le risposte ricevute.\n\nSe più atti riguardano lo stesso fatto, vanno collegati per evitare di considerare due volte il medesimo importo. Il confronto con ricevute di pagamenti già eseguiti è altrettanto importante.\n\nLa scelta sulla [rinuncia all'eredità](https://ereditaesuccessioni.it/rinuncia-eredita) non dovrebbe essere basata sul totale indistinto di una cartella o di un sollecito. Prima va ricostruito quali somme costituiscano davvero passività della successione e quali richiedano invece una contestazione mirata.\n\n### Un archivio distinto per atto e per voce\n\nQuando arrivano più solleciti, conservare soltanto l'ultimo può far perdere il collegamento con la violazione originaria. È utile assegnare a ogni fascicolo un riferimento e raccogliervi gli atti collegati, mantenendo visibile la diversa data di ricezione di ciascuno.\n\nSe si ottiene un annullamento o una rettifica, la risposta va confrontata con il dettaglio iniziale. Potrebbe riguardare una sola componente e lasciare aperte altre somme. Una comunicazione che riconosce il decesso non equivale necessariamente alla chiusura integrale della posizione. Il controllo finale consiste quindi nell'individuare esattamente quali voci siano state eliminate, quali rimangano e con quale motivazione: un risultato più affidabile di un generico “la multa è sistemata”.",
+    "faqs": [
+      {
+        "question": "Ogni somma richiesta da un ente pubblico si estingue con il decesso?",
+        "answer": "No. Occorre distinguere la sanzione personale dal tributo, dal corrispettivo o da altre obbligazioni. Un documento può contenere più voci con discipline diverse."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 752, 754",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 752, 754. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://www.normattiva.it/eli/id/1981/11/30/081U0689/CONSOLIDATED",
+        "title": "Legge 689/1981, articolo 7",
+        "supports": "Non trasmissione agli eredi dell'obbligazione di pagare la somma dovuta per la violazione; testo verificato anche su banca dati ufficiale della giustizia tributaria.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Due buste amministrative separate da una lente di ingrandimento su una scrivania chiara. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutte le carte senza testo, senza stemmi, emblemi, sigilli, ceralacca, loghi o intestazioni. Dettaglio editoriale essenziale, sfondo luminoso naturale e inquadratura variata. Nessun luogo deve sembrare una sede dello studio.",
+      "alt": "Due buste amministrative separate da una lente di ingrandimento su una scrivania chiara",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-047.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "bca523d2a0ef618a5e5e200b542c20ee564c3cccfdac34dde5f4596bd4643b38",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 603,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 638,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-03-25",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "c48f8a453303f82e301310f0c4149620ac111eb17abe8395d314cf65a034d905",
+    "sha256": "a97044a8eef8c0263c4c87e06533c98fbce1f487b32a848fd50e640ea21cd10a"
+  }
+}

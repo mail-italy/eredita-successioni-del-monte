@@ -1,0 +1,71 @@
+{
+  "article": {
+    "id": "eredita-082",
+    "site": "eredita",
+    "sequence": 82,
+    "area": "Beni e conflitti",
+    "title": "Auto del defunto inutilizzata: documenti prima di vendita o demolizione",
+    "slug": "auto-del-defunto-inutilizzata-documenti-prima-di-vendita-o-demolizione",
+    "intent": "Scelta sulla destinazione del mezzo e pratica PRA",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/auto-ereditata"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 162,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Auto del defunto ferma: quale destinazione",
+    "description": "Documenti, costi e accordi da verificare prima di vendere o demolire un veicolo ereditato e inutilizzato.",
+    "bodyMarkdown": "Un'auto del defunto può restare ferma per mesi mentre gli eredi discutono il resto della successione. Anche senza circolare, però, il mezzo richiede una decisione: conservarlo, venderlo o avviarlo alla demolizione secondo la procedura applicabile.\n\nLa [pagina ACI sul bollo dopo il decesso](https://www.aci.it/servizi/bollo-auto-cosa-succede-se-lintestatario-di-un-veicolo-muore/) ricorda che il mancato uso non elimina automaticamente l'obbligo legato al possesso. Lasciare il veicolo in garage non equivale a chiudere la sua posizione.\n\n## Fare un inventario minimo\n\nServono targa, documenti, chiavi, luogo di custodia e informazioni sullo stato del mezzo. È utile annotare manutenzione nota, eventuali danni e presenza di beni personali all'interno.\n\nPrima di spostarlo bisogna verificare chi possa disporne e in quali condizioni possa circolare. Se occorre un trasporto, il costo va inserito nella valutazione della destinazione.\n\nGli oggetti trovati nell'abitacolo devono essere conservati e identificati, soprattutto se appartengono al patrimonio da dividere.\n\n## Confrontare il valore con i costi\n\nUna stima realistica considera non soltanto il prezzo teorico, ma anche riparazioni, custodia e adempimenti. Un veicolo di modesto valore può richiedere costi che rendono poco utile conservarlo a lungo.\n\nÈ preferibile acquisire valutazioni scritte o preventivi verificabili. Una proposta d'acquisto informale va distinta da un'offerta effettivamente realizzabile.\n\nSe l'auto ha interesse collezionistico, il solo valore commerciale ordinario potrebbe non descriverla adeguatamente e può servire una stima specializzata.\n\n## Coordinare la scelta degli eredi\n\nLa vendita o la demolizione non dovrebbero essere decise da chi ha materialmente le chiavi senza esaminare i diritti degli altri. L'accordo deve identificare l'operazione e la destinazione di eventuali ricavi.\n\nLe [regole sull'accettazione e sulla disposizione dei beni ereditari](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) impongono inoltre cautela a chi non abbia ancora definito la propria posizione successoria. Non esiste una scelta limitata all'auto che consenta automaticamente di ignorare il resto dell'eredità.\n\nSe uno degli interessati è rappresentato o minore, occorrono le verifiche specifiche.\n\n## La procedura va scelta prima di consegnare il mezzo\n\nVendita e demolizione richiedono documenti e soggetti diversi. È utile contattare il canale competente con i dati del veicolo e la situazione degli eredi, chiedendo l'elenco applicabile.\n\nNon bisogna consegnare documenti o auto a un soggetto non identificato sulla base della promessa che «penserà a tutto». Devono essere chiari titolo, ricevuta e adempimenti da completare.\n\nIn caso di demolizione, la documentazione rilasciata e l'effettiva chiusura della posizione vanno conservate e verificate.\n\n## Chiudere anche il rendiconto\n\nIl ricavo della vendita, i costi e gli anticipi devono comparire nel prospetto tra eredi. Se uno di loro acquista il veicolo, occorre indicare il prezzo o il diverso criterio concordato.\n\nLa pagina sull'[auto ereditata](https://ereditaesuccessioni.it/auto-ereditata) inquadra la pratica successoria. Per un mezzo inutilizzato, il risultato utile è evitare che l'indecisione generi costi e responsabilità non monitorati, trasformando la scelta in una procedura documentata fino alla sua conclusione.\n\n### Confrontare offerte riferite alla stessa condizione\n\nUn compratore può formulare un prezzo dopo le riparazioni, mentre un altro acquista il veicolo nello stato attuale. I due importi non sono direttamente confrontabili. Nel prospetto occorre annotare chi sostenga trasporto, adempimenti e lavori, nonché se l'offerta dipenda da un controllo successivo.\n\nAnche la demolizione può comportare una logistica da organizzare: luogo di ritiro, identificazione del mezzo e documenti che saranno rilasciati. Prima della consegna, gli oggetti personali vanno individuati senza lasciare che vengano eliminati insieme al veicolo.\n\nDopo l'operazione, una lista di chiusura dovrebbe consentire di verificare ciò che è stato effettivamente completato e ciò che resta da controllare presso i canali competenti. L'incarico a un operatore non coincide da solo con la prova di ogni adempimento. Conservare ricevute e riscontri finali permette inoltre agli eredi di ricostruire costi e ricavi quando aggiorneranno il rendiconto della successione.",
+    "faqs": [
+      {
+        "question": "Lasciare l'auto ferma elimina tutte le spese?",
+        "answer": "No. Il mancato uso non chiude automaticamente la posizione amministrativa né ogni obbligo. Vanno verificati bollo, custodia, assicurazione e percorso di vendita o demolizione."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 476, 477",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 476, 477. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://www.aci.it/servizi/bollo-auto-cosa-succede-se-lintestatario-di-un-veicolo-muore/",
+        "title": "ACI, bollo auto e decesso dell'intestatario",
+        "supports": "Il mancato uso non esclude di per sé il bollo; necessità di valutare destinazione e adempimenti del mezzo.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Un'auto coperta in un garage ordinato, con documenti e chiavi appoggiati su un tavolino. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Un'auto coperta in un garage ordinato, con documenti e chiavi appoggiati su un tavolino",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-082.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "411dde5641122c73b725cc0d932d6099213001e3525a4a468733604f3640af4d",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 594,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 625,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-11-11",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "e4cf1796ed8c633df2daeecc3f037a3aa34dce0222a171e18ee0a5fd39dc1395",
+    "sha256": "1cfed82f07a390fda631ed59f63885117f0f8321f751d96c9fc99071b1f08060"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-022",
+    "site": "eredita",
+    "sequence": 22,
+    "area": "Famiglia e chiamata",
+    "title": "Rappresentazione e accrescimento: due percorsi diversi nella successione",
+    "slug": "rappresentazione-e-accrescimento-due-percorsi-diversi-nella-successione",
+    "intent": "Distinguere chiamata per stirpi e ampliamento della quota",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successione-legittima"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 42,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Rappresentazione e accrescimento",
+    "description": "Due meccanismi diversi quando un beneficiario manca: quali elementi del testamento e della famiglia controllare.",
+    "bodyMarkdown": "Un beneficiario rinuncia e gli altri ritengono che la sua quota si aggiunga automaticamente alle loro. Può accadere, ma non è una regola generale. Rappresentazione e accrescimento rispondono a presupposti differenti e possono condurre a persone diverse.\n\n### Il subentro dei discendenti\n\nLa rappresentazione, regolata dagli articoli 467–469 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED), fa subentrare determinati discendenti nella posizione dell'ascendente. Richiede dunque un rapporto familiare previsto dalla norma e un evento che impedisca o escluda l'acquisto da parte del rappresentato.\n\nIl patrimonio viene ripartito per stirpi. La conseguenza pratica è che la quota non viene necessariamente distribuita fra i chiamati già individuati: può occorrere ricostruire un ramo familiare che non era stato considerato.\n\n### Quando si discute di accrescimento\n\nGli articoli 674 e seguenti disciplinano l'accrescimento testamentario e i suoi presupposti. Occorre esaminare il modo in cui più persone sono state chiamate, l'attribuzione delle quote e la presenza di una diversa volontà del testatore.\n\nL'articolo 676 regola anche gli obblighi che accompagnano l'acquisto, con eccezione di quelli personali. È quindi insufficiente aggiornare soltanto la percentuale in un foglio di calcolo: il subentro può avere effetti sugli oneri previsti dal testamento.\n\n### L'ordine delle verifiche\n\nIl primo documento è il testamento completo. Si cercano sostituzioni, condizioni e disposizioni residuali. Seguono la prova dell'evento che riguarda il beneficiario mancante e la ricostruzione della sua discendenza, quando pertinente.\n\nUn esempio chiarisce il rischio: se un figlio rinuncia e ha discendenti, l'ipotesi che tutto vada al fratello non può essere accolta prima di esaminare la rappresentazione. Se manca una discendenza rilevante e il testamento contiene una sostituzione espressa, il nome indicato dal testatore diventa invece centrale.\n\n### Perché la distinzione deve precedere i pagamenti\n\nBanche, notai e coeredi hanno bisogno di un elenco coerente degli aventi diritto. Un elenco costruito sull'accrescimento presunto può escludere un soggetto che avrebbe dovuto partecipare e rendere più complessa la restituzione delle somme distribuite.\n\nIl fascicolo dovrebbe riportare la ragione del subentro per ciascuna persona, collegandola a norma, clausola e documento. Quando non ricorrono i presupposti ipotizzati, va verificata la diversa devoluzione prevista dalla legge, compreso l'articolo 677. La [successione legittima](https://ereditaesuccessioni.it/successione-legittima) resta parte del quadro anche quando esiste un testamento che non esaurisce tutte le ipotesi.\n\n### Una rinuncia da documentare, non da presumere\n\nUn beneficiario può dire di non essere interessato alla successione e tuttavia non aver compiuto una rinuncia nella forma prevista. Prima di modificare la tabella degli aventi diritto bisogna quindi distinguere una dichiarazione informale dall'atto che produce gli effetti giuridici rilevanti.\n\nLo stesso vale per il decesso di un destinatario: la data rispetto a quella del testatore può cambiare il problema. Non ogni mancata riscossione significa che il beneficiario non abbia acquistato diritti. Servono i documenti e la ricostruzione delle attività compiute.\n\n### Quote e oneri devono seguire lo stesso percorso\n\nSi immagini che il testamento attribuisca una quota a una persona, imponendole di eseguire un determinato legato. Se quella persona manca, la verifica non può fermarsi al nome di chi riceverà la quota. Occorre stabilire anche quale sorte abbia l'obbligo e se il suo contenuto fosse personale.\n\nUna tabella efficace può riportare, accanto a ciascun beneficiario iniziale, l'evento sopravvenuto, la clausola di sostituzione eventualmente presente, il meccanismo di devoluzione individuato e gli obblighi da riesaminare. In questo modo le informazioni restano collegate e non si perde un onere durante il ricalcolo.\n\n### Il rischio di correggere soltanto una pratica\n\nSe il nuovo assetto viene recepito nella richiesta bancaria ma non negli altri documenti, possono circolare elenchi differenti degli interessati. Prima di proseguire conviene verificare la coerenza delle pratiche e annotare la ragione della variazione.\n\nQuesto controllo non attribuisce alla dichiarazione fiscale il compito di decidere chi erediti. Serve a evitare che un errore di ricostruzione venga ripetuto in più sedi e diventi più difficile da correggere quando siano già state distribuite somme.",
+    "faqs": [
+      {
+        "question": "L'accrescimento si applica ogni volta che un chiamato manca?",
+        "answer": "No. Occorre verificare prima il titolo, le eventuali sostituzioni, la rappresentazione e i presupposti dell'accrescimento."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 467, 468, 469, 674, 675, 676, 677",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 467, 468, 469, 674, 675, 676, 677. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Due composizioni di blocchi di legno, una ramificata e una con blocchi che si uniscono, foto concettuale senza diagrammi scritti. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuna ceralacca o sigillo. Composizione fotografica essenziale con oggetti reali, inquadratura vicina e sfondo sfocato; evita di aggiungere libri, tazze o piante se non richiesti.",
+      "alt": "Due composizioni di blocchi di legno, una ramificata e una con blocchi che si uniscono, foto concettuale senza diagrammi scritti",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-022.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "d66089f3c12f87e0e2e2b3e668432520d87ec96cfe017ff9cd054046d5d7ef6e",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 630,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 654,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-10-30",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "71092579c1d75b4d634152f915526a4bd0a89872eada717c2d4fcd5b8f63bd5f",
+    "sha256": "451d22f758d54ce6c10eb6d998651285d5591d9ab7aa82371809fb2088b079d7"
+  }
+}

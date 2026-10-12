@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-026",
+    "site": "eredita",
+    "sequence": 26,
+    "area": "Famiglia e chiamata",
+    "title": "Genitori del defunto senza figli: quali rapporti familiari verificare",
+    "slug": "genitori-del-defunto-senza-figli-quali-rapporti-familiari-verificare",
+    "intent": "Concorso degli ascendenti nella successione legittima",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successione-legittima"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 50,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Genitori del defunto senza discendenti",
+    "description": "Quali familiari e titoli controllare quando il defunto non lascia figli e i genitori possono essere chiamati.",
+    "bodyMarkdown": "Muore una persona senza figli e i genitori iniziano a occuparsi dei suoi beni. La loro posizione può essere rilevante, ma deve essere coordinata con gli altri familiari e con l'eventuale testamento. “Non aveva discendenti” è soltanto il primo dato della ricostruzione.\n\n### Il concorso cambia le quote\n\nGli articoli 568 e 569 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) regolano la successione dei genitori e degli ulteriori ascendenti nelle ipotesi previste. Gli articoli 571 e 582 intervengono nei concorsi con fratelli e coniuge.\n\nPrima del calcolo bisogna quindi verificare se siano in vita entrambi i genitori, se vi siano fratelli o loro discendenti e quale fosse lo stato civile del defunto. Una tabella predisposta per soli genitori non può essere utilizzata quando concorre il coniuge.\n\n### Ascendenti e testamento\n\nLa presenza di un testamento impone una seconda lettura. L'articolo 538 disciplina la riserva a favore degli ascendenti quando il defunto non lascia figli, con il coordinamento richiesto dalla presenza del coniuge.\n\nLa quota riservata e quella prevista nella successione senza testamento non devono essere sovrapposte. La prima serve a valutare la tutela del legittimario rispetto alle disposizioni e alle donazioni; la seconda individua la devoluzione legale quando opera.\n\n### Non tutti gli ascendenti sono nello stesso grado\n\nSe i genitori mancano, la ricostruzione può riguardare nonni o ulteriori ascendenti. Grado e linea familiare hanno rilievo secondo l'articolo 569. Anche in questo caso l'elenco dei parenti più vicini affettivamente non sostituisce quello giuridicamente pertinente.\n\nGli atti di nascita e di morte devono permettere di seguire il collegamento fra le persone. Se un certificato estero utilizza cognomi o trascrizioni differenti, il punto va chiarito prima di predisporre dichiarazioni sulla qualità degli aventi diritto.\n\n### Patrimonio e precedenti trasferimenti\n\nUn genitore può avere finanziato l'acquisto di un bene del figlio oppure avanzare un credito nei suoi confronti. Questo rapporto deve essere provato e qualificato separatamente dalla posizione ereditaria: aver contribuito economicamente non consente di riprendere direttamente il bene dopo il decesso.\n\nSono utili bonifici, accordi, atti immobiliari e documenti dei debiti, oltre alla ricostruzione familiare. La [successione legittima](https://ereditaesuccessioni.it/successione-legittima) va letta insieme ai rapporti patrimoniali effettivi, evitando che il dolore familiare o la storia degli aiuti sostituiscano la prova dei diritti.\n\n### Ricostruire le linee familiari quando mancano i genitori\n\nSe la successione coinvolge ulteriori ascendenti, la documentazione deve mostrare attraverso quale linea ciascuno sia collegato al defunto e con quale grado. Una lista di nomi accompagnati dalla parola “nonno” può essere insufficiente quando occorre coordinare più rami.\n\nÈ utile partire dagli atti dei genitori e procedere verso gli ascendenti necessari alla verifica, mantenendo separate le informazioni documentate da quelle ancora da confermare. Eventuali differenze anagrafiche devono essere risolte prima di riportare i nomi nelle pratiche, soprattutto quando i documenti provengono da paesi diversi.\n\n### L'aiuto economico non determina da solo la proprietà\n\nSi immagini che un genitore abbia versato denaro per l'acquisto dell'appartamento intestato al figlio. Dopo il decesso non basta ricordare di aver sostenuto il costo per considerarsi proprietario dell'immobile. Occorre ricostruire il titolo dell'acquisto e la causa del versamento.\n\nLa somma potrebbe essere stata donata, prestata o destinata a un'operazione con caratteristiche differenti. Sono rilevanti gli atti, le comunicazioni e l'eventuale comportamento successivo, come restituzioni documentate. La posizione di creditore e quella di successore possono coesistere, ma devono essere descritte separatamente.\n\n### Una verifica specifica se esiste il testamento\n\nSe il figlio ha disposto a favore di un terzo, il genitore deve capire quale tutela possa invocare e su quale ricostruzione patrimoniale. Il confronto non riguarda soltanto ciò che è rimasto al decesso, ma può richiedere l'esame delle donazioni e delle passività secondo le regole della riserva.\n\nÈ quindi utile conservare un inventario iniziale e segnalare le attribuzioni conosciute, senza attribuire subito a ogni uscita di denaro la natura di donazione. La qualificazione segue l'esame dei documenti.",
+    "faqs": [
+      {
+        "question": "I genitori ricevono sempre tutta l'eredità di un figlio senza discendenti?",
+        "answer": "No. Occorre verificare coniuge, fratelli o loro discendenti, altri elementi della chiamata e l'eventuale testamento."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 538, 568, 569, 571, 582",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 538, 568, 569, 571, 582. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Due sedie accanto a una cartella familiare e a documenti di stato civile sfocati, luce diurna. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuna ceralacca o sigillo. Composizione fotografica essenziale con oggetti reali, inquadratura vicina e sfondo sfocato; evita di aggiungere libri, tazze o piante se non richiesti.",
+      "alt": "Due sedie accanto a una cartella familiare e a documenti di stato civile sfocati, luce diurna",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-026.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "50ac0bd198695fc06adff900a4a5350409fd31670256d1b3838d7499c4ced10a",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 626,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 652,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-12-25",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "6a0fbc2eb93fe583dfcfd7f0c8038a0c00efaae910be346e944d952f59ab8ad8",
+    "sha256": "529ded788f5469229772f68f136fdffac16883be708cbb64d432ddc2a7960215"
+  }
+}

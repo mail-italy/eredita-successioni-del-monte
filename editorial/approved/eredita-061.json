@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-061",
+    "site": "eredita",
+    "sequence": 61,
+    "area": "Banche e patrimonio",
+    "title": "Richiesta degli estratti conto del defunto: indicare rapporti e periodi",
+    "slug": "richiesta-degli-estratti-conto-del-defunto-indicare-rapporti-e-periodi",
+    "intent": "Accesso documentale bancario distinto dallo sblocco",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/conti-correnti-azioni-polizze-eredita"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 120,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Estratti conto del defunto: richiesta mirata",
+    "description": "Come indicare rapporti, periodi e documenti alla banca e controllare la completezza della risposta ricevuta.",
+    "bodyMarkdown": "Per ricostruire i movimenti del defunto, una richiesta alla banca deve indicare quali documenti servano e per quale periodo. Chiedere genericamente «tutto quello che avete» può rendere più difficile identificare il materiale necessario e valutare se la risposta sia completa.\n\nL'[articolo 119 del Testo unico bancario](https://www.bancaditalia.it/compiti/vigilanza/intermediari/Testo-Unico-Bancario.pdf) riconosce il diritto documentale anche a chi succede al cliente a qualunque titolo e a chi subentra nell'amministrazione dei suoi beni. Per la documentazione relativa a singole operazioni degli ultimi dieci anni prevede un termine congruo, comunque non superiore a novanta giorni, e costi limitati alla produzione.\n\n## Identificare il rapporto e il richiedente\n\nLa domanda dovrebbe contenere dati del defunto, eventuale numero di conto, filiale e recapito del richiedente. La posizione in base alla quale si chiede accesso va documentata secondo il caso, senza affermare una qualità non ancora acquisita.\n\nQuando il numero del rapporto non è noto, si possono fornire gli elementi disponibili, come vecchie comunicazioni o movimenti verso altre banche. È utile distinguere la richiesta di identificazione dei rapporti dalla successiva acquisizione di documenti specifici.\n\nUn elenco degli allegati consente di capire che cosa sia stato trasmesso e di rispondere a eventuali richieste di integrazione.\n\n## Specificare documenti e intervallo temporale\n\nEstratti conto, contabili di bonifico, copie di assegni e contratti non sono lo stesso documento. Se l'obiettivo è verificare un pagamento, il solo saldo finale potrebbe non essere sufficiente.\n\nIl periodo va indicato con date precise. Se si cercano operazioni intorno al decesso, può essere utile includere un intervallo precedente e successivo, spiegando quali dati manchino. Per documenti molto risalenti occorre valutare disponibilità e disciplina applicabile, senza promettere un recupero illimitato.\n\nAnche le operazioni collegate a dossier titoli o polizze richiedono una richiesta mirata al soggetto che le detiene.\n\n## Chiedere informazioni sui costi\n\nPrima di ordinare grandi quantità di copie, è utile conoscere criteri e stima dei costi di produzione. La scelta di un formato elettronico, se disponibile, può semplificare la consultazione e il confronto.\n\nNon bisogna però ridurre l'intervallo solo per risparmiare senza aver individuato il periodo rilevante. Il rischio è dover ripetere la richiesta e perdere la continuità necessaria per comprendere i movimenti.\n\n## Controllare la risposta\n\nAl ricevimento, conviene confrontare il materiale con l'elenco richiesto: mesi mancanti, pagine incomplete e contabili assenti vanno segnalati puntualmente. Un archivio con nomi uniformi per banca, rapporto e periodo aiuta anche gli altri professionisti coinvolti.\n\nGli importi devono essere letti distinguendo data contabile, valuta e descrizione. Un movimento registrato dopo la morte non prova da solo che sia stato disposto dopo la morte.\n\n## Dai documenti alla contestazione\n\nLa richiesta documentale non accusa automaticamente qualcuno di aver sottratto denaro. Serve a ricostruire fatti sui quali formulare, eventualmente, domande più specifiche.\n\nSe emergono operazioni dubbie, è utile preparare una tabella con data, importo, beneficiario noto e documento mancante. Prima di chiedere restituzioni occorre verificare titolo e spiegazioni possibili.\n\nLa pagina su [conti, titoli e polizze ereditari](https://ereditaesuccessioni.it/conti-correnti-azioni-polizze-eredita) inquadra il patrimonio bancario. Il primo passo operativo resta una richiesta abbastanza precisa da poter misurare la completezza della risposta.\n\n### Segnalare una lacuna in modo verificabile\n\nSe manca un trimestre, la richiesta di integrazione può indicare rapporto, date e nomi dei file ricevuti, precisando quali mesi non compaiano. È più semplice da controllare di una nuova domanda identica alla prima.\n\nAnche una contabile incompleta va descritta: manca il beneficiario, l'immagine dell'assegno è illeggibile oppure il documento non corrisponde all'operazione indicata. Conservare l'elenco iniziale e le successive integrazioni permette di misurare il risultato. Quando i documenti vengono consegnati a un professionista, questo registro evita che egli interpreti un periodo privo di file come un periodo senza movimenti, concludendo erroneamente che non vi sia nulla da esaminare.",
+    "faqs": [
+      {
+        "question": "Chiedere gli estratti conto significa chiedere anche lo svincolo del denaro?",
+        "answer": "No. L'accesso alla documentazione e la liquidazione delle somme sono operazioni distinte, con finalità e verifiche differenti."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.bancaditalia.it/compiti/vigilanza/intermediari/Testo-Unico-Bancario.pdf",
+        "title": "Testo unico bancario, articolo 119",
+        "supports": "Accesso documentale del cliente, successori e amministratori dei beni; termine e costi di produzione.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Estratti bancari senza testo leggibile ordinati in una cartellina per mesi, con lente e matita. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo, numero di conto o intestazione: eventuali carte e schermi devono essere anonimi e senza testo. Composizione fotografica semplice specifica del tema, luce naturale, oggetti credibili, nessuna persona riconoscibile.",
+      "alt": "Estratti bancari senza testo leggibile ordinati in una cartellina per mesi, con lente e matita",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-061.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "0da23298c30199dce6f0a8dfb6d9ef55f60fd50064c167112d34295c2db295a4",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 606,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 634,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-11-07",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "40d710a90c5259d43330a209c4817a1e3e8fe585056106f281336cf2bb1a4b62",
+    "sha256": "9bc7614ced01f122e8644c0939fcf4d094033fa88dc9784c233a8bb072c3d41e"
+  }
+}

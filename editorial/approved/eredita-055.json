@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-055",
+    "site": "eredita",
+    "sequence": 55,
+    "area": "Legittima e donazioni",
+    "title": "Donazione con riserva di usufrutto: documenti utili nella successione",
+    "slug": "donazione-con-riserva-di-usufrutto-documenti-utili-nella-successione",
+    "intent": "Ricostruire trasferimento della nuda proprietà e successiva estinzione",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/collazione-e-donazioni"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 108,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Donazione con usufrutto e successione",
+    "description": "Come distinguere proprietà trasferita, usufrutto e valore della liberalità quando si apre la successione.",
+    "bodyMarkdown": "Donare la nuda proprietà e conservare l'usufrutto permette di separare diritti diversi sullo stesso bene. Quando il donante muore, i familiari devono ricostruire sia l'atto di donazione sia la sorte dell'usufrutto, evitando di trattare l'immobile come se fosse rimasto interamente di sua proprietà.\n\nLe [regole del Codice civile sull'usufrutto e sulle donazioni nella successione](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) operano su piani distinti. L'estinzione del diritto di godimento non cancella la liberalità già compiuta.\n\n## Leggere esattamente quali diritti sono stati costituiti\n\nL'atto può riservare l'usufrutto al solo donante o contenere disposizioni che richiedono ulteriori verifiche. Non basta sapere che il genitore «poteva restare in casa».\n\nBisogna identificare il bene, la quota di nuda proprietà trasferita, i titolari del godimento e le clausole applicabili. Se l'immobile era già in comproprietà, la donazione potrebbe aver riguardato soltanto una porzione del diritto.\n\nLa documentazione catastale può aiutare a individuare il bene, ma il contenuto dei diritti va ricostruito attraverso gli atti e le risultanze giuridicamente pertinenti.\n\n## Che cosa cambia al decesso\n\nLa durata dell'usufrutto di una persona fisica non può superarne la vita. La morte del titolare è quindi un fatto decisivo, ma occorre verificare la concreta configurazione del diritto e le formalità di aggiornamento necessarie.\n\nIl nudo proprietario non deve confondere il consolidamento dei diritti con una nuova attribuzione testamentaria. La proprietà era già stata trasferita nei limiti stabiliti dall'atto.\n\nPer gli altri familiari, invece, il fatto che il bene non fosse più interamente del defunto non significa che la donazione sia irrilevante per ogni calcolo successorio.\n\n## Valutare la liberalità con il criterio corretto\n\nAi fini della collazione e della tutela della legittima possono essere necessari criteri diversi da quelli utilizzati per una valorizzazione fiscale al momento della donazione. Una percentuale applicata anni prima non risolve automaticamente il valore da considerare nella successione.\n\nL'articolo 747 guarda al valore dell'immobile al momento dell'apertura della successione per la collazione per imputazione; l'articolo 748 disciplina aspetti relativi a migliorie, spese e deterioramenti. Il calcolo richiede quindi una ricostruzione del bene e degli interventi effettuati.\n\nNon è prudente utilizzare il prezzo attuale di un annuncio immobiliare come unico dato.\n\n## Separare lavori e spese di gestione\n\nSe il donatario ha eseguito interventi, occorrono fatture, pagamenti e descrizione dei lavori. Va distinto ciò che ha migliorato il bene dalle spese correnti o dagli interventi necessari a conservarlo.\n\nAnche l'uso dell'immobile durante l'usufrutto può aver generato canoni, manutenzioni o rapporti con terzi. Questi elementi non vanno automaticamente sommati al valore della donazione senza una qualificazione.\n\n## Il fascicolo utile per gli eredi\n\nÈ opportuno raccogliere atto di donazione, successive modifiche, documenti dell'usufrutto, titoli immobiliari, eventuali testamenti e prove delle spese significative. Una cronologia consente di distinguere il momento del trasferimento da quello dell'estinzione del godimento.\n\nLa verifica su [collazione e donazioni](https://ereditaesuccessioni.it/collazione-e-donazioni) potrà poi stabilire come l'attribuzione incida sul riparto o sulla legittima. Il primo risultato da ottenere è una mappa corretta dei diritti: chi possedeva che cosa prima del decesso e quale posizione esiste dopo.\n\n### Dare al tecnico una domanda precisa\n\nLa richiesta di stima dovrebbe spiegare a quale valutazione successoria servirà il risultato. Non è sufficiente chiedere “quanto vale la casa” se occorre ricostruire il bene a una data determinata e distinguere interventi eseguiti in periodi diversi.\n\nFotografie, pratiche edilizie, fatture e descrizioni dello stato precedente possono aiutare il tecnico a rendere esplicite le ipotesi. Se mancano elementi, la relazione dovrebbe indicare il limite, evitando di presentare una ricostruzione ipotetica come osservazione diretta. La successiva analisi giuridica potrà così utilizzare dati coerenti, senza confondere il valore attuale commerciale con il valore richiesto per una specifica operazione di collazione o tutela della legittima.",
+    "faqs": [
+      {
+        "question": "L'immobile donato con usufrutto torna automaticamente nell'eredità del donante?",
+        "answer": "No. Occorre distinguere la proprietà già trasferita dall'usufrutto e dalla sua estinzione. La donazione può restare rilevante per collazione o tutela della legittima, ma non per questo il trasferimento originario scompare."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 737, 747, 748, 979, 1014",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 737, 747, 748, 979, 1014. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una chiave antica e una chiave moderna accanto alla sagoma di una casa, illuminate in modo distinto. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione: eventuali carte devono essere anonime. Composizione semplice e visivamente diversa per questo specifico tema, senza persone riconoscibili né testo visibile.",
+      "alt": "Una chiave antica e una chiave moderna accanto alla sagoma di una casa, illuminate in modo distinto",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-055.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "d83abc117de2857a981ad3bf20f9dfaeb9dc026a4396fcb0ff7fde2ea9017fa6",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 598,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 638,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-01-06",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "f41a6d7f60a1fb1585cf78fe1fb88986853c7b0673b2743a613b6a8e424904f6",
+    "sha256": "aeff803e20f2150f0a96b23c991dd3fbbb5f2c347a38e47c749fcb00e745c76e"
+  }
+}

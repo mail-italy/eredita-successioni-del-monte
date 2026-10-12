@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-050",
+    "site": "eredita",
+    "sequence": 50,
+    "area": "Accettazione e debiti",
+    "title": "Eredità giacente e immobile in pericolo: documentare l'urgenza",
+    "slug": "eredita-giacente-e-immobile-in-pericolo-documentare-l-urgenza",
+    "intent": "Richiesta di curatela e conservazione di un bene a rischio",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/eredita-giacente"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 98,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Immobile in pericolo ed eredità giacente",
+    "description": "Come documentare un rischio nell'immobile e verificare i presupposti della curatela e degli interventi conservativi.",
+    "bodyMarkdown": "Un appartamento vuoto può continuare a perdere acqua, subire intrusioni o danneggiare le parti comuni anche quando nessuno ha ancora accettato l'eredità. In questa situazione la ricerca degli eredi e la protezione del bene sono problemi collegati, ma non identici.\n\nGli [articoli 528 e seguenti del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) disciplinano l'eredità giacente e l'attività del curatore. Il presupposto non è semplicemente che i familiari litighino: occorre verificare, tra l'altro, che il chiamato non abbia accettato e non sia nel possesso dei beni ereditari.\n\n## Documentare il pericolo concreto\n\nUna segnalazione utile descrive cosa sta accadendo, da quando e quali beni o persone possano essere coinvolti. Fotografie datate, verbali di sopralluogo, comunicazioni dell'amministratore e preventivi tecnici aiutano a distinguere un rischio effettivo da un generico stato di abbandono.\n\nLe fotografie devono mostrare il problema senza invadere inutilmente spazi privati o includere dati personali. Un tecnico può chiarire se serva un intervento immediato, una messa in sicurezza provvisoria o una manutenzione programmabile.\n\nSe vi è un pericolo attuale per le persone, vanno interessati i servizi competenti secondo la natura dell'emergenza. La pratica successoria non sostituisce gli interventi di sicurezza.\n\n## Ricostruire la situazione dell'eredità\n\nOccorrono i dati del defunto, l'ultimo domicilio, gli elementi sui possibili chiamati e le notizie relative a eventuali accettazioni o rinunce. Anche la disponibilità materiale del bene deve essere descritta con precisione: chi ha le chiavi, chi lo usa e chi compie atti di gestione?\n\nNon ogni casa chiusa appartiene a un'eredità giacente. Potrebbero esserci eredi già subentrati o un soggetto che dispone del bene. La domanda di nomina deve quindi essere fondata su una ricostruzione verificabile, non sulla sola difficoltà di ottenere risposta.\n\n## Il ruolo del curatore\n\nIl curatore ha compiti di inventario, amministrazione e tutela delle ragioni dell'eredità, con obblighi di rendiconto. La gestione di pagamenti e interventi deve rispettare le regole e le autorizzazioni previste.\n\nLa sua nomina non rende disponibili fondi che non esistono. Per un lavoro urgente occorre valutare costi, risorse e modalità operative. Un preventivo dettagliato aiuta a capire quale parte dell'intervento sia indispensabile e quale possa essere rinviata.\n\nChi segnala il problema dovrebbe fornire documentazione utile, senza presumere di poter impartire al curatore ordini come a un proprio mandatario.\n\n## Se il chiamato vuole intervenire\n\nL'articolo 460 contempla poteri conservativi del chiamato prima dell'accettazione, con limiti specifici anche in presenza di un curatore. La qualificazione dell'atto dipende però dal suo contenuto: conservare il bene non equivale a disporne liberamente come proprietario.\n\nPrima di firmare contratti, vendere beni per finanziare lavori o utilizzare denaro ereditario, è opportuno chiarire la propria posizione e gli effetti dell'operazione. L'urgenza va affrontata con lo strumento adeguato, non con formule generiche.\n\n## Preparare una richiesta utile\n\nUn fascicolo essenziale comprende cronologia del problema, fotografie, relazione tecnica, comunicazioni rimaste senza risposta e informazioni successorie disponibili. Vanno indicati anche gli elementi ancora incerti.\n\nLa valutazione sull'[eredità giacente](https://ereditaesuccessioni.it/eredita-giacente) può così concentrarsi su due risultati concreti: individuare chi possa amministrare il patrimonio e consentire che il rischio venga gestito. La sicurezza dell'immobile e la scelta di accettare restano coordinate, senza essere confuse.\n\n### Rendere reperibili le informazioni per chi interviene\n\nNella segnalazione può essere utile indicare chi conosca l'accesso ai locali, dove si trovino eventuali impianti da isolare e quale tecnico abbia già esaminato il problema. Questi dati pratici non attribuiscono automaticamente poteri di ingresso o disposizione: aiutano il soggetto competente a organizzare un intervento legittimo.\n\nSe esistono preventivi alternativi, conviene evidenziare differenze di oggetto oltre che di prezzo. Una semplice asciugatura e la riparazione della causa dell'infiltrazione non sono prestazioni equivalenti. Il curatore o il professionista potrà così distinguere la misura provvisoria dall'intervento risolutivo, valutando risorse e autorizzazioni senza dover ricostruire da zero una situazione già nota ai vicini.",
+    "faqs": [
+      {
+        "question": "La nomina di un curatore risolve automaticamente l'emergenza nell'immobile?",
+        "answer": "No. Occorre descrivere il pericolo e gli interventi necessari, oltre a verificare i presupposti della curatela. Le misure urgenti per la sicurezza devono essere valutate senza attendere passivamente la definizione di ogni questione successoria."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 460, 528, 529, 530, 531",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 460, 528, 529, 530, 531. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una finestra di una casa vuota con infiltrazione visibile e una cartellina di fotografie tecniche sul davanzale. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutte le carte senza testo, senza stemmi, emblemi, sigilli, ceralacca, loghi o intestazioni. Dettaglio editoriale essenziale, sfondo luminoso naturale e inquadratura variata. Nessun luogo deve sembrare una sede dello studio.",
+      "alt": "Una finestra di una casa vuota con infiltrazione visibile e una cartellina di fotografie tecniche sul davanzale",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-050.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "6678902fd83a7d5437f8be48a265fdf9cbeba4f9bac6d46e3fbabaedbd9f094c",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 614,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 657,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-04-26",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "469708d0b878744dadf43d9b4ae02a82f13204bfe581fe3f29582a467c8bb681",
+    "sha256": "69736fbaf52e6f51b2055c4550b805184f2142ce0185aa1780a1c3b2dc3dbb59"
+  }
+}

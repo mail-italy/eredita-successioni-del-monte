@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-079",
+    "site": "eredita",
+    "sequence": 79,
+    "area": "Immobili e divisione",
+    "title": "Dividere solo una parte dell'eredità: accordi e beni che restano comuni",
+    "slug": "dividere-solo-una-parte-dell-eredita-accordi-e-beni-che-restano-comuni",
+    "intent": "Divisione parziale senza perdere il quadro dei conguagli",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/divisione-ereditaria"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 156,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Divisione parziale dell'eredità",
+    "description": "Come definire beni e conti già regolati, lasciando chiaro ciò che resta comune e dovrà essere ancora diviso.",
+    "bodyMarkdown": "Gli eredi possono trovare un accordo su un bene mentre continuano a discutere altri aspetti della successione. Una divisione parziale può essere utile, ma deve rendere chiaro ciò che viene chiuso e ciò che rimane aperto.\n\nLa [disciplina della divisione ereditaria](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) richiede di coordinare beni, conti e conguagli. Separare una parte del patrimonio non significa poter ignorare tutti i rapporti che la collegano al resto.\n\n## Definire il perimetro dell'accordo\n\nL'atto dovrebbe identificare con precisione i beni interessati e i diritti attribuiti. Devono risultare anche eventuali somme pagate a titolo di conguaglio e le voci di rendiconto considerate.\n\nSe un immobile viene assegnato a un coerede mentre un conto resta comune, occorre spiegare se il denaro sul conto sia già stato utilizzato nel calcolo oppure sarà regolato successivamente.\n\nUna formula generica di soddisfazione reciproca può creare incertezza se le parti intendono lasciare aperte altre questioni.\n\n## Conoscere comunque il patrimonio complessivo\n\nAnche un accordo parziale beneficia di una mappa dell'intera eredità. Beni, debiti, donazioni e crediti possono incidere sulla valutazione di ciò che si attribuisce.\n\nNon è sempre necessario risolvere ogni controversia per proseguire, ma bisogna sapere quali incognite esistano e come possano influire sul saldo finale.\n\nUn prospetto separato delle voci escluse consente di evitare che la stessa somma sia utilizzata due volte nei conteggi.\n\n## Regolare la gestione di ciò che resta\n\nPer i beni ancora comuni vanno stabilite modalità di amministrazione, pagamento delle spese e accesso alle informazioni. La divisione di una casa non risolve automaticamente la gestione di un altro immobile locato.\n\nÈ utile indicare chi custodirà i documenti e come saranno rendicontate le entrate future. Se esistono scadenze o lavori necessari, devono essere affrontati senza rinviarli indistintamente alla divisione finale.\n\nLa continuità della gestione riduce il rischio che l'accordo parziale sia seguito da un nuovo accumulo di conti non verificati.\n\n## Attenzione alle rinunce e alle quietanze\n\nUna quietanza può riguardare il pagamento di una somma oppure essere inserita in un accordo più ampio. Il suo contenuto deve corrispondere alla volontà reale.\n\nChi accetta un conguaglio per un bene non dovrebbe firmare inconsapevolmente una dichiarazione che sembri chiudere anche donazioni contestate, canoni o altri crediti.\n\nAllo stesso tempo, se le parti vogliono davvero una definizione complessiva, non basta chiamare l'atto «parziale» per lasciare ogni rapporto indefinito.\n\n## I beni scoperti dopo\n\nL'articolo 762 disciplina l'omissione di beni attraverso il supplemento di divisione. Questa ipotesi va distinta dall'esclusione consapevole di un bene che le parti sanno di lasciare comune.\n\nLa distinzione emerge dal testo dell'accordo e dai documenti preparatori. Annotare chiaramente le scelte evita discussioni successive sul motivo per cui un cespite non compare.\n\nLa consulenza sulla [divisione ereditaria](https://ereditaesuccessioni.it/divisione-ereditaria) può aiutare a costruire un passo intermedio utile. Una divisione parziale funziona quando riduce i problemi senza nascondere quelli residui, e quando il futuro rendiconto può partire da ciò che è già stato regolato con precisione.\n\n### Creare un punto di partenza per il rendiconto successivo\n\nIl giorno della divisione parziale può essere utilizzato come riferimento organizzativo per annotare saldi, canoni da incassare e spese ancora da pagare relative ai beni rimasti comuni. Il prospetto non sostituisce l'atto, ma consente di proseguire senza perdere la continuità contabile.\n\nSe una somma è stata impiegata per il conguaglio già regolato, deve risultare esclusa dalle disponibilità ancora da dividere. Se invece un credito rimane comune, va identificato con debitore e documenti.\n\nÈ utile consegnare agli interessati una copia della situazione iniziale del nuovo periodo. In questo modo un futuro conteggio potrà raccordarsi a dati condivisi, invece di ripartire ogni volta da tutte le operazioni compiute dopo il decesso e rischiare duplicazioni.",
+    "faqs": [
+      {
+        "question": "Dividere un immobile significa sempre aver chiuso tutta la successione?",
+        "answer": "No. L'accordo deve chiarire quali beni e rapporti vengono regolati e quali restano comuni o ancora da definire."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 713, 723, 728, 762",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 713, 723, 728, 762. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una casa in miniatura separata da altri beni ancora raccolti in una scatola comune. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione. Carte e planimetrie senza testo identificativo. Scena singola di fotografia editoriale, proporzioni credibili, non deve sembrare una sede dello studio né un suo immobile reale.",
+      "alt": "Una casa in miniatura separata da altri beni ancora raccolti in una scatola comune",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-079.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "5f9551c80c4f83c673ccb02053bb79a534cab7245ec2d1ff5ad55296db08b74e",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 595,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 623,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-03-31",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "58e392a34f42a569302e4b1780d735d75c91d1fbe5cb9dc0e7abdac6ac56d423",
+    "sha256": "0501bc9970636f906919ac68e56b151c9de4d979abd72cc1243b5cb35a579f88"
+  }
+}

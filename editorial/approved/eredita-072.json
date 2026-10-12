@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-072",
+    "site": "eredita",
+    "sequence": 72,
+    "area": "Immobili e divisione",
+    "title": "Casa non comodamente divisibile: confrontare assegnazione e vendita",
+    "slug": "casa-non-comodamente-divisibile-confrontare-assegnazione-e-vendita",
+    "intent": "Criteri operativi per l'immobile indivisibile",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/divisione-ereditaria"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 142,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Casa indivisibile: attribuzione o vendita",
+    "description": "Come confrontare frazionamento, assegnazione e vendita usando stime, costi e disponibilità economiche verificabili.",
+    "bodyMarkdown": "Una casa ereditata da più persone non può sempre essere trasformata in unità autonome. Anche quando un frazionamento è materialmente immaginabile, può risultare giuridicamente o economicamente inadeguato.\n\nL'[articolo 720 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) disciplina gli immobili non comodamente divisibili e prevede, nei termini della norma, una preferenza per l'attribuzione integrale con addebito dell'eccedenza. Se nessuno dei coeredi è disposto all'attribuzione, contempla la vendita all'incanto.\n\n## La divisibilità richiede una verifica tecnica\n\nUna planimetria tracciata a mano non dimostra che si possano creare due abitazioni regolari. Servono dati su accessi, impianti, requisiti edilizi e costi, oltre alle autorizzazioni eventualmente necessarie.\n\nLa valutazione deve considerare anche il risultato economico. Un frazionamento molto oneroso o capace di compromettere significativamente il valore può non rappresentare una soluzione utile.\n\nIl tecnico dovrebbe indicare ciò che è possibile, ciò che richiede verifiche ulteriori e una stima dei costi. Le ipotesi devono restare separate dalle autorizzazioni effettivamente ottenute.\n\n## L'attribuzione a un coerede\n\nChi desidera mantenere l'immobile deve formulare una proposta sostenibile. Non basta dichiarare un interesse affettivo: occorre confrontarsi con il valore del bene e con le quote degli altri.\n\nL'articolo 720 considera l'attribuzione, preferibilmente, a chi ha diritto alla quota maggiore oppure congiuntamente a più coeredi che la richiedano. La situazione concreta e le domande formulate devono essere esaminate senza trasformare questa previsione in un automatismo assoluto.\n\nLa disponibilità di denaro o finanziamento per il conguaglio è una parte essenziale della proposta.\n\n## Stimare prima di confrontare le alternative\n\nAttribuzione e vendita devono essere valutate su dati comparabili. Se chi vuole la casa usa una stima bassa e chi vuole venderla cita il prezzo più alto visto online, la trattativa manca di una base comune.\n\nUna valutazione motivata deve considerare stato dell'immobile, occupazione, documenti, vincoli e mercato pertinente. I costi necessari per rendere il bene commerciabile devono essere descritti e non semplicemente evocati.\n\nÈ utile distinguere prezzo auspicato, valore stimato e ricavo netto prevedibile.\n\n## La vendita consensuale e il percorso giudiziale\n\nGli eredi possono confrontarsi su una vendita concordata, definendo mandato, prezzo, gestione delle visite e accettazione delle offerte. La vendita giudiziale segue invece un percorso proprio e non deve essere presentata come identica a una normale trattativa privata.\n\nLe decisioni non possono essere sostituite dall'iniziativa di chi possiede le chiavi. La gestione del bene e il potere di disporne devono rispettare i titoli degli interessati.\n\n## Un confronto in tre colonne\n\nPer scegliere è utile affiancare frazionamento, attribuzione e vendita, indicando per ciascuna soluzione tempi, costi, documenti mancanti e risultato economico stimato. Una voce ancora incerta va evidenziata.\n\nQuesto metodo permette di capire se il conflitto riguardi il valore, la liquidità o la volontà di conservare la casa. Sono problemi diversi e possono avere soluzioni diverse.\n\nNella [divisione ereditaria](https://ereditaesuccessioni.it/divisione-ereditaria), la verifica dell'indivisibilità serve a costruire opzioni realizzabili. La casa non deve essere semplicemente «divisa sulla carta»: il risultato deve poter essere eseguito e chiudere i rapporti economici tra i coeredi.\n\n### Verificare quale ostacolo impedisce l'accordo\n\nSe tutti concordano sul valore ma un coerede non può pagare subito il conguaglio, una nuova perizia difficilmente risolverà il problema. Se invece la liquidità esiste ma la stima presuppone un immobile libero mentre la casa è occupata, il confronto deve partire da quel dato.\n\nÈ utile annotare, per ciascuna alternativa, la condizione che ne consente l'esecuzione: un accertamento tecnico, una disponibilità finanziaria oppure il consenso necessario alla vendita. Le condizioni soltanto sperate vanno distinte da quelle documentate. Questo consente di evitare trattative circolari e di comprendere quando una soluzione apparentemente preferita non sia ancora concreta, mentre un'altra presenti presupposti verificabili e un percorso definibile.",
+    "faqs": [
+      {
+        "question": "La casa deve sempre essere venduta se gli eredi sono più di uno?",
+        "answer": "No. Occorre valutare divisibilità, possibile attribuzione a uno o più coeredi e conguagli. La vendita è uno degli esiti, non una conseguenza automatica del numero degli eredi."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 718, 720, 721, 728",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 718, 720, 721, 728. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Un modellino di appartamento compatto con una planimetria sfocata e una chiave unica. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione. Carte e planimetrie senza testo identificativo. Scena singola di fotografia editoriale, proporzioni credibili, non deve sembrare una sede dello studio né un suo immobile reale.",
+      "alt": "Un modellino di appartamento compatto con una planimetria sfocata e una chiave unica",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-072.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "b4bef8b3709dd132e3da39290f643bcf8c681a37411e15326c09cd2981758f43",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 592,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 632,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-11-09",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "2f47dd10e0286f844bec0552a31e943763789c572459ec8841913e5655c2c207",
+    "sha256": "eeccac1a27c55a93f51d979d95f03e9d899ab4410a30d38486c1a0f5c10038ef"
+  }
+}

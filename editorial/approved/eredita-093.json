@@ -1,0 +1,65 @@
+{
+  "article": {
+    "id": "eredita-093",
+    "site": "eredita",
+    "sequence": 93,
+    "area": "Successioni internazionali",
+    "title": "Scelta della legge nazionale nel testamento: la professio iuris",
+    "slug": "scelta-della-legge-nazionale-nel-testamento-la-professio-iuris",
+    "intent": "Presupposti della scelta di legge secondo regolamento UE",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successioni-internazionali"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 184,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Scelta di legge nel testamento internazionale",
+    "description": "Cittadinanza, forma e coordinamento degli atti da verificare prima di scegliere la legge della successione.",
+    "bodyMarkdown": "Chi vive all'estero può voler rendere più prevedibile la propria successione attraverso una scelta di legge nel testamento. Questo strumento, spesso chiamato *professio iuris*, ha limiti precisi e non permette di selezionare liberamente qualsiasi ordinamento.\n\nL'[articolo 22 del regolamento UE 650/2012](https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650) consente di scegliere la legge dello Stato di cui si ha la cittadinanza al momento della scelta o della morte. Chi possiede più cittadinanze può scegliere tra le leggi degli Stati corrispondenti, nei termini della norma.\n\n## La scelta riguarda l'intera successione\n\nNon si tratta di assegnare una legge alla casa e un'altra al conto in base alla convenienza. La legge designata ai sensi del regolamento governa l'intera successione nell'ambito che gli è proprio.\n\nRestano fuori o richiedono coordinamento altre materie, tra cui fiscalità, regimi patrimoniali e formalità dei registri. La scelta successoria non è quindi uno strumento che risolve ogni conseguenza del patrimonio internazionale.\n\nPrima di formularla, occorre una mappa di beni, famiglia, cittadinanze e Paesi coinvolti.\n\n## La forma deve essere adeguata\n\nLa scelta deve essere espressa in una dichiarazione nella forma di una disposizione a causa di morte oppure risultare dalle sue clausole. Una conversazione familiare o una nota informale non garantiscono il risultato.\n\nÈ utile che il testo sia comprensibile e coerente con le altre disposizioni. Una formula copiata da un modello straniero può creare dubbi se non tiene conto della situazione concreta.\n\nAnche modifica e revoca devono rispettare le condizioni di forma previste dal regolamento.\n\n## Comprendere gli effetti della legge scelta\n\nPrima della firma, bisogna conoscere almeno i principali effetti sui beneficiari, sulle quote e sugli strumenti previsti dal testamento. La scelta non dovrebbe essere proposta come un'etichetta tecnica priva di conseguenze.\n\nSe il testatore vuole tutelare una persona specifica, occorre verificare come la legge scelta consenta di perseguire quell'obiettivo e quali limiti ponga.\n\nI termini giuridici possono avere significati diversi nei vari ordinamenti. Tradurre una parola non garantisce che l'istituto corrispondente sia identico.\n\n## Coordinare i testamenti esistenti\n\nUna persona può avere già redatto atti in più Paesi. È necessario verificare se una nuova disposizione revochi quelle precedenti e come si coordini con esse.\n\nLa presenza di un bene all'estero non giustifica automaticamente un secondo testamento isolato dal primo. I professionisti coinvolti devono conoscere l'intero assetto per evitare revoche involontarie o clausole incompatibili.\n\nPer atti anteriori al 17 agosto 2015, il regolamento contiene disposizioni transitorie che richiedono un controllo specifico.\n\n## Conservare i documenti della scelta\n\nÈ utile mantenere copie affidabili degli atti e informazioni sulla loro custodia, evitando di diffondere inutilmente contenuti riservati. Dopo il decesso, gli interessati devono poter individuare il testo applicabile.\n\nLa consulenza sulle [successioni internazionali](https://ereditaesuccessioni.it/successioni-internazionali) può così trasformare una preferenza in una clausola ragionata. Il risultato desiderato è ridurre l'incertezza futura attraverso una scelta consentita e compresa, non promettere che un solo periodo nel testamento elimini ogni conflitto tra ordinamenti.\n\n### Riesaminare la scelta quando cambia la situazione\n\nUna nuova cittadinanza, un trasferimento stabile o un diverso assetto familiare possono rendere utile rileggere il progetto successorio. Questo non significa che ogni cambiamento revochi automaticamente la scelta: occorre verificare i requisiti della clausola e gli effetti delle disposizioni già esistenti.\n\nÈ utile conservare un elenco dei testamenti redatti, con data, luogo e soggetto che custodisce l'originale. Quando si chiede una modifica, tale elenco permette al professionista di coordinare i testi e di evitare revoche formulate senza conoscere gli atti precedenti.\n\nLa domanda da porre non è soltanto se una clausola sia formalmente presente, ma se l'intero assetto continui a perseguire l'obiettivo desiderato. Una scelta di legge comprensibile deve accompagnarsi a disposizioni compatibili e a informazioni sufficienti perché, dopo il decesso, gli interessati possano individuarle e utilizzarle.",
+    "faqs": [
+      {
+        "question": "Posso scegliere la legge di qualunque Paese nel testamento?",
+        "answer": "L'articolo 22 consente la scelta della legge di uno Stato di cui si possiede la cittadinanza al momento della scelta o della morte, con le condizioni previste. Non è una scelta libera fra tutti gli ordinamenti."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650",
+        "title": "Regolamento UE 650/2012, articoli 22,23,83",
+        "supports": "Scelta della legge di cittadinanza, forma, intera successione e transizione.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Un testamento in preparazione accanto a due copertine di documenti di cittadinanza senza emblemi o dati. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Un testamento in preparazione accanto a due copertine di documenti di cittadinanza senza emblemi o dati",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-093.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "d75ec6041c8742502d13d4470519a4d0665ba3d0d98f484efeb6311bc22c4805",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 604,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 649,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-12-05",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "956a1ef58ed3ec627f909a7c57f0af0148f03949a18944daf075a3e190cbb7e3",
+    "sha256": "d4b71f5ec196ce573c03b740f4acd21a66ca654aaaa0b0c9f4740081219a4bab"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "article": {
+    "id": "eredita-100",
+    "site": "eredita",
+    "sequence": 100,
+    "area": "Successioni internazionali",
+    "title": "Traduzioni e apostille nella successione: verificare cosa serve davvero",
+    "slug": "traduzioni-e-apostille-nella-successione-verificare-cosa-serve-davvero",
+    "intent": "Autenticazione distinta dagli effetti dell'atto",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successioni-internazionali"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 198,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Apostille e traduzioni nella successione",
+    "description": "Come distinguere origine, contenuto e comprensibilità dei documenti ed evitare formalità richieste automaticamente.",
+    "bodyMarkdown": "Per usare un documento successorio all'estero possono essere necessarie una copia autentica, una traduzione o una formalità di autenticazione. Questi passaggi hanno funzioni diverse e non vanno richiesti tutti automaticamente.\n\nL'[articolo 74 del regolamento UE 650/2012](https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650) esclude legalizzazione e formalità analoghe per atti e documenti emessi in uno Stato membro ai sensi del regolamento. Fuori da quell'ambito occorre verificare Paesi, tipo di atto e convenzioni applicabili.\n\n## Partire dal documento e dal destinatario\n\nUn certificato di morte, una procura, un testamento e un certificato successorio non sono intercambiabili. Per ciascuno occorre sapere chi lo ha emesso e quale autorità, banca o registro dovrà utilizzarlo.\n\nÈ utile chiedere un elenco scritto dei requisiti, precisando la finalità. Una generica richiesta di «documento legalizzato» può nascondere esigenze diverse che devono essere chiarite.\n\nIl controllo preliminare può evitare di tradurre una copia incompleta o autenticare un atto che non attribuisce il potere necessario.\n\n## Che cosa fa l'apostille\n\nLa [Convenzione dell'Aia sull'apostille, illustrata dall'HCCH](https://www.hcch.net/en/conventions/apostille), semplifica nei casi previsti l'uso dei documenti pubblici esteri sostituendo la legalizzazione con una formalità rilasciata dall'autorità competente.\n\nIl [manuale ufficiale HCCH](https://assets.hcch.net/docs/a19ae90b-27bf-4596-b5ee-0140858abeaa.pdf) distingue l'autenticazione dell'origine dal contenuto. La formalità non certifica che ogni affermazione del documento sia vera o che l'atto produca l'effetto successorio desiderato.\n\nOccorre verificare che la Convenzione operi tra gli Stati interessati e che il documento rientri nel suo ambito.\n\n## La traduzione ha un altro compito\n\nTradurre consente al destinatario di comprendere il testo. La modalità richiesta dipende dall'uso e dalle regole applicabili: non ogni traduzione informale è sufficiente, ma neppure ogni pratica richiede la stessa certificazione.\n\nOriginale e traduzione devono essere collegabili, con pagine e allegati completi. Nomi, date e identificativi meritano un controllo accurato, perché una piccola divergenza può bloccare la pratica.\n\nI termini giuridici devono essere trattati con attenzione: una parola apparentemente equivalente può indicare poteri diversi.\n\n## Controllare l'ordine delle operazioni\n\nA seconda del caso, autenticazione e traduzione possono dover comprendere elementi diversi del fascicolo. Prima di avviare il lavoro è utile chiarire quale versione finale debba essere presentata.\n\nUna modifica al documento dopo la traduzione può rendere necessario aggiornarla. Anche l'assenza di un allegato richiamato nell'atto può costringere a ripetere passaggi.\n\nConservare una copia completa di ogni versione aiuta a individuare ciò che è stato effettivamente certificato.\n\n## Non aggiungere formalità inutili\n\nPer i documenti coperti dall'articolo 74, chiedere un'apostille come regola automatica non rispetta la semplificazione prevista. In altri casi possono esistere ulteriori esenzioni o regole convenzionali da verificare.\n\nLa soluzione non consiste nel fare comunque tutto «per sicurezza», ma nell'individuare il requisito pertinente e documentarne l'applicazione.\n\nLa consulenza sulle [successioni internazionali](https://ereditaesuccessioni.it/successioni-internazionali) può così organizzare un fascicolo utilizzabile al primo invio. Il controllo decisivo comprende tre domande separate: il documento è quello giusto, la sua origine è provata come richiesto e il destinatario può comprenderne il contenuto?\n\n### Controllare completezza e corrispondenza prima dell'invio\n\nUn fascicolo può contenere l'apostille ma mancare della pagina cui essa si riferisce, oppure includere una traduzione di una versione precedente dell'atto. Il controllo finale dovrebbe quindi confrontare numero delle pagine, allegati, nomi, date e riferimenti delle formalità.\n\nÈ utile preparare un indice che distingua documento originale, copia, traduzione e attestazioni, senza confonderne le funzioni. Se il destinatario richiede un'integrazione, l'indice permette di individuare esattamente ciò che manca.\n\nAnche la prova dell'invio va conservata con la versione trasmessa. La consegna di una scansione per esame preliminare è diversa dalla presentazione del documento richiesto per l'atto definitivo. Chiarire questa fase evita di ritenere completata una pratica che è stata soltanto aperta e permette di programmare eventuali spedizioni degli originali senza duplicare inutilmente autenticazioni e traduzioni già correttamente effettuate.",
+    "faqs": [
+      {
+        "question": "L'apostille rende valido qualsiasi contenuto del documento?",
+        "answer": "No. Riguarda l'autenticazione dell'origine nei termini previsti dalla Convenzione. Validità sostanziale, poteri e idoneità del documento per la successione richiedono verifiche distinte."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650",
+        "title": "Regolamento UE 650/2012, articolo 74",
+        "supports": "Esenzione da legalizzazione e formalità analoghe per gli atti emessi ai sensi del regolamento.",
+        "checkedAt": "2026-10-12"
+      },
+      {
+        "url": "https://www.hcch.net/en/conventions/apostille",
+        "title": "HCCH, Apostille Section",
+        "supports": "Funzione dell'apostille in sostituzione della legalizzazione nei casi previsti.",
+        "checkedAt": "2026-10-12"
+      },
+      {
+        "url": "https://assets.hcch.net/docs/a19ae90b-27bf-4596-b5ee-0140858abeaa.pdf",
+        "title": "HCCH, Apostille Handbook",
+        "supports": "Autenticazione dell'origine, firma e qualità del firmatario; distinzione dal contenuto.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Un documento originale e la sua traduzione affiancati, con fermagli neutri e nessun timbro o testo leggibile. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Un documento originale e la sua traduzione affiancati, con fermagli neutri e nessun timbro o testo leggibile",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-100.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "a56ceefb509bc3670b722557efee246edb82447c7184b948abb8b339e9bc9354",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 597,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 626,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-04-22",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "b25e30e7339f69695070fc4cd11323f9d4d9bcef4e559004839fe85e22503d16",
+    "sha256": "47cdecf495bed78566e599125411dd4de82b3c29ae5d26a68746885947f060b4"
+  }
+}

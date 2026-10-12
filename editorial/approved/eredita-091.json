@@ -1,0 +1,65 @@
+{
+  "article": {
+    "id": "eredita-091",
+    "site": "eredita",
+    "sequence": 91,
+    "area": "Successioni internazionali",
+    "title": "Certificato successorio europeo: a cosa serve e quando richiederlo",
+    "slug": "certificato-successorio-europeo-a-cosa-serve-e-quando-richiederlo",
+    "intent": "Prova transfrontaliera dei diritti ereditari",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successioni-internazionali"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 180,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Certificato successorio europeo: uso e copie",
+    "description": "Quando il certificato può provare diritti e poteri all'estero e quali limiti, contenuti e scadenze controllare.",
+    "bodyMarkdown": "Il certificato successorio europeo può aiutare un erede a dimostrare la propria qualità o i propri diritti in un altro Stato partecipante al sistema europeo. Non è però un documento da richiedere automaticamente per ogni pratica con un elemento estero.\n\nGli [articoli 62 e seguenti del regolamento UE 650/2012](https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650) ne definiscono funzione e limiti. Il certificato è facoltativo e non sostituisce indistintamente i documenti interni utilizzati per finalità analoghe.\n\n## Quale fatto deve essere dimostrato\n\nLa richiesta può riguardare qualità e quote degli eredi, diritti dei legatari o poteri di esecutori e amministratori. È quindi utile partire dall'operazione concreta: una banca deve liquidare somme, un registro deve aggiornare un bene oppure occorre dimostrare un potere di amministrazione.\n\nIl documento deve contenere gli elementi necessari a quel fine. Una formula generica sulla qualità di erede potrebbe non rispondere a una questione specifica sull'attribuzione di un bene.\n\nChiarire l'uso previsto aiuta anche a individuare i documenti da presentare all'autorità di rilascio.\n\n## Verificare competenza e ambito\n\nIl certificato viene rilasciato secondo le regole di competenza del regolamento. Non basta scegliere l'ufficio più vicino al luogo in cui risiede un erede.\n\nDevono essere esaminati data del decesso, residenza abituale del defunto, eventuale scelta di legge e Stati coinvolti. Il meccanismo non può essere esteso automaticamente a Paesi che non vi partecipano.\n\nUna successione con beni fuori dall'Unione richiede il coordinamento con le regole applicabili nel Paese interessato.\n\n## Preparare il fascicolo\n\nSono normalmente pertinenti dati del defunto e dei richiedenti, documenti familiari, testamenti, atti relativi ad accettazioni o rinunce e informazioni sui beni o sui poteri da certificare. L'autorità deve poter verificare gli elementi richiesti.\n\nLe contestazioni tra interessati non vanno nascoste. Il regolamento considera l'esistenza di elementi controversi nel procedimento di rilascio.\n\nÈ utile indicare quali documenti siano originali, copie autentiche o semplici riproduzioni, evitando che il destinatario debba ricostruirlo da solo.\n\n## Gli effetti non eliminano ogni adempimento\n\nIl certificato produce gli effetti previsti dall'articolo 69 senza uno speciale procedimento di riconoscimento negli Stati interessati. Ciò non significa che la banca o il registro possano ignorare identificazione, dati del bene o altre formalità pertinenti.\n\nIl documento attesta ciò che contiene, con i limiti e le restrizioni eventualmente indicati. Deve essere letto integralmente, non soltanto nella pagina che menziona il nome dell'erede.\n\nAnche la fiscalità resta un piano distinto dalla prova dei diritti successori.\n\n## Controllare la copia utilizzata\n\nL'autorità conserva l'originale e rilascia copie autentiche. L'articolo 70 prevede in via ordinaria una validità limitata a sei mesi, con possibilità di diversa durata nei casi eccezionali motivati e procedure di proroga o nuova copia.\n\nPrima di inviarlo all'estero, è quindi utile verificare data di scadenza e completezza. Una scansione vecchia può non essere sufficiente per l'operazione attuale.\n\nLa consulenza sulle [successioni internazionali](https://ereditaesuccessioni.it/successioni-internazionali) può stabilire se il certificato sia lo strumento adatto. Il punto di partenza è il diritto che occorre dimostrare, non l'idea che un documento europeo risolva da solo ogni aspetto della successione.\n\n### Verificare il contenuto prima di organizzare l'operazione\n\nPrima di fissare un trasferimento o inviare istruzioni alla banca, conviene confrontare ciò che il destinatario deve accertare con ciò che il certificato effettivamente riporta. Un potere limitato o una restrizione non dovrebbero emergere soltanto al momento dell'esecuzione.\n\nSe nel frattempo intervengono rettifiche, modifiche o altri provvedimenti sul certificato, occorre considerare la documentazione aggiornata. Conservare vecchie copie è utile per la cronologia, ma non giustifica il loro uso come se nulla fosse cambiato. Gli articoli 71 e seguenti prevedono strumenti specifici per queste vicende. Il fascicolo dovrebbe quindi indicare quale copia venga utilizzata e quale sia il suo stato attuale.",
+    "faqs": [
+      {
+        "question": "Il certificato successorio europeo è obbligatorio per ogni eredità estera?",
+        "answer": "No. Il regolamento ne prevede l'uso facoltativo e non sostituisce tutti i documenti nazionali. Va valutata la sua utilità per il diritto da far valere nello Stato interessato."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650",
+        "title": "Regolamento UE 650/2012, articoli 62–70",
+        "supports": "Scopo facoltativo, contenuto, effetti e copie del certificato successorio europeo.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Un documento europeo neutro senza simboli ufficiali accanto a due cartelline e una mappa geografica sfocata. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Un documento europeo neutro senza simboli ufficiali accanto a due cartelline e una mappa geografica sfocata",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-091.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "7b1f4c1be5a3fd6f6c36bf7b28bd892a6ffd9f252b756bdcfabfcfacf754685b",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 595,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 633,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-10-26",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "7a82f6c660fca39c2357b7fa11aeb47647d917a24eec94b1a62d87f37c5373a4",
+    "sha256": "781f59638c3a187a7206d30208ebac480aef1a15cc432d81bc36f551d2806294"
+  }
+}

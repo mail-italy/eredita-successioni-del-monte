@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-054",
+    "site": "eredita",
+    "sequence": 54,
+    "area": "Legittima e donazioni",
+    "title": "Spese di studio e mantenimento: quando non si riportano in collazione",
+    "slug": "spese-di-studio-e-mantenimento-quando-non-si-riportano-in-collazione",
+    "intent": "Distinguere assistenza ordinaria e attribuzioni rilevanti",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/collazione-e-donazioni"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 106,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Spese di studio e collazione",
+    "description": "Mantenimento, cure, formazione e avvio professionale richiedono distinzioni: come selezionare le spese rilevanti.",
+    "bodyMarkdown": "Nel confronto tra fratelli può riemergere tutto ciò che i genitori hanno pagato: studi, cure, abbigliamento, matrimonio o avvio di un'attività. La successione non comporta però il ricalcolo indiscriminato di ogni spesa familiare.\n\nL'[articolo 742 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) esclude dalla collazione determinate spese, tra cui mantenimento, educazione, malattia e spese ordinarie per abbigliamento o nozze. Per altre voci la legge richiede di valutarne la misura rispetto alle condizioni economiche del defunto.\n\n## La natura della spesa viene prima del totale\n\nNon basta sommare quanto è stato destinato a ciascun figlio. Bisogna capire a che cosa servivano i pagamenti. Una cura medica, un normale percorso educativo e il finanziamento di un'attività professionale non sono categorie intercambiabili.\n\nL'articolo 741 considera, tra l'altro, assegnazioni per avviare un'attività produttiva o professionale e pagamenti di debiti dei discendenti. Queste ipotesi vanno distinte dalle spese escluse dall'articolo 742.\n\nLa descrizione «aiuto per gli studi» può quindi essere troppo generica. Occorre verificare se il pagamento riguardasse rette e mantenimento oppure l'acquisto di beni destinati all'esercizio di una professione.\n\n## Il rapporto con le condizioni economiche del genitore\n\nPer il corredo nuziale e l'istruzione artistica o professionale, l'articolo 742 prevede un criterio specifico legato al notevole superamento della misura ordinaria e alle condizioni economiche del defunto.\n\nNon esiste una soglia identica per tutte le famiglie ricavabile dal semplice prezzo di un corso. Contano il contesto e la natura dell'esborso. Anche un confronto con le spese sostenute per gli altri figli richiede prudenza: bisogni diversi possono giustificare importi diversi.\n\nLa valutazione deve rimanere ancorata a documenti, evitando giudizi morali sulle scelte educative compiute molti anni prima.\n\n## Come ricostruire le voci\n\nÈ utile dividere le spese in categorie e indicare per ciascuna periodo, beneficiario, causale e fonte di prova. Le voci non documentate vanno segnalate come tali, senza trasformare ricordi approssimativi in importi certi.\n\nSe un unico bonifico copriva più esigenze, il suo ammontare non chiarisce da solo la ripartizione. Fatture, contratti e corrispondenza possono aiutare a ricostruire la finalità.\n\nAnche la provenienza del denaro conta: non ogni pagamento ricevuto dal figlio era necessariamente sostenuto dal genitore della cui successione si discute.\n\n## Un esempio di confronto utile\n\nUna figlia ha frequentato un percorso di formazione; un figlio ha ricevuto denaro per pagare un debito commerciale. Chiedere soltanto chi abbia ricevuto di più non individua la regola applicabile.\n\nOccorre prima classificare le operazioni e poi verificare se ricadano nelle disposizioni sulla collazione. Il risultato può essere diverso anche a parità di importo, perché diversa è la funzione del pagamento.\n\n## Evitare che il rendiconto diventi una contabilità degli affetti\n\nUn elenco ragionato limita il conflitto ai fatti giuridicamente rilevanti. Inserire ogni regalo, vacanza o spesa quotidiana può rendere il confronto più costoso senza avvicinare una soluzione.\n\nNell'analisi di [collazione e donazioni](https://ereditaesuccessioni.it/collazione-e-donazioni), la selezione delle voci è parte del lavoro. L'obiettivo non è pareggiare retroattivamente tutte le esperienze dei figli, ma individuare le attribuzioni che la legge considera rilevanti nella concreta divisione ereditaria.\n\n### Restringere il confronto alle spese contestate\n\nSe i fratelli concordano sull'esclusione delle normali spese di mantenimento ma discutono un finanziamento professionale, è utile concentrare la raccolta documentale su quest'ultimo. Cercare ogni ricevuta della vita familiare aumenta il materiale senza necessariamente chiarire il punto decisivo.\n\nPer la voce controversa servono finalità, beneficiario effettivo, importo e contesto economico. Una fattura intestata a un soggetto diverso dal figlio può richiedere di capire chi abbia sostenuto realmente il costo e chi abbia ricevuto il vantaggio. Se la prova rimane incompleta, il prospetto deve mostrarlo. Un'incertezza dichiarata permette di valutare una soluzione proporzionata; un importo presentato come sicuro sulla base di un ricordo può irrigidire inutilmente la discussione.",
+    "faqs": [
+      {
+        "question": "Un fratello deve restituire tutte le spese universitarie sostenute dai genitori?",
+        "answer": "Non automaticamente. L'articolo 742 distingue spese escluse e spese valutabili secondo natura, misura e condizioni economiche del defunto."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 741, 742, 809",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 741, 742, 809. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Libri di studio consumati, una cartellina universitaria neutra e ricevute ordinate su un tavolo familiare. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione: eventuali carte devono essere anonime. Composizione semplice e visivamente diversa per questo specifico tema, senza persone riconoscibili né testo visibile.",
+      "alt": "Libri di studio consumati, una cartellina universitaria neutra e ricevute ordinate su un tavolo familiare",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-054.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "67f1dcf662af3d680440ac33f1d87cbab08cd4080fd0726b35f779888852dbd5",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 602,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 631,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-12-15",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "031a820c0e114e31e996253c281e44baf001a77ec9f8a5788d078d87f0c6451a",
+    "sha256": "79326b531961681fc24cdaa3ebe26d2cdbac21ed238a2fa2310cd47dcda6803f"
+  }
+}

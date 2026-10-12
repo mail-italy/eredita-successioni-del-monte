@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-058",
+    "site": "eredita",
+    "sequence": 58,
+    "area": "Legittima e donazioni",
+    "title": "In quale ordine si riducono testamento e donazioni lesive",
+    "slug": "in-quale-ordine-si-riducono-testamento-e-donazioni-lesive",
+    "intent": "Sequenza dei rimedi e cronologia delle liberalità",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/lesione-di-legittima"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 114,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Ordine di riduzione di testamento e donazioni",
+    "description": "Come cronologia e tipo di attribuzione incidono sulla riduzione e sulla proposta di integrazione della legittima.",
+    "bodyMarkdown": "Accertare una lesione di legittima non basta a stabilire quale bene o quale beneficiario debba essere coinvolto per primo. Il Codice civile prevede un ordine di riduzione che incide sulla costruzione della domanda e sulle possibilità di accordo.\n\nGli [articoli 553–559](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) distinguono porzioni attribuite nella successione legittima, disposizioni testamentarie e donazioni. La ricostruzione deve partire dall'intera vicenda, non soltanto dalla liberalità che appare più vistosa.\n\n## Prima viene il calcolo della lesione\n\nOccorre determinare la quota riservata e quanto il legittimario abbia già ricevuto o debba imputare. Senza questa verifica non si conosce l'entità dell'integrazione richiesta.\n\nUna differenza tra fratelli non dimostra automaticamente una lesione. Il defunto poteva disporre della quota disponibile, e le attribuzioni devono essere confrontate con la massa correttamente ricostruita.\n\nIl prospetto iniziale dovrebbe distinguere valori certi, stime e dati ancora mancanti. Una cifra presentata come definitiva senza conoscere debiti o donazioni precedenti può alterare l'intera trattativa.\n\n## Le disposizioni testamentarie\n\nL'articolo 558 prevede la riduzione proporzionale delle disposizioni testamentarie, senza una distinzione generale tra eredi e legatari. Il testatore può però aver attribuito preferenza a una disposizione, nei termini previsti dalla norma.\n\nÈ quindi necessario leggere tutto il testamento. Concentrarsi sul solo lascito che si vuole contestare può far trascurare attribuzioni che devono essere considerate insieme.\n\nSe la disposizione riguarda un immobile, l'articolo 560 introduce regole specifiche sulla sua riduzione. Il risultato non si traduce sempre nella consegna di una quota materiale facilmente separabile.\n\n## Le donazioni seguono una cronologia\n\nL'articolo 555 stabilisce che non si riducono le donazioni prima di aver esaurito il valore dei beni di cui sia stato disposto per testamento. Quando si arriva alle donazioni, l'articolo 559 impone di iniziare dall'ultima e risalire alle anteriori.\n\nLa data è quindi un dato operativo, non una semplice informazione d'archivio. Anche le liberalità indirette devono essere individuate e collocate correttamente nella ricostruzione.\n\nUn bene donato molti anni prima potrebbe non essere il primo da coinvolgere soltanto perché oggi vale molto.\n\n## Il prospetto che serve alla trattativa\n\nPer ogni attribuzione si indicano data, beneficiario, oggetto, valore rilevante e documento. Le disposizioni testamentarie vanno tenute separate dalle donazioni, evitando un elenco unico ordinato soltanto per importo.\n\nÈ utile preparare un percorso di calcolo che mostri come si arriverebbe all'integrazione richiesta. Gli altri interessati possono così comprendere quali passaggi contestano: la stima, la qualificazione dell'atto, la cronologia oppure il diritto alla quota.\n\nQuesto rende più concreta anche una proposta di pagamento o di assegnazione concordata.\n\n## Non confondere riduzione e recupero verso terzi\n\nSe il bene donato è stato venduto, occorre un ulteriore esame delle regole vigenti e della disciplina transitoria introdotta nel 2025. L'ordine di riduzione non risolve da solo gli effetti nei confronti di chi abbia acquistato successivamente.\n\nLa consulenza sulla [lesione di legittima](https://ereditaesuccessioni.it/lesione-di-legittima) deve quindi tenere insieme calcolo, ordine delle attribuzioni e situazione attuale dei beni. Un rimedio correttamente scelto può essere compromesso da una ricostruzione cronologica incompleta.\n\n### Quando manca un atto nella cronologia\n\nUna donazione ricordata dai familiari ma non ancora documentata va segnalata come informazione da verificare. Ometterla completamente potrebbe alterare l'ordine del ragionamento; assegnarle subito una data e un valore certi produce il rischio opposto.\n\nIl fascicolo può distinguere gli atti acquisiti dalle operazioni soltanto individuate attraverso indizi, indicando dove cercarne prova. Se una proposta di accordo viene formulata prima di completare questa ricerca, deve essere chiaro quali ipotesi patrimoniali utilizzi. Anche una differenza apparentemente modesta di data può incidere sulla sequenza delle donazioni. Per questo non è sufficiente ordinare i file secondo il giorno in cui sono stati trovati: serve ricostruire il momento dell'operazione cui ciascun documento si riferisce.",
+    "faqs": [
+      {
+        "question": "Posso scegliere liberamente quale donazione far ridurre?",
+        "answer": "La legge prevede un ordine: le donazioni sono ridotte dopo le disposizioni testamentarie nei termini dell'articolo 555 e, tra loro, partendo dall'ultima. La domanda va costruita sulla cronologia effettiva."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 553, 554, 555, 558, 559, 560",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 553, 554, 555, 558, 559, 560. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una sequenza di cartelline datate con segnalibri neutri, disposte dalla più recente alla più antica. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione: eventuali carte devono essere anonime. Composizione semplice e visivamente diversa per questo specifico tema, senza persone riconoscibili né testo visibile.",
+      "alt": "Una sequenza di cartelline datate con segnalibri neutri, disposte dalla più recente alla più antica",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-058.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "1ae9eec79d092cf927460ca637213f7a220d6ac474ad7e50a8fb6ff62d8384c1",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 595,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 631,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-03-05",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "8d2ef341acc4f5eb725223cfa918a2a34ab379fd5360685aa31ed2aa9cc06d4d",
+    "sha256": "f462b68f5ed918176cdd07a5a1cd1ced3f7d9be5e6ebb37c84f8f2ed507f6644"
+  }
+}

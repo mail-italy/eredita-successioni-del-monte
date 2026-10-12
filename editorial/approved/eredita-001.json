@@ -1,0 +1,70 @@
+{
+  "article": {
+    "id": "eredita-001",
+    "site": "eredita",
+    "sequence": 1,
+    "area": "Testamenti",
+    "title": "Come cercare un testamento dopo il decesso: registri, notai e documenti",
+    "slug": "come-cercare-un-testamento-dopo-il-decesso-registri-notai-e-documenti",
+    "intent": "Ricerca documentale del testamento senza presumere che il registro comprenda ogni olografo",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/impugnazione-testamento"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 0,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Cercare un testamento dopo il decesso",
+    "description": "Dove cercare un testamento, quali registri consultare e quali documenti conservare prima di ricostruire la successione.",
+    "bodyMarkdown": "Un familiare ricorda che il defunto aveva fatto testamento, ma nessuno sa dove si trovi. La ricerca deve procedere su due piani: gli atti registrati e le carte conservate privatamente. Un risultato negativo del registro non dimostra, da solo, che non esista una scheda olografa.\n\n### Da quale ricerca partire\n\nIl [Registro generale dei testamenti del Ministero della giustizia](https://www.giustizia.it/giustizia/it/mg_3_9_11.page?tab=d) consente di ricercare le iscrizioni relative agli atti di ultima volontà previsti dalla disciplina del servizio. Il certificato indirizza verso gli atti registrati; non sostituisce l'acquisizione del documento e non costituisce un giudizio sulla sua validità.\n\nPer avviare la richiesta servono dati anagrafici esatti. Nome, cognome, luogo e data di nascita e informazioni sul decesso permettono di evitare ricerche riferite a un omonimo. Modalità operative e modulistica vanno controllate nella pagina ministeriale prima dell'invio, soprattutto quando la pratica coinvolge una persona nata all'estero o con variazioni anagrafiche.\n\n### Il documento può essere fuori dai registri\n\nUn testamento scritto a mano può essere conservato in casa o presso una persona di fiducia. Ha quindi senso verificare, con modalità lecite e rispettose della riservatezza, se esistano buste, indicazioni del notaio, ricevute di deposito o precedenti comunicazioni del defunto.\n\nChi partecipa alla ricerca dovrebbe annotare dove e quando è stato rinvenuto un documento e chi ne ha avuto la disponibilità. Questa cronologia non sostituisce la prova dell'autenticità, ma impedisce che il ritrovamento diventi una sequenza di ricordi contraddittori. Non aggiungere annotazioni sull'originale, non separarne i fogli e non correggere eventuali errori.\n\n### Che cosa fare dopo il ritrovamento\n\nL'articolo 620 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) prevede la presentazione dell'olografo al notaio per la pubblicazione da parte di chi ne è in possesso, appena abbia notizia della morte del testatore. Custodire la scheda in attesa che tutti i familiari siano d'accordo può quindi essere una scelta sbagliata.\n\nLa pubblicazione rende conoscibile il contenuto secondo il percorso previsto dalla legge. Rimangono separati i problemi di autenticità, capacità del testatore, interpretazione delle disposizioni e tutela della legittima. Se emergono più documenti, vanno conservati tutti: scegliere autonomamente quello ritenuto più favorevole compromette la ricostruzione.\n\n### Un fascicolo che renda la ricerca controllabile\n\nÈ utile riunire l'esito del registro, i recapiti dei notai contattati, le risposte ricevute e le copie dei documenti rinvenuti. Se il notaio non esercita più, occorre individuare l'archivio competente per gli atti conservati. Le sole frasi riferite da conoscenti vanno indicate come informazioni da verificare, distinguendole dai documenti.\n\nPrima di distribuire beni sulla convinzione che manchi un testamento, questa ricerca permette di chiarire il titolo della successione. Un dubbio sul contenuto o sulla provenienza della scheda può poi essere esaminato nel percorso dedicato all'[impugnazione del testamento](https://ereditaesuccessioni.it/impugnazione-testamento).\n\n### Se la ricerca dà risultati contrastanti\n\nSi immagini che il registro segnali un atto notarile e che, nella stessa settimana, venga trovata una busta con un testo manoscritto. La presenza dell'atto registrato non autorizza a scartare la busta. Occorre acquisire entrambi i documenti e confrontarne date, contenuti e provenienza. Può esserci una revoca, ma anche una disposizione successiva che riguarda soltanto un bene.\n\nUn secondo caso è la risposta negativa accompagnata dal ricordo di un appuntamento dal notaio. L'appuntamento potrebbe aver riguardato una consulenza, un deposito o un atto diverso. Conviene descrivere questo elemento nella richiesta allo studio notarile senza presentarlo come certezza dell'esistenza di un testamento. Un nome annotato nell'agenda è una traccia; il documento acquisito costituisce un elemento di natura differente.\n\n### Evitare ricerche che si ripetono inutilmente\n\nSe più familiari collaborano, un prospetto condiviso può indicare destinatario della richiesta, data, oggetto ed esito. È preferibile scambiare queste informazioni essenziali anziché diffondere subito ogni documento personale del defunto. Si riducono così telefonate duplicate e risposte apparentemente incompatibili riferite, in realtà, a richieste differenti.\n\nQuando un erede vive lontano, una scansione completa serve alla prima consultazione, mentre l'originale deve restare identificabile e custodito. Prima di spedirlo, è opportuno concordare destinatario e modalità di consegna. Il passaggio finale della ricerca consiste nel sapere quali documenti sono stati trovati e quali verifiche restano aperte, senza trasformare l'assenza momentanea di una carta nella prova che non sia mai esistita.",
+    "faqs": [
+      {
+        "question": "Il registro permette di escludere qualsiasi testamento?",
+        "answer": "No. Un olografo custodito privatamente può non risultare dalle registrazioni; l'esito va coordinato con altre ricerche documentali."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 620",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 620. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://www.giustizia.it/giustizia/it/mg_3_9_11.page?tab=d",
+        "title": "Ministero della giustizia, Registro generale dei testamenti",
+        "supports": "Funzione del registro e richiesta dei certificati; informazioni indicizzate consultate il 12 ottobre 2026.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una busta chiusa color avorio accanto a un archivio di cartelle senza scritte e una lente, luce naturale laterale. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Una busta chiusa color avorio accanto a un archivio di cartelle senza scritte e una lente, luce naturale laterale",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-001.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "6b10e034822b300b8e16843d0a3e977d0bad3218e89d3f66b021acabdaf74de8",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 672,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 696,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-10-12",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "920e7b1ac2e59c309b0f31564c295504c5e6f053c1133987688fb11025658289",
+    "sha256": "548233a98299f82e90f9ce2dd19a2e99c12248a648ae12473a6324b8ea84a03b"
+  }
+}

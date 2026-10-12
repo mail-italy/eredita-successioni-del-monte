@@ -1,0 +1,65 @@
+{
+  "article": {
+    "id": "eredita-083",
+    "site": "eredita",
+    "sequence": 83,
+    "area": "Beni e conflitti",
+    "title": "Collezioni ereditate: catalogo, provenienza e stima specialistica",
+    "slug": "collezioni-ereditate-catalogo-provenienza-e-stima-specialistica",
+    "intent": "Inventario di beni seriali e differenze dal valore affettivo",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/gioielli-ereditati"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 164,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Collezioni nell'eredità: inventario e stima",
+    "description": "Come catalogare una raccolta, ricostruirne la provenienza e valutare l'insieme prima di dividerla.",
+    "bodyMarkdown": "Monete, francobolli, libri o oggetti raccolti per decenni possono essere difficili da dividere se nessuno conosce esattamente ciò che esiste. Prima della stima serve un catalogo: senza identificazione, anche un valore elevato rimane impossibile da verificare.\n\nL'[articolo 727 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) richiede, per quanto possibile, di evitare il frazionamento di biblioteche, gallerie e collezioni di importanza storica, scientifica o artistica. L'interesse dell'insieme va quindi considerato insieme al valore dei singoli pezzi.\n\n## Inventariare senza alterare\n\nOgni oggetto dovrebbe avere un numero provvisorio, fotografie e una descrizione essenziale. Per i beni seriali sono utili marca, edizione, misure, materiali e segni identificativi, quando presenti.\n\nPulizie aggressive, riparazioni improvvisate o separazione dagli involucri originali possono ridurre informazioni e valore. È preferibile chiedere prima come conservare il materiale.\n\nIl catalogo deve indicare anche la posizione fisica dei beni e chi li custodisce. Una lista senza possibilità di ritrovarli non risolve il problema.\n\n## Cercare la provenienza\n\nFatture, certificati, corrispondenza con venditori e precedenti perizie possono aiutare a ricostruire acquisti e autenticità. Devono essere collegati al pezzo corretto.\n\nUn documento trovato nella stessa scatola non prova automaticamente che riguardi tutti gli oggetti contenuti. Eventuali dubbi vanno registrati e sottoposti allo specialista.\n\nAnche la proprietà richiede attenzione: alcuni beni potrebbero essere stati affidati al defunto da terzi oppure donati prima della morte.\n\n## Scegliere lo specialista adatto\n\nIl valore di una raccolta numismatica richiede competenze diverse da quello di una biblioteca rara. Il mandato dovrebbe indicare finalità, data e criterio della valutazione.\n\nÈ utile distinguere valore di stima, prezzo richiesto e ricavo prevedibile al netto dei costi di vendita. Commissioni e tempi possono incidere sensibilmente sulla decisione.\n\nSe chi valuta propone anche di acquistare, la situazione va resa trasparente e può essere opportuno un confronto indipendente.\n\n## L'insieme può valere più dei pezzi separati\n\nPrima di distribuire un oggetto a ciascun erede, occorre verificare se la frammentazione comprometta la raccolta. Serie complete, archivi di provenienza e abbinamenti originali possono avere un significato economico e culturale.\n\nQuesto non comporta che un solo erede debba ricevere tutto senza compensare gli altri. Si possono valutare attribuzione con conguaglio, vendita unitaria o altre soluzioni coerenti con i diritti degli interessati.\n\nLa scelta deve partire da una stima dell'insieme e delle alternative.\n\n## Separare preferenze e valori\n\nUn pezzo può avere un ricordo speciale per qualcuno senza essere il più costoso. Raccogliere le preferenze prima di formulare i lotti può facilitare un accordo.\n\nLe attribuzioni vanno però documentate e coordinate con il valore complessivo delle porzioni. Un elenco finale con fotografie e firme riduce l'incertezza su ciò che è stato consegnato.\n\nNella gestione di [gioielli e beni mobili ereditati](https://ereditaesuccessioni.it/gioielli-ereditati), il catalogo è il ponte tra memoria familiare e valutazione. Prima si sa che cosa esiste; poi si decide come preservarlo e dividerlo senza perdere informazioni o valore.\n\n### Catalogare per gruppi senza perdere i singoli pezzi\n\nPer una raccolta ampia si può iniziare con contenitore, categoria e quantità, procedendo poi all'identificazione analitica dei beni più rilevanti. Il metodo deve consentire di ritrovare ogni oggetto e di capire quali parti non siano ancora state esaminate. Una scatola non aperta non dovrebbe essere descritta come priva di valore soltanto perché il catalogo è incompleto.\n\nSe lo specialista esamina campioni, la relazione dovrebbe chiarire il perimetro della verifica. Una stima riferita a pochi pezzi non può essere moltiplicata automaticamente per l'intera raccolta, nella quale stato e rarità possono variare.\n\nQuando si preparano lotti, è utile conservare una versione del catalogo precedente alla separazione. Si potrà così ricostruire l'insieme originario, collegare i documenti di provenienza e controllare quali elementi siano stati attribuiti o venduti. La tracciabilità protegge tanto il valore quanto la trasparenza del riparto.",
+    "faqs": [
+      {
+        "question": "Il valore indicato da un familiare basta per dividere una collezione?",
+        "answer": "Può essere un punto di partenza, ma per beni specialistici servono identificazione, stato, provenienza e un criterio di stima adeguato. Il valore affettivo va discusso separatamente."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 726, 727, 718",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 726, 727, 718. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Una collezione di monete in vassoi ordinati, guanti di cotone e schede di catalogo senza scritte. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Una collezione di monete in vassoi ordinati, guanti di cotone e schede di catalogo senza scritte",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-083.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "f987dd68eb22d5e9bfe80a317aedd1e9df8e07c67bfff5ae0beb9ca1802e2dec",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 605,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 642,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-12-03",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "9f1ea9b860a833e1da3a84d41c47897a915dccf78690fcf8a474fa01b6bb85f4",
+    "sha256": "dd9b1711e59a52f7c666f95be8edce4396bcb0a1edb5c26c0b5c02e713fecdd9"
+  }
+}

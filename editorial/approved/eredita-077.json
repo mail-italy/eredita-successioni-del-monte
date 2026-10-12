@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-077",
+    "site": "eredita",
+    "sequence": 77,
+    "area": "Immobili e divisione",
+    "title": "Chiavi trattenute da un coerede: documentare la richiesta di accesso",
+    "slug": "chiavi-trattenute-da-un-coerede-documentare-la-richiesta-di-accesso",
+    "intent": "Uso del bene comune e prova dell'esclusione",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/conflitti-tra-coeredi"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 152,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Chiavi della casa trattenute da un coerede",
+    "description": "Come verificare i titoli e documentare una richiesta di accesso, distinguendo uso, occupazione e pretese economiche.",
+    "bodyMarkdown": "Se un coerede trattiene tutte le chiavi della casa, gli altri possono trovarsi nell'impossibilità di controllare beni, organizzare visite o usare l'immobile. Prima di reagire materialmente, occorre chiarire i diritti sul bene e documentare la richiesta di accesso.\n\nL'[articolo 1102 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) consente a ciascun partecipante di usare la cosa comune senza impedirne agli altri il pari uso secondo il loro diritto. La situazione deve però essere coordinata con eventuali diritti di abitazione, usufrutto o altri titoli.\n\n## Verificare chi ha diritto a che cosa\n\nLa comproprietà non esaurisce sempre il quadro. Un coniuge superstite può avere diritti specifici; possono esistere una locazione o accordi di godimento da esaminare.\n\nOccorre quindi raccogliere titoli, testamento e informazioni sull'occupazione. La domanda «chi possiede le chiavi?» è diversa dalla domanda «chi ha diritto di abitare o accedere?».\n\nSenza questa distinzione, una richiesta legittima di controllo può essere formulata come se autorizzasse un ingresso illimitato nell'abitazione di un'altra persona.\n\n## Formulare un accesso concreto\n\nUna comunicazione utile indica il motivo: inventariare beni, verificare una perdita, effettuare un sopralluogo tecnico o concordare la gestione. Può proporre date e modalità compatibili con la situazione.\n\nLa richiesta di una copia delle chiavi va motivata e coordinata con i diritti esistenti. Un messaggio offensivo o una minaccia di forzare la porta non aiuta a dimostrare la ragionevolezza della propria posizione.\n\nÈ importante conservare invio, risposta e eventuali appuntamenti non rispettati.\n\n## Documentare l'esclusione\n\nIl fatto che un familiare usi la casa da anni non prova da solo ogni elemento di una pretesa economica. Occorre ricostruire quando gli altri abbiano chiesto di usarla, quali risposte abbiano ricevuto e quale impedimento concreto sia stato opposto.\n\nLe comunicazioni devono essere raccolte in ordine cronologico. Se vi sono testimoni o interventi tecnici mancati, è utile annotarli senza trasformarli in dichiarazioni preconfezionate.\n\nAnche eventuali precedenti accordi gratuiti o tolleranze devono essere considerati.\n\n## Le somme richieste non si calcolano automaticamente\n\nUna domanda di indennità o risarcimento richiede un esame dei presupposti e della prova. Il canone di un annuncio simile non è sufficiente a dimostrare che quella cifra sia dovuta per tutto il periodo di occupazione.\n\nPrima si qualifica la situazione; poi si valuta il criterio economico. Questo evita di avviare una trattativa su importi che non sono ancora sostenuti da un fondamento chiaro.\n\nLa gestione delle spese e dei consumi deve rimanere distinguibile dalla richiesta relativa all'uso.\n\n## Cercare una regola provvisoria\n\nIn attesa della divisione, gli interessati possono concordare accessi, custodia dei beni, sopralluoghi e gestione delle emergenze. L'accordo dovrebbe indicare chi fa cosa e come vengono informati gli altri.\n\nUna soluzione provvisoria non deve essere presentata come rinuncia a diritti ulteriori, salvo che ciò sia effettivamente voluto e valutato.\n\nLa gestione dei [conflitti tra coeredi](https://ereditaesuccessioni.it/conflitti-tra-coeredi) parte da richieste verificabili. Ottenere un accesso ordinato o definire il titolo dell'occupazione è spesso il passaggio necessario prima di discutere vendita, attribuzione e divisione.\n\n### Organizzare un sopralluogo senza anticipare la divisione\n\nUn accesso concordato può indicare partecipanti, scopo e attività consentite, per esempio fotografare lo stato dei locali o identificare gli oggetti. Se un tecnico deve intervenire, è utile precisare il quesito cui dovrà rispondere e chi riceverà la sua relazione.\n\nLa partecipazione al sopralluogo non dovrebbe essere confusa con il consenso a portar via beni o a iniziare lavori. Eventuali consegne vanno documentate separatamente, con oggetti e destinatari identificabili. Anche le fotografie devono rispettare gli spazi e i dati personali di chi vi abita.\n\nUn verbale essenziale può registrare ciò che è stato verificato e ciò che non è stato accessibile. Permette di proseguire la discussione su fatti comuni, senza trasformare ogni visita in un nuovo conflitto sulle intenzioni dei presenti.",
+    "faqs": [
+      {
+        "question": "Posso cambiare la serratura da solo perché sono coerede?",
+        "answer": "Prima occorre verificare diritti di godimento, possesso e situazione concreta. Una reazione materiale può aggravare il conflitto; è preferibile documentare l'accesso richiesto e valutare il rimedio appropriato."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 1102, 713",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 1102, 713. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Due mazzi di chiavi su lati opposti di una porta interna chiusa, senza persone visibili. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione. Carte e planimetrie senza testo identificativo. Scena singola di fotografia editoriale, proporzioni credibili, non deve sembrare una sede dello studio né un suo immobile reale.",
+      "alt": "Due mazzi di chiavi su lati opposti di una porta interna chiusa, senza persone visibili",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-077.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "7f915133c6bf38e2093783d1e8eeef86c253ea83ee38dd36e20d40192d57e169",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 605,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 641,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-02-19",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "1f4d3dafac98c5e1c891df995c3acf7681efe07d837eedf81cab04fad250108a",
+    "sha256": "227a7c38ae18c33ccdcba4d4a20a82e451de68076eac23f53398f57ccca1cef0"
+  }
+}

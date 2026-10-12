@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-039",
+    "site": "eredita",
+    "sequence": 39,
+    "area": "Accettazione e debiti",
+    "title": "Accettazione beneficiata: vendere un bene richiede una verifica preventiva",
+    "slug": "accettazione-beneficiata-vendere-un-bene-richiede-una-verifica-preventiva",
+    "intent": "Amministrazione e alienazione dei beni dell'eredità beneficiata",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/beneficio-inventario"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 76,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Vendere con beneficio d'inventario",
+    "description": "Prima di vendere un bene dell'eredità beneficiata occorre controllare autorizzazioni, gestione e conseguenze dell'atto.",
+    "bodyMarkdown": "L'erede ha accettato con beneficio d'inventario e trova un acquirente per un immobile. Pensa che vendere sia sempre consentito perché il ricavato servirà ai creditori. La destinazione utile del denaro non elimina i controlli sugli atti di disposizione.\n\n### Il beneficio comporta una gestione regolata\n\nL'articolo 490 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) tiene distinto il patrimonio ereditario da quello personale e definisce gli effetti della tutela. Questa separazione non equivale a libertà di amministrazione senza formalità.\n\nL'articolo 493 prevede conseguenze per alienazioni, pegni, ipoteche e transazioni compiuti senza le autorizzazioni e le forme richieste. La scelta di vendere deve quindi essere verificata prima di assumere impegni vincolanti.\n\n### Non considerare soltanto il rogito finale\n\nAnche una proposta accettata, un preliminare o un accordo transattivo possono richiedere attenzione per i loro effetti. È rischioso firmare oggi pensando di ottenere l'autorizzazione soltanto prima del trasferimento definitivo.\n\nAl professionista vanno mostrati tutti i documenti proposti dall'acquirente, comprese clausole su caparra, penali, scadenze e condizioni. Il percorso autorizzativo deve essere coordinato con la trattativa, non aggiunto come formalità marginale.\n\n### Giustificare l'operazione\n\nUna stima attendibile, i costi di conservazione e il quadro dei debiti permettono di spiegare perché l'alienazione sia utile. Se il bene produce reddito o è occupato, occorre descriverne anche la situazione concreta.\n\nIl prezzo non va confrontato soltanto con le aspettative degli eredi. Si devono considerare tempi, oneri, garanzie e modalità di pagamento. Un'offerta alta ma condizionata a eventi incerti può avere un valore operativo diverso da una proposta immediatamente eseguibile.\n\n### Tracciare il ricavato\n\nIl denaro ottenuto resta collegato all'amministrazione dell'eredità e non dovrebbe essere confuso con disponibilità personali. Incasso, costi della vendita e successivi pagamenti devono poter essere ricostruiti.\n\nLa gestione dei creditori segue regole proprie e non si risolve automaticamente con la vendita. È necessario verificare eventuali opposizioni, prelazioni e procedura di liquidazione applicabile.\n\nPrima dell'operazione servono dichiarazione beneficiata, inventario, titolo del bene, quadro dei debiti e bozza degli impegni. La pagina sul [beneficio d'inventario](https://ereditaesuccessioni.it/beneficio-inventario) aiuta a mantenere la tutela durante la gestione, evitando che una vendita economicamente sensata produca conseguenze giuridiche non considerate.\n\n### Una proposta con una scadenza ravvicinata\n\nUn acquirente può chiedere di accettare entro pochi giorni, allegando una caparra e presentando l'offerta come un'occasione irripetibile. La convenienza economica non consente di saltare la verifica dei poteri del venditore beneficiato. Prima di firmare occorre comprendere quali obblighi sorgano già dalla proposta e se la sua formulazione sia compatibile con gli adempimenti necessari.\n\nLa soluzione non consiste nell'aggiungere autonomamente una formula generica sull'autorizzazione. Condizioni, termini, restituzione delle somme e conseguenze del mancato perfezionamento devono essere coordinati nel documento. Un appuntamento per visitare il bene e un impegno vincolante alla vendita sono passaggi diversi; chi tratta dovrebbe sapere chiaramente a quale fase appartenga ogni documento che riceve.\n\n### Preparare la decisione sul bene concreto\n\nOltre al prezzo offerto, possono rilevare costi di conservazione, stato dell'immobile, difficoltà di utilizzo e situazione delle altre attività ereditarie. Questi elementi vanno documentati senza costruire a posteriori una giustificazione della vendita. Un preventivo di lavori o una relazione tecnica possono chiarire perché mantenere il bene comporti determinati oneri.\n\nAnche la descrizione dell'oggetto deve essere precisa: pertinenze, quote, occupazione e diritti di terzi possono modificare profondamente il valore della proposta. Vendere “la casa” non è un'informazione sufficiente se nell'asse è compresa soltanto una quota.\n\nInfine, il percorso del denaro deve essere previsto prima del trasferimento. Indicazione del conto, registrazione degli incassi e documentazione dei successivi impieghi permettono di seguire il ricavato. L'ottenimento dell'autorizzazione alla vendita non rappresenta un'autorizzazione indistinta a usare il prezzo per qualsiasi pagamento o esigenza personale dell'erede: la gestione successiva resta soggetta alle regole proprie dell'eredità beneficiata.",
+    "faqs": [
+      {
+        "question": "L'accettazione beneficiata permette di vendere liberamente per pagare i debiti?",
+        "answer": "No. Alienazioni e altri atti sui beni richiedono le verifiche e le autorizzazioni previste; l'articolo 493 disciplina la decadenza."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 490, 493",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 490, 493. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Chiave di casa in una scatola aperta accanto a una cartella autorizzazioni senza testo, ambiente professionale neutro. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutti i documenti e le cartelline devono essere completamente privi di stemmi, emblemi, sigilli, ceralacca, intestazioni e simboli ufficiali. Fotografia essenziale con sfondo pulito, varia il punto di vista. Nessuna scritta, neppure sulle chiavi.",
+      "alt": "Chiave di casa in una scatola aperta accanto a una cartella autorizzazioni senza testo, ambiente professionale neutro",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-039.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "6eafdda1251d52af8fe15477c3814fab8572a6a711ba02b8d39e8f8c6b265419",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 599,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 628,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-12-11",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "0820d3fc57182552eb0a2c2887eee1df15cb709fd8a188f2d5901d276d79af1a",
+    "sha256": "e72cab79aa01799e16bd4d5ea5718fd30f406842005431037c6c15c62253f0c1"
+  }
+}

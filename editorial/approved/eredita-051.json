@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-051",
+    "site": "eredita",
+    "sequence": 51,
+    "area": "Legittima e donazioni",
+    "title": "Collazione e riduzione: quale problema risolve ciascuno strumento",
+    "slug": "collazione-e-riduzione-quale-problema-risolve-ciascuno-strumento",
+    "intent": "Confronto fra due rimedi con oggetto diverso",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/collazione-e-donazioni"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 100,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Collazione e riduzione: differenze",
+    "description": "Quali domande risolvono collazione e riduzione e perché una stessa donazione può richiedere due verifiche diverse.",
+    "bodyMarkdown": "Una donazione fatta in vita può diventare rilevante nella successione per ragioni differenti. Può dover essere considerata nella divisione tra determinati coeredi oppure avere leso una quota riservata. Chiamare entrambe le questioni «restituzione delle donazioni» nasconde la differenza tra collazione e riduzione.\n\nLa [collazione prevista dall'articolo 737 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) riguarda i figli, i loro discendenti e il coniuge che concorrono alla successione, nei termini stabiliti dalla norma. La riduzione, invece, tutela la legittima contro attribuzioni che eccedono ciò di cui il defunto poteva disporre.\n\n## La domanda della collazione\n\nLa collazione guarda al rapporto tra i soggetti tenuti al conferimento e gli altri coeredi. Serve a considerare determinate liberalità ricevute dal defunto nel contesto della divisione. Non ogni beneficiario di una donazione è per questo obbligato alla collazione.\n\nOccorre verificare chi concorra effettivamente alla successione, quale attribuzione abbia ricevuto e se esista una dispensa. Anche una liberalità indiretta può richiedere esame: la mancanza di un atto chiamato «donazione» non chiude la questione.\n\nIl modo in cui il valore viene considerato dipende dalle regole applicabili al bene. «Riportare» una donazione non significa sempre riconsegnare materialmente l'oggetto.\n\n## La domanda della riduzione\n\nPer la riduzione bisogna prima determinare la quota riservata e verificare se sia stata lesa. L'articolo 556 richiede una ricostruzione che consideri beni al momento della morte, debiti e donazioni rilevanti. Il solo confronto tra quanto hanno ricevuto due fratelli non basta.\n\nUna differenza di valore può rientrare nella quota disponibile. Al contrario, una lesione può emergere anche quando la liberalità è stata fatta a una persona estranea ai rapporti di collazione.\n\nLa riduzione richiede inoltre di verificare soggetti legittimati, condizioni, termini e ordine delle attribuzioni da aggredire. Non deriva automaticamente dalla presentazione della dichiarazione fiscale di successione.\n\n## Perché i due strumenti possono coesistere\n\nUna stessa donazione può essere rilevante per entrambi i problemi, ma con funzioni diverse. L'analisi deve mantenere separati il conteggio divisionale e il calcolo della legittima, evitando di conteggiare due volte lo stesso valore senza giustificazione.\n\nUn esempio: un figlio ha ricevuto una casa e gli altri discutono il riparto dei beni rimasti. Prima si verifica il regime della donazione e della collazione; se qualcuno lamenta una lesione, occorre anche ricostruire la massa di calcolo della quota riservata.\n\nLa conclusione può essere che il bene incida sul riparto, pur senza una lesione; oppure che una dispensa dalla collazione non impedisca una contestazione per lesione oltre i limiti consentiti.\n\n## I documenti che cambiano il risultato\n\nServono gli atti di donazione, i testamenti, la composizione familiare, l'elenco dei beni rimasti e le passività. Per i trasferimenti indiretti occorrono movimenti bancari e documenti dell'operazione finanziata.\n\nLe valutazioni devono indicare il momento al quale si riferiscono. Un prezzo storico e una stima attuale non sono intercambiabili; il criterio dipende dall'operazione giuridica da compiere.\n\nNella consulenza su [collazione e donazioni](https://ereditaesuccessioni.it/collazione-e-donazioni), formulare due domande separate aiuta a scegliere il rimedio corretto: come va diviso il patrimonio tra questi coeredi, e qualcuno ha ricevuto meno della quota che la legge gli riserva?\n\n### Chiedere che ogni conteggio indichi la sua funzione\n\nUna tabella può essere aritmeticamente corretta e rispondere alla domanda sbagliata. Se il documento confronta le quote divisionali, deve dichiararlo; se ricostruisce una possibile lesione, deve mostrare massa di riferimento e attribuzioni già considerate per quel legittimario.\n\nQuando si riceve una proposta, è utile chiedere da quale prospetto derivi ciascun conguaglio. La stessa casa può comparire nelle informazioni di entrambi i calcoli senza essere dovuta due volte. Rendere visibile questo passaggio evita che un accordo includa una duplicazione soltanto perché sono stati sommati risultati prodotti con criteri differenti. Il confronto diventa così verificabile anche da chi non ha predisposto i conteggi iniziali.",
+    "faqs": [
+      {
+        "question": "Ogni donazione soggetta a collazione lede la legittima?",
+        "answer": "No. La collazione riguarda determinati rapporti tra coeredi; la lesione richiede un calcolo del patrimonio e della quota riservata. Sono verifiche collegate ma diverse."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 556, 737, 555, 564",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 556, 737, 555, 564. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Due gruppi distinti di piccoli blocchi di legno su un tavolo, uno ricomposto e uno riequilibrato. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione: eventuali carte devono essere anonime. Composizione semplice e visivamente diversa per questo specifico tema, senza persone riconoscibili né testo visibile.",
+      "alt": "Due gruppi distinti di piccoli blocchi di legno su un tavolo, uno ricomposto e uno riequilibrato",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-051.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "4f60b4401f2821190f5fbd4fc38d67f182956332396231ad99d177a7a02fc3c1",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 608,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 640,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-10-18",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "906fc3165a5876b1731e5b3edd9bcf92a6882e047848772f2372c21245ecfd35",
+    "sha256": "09f36c72d17be31c5ff80754fb264b4b1324ad905226b42c380422d55abfce24"
+  }
+}

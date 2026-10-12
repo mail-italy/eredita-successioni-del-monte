@@ -1,0 +1,65 @@
+{
+  "article": {
+    "id": "eredita-099",
+    "site": "eredita",
+    "sequence": 99,
+    "area": "Successioni internazionali",
+    "title": "Eredità internazionale: separare imposte e regole civili",
+    "slug": "eredita-internazionale-separare-imposte-e-regole-civili",
+    "intent": "Esclusione della fiscalità dal regolamento successorio",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successioni-internazionali"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 196,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Imposte e successione internazionale",
+    "description": "Perché legge civile e tassazione richiedono verifiche distinte e un calendario coordinato tra i Paesi coinvolti.",
+    "bodyMarkdown": "Una successione internazionale può essere regolata civilmente da una legge e richiedere adempimenti fiscali in più Paesi. Confondere questi piani porta a due errori: credere che una scelta testamentaria determini da sola le imposte oppure che una dichiarazione fiscale risolva chi abbia diritto ai beni.\n\nL'[articolo 1 del regolamento UE 650/2012](https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650) esclude dal suo ambito la materia fiscale, doganale e amministrativa. Il regolamento non crea quindi un'imposta successoria europea uniforme.\n\n## La domanda civile\n\nSul piano civile occorre stabilire beneficiari, quote, poteri, accettazione e altri effetti della trasmissione, secondo la disciplina pertinente. Residenza abituale del defunto ed eventuale scelta di legge possono avere un ruolo centrale.\n\nIl certificato successorio europeo può attestare determinati elementi, ma non sostituisce automaticamente dichiarazioni o pagamenti fiscali. Il suo scopo deve essere mantenuto distinto.\n\nAnche i diritti su beni registrati richiedono il coordinamento con le formalità locali.\n\n## La domanda tributaria\n\nPer il fisco devono essere esaminati collegamenti, beni, beneficiari e regole di ciascun Paese interessato. Non è prudente dedurre il risultato dalla sola cittadinanza o dal luogo in cui viene firmata una divisione.\n\nLe eventuali convenzioni e i meccanismi contro la doppia imposizione richiedono una verifica specifica. Non tutti i casi hanno la stessa copertura e non ogni imposta estera è automaticamente recuperabile.\n\nQuesto articolo non propone aliquote o franchigie: quei dati devono essere verificati alla data e nella giurisdizione pertinenti.\n\n## Preparare un inventario per Paese\n\nUn prospetto utile indica bene, intestazione, ubicazione, valore documentato e debiti collegati. Per conti e investimenti vanno identificati intermediario e prodotto; per immobili servono i dati del registro locale.\n\nLe valutazioni possono seguire criteri diversi a seconda dell'adempimento. Una stima usata per negoziare una divisione non va copiata automaticamente nella dichiarazione fiscale.\n\nÈ opportuno conservare la fonte e la data di ogni valore utilizzato.\n\n## Un calendario con scadenze autonome\n\nLa ricerca dei testamenti, l'accettazione e la dichiarazione fiscale possono procedere su binari diversi. Aspettare che sia definito ogni conflitto civile può far scadere un adempimento tributario.\n\nIl calendario dovrebbe indicare per ciascun Paese scadenza, responsabile, documento necessario e stato della pratica. Le date ancora da verificare devono essere visibili.\n\nSe servono proroghe o dichiarazioni integrative, la loro disponibilità va accertata secondo le regole locali, senza presumere che esistano ovunque.\n\n## Coordinare i professionisti\n\nAvvocato, notaio e consulente fiscale possono lavorare su parti differenti del caso. Un fascicolo comune evita che ciascuno utilizzi una diversa composizione del patrimonio o una diversa ricostruzione delle persone coinvolte.\n\nLe comunicazioni dovrebbero distinguere fatti accertati e questioni ancora aperte. Un'ipotesi sulla legge civile non deve essere trasmessa come una conclusione fiscale già verificata.\n\nNelle [successioni internazionali](https://ereditaesuccessioni.it/successioni-internazionali), il risultato da cercare è un coordinamento dei due piani. Sapere chi eredita e sapere quali adempimenti tributari siano richiesti sono risposte complementari, che devono essere costruite entrambe senza sostituirsi l'una all'altra.\n\n### Usare valori con una funzione dichiarata\n\nNello stesso fascicolo possono comparire il saldo bancario al decesso, una stima per la vendita e un valore richiesto da un'amministrazione fiscale. È utile conservare ciascuno con data, valuta, finalità e fonte, senza sostituirli con un unico numero apparentemente definitivo.\n\nSe un consulente chiede una conversione monetaria o un dato aggiuntivo, il criterio utilizzato deve essere registrato. Una cifra corretta per un adempimento può non esserlo per un altro. Il prospetto comune dovrebbe quindi collegare ogni valore alla pratica che lo utilizza.\n\nQuando emergono nuovi beni o debiti, tutti i professionisti interessati devono conoscere l'aggiornamento pertinente. Correggere soltanto la bozza di divisione lasciando invariato l'inventario condiviso può produrre comunicazioni incoerenti. La distinzione tra piano civile e fiscale richiede coordinamento dei fatti, anche quando restano differenti le regole con cui quei fatti vengono valutati.",
+    "faqs": [
+      {
+        "question": "Scegliere la legge italiana nel testamento significa pagare imposte soltanto in Italia?",
+        "answer": "No. La legge successoria civile non determina da sola la tassazione. Devono essere esaminate le norme fiscali dei Paesi coinvolti e le eventuali convenzioni applicabili."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650",
+        "title": "Regolamento UE 650/2012, articolo 1 e considerando 10",
+        "supports": "Esclusione della materia fiscale doganale e amministrativa dal regolamento.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Due fascicoli distinti, uno con documenti familiari e uno con una calcolatrice, su una mappa internazionale neutra. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Due fascicoli distinti, uno con documenti familiari e uno con una calcolatrice, su una mappa internazionale neutra",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-099.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "ab739ae0dbb7335edc6e865f828935970b1a8aee9f5572f50b3eb399d95fe1aa",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 603,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 640,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-04-04",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "83145ff7c3ea7f57f1d29e25c4ce08997ab6faf279cf0e521151b883ed0d0d22",
+    "sha256": "3cb93fe14706cfadc7d976cf2d5bd739bb381447120c714bd29fd82f69426b40"
+  }
+}

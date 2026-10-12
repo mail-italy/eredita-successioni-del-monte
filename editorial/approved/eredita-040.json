@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-040",
+    "site": "eredita",
+    "sequence": 40,
+    "area": "Accettazione e debiti",
+    "title": "Pagare i creditori dell'eredità beneficiata: evitare pagamenti disordinati",
+    "slug": "pagare-i-creditori-dell-eredita-beneficiata-evitare-pagamenti-disordinati",
+    "intent": "Gestione delle passività dopo il beneficio",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/beneficio-inventario"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 78,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Creditori dell'eredità beneficiata",
+    "description": "Come ordinare richieste e pagamenti nell'eredità beneficiata senza confondere priorità, disponibilità e procedure.",
+    "bodyMarkdown": "Dopo l'accettazione beneficiata arrivano richieste dalla banca, dal condominio e da un fornitore. L'erede vorrebbe chiudere subito quelle più insistenti. Prima di pagare occorre capire quale procedura sia applicabile e se esistano opposizioni o preferenze da rispettare.\n\n### Il quadro normativo del pagamento\n\nGli articoli 495 e 498 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) distinguono situazioni differenti nella soddisfazione di creditori e legatari. La presenza di opposizione può comportare il passaggio alla liquidazione nell'interesse di tutti.\n\nIl beneficio, disciplinato dall'articolo 490, non è dunque un semplice tetto da confrontare con ogni singola fattura. Richiede che l'amministrazione mantenga la separazione e segua il percorso previsto.\n\n### Costruire un elenco verificabile\n\nPer ciascuna pretesa servono creditore, titolo, importo, scadenza, eventuale garanzia e documenti ricevuti. È utile distinguere il debito riconosciuto da quello contestato o ancora da verificare.\n\nUna lettera di sollecito non dimostra da sola ogni componente dell'importo. Capitale, interessi, spese e altri accessori devono essere leggibili. Anche il pagamento già eseguito dal defunto va controllato per evitare duplicazioni.\n\n### Opposizioni e diritti di preferenza\n\nLe comunicazioni formali devono essere conservate con prova della data di ricezione. La loro qualificazione può incidere sugli adempimenti e sui termini. Non vanno archiviate come semplici solleciti senza un esame.\n\nGaranzie e privilegi richiedono una valutazione giuridica: il creditore più anziano nella cronologia non è necessariamente quello da soddisfare per primo. Le regole di liquidazione non possono essere sostituite da un accordo informale con chi accetta una riduzione immediata.\n\n### Pagamenti e rendiconto\n\nOgni uscita dovrebbe essere collegata al titolo, all'autorizzazione o al percorso applicabile e al mezzo di pagamento. L'uso di denaro personale e quello di denaro ereditario vanno distinti, così come eventuali anticipazioni e rimborsi.\n\nSe il patrimonio sembra insufficiente, è ancora più importante evitare pagamenti selettivi improvvisati. La fotografia dell'attivo deve includere crediti e beni da liquidare, senza confondere disponibilità attuale sul conto e valore complessivo dell'asse.\n\nIl servizio sul [beneficio d'inventario](https://ereditaesuccessioni.it/beneficio-inventario) consente di organizzare la gestione dei debiti dopo l'accettazione. La tutela non termina con la dichiarazione: prosegue attraverso scelte documentate e coerenti fino alla chiusura dell'amministrazione.\n\n### Controllare le richieste prima di ordinarle\n\nDue fatture possono riguardare lo stesso intervento, oppure una può essere stata sostituita da una nota di credito. Inserire entrambe nel totale dei debiti produce una falsa rappresentazione del passivo. Per ogni richiesta conviene confrontare contratto, documento contabile, pagamenti già eseguiti e corrispondenza. La verifica non autorizza a ignorare ogni creditore, ma permette di sapere quali somme siano documentate e quali contestate.\n\nUn prospetto dovrebbe rendere visibili anche garanzie dichiarate, eventuali procedure in corso e natura della pretesa. Mettere una fattura commerciale e un credito assistito da garanzia nella stessa lista cronologica non dimostra che possano essere trattati allo stesso modo. L'ordine con cui arrivano le telefonate non è un criterio giuridico di soddisfacimento.\n\n### Poca liquidità e patrimonio insufficiente sono problemi diversi\n\nL'asse può possedere un immobile e avere poco denaro sul conto, oppure presentare un passivo superiore al valore complessivo delle attività. Le due situazioni richiedono valutazioni differenti. Nel primo caso occorre comprendere come rendere disponibili risorse nel rispetto delle regole; nel secondo emerge anche il problema della distribuzione di un patrimonio insufficiente.\n\nPrima di promettere pagamenti è quindi necessario considerare il quadro complessivo, comprese le posizioni dei legatari quando pertinenti. Un accordo informale con il creditore più insistente può incidere sugli altri rapporti e sulla regolarità della gestione.\n\nOgni pagamento effettivamente eseguito dovrebbe essere collegato alla posizione cui si riferisce, con causale e quietanza coerenti. Se interviene denaro personale dell'erede, tale provenienza va registrata separatamente. La contabilità serve così a ricostruire le operazioni, senza confondere un'anticipazione, un pagamento ereditario e una spesa personale: distinzioni che diventano essenziali quando qualcuno chiede il rendiconto.",
+    "faqs": [
+      {
+        "question": "Nell'eredità beneficiata si paga semplicemente il primo creditore che telefona?",
+        "answer": "La legge disciplina tempi, opposizioni e diritti di preferenza. L'ordine operativo non può essere deciso soltanto in base alla pressione del richiedente."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 490, 495, 498, 503",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 490, 495, 498, 503. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Richieste di pagamento suddivise in cartelle e un registro delle scadenze senza testo leggibile, tavolo ordinato. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutti i documenti e le cartelline devono essere completamente privi di stemmi, emblemi, sigilli, ceralacca, intestazioni e simboli ufficiali. Fotografia essenziale con sfondo pulito, varia il punto di vista. Nessuna scritta, neppure sulle chiavi.",
+      "alt": "Richieste di pagamento suddivise in cartelle e un registro delle scadenze senza testo leggibile, tavolo ordinato",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-040.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "87d3df3ccb463fc4bb2a5e646e316371bf521611f4f641f36cd860600bf92831",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 608,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 640,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-12-27",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "1a6388efc48e101a48d5f39048b0e8929a4741c39b3d64e12abe780aa0fe3304",
+    "sha256": "634fd997b46b4764462aee485994794111575ba7167b0c7ca7f9d6d231c70fc7"
+  }
+}

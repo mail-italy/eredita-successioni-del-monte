@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-003",
+    "site": "eredita",
+    "sequence": 3,
+    "area": "Testamenti",
+    "title": "Due testamenti ritrovati: come leggere revoche e clausole compatibili",
+    "slug": "due-testamenti-ritrovati-come-leggere-revoche-e-clausole-compatibili",
+    "intent": "Coordinamento cronologico di più schede testamentarie",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/testamento"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 4,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Due testamenti: revoche e compatibilità",
+    "description": "Come confrontare due testamenti ritrovati, ordinare le date e verificare quali disposizioni possano coesistere.",
+    "bodyMarkdown": "In un cassetto viene trovato un testamento; qualche settimana dopo ne emerge un altro, con una data successiva. Non basta scegliere il più recente e archiviare il primo. La legge distingue la revoca espressa dall'incompatibilità tra singole disposizioni: alcuni contenuti precedenti possono continuare a rilevare.\n\n### Raccogliere i testi interi\n\nIl confronto richiede tutte le schede, comprese eventuali aggiunte e clausole apparentemente secondarie. Per ciascuna vanno annotati data dichiarata, forma, luogo di conservazione, persona che l'ha rinvenuta e pubblicazione eventualmente già eseguita.\n\nUna trascrizione informale può nascondere una negazione, un rinvio o una correzione. Occorre quindi partire da originali e copie complete, conservando separatamente le note di lavoro. Anche l'autenticità e la validità formale devono essere controllate: la sola presenza di una data successiva non rende efficace qualsiasi foglio.\n\n### Cercare prima una revoca espressa\n\nGli articoli 679 e 680 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) tutelano la revocabilità del testamento e disciplinano la revoca espressa. Una frase riferita oralmente ai familiari non va equiparata, senza ulteriori verifiche, a un atto revocatorio conforme alla legge.\n\nLa clausola può revocare tutto il documento precedente oppure soltanto alcune disposizioni. Questa differenza incide, per esempio, sui legati, sulla nomina dell'esecutore e sugli oneri che il nuovo testo non ripete. Non si può presumere che ogni omissione sia una cancellazione intenzionale.\n\n### Verificare l'incompatibilità disposizione per disposizione\n\nL'articolo 682 stabilisce che il testamento posteriore privo di revoca espressa elimina nelle schede precedenti le disposizioni incompatibili. Si deve quindi verificare se due attribuzioni possano convivere giuridicamente, tenendo conto del complesso della volontà testamentaria.\n\nUn metodo di lavoro utile è una tabella con quattro colonne: disposizione anteriore, disposizione successiva, bene o quota interessata, dubbio interpretativo. La tabella non decide il diritto, ma rende visibile il punto di contrasto. Evita che una divergenza su un immobile faccia perdere di vista altri lasciti non coinvolti.\n\n### Gli effetti patrimoniali vanno ricostruiti dopo\n\nUna volta individuate le disposizioni efficaci, occorre confrontarle con i beni esistenti al decesso e con la posizione dei legittimari. Il testatore può avere venduto un bene, modificato un investimento o compiuto donazioni tra una scheda e l'altra. I testi non possono essere letti come fotografie immobili del patrimonio.\n\nSe i familiari concordano su una lettura, è comunque opportuno verificarne la sostenibilità prima di sottoscrivere trasferimenti o quietanze. Se dissentono, la controversia va circoscritta alle clausole effettivamente in conflitto, preservando i documenti. La [consulenza sul testamento](https://ereditaesuccessioni.it/testamento) riguarda anche questa fase interpretativa, non soltanto l'impugnazione dell'intero atto.\n\n### Un esempio di confronto senza conclusioni affrettate\n\nNel primo documento il testatore attribuisce un oggetto a un amico e dispone del patrimonio residuo a favore dei figli. Nel secondo assegna una somma a un'associazione, senza richiamare espressamente la scheda anteriore. Prima di affermare che l'amico non riceverà più nulla, bisogna verificare se le disposizioni siano compatibili e quale portata abbia il nuovo testo.\n\nIl problema cambia se entrambi i documenti assegnano la stessa casa a destinatari differenti. Qui il conflitto riguarda un cespite preciso, ma occorre comunque leggere eventuali condizioni, sostituzioni e indicazioni temporali. La tabella di confronto deve riportare le parole utilizzate, senza sostituirle con una sintesi che anticipi la soluzione.\n\n### Controllare anche ciò che è già stato eseguito\n\nLa scoperta della seconda scheda può avvenire quando un bene è stato consegnato o quando una banca ha liquidato una somma. Questi fatti devono essere documentati indicando destinatario, data, importo e titolo dichiarato. Non è prudente compensare informalmente le differenze con altri beni prima di aver ricostruito il quadro.\n\nUna comunicazione neutra agli interessati può servire a segnalare il ritrovamento e a condividere una copia, preservando l'originale per gli adempimenti dovuti. Non dovrebbe invece annunciare come definitiva l'esclusione di qualcuno basandosi soltanto sulla data. Se il nuovo documento cambia il titolo su cui si fondavano attività già compiute, la valutazione deve comprendere quelle attività, oltre alla lettura delle due schede.",
+    "faqs": [
+      {
+        "question": "Il testamento più recente cancella sempre ogni disposizione precedente?",
+        "answer": "No. Se manca una revoca espressa, l'articolo 682 elimina le disposizioni precedenti incompatibili con quelle successive."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 679, 680, 682",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 679, 680, 682. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Due buste di epoche diverse e due fogli sovrapposti senza testo leggibile, segnalibri di colori sobri. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Due buste di epoche diverse e due fogli sovrapposti senza testo leggibile, segnalibri di colori sobri",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-003.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "3217add3dd16b227f4c87966edf87866824d702b243eccbc13205c3dbda3e729",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 633,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 658,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-11-03",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "7fb5fd6300e8a4edca6ec621dcdc268d3b3c7d223ff7b6b5b44a324df3851e67",
+    "sha256": "4a937ff3986c3c6de780ce19589c29aca7415d5c197dce9dba29cc942606fe4c"
+  }
+}

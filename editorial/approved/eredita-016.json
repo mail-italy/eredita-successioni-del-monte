@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-016",
+    "site": "eredita",
+    "sequence": 16,
+    "area": "Testamenti",
+    "title": "Sostituzione testamentaria: quando il beneficiario indicato non eredita",
+    "slug": "sostituzione-testamentaria-quando-il-beneficiario-indicato-non-eredita",
+    "intent": "Lettura della clausola di sostituzione ordinaria",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/testamento"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 30,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Sostituzione nel testamento",
+    "description": "Che cosa verificare quando il beneficiario indicato non può o non vuole ereditare e il testamento prevede un sostituto.",
+    "bodyMarkdown": "Il testamento indica un beneficiario e aggiunge un altro nome “se il primo non potrà o non vorrà accettare”. La clausola può evitare un vuoto nella destinazione del patrimonio, ma deve essere letta prima di applicare automaticamente rappresentazione o accrescimento.\n\n### La sostituzione ordinaria\n\nL'articolo 688 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) consente al testatore di sostituire all'erede istituito un'altra persona quando il primo non possa o non voglia accettare. La norma disciplina anche il caso in cui sia stato espresso uno soltanto di questi eventi, salvo diversa volontà risultante dal testamento.\n\nLa prima domanda è quindi quale ipotesi il documento contempli. Premorienza, rinuncia e altre situazioni che impediscano l'acquisto non devono essere confusi senza leggere la clausola e ricostruire i fatti.\n\n### Individuare il beneficiario e il momento\n\nPer ogni persona indicata occorrono dati anagrafici e informazioni sulla sua posizione alla data di apertura della successione. Una rinuncia va documentata con l'atto pertinente; una semplice dichiarazione familiare di disinteresse non produce necessariamente lo stesso effetto.\n\nSe il primo chiamato è morto dopo il testatore senza aver deciso, il problema può coinvolgere la trasmissione del diritto di accettare. Non equivale automaticamente alla morte precedente all'apertura della successione. La sequenza cronologica è perciò parte del ragionamento giuridico.\n\n### Coordinare la clausola con il resto\n\nLa rappresentazione ha presupposti propri, richiamati dagli articoli 467 e seguenti. La presenza di una sostituzione testamentaria richiede di verificare quale regola operi nel caso, anziché attribuire subito la quota ai discendenti del primo destinatario.\n\nVanno inoltre lette eventuali condizioni, oneri e disposizioni sui beni residui. L'articolo 690 disciplina gli obblighi del sostituito rispetto a quelli imposti all'istituito, con le eccezioni previste. Il subentro non è quindi soltanto un cambio di nome nella tabella delle quote.\n\n### Preparare il confronto\n\nIl fascicolo dovrebbe comprendere tutti i testamenti, le informazioni sui decessi, gli atti di rinuncia e le eventuali accettazioni. Una tabella cronologica permette di mostrare quando ogni evento si è verificato e quale clausola si ritenga attivata.\n\nPrima di inviare alla banca o al notaio un elenco definitivo degli aventi diritto, è opportuno risolvere questi passaggi. La [pagina sul testamento](https://ereditaesuccessioni.it/testamento) collega l'interpretazione delle sostituzioni alla ricostruzione completa della chiamata, evitando di trasformare un meccanismo condizionato in un automatismo.\n\n### Tre date che non possono essere scambiate\n\nUn beneficiario può morire prima del testatore, sopravvivergli e morire prima di accettare, oppure rinunciare dopo l'apertura della successione. Nella conversazione familiare queste situazioni vengono talvolta riassunte con “non ha ereditato”, ma il percorso giuridico può cambiare.\n\nLa cronologia dovrebbe quindi indicare apertura della successione, eventuale atto di accettazione o rinuncia e successivo decesso del chiamato. Se un fatto non è ancora documentato, è preferibile segnalarlo come da verificare. Una tabella costruita su date presunte può portare a identificare male gli aventi diritto.\n\n### La clausola deve individuare una persona riconoscibile\n\nUna sostituzione può contenere il nome del destinatario oppure un riferimento familiare. Occorre verificare a chi si riferisca il testo, considerando la situazione descritta dal testatore. Se esistono omonimi o rapporti familiari cambiati nel tempo, i dati anagrafici e la storia documentata diventano particolarmente utili.\n\nAnche il numero dei sostituiti e il rapporto fra le rispettive attribuzioni richiedono lettura. Non è corretto distribuire automaticamente in parti uguali una quota solo perché la clausola menziona più persone senza esaminare il resto della scheda.\n\n### Oneri e documenti da trasmettere\n\nIl sostituito deve poter conoscere non soltanto il vantaggio prospettato, ma anche gli obblighi che possono accompagnarlo. Se l'istituito era incaricato di eseguire un legato o di compiere un'attività, questa parte del testamento non dovrebbe essere omessa dalla copia utilizzata per il primo confronto.\n\nPrima di presentare una domanda bancaria o predisporre un trasferimento, è utile verificare che tutti i documenti raccontino la medesima sequenza. Eventuali divergenze fra dichiarazioni, certificati e testo testamentario devono essere chiarite, anziché riprodotte nelle pratiche successive.",
+    "faqs": [
+      {
+        "question": "Se il primo beneficiario rinuncia, subentra sempre la persona indicata come sostituto?",
+        "answer": "Occorre verificare contenuto e validità della clausola, evento previsto e coordinamento con le altre regole della chiamata; non basta una formula isolata."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 467, 688, 689, 690",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 467, 688, 689, 690. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Tre cartelline in successione con una freccia composta da piccoli blocchi di legno, nessun nome o testo. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Non aggiungere ceralacca o sigilli decorativi. Varia l'inquadratura rispetto ad altre immagini editoriali: fotografia zenitale oppure dettaglio ravvicinato coerente con il soggetto.",
+      "alt": "Tre cartelline in successione con una freccia composta da piccoli blocchi di legno, nessun nome o testo",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-016.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "7b477f33cd311f641715dbacd528dd345bf6c59b20ac5526c47b3338f07ed9e6",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 629,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 663,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-03-19",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "86cf345bdb7c1c1b16dbefb465418e7c2e0ce30af66607e51f344c17a34b5994",
+    "sha256": "eb1751c6b45306712eeadfa9f90139a52f69e46b0bd30d2719d490b8e31dcdcd"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "article": {
+    "id": "eredita-059",
+    "site": "eredita",
+    "sequence": 59,
+    "area": "Legittima e donazioni",
+    "title": "Beni donati poi venduti: verificare le nuove regole e la data della successione",
+    "slug": "beni-donati-poi-venduti-verificare-le-nuove-regole-e-la-data-della-successione",
+    "intent": "Riforma 2025 e regime transitorio senza applicare vecchie regole",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/lesione-di-legittima"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 116,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Donazioni vendute: riforma e successione",
+    "description": "Le regole cambiate nel 2025 richiedono di controllare decesso, trasferimenti e trascrizioni prima di valutare i rimedi.",
+    "bodyMarkdown": "Un immobile donato e poi venduto richiede oggi una verifica che tenga conto della riforma del 2025. Non è corretto ripetere automaticamente le vecchie regole sulla restituzione contro i successivi acquirenti o considerare decisivo un solo intervallo di tempo dalla donazione.\n\nL'[articolo 44 della legge 182/2025](https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?codiceOrdinamento=0000000000000440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B2F27D1CA-D557-4695-9236-C9AFF79F0ED3%7D), in vigore dal 18 dicembre 2025, ha modificato gli articoli 561, 562, 563, 2652 e 2690 del Codice civile. La riforma distingue la tutela del legittimario dagli effetti sugli acquisti dei terzi e contiene una disciplina transitoria.\n\n## La regola sui beni alienati dal donatario\n\nIl nuovo [articolo 563](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) prevede che la riduzione della donazione, fatto salvo il richiamo alla trascrizione della domanda previsto dalla norma, non pregiudichi i terzi ai quali il donatario abbia alienato gli immobili. Rimane l'obbligo del donatario di compensare in denaro i legittimari nella misura necessaria a integrare la quota riservata.\n\nLa tutela della legittima, quindi, non scompare. Cambiano aspetti del modo in cui essa si confronta con la circolazione del bene.\n\nLa norma considera anche l'insolvenza del donatario e la posizione dell'avente causa a titolo gratuito, nei limiti del vantaggio conseguito. Una compravendita e un successivo trasferimento gratuito non possono essere trattati senza distinzione.\n\n## Perché la data del decesso è centrale\n\nLa successione si apre con la morte. La disciplina transitoria collega l'applicazione delle nuove regole alla data di apertura della successione e, per quelle anteriori, agli atti di tutela notificati e trascritti.\n\nPer le successioni precedenti all'entrata in vigore, la legge ha previsto condizioni legate alla domanda di riduzione o all'opposizione stragiudiziale, con una finestra di sei mesi e la salvaguardia di determinati atti già compiuti. In mancanza dei presupposti indicati, le nuove disposizioni si estendono anche a successioni anteriori dopo quel periodo.\n\nNon basta quindi conoscere la data della donazione. Nel controllo vanno inserite almeno la data del decesso, le date dei trasferimenti successivi e le formalità di tutela effettivamente eseguite.\n\n## Le trascrizioni non sono un dettaglio\n\nUna lettera inviata tra familiari non equivale automaticamente alla notificazione e alla trascrizione richieste dalla legge. Occorre acquisire gli atti e verificare il loro contenuto, i destinatari e le date.\n\nAllo stesso modo, sapere che «c'è stata una causa» non permette di ricostruire gli effetti verso un acquirente. La pubblicità immobiliare deve essere esaminata con i documenti pertinenti.\n\n## Cosa portare alla verifica\n\nServono atto di donazione, successivi trasferimenti, documentazione della successione e visure o ispezioni ipotecarie aggiornate. Se sono state promosse contestazioni, occorrono domande, prove delle notifiche e note di trascrizione.\n\nÈ utile distinguere la posizione del legittimario da quella dell'acquirente. Il primo deve comprendere contro chi e con quale rimedio tutelarsi; il secondo deve conoscere la provenienza e le formalità che possono incidere sul suo acquisto.\n\n## Evitare rassicurazioni assolute\n\nLa riforma non autorizza né a dichiarare ogni provenienza donativa priva di rischi né a bloccare ogni operazione ripetendo informazioni superate. Il controllo deve applicare la versione normativa corretta alla concreta sequenza degli atti.\n\nNella valutazione della [lesione di legittima](https://ereditaesuccessioni.it/lesione-di-legittima), questa verifica viene prima di proporre restituzioni, compensazioni o accordi. La cronologia documentata è ciò che permette di passare da una regola generale al caso reale.\n\n### Controllare le informazioni ricevute da altri operatori\n\nUna relazione o un messaggio preparati prima della riforma possono contenere indicazioni oggi da riesaminare. È utile annotare la data del documento e chiedere quale disciplina sia stata applicata alla specifica successione.\n\nIl controllo deve riguardare anche gli atti successivi eventualmente sopravvenuti. Una verifica immobiliare svolta mesi prima non descrive necessariamente tutte le formalità presenti oggi. Conservare il precedente rapporto rimane utile per ricostruire la vicenda, ma non sostituisce l'accertamento aggiornato necessario per la decisione che si sta prendendo, soprattutto se nel frattempo sono intervenute domande o ulteriori trasferimenti.",
+    "faqs": [
+      {
+        "question": "Per un acquisto proveniente da donazione basta contare vent'anni?",
+        "answer": "No. Le regole sono state modificate nel 2025. Occorre verificare data della successione, atti notificati e trascritti e disciplina applicabile, senza utilizzare automaticamente schemi precedenti."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 561, 562, 563",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 561, 562, 563. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?codiceOrdinamento=0000000000000440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B2F27D1CA-D557-4695-9236-C9AFF79F0ED3%7D",
+        "title": "Legge 182/2025, articolo 44",
+        "supports": "Riforma degli effetti della riduzione verso terzi e disciplina transitoria; entrata in vigore 18 dicembre 2025.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una casa in legno passata fra due coppie di mani, con un fascicolo normativo aperto sullo sfondo. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione: eventuali carte devono essere anonime. Composizione semplice e visivamente diversa per questo specifico tema, senza persone riconoscibili né testo visibile.",
+      "alt": "Una casa in legno passata fra due coppie di mani, con un fascicolo normativo aperto sullo sfondo",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-059.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "c2a687e38e5d2633f422111b1d5b794dfd87b6d9d9910fbf5711a414c3ac247b",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 614,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 648,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-03-27",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "aed6f7ce4430866a2e699704cfbdcde83c025033195452e431ad520cf8012dfa",
+    "sha256": "901ce0b3263fbb950ed6fc3a35dd105f996701c06fde03f33cefc3dc2c5aca25"
+  }
+}

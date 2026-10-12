@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-037",
+    "site": "eredita",
+    "sequence": 37,
+    "area": "Accettazione e debiti",
+    "title": "Possesso dei beni ereditari: perché incide sui tempi dell'inventario",
+    "slug": "possesso-dei-beni-ereditari-perche-incide-sui-tempi-dell-inventario",
+    "intent": "Disponibilità materiale dei beni e disciplina del chiamato possessore",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/beneficio-inventario"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 72,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Possesso dei beni e inventario",
+    "description": "Perché il possesso dei beni ereditari incide sui termini e quali fatti documentare prima di scegliere.",
+    "bodyMarkdown": "Il chiamato vive nella casa del defunto e ritiene di avere molto tempo per decidere sull'eredità. La disponibilità dei beni può invece rendere urgente la verifica dell'inventario. Il termine generale per accettare non cancella le regole specifiche previste per chi è nel possesso di beni ereditari.\n\n### La disciplina del chiamato possessore\n\nL'articolo 485 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) collega al possesso, a qualsiasi titolo, un termine per l'inventario, normalmente di tre mesi dall'apertura della successione o dalla notizia della devoluzione, con la disciplina delle proroghe e delle conseguenze indicate dalla norma.\n\nNon è corretto sostituire questo esame con la domanda “ho già firmato l'accettazione?”. La legge attribuisce rilievo anche alla situazione concreta dei beni e all'inerzia rispetto agli adempimenti.\n\n### Descrivere la disponibilità materiale\n\nOccorre spiegare chi abita nell'immobile, chi detiene chiavi, veicolo e documenti, chi ha accesso ai beni e da quando. Questi fatti non vanno semplificati dicendo soltanto che nessuno è proprietario formalmente.\n\nLa qualificazione del possesso richiede una valutazione giuridica. L'obiettivo della raccolta iniziale è fornire dati completi, non decidere autonomamente che una chiave o un oggetto siano sempre sufficienti oppure sempre irrilevanti.\n\n### Inventario iniziato e inventario concluso\n\nL'articolo 485 distingue il compimento dell'inventario dalla successiva decisione quando non sia ancora stata resa la dichiarazione pertinente. Prevede anche conseguenze rilevanti in caso di mancato rispetto dei passaggi, fino alla considerazione come erede puro e semplice.\n\nUna lista domestica dei beni non sostituisce l'inventario formale. Se l'attività è stata avviata ma richiede più tempo, l'eventuale proroga deve essere valutata nel percorso appropriato, senza presumere che la difficoltà pratica sospenda da sola la scadenza.\n\n### Chi non possiede beni segue un'altra disciplina\n\nL'articolo 487 regola il chiamato non possessore. Anche qui dichiarazione e inventario hanno un rapporto temporale preciso. Un consiglio ricevuto da un parente in una situazione diversa potrebbe dunque non essere applicabile.\n\nPer il primo controllo servono data del decesso, momento della conoscenza della chiamata, descrizione dei beni disponibili e ogni atto già compiuto. I documenti mancanti non devono diventare il motivo per rimandare la valutazione dei termini.\n\nLa pagina sul [beneficio d'inventario](https://ereditaesuccessioni.it/beneficio-inventario) collega questa urgenza alla scelta successoria. La tutela dipende anche dalla corretta sequenza degli adempimenti, non soltanto dall'intenzione di evitare i debiti.\n\n### La cronologia deve precedere il conteggio\n\nIn una prima consulenza è utile indicare quando si è appreso del decesso, dove si trovavano i beni e come se ne è avuta la disponibilità. Chi abitava già nella casa del defunto presenta una situazione diversa da chi ha ricevuto successivamente una scatola di documenti. Non è corretto dedurre una regola universale dal solo possesso di una chiave: occorre descrivere l'intero rapporto con i beni.\n\nSe un parente custodisce oggetti per conto di altri, vanno annotate anche le istruzioni ricevute e gli eventuali spostamenti. La consegna informale di un bene può essere raccontata in modo diverso dai partecipanti; una comunicazione contemporanea ai fatti aiuta a chiarire che cosa sia realmente accaduto. Questa ricostruzione serve a individuare la disciplina applicabile, non a inventare retroattivamente una versione più conveniente.\n\n### Prenotare l'inventario non significa averlo completato\n\nLa richiesta di un appuntamento e la raccolta dei primi documenti sono passaggi preparatori. Non vanno confusi con il compimento dell'inventario nelle forme richieste. Se emergono difficoltà nel reperire i documenti o nell'accedere a un immobile, occorre segnalarle subito al professionista incaricato, affinché valuti le iniziative consentite e i termini pertinenti.\n\nUn promemoria può distinguere scadenze legali verificate, appuntamenti organizzativi e documenti mancanti. Mettere tutte le date nella stessa colonna rischia di far credere che uno spostamento concordato con un fornitore modifichi anche un termine previsto dalla legge. È particolarmente importante evitare questa confusione quando la persona stia ancora valutando se accettare: l'incertezza sulla convenienza economica dell'eredità non rende irrilevante il possesso né sospende automaticamente gli adempimenti collegati.",
+    "faqs": [
+      {
+        "question": "Il termine generale per accettare permette sempre di aspettare anni?",
+        "answer": "No. Il possesso di beni ereditari può far operare la disciplina e i termini specifici dell'articolo 485."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 485, 487",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 485, 487. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Chiavi di abitazione accanto a un calendario senza date leggibili e una cartella inventario. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutti i documenti e le cartelline devono essere completamente privi di stemmi, emblemi, sigilli, ceralacca, intestazioni e simboli ufficiali. Fotografia essenziale con sfondo pulito, varia il punto di vista. Nessuna scritta, neppure sulle chiavi.",
+      "alt": "Chiavi di abitazione accanto a un calendario senza date leggibili e una cartella inventario",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-037.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "b27fa32019ef90302b080268d223125dd6898165846142e42d638a47934b723b",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 622,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 649,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-11-17",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "9850ac0531076e4f1a99124312680fbd5f7ae6b6d4642f9c39803542ab0b6c84",
+    "sha256": "1222ca4bb1683b68afc5b296310232a7e62f98d0962daf65c923a293c91c14a7"
+  }
+}

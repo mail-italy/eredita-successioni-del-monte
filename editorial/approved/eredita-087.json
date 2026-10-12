@@ -1,0 +1,65 @@
+{
+  "article": {
+    "id": "eredita-087",
+    "site": "eredita",
+    "sequence": 87,
+    "area": "Beni e conflitti",
+    "title": "Indegnità a succedere: fatti tipici e conflitti familiari da non confondere",
+    "slug": "indegnita-a-succedere-fatti-tipici-e-conflitti-familiari-da-non-confondere",
+    "intent": "Qualificazione delle condotte e prova",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/indegnita-successoria"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 172,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Indegnità successoria: fatti e prove",
+    "description": "Come distinguere le cause legali di indegnità da conflitti affettivi e raccogliere documenti pertinenti.",
+    "bodyMarkdown": "Nelle liti ereditarie, «indegno» viene spesso usato per descrivere un familiare assente o poco rispettoso. Nel diritto successorio, però, l'indegnità ha un significato preciso e richiede fatti riconducibili alle ipotesi stabilite dalla legge.\n\nL'[articolo 463 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) elenca le cause rilevanti. Tra esse vi sono determinate condotte gravissime contro la persona e condotte che colpiscono la libertà o l'autenticità del testamento. Non basta una relazione familiare difficile.\n\n## Qualificare il fatto prima di valutarlo\n\nOccorre descrivere ciò che sarebbe accaduto: chi ha compiuto la condotta, quando, verso quale persona e con quali prove. Espressioni come «ha manipolato tutto» devono essere tradotte in fatti verificabili.\n\nLe ipotesi relative al testamento comprendono, nei termini della norma, induzione con dolo o violenza, soppressione, occultamento, alterazione e formazione o uso consapevole di un testamento falso.\n\nOgni fattispecie ha elementi propri. Non si può dedurre una causa di indegnità soltanto perché il testamento favorisce una persona vicina al defunto.\n\n## Separare prove e sospetti\n\nDocumenti originali, messaggi, testimonianze e atti di eventuali procedimenti devono essere raccolti in modo ordinato. Un sospetto può giustificare un approfondimento, ma non deve essere presentato come accertamento.\n\nSe si dubita dell'autenticità di un testamento, la conservazione dell'originale è essenziale. Scrivere annotazioni sul documento o maneggiarlo inutilmente può compromettere le verifiche.\n\nPer fatti oggetto di un procedimento penale, occorre acquisire gli atti disponibili e valutarne lo stato, senza confondere una denuncia con una decisione definitiva.\n\n## Sospensione e indegnità non sono la stessa fase\n\nL'articolo 463-bis prevede specifiche ipotesi di sospensione dalla successione in relazione a determinate indagini per omicidio volontario o tentato, con regole proprie. Questa disciplina non può essere estesa a qualsiasi accusa familiare.\n\nLa gestione del patrimonio durante una controversia deve essere coordinata con gli strumenti applicabili. Il timore che i beni vengano dispersi va tradotto in una richiesta giuridicamente adeguata e sostenuta da elementi concreti.\n\n## Considerare anche la riabilitazione\n\nL'articolo 466 disciplina l'ammissione a succedere di chi sia incorso nell'indegnità attraverso gli atti e nei limiti previsti. Perciò è necessario esaminare eventuali disposizioni del defunto e la sua conoscenza della causa rilevante.\n\nUn documento successivo può incidere sull'analisi; non basta fermarsi al fatto originario senza ricostruire ciò che è avvenuto dopo.\n\nLa verifica deve restare distinta dal semplice perdono morale riferito da un parente.\n\n## Scegliere la domanda corretta\n\nIndegnità, invalidità del testamento, lesione di legittima e restituzione di somme risolvono problemi differenti. La stessa vicenda può richiedere più analisi, ma non è utile usare una parola molto forte come sostituto della qualificazione.\n\nUn fascicolo con cronologia, documenti e beni coinvolti permette di valutare il percorso senza anticipare conclusioni.\n\nLa pagina sull'[indegnità successoria](https://ereditaesuccessioni.it/indegnita-successoria) offre il quadro generale. Nel caso concreto, il lavoro decisivo è verificare se i fatti provati corrispondano a una causa legale e quali conseguenze possano essere richieste, evitando che il conflitto affettivo venga scambiato per una prova giuridica.\n\n### Una cronologia che distingua conoscenza diretta e racconto\n\nNell'elenco dei fatti è utile indicare chi abbia assistito personalmente a un episodio e chi ne sia stato informato da altri. La distinzione non decide da sola il valore della prova, ma evita di trasformare una voce ripetuta in molte testimonianze indipendenti.\n\nPer documenti e messaggi occorre mantenere provenienza, data e contesto. Un estratto isolato può essere ambiguo o riferirsi a un fatto diverso da quello ipotizzato. Se esistono versioni contrastanti, vanno presentate entrambe al professionista.\n\nLa valutazione potrà così concentrarsi sugli elementi richiesti dalla specifica causa legale, senza costruire il fascicolo come una raccolta di ogni torto familiare. Anche ciò che appare moralmente grave deve essere collegato alla fattispecie invocata. Questa selezione rende più chiaro quali accertamenti siano necessari e quali affermazioni non siano ancora sostenute da prove utilizzabili.",
+    "faqs": [
+      {
+        "question": "L'assenza di rapporti affettivi rende un figlio indegno di ereditare?",
+        "answer": "Non automaticamente. L'indegnità richiede la verifica di una causa prevista dalla legge; un conflitto o un giudizio morale non sostituiscono i relativi presupposti."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 463, 463-bis, 466",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 463, 463-bis, 466. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Un testamento integro conservato in una cartellina trasparente, con una lente e documenti probatori ordinati. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Un testamento integro conservato in una cartellina trasparente, con una lente e documenti probatori ordinati",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-087.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "b4902e4e7adf4d4599870852f0f63ef0b2c1fd0ed441e10299b53be9bada8465",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 612,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 645,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-02-21",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "a5319faa22e19708e16f1ec7b09f44c5f014f8b21bc6b4f07d610eea628f99f9",
+    "sha256": "70af65cf1855dd4d30a7b21a1913a72815fc080aadb485d4702c8c13ab67e9fc"
+  }
+}

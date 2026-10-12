@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-066",
+    "site": "eredita",
+    "sequence": 66,
+    "area": "Banche e patrimonio",
+    "title": "Dossier titoli ereditato: fotografia alla morte e valore al trasferimento",
+    "slug": "dossier-titoli-ereditato-fotografia-alla-morte-e-valore-al-trasferimento",
+    "intent": "Distinguere consistenza storica e assegnazione di strumenti finanziari",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/conti-correnti-azioni-polizze-eredita"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 130,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Dossier titoli: valori e divisione",
+    "description": "Come distinguere consistenza alla morte, movimenti successivi e valore utilizzato per trasferire o dividere i titoli.",
+    "bodyMarkdown": "Un dossier titoli non è una somma di denaro immobile nel tempo. Tra la morte del titolare e il trasferimento agli eredi possono intervenire variazioni di prezzo, cedole, rimborsi, costi e operazioni societarie.\n\nPer questo servono almeno due fotografie: la consistenza alla data del decesso e la situazione aggiornata quando si decide come attribuire gli strumenti. Le [regole sulla stima e sulla formazione delle porzioni ereditarie](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) devono essere applicate a dati coerenti, senza confondere finalità fiscali e divisionali.\n\n## Identificare gli strumenti, non soltanto il totale\n\nIl rendiconto deve consentire di conoscere quantità, codice identificativo, valuta e tipo di strumento. Un totale in euro può nascondere titoli molto diversi per liquidità, rischio e modalità di trasferimento.\n\nVanno distinti strumenti finanziari, liquidità sul conto collegato e prodotti assicurativi. Anche se compaiono nello stesso portale bancario, non hanno necessariamente la stessa disciplina successoria.\n\nPer prodotti non quotati o con limitazioni alla circolazione occorre acquisire le condizioni specifiche, senza presumere che possano essere divisi o venduti immediatamente.\n\n## Ricostruire ciò che è accaduto dopo il decesso\n\nCedole, dividendi e rimborsi devono essere collegati al relativo strumento e alla data. Se una somma è già confluita sul conto, non va conteggiata una seconda volta come se fosse ancora incorporata nel titolo.\n\nLe commissioni e gli altri costi devono essere documentati. Anche eventuali ordini già impartiti prima della morte meritano una ricostruzione distinta dalle scelte successive degli eredi.\n\nUna tabella di raccordo tra il rendiconto iniziale e quello aggiornato permette di spiegare le differenze senza attribuirle automaticamente a una gestione scorretta.\n\n## Stabilire la data della valutazione condivisa\n\nPer confrontare proposte di divisione, le parti devono sapere a quale momento si riferiscano i valori. Utilizzare per un titolo il prezzo di gennaio e per un altro quello di aprile può produrre un'apparente equivalenza che non esiste.\n\nSe il mercato si muove durante la trattativa, l'accordo può richiedere un criterio di aggiornamento o un momento preciso di riferimento. Il criterio va scritto prima dell'esecuzione, non ricostruito dopo in base a chi abbia guadagnato o perso.\n\nQuesto non significa prevedere i mercati, ma rendere trasparente l'operazione.\n\n## Trasferire i titoli o liquidarli\n\nLa scelta va valutata in base ai diritti e agli obiettivi degli interessati, ai vincoli del prodotto e alle condizioni operative. Vendere per dividere denaro e trasferire strumenti in natura sono percorsi diversi.\n\nPrima di impartire istruzioni occorre verificare chi sia legittimato a farlo e con quali documenti. Una preferenza di investimento personale non autorizza a decidere unilateralmente per tutti.\n\nGli aspetti fiscali e finanziari richiedono le competenze pertinenti; il conteggio successorio non è una raccomandazione di acquisto o vendita.\n\n## Il rendiconto finale\n\nDopo l'operazione devono essere conservati ordini, eseguiti, trasferimenti e saldi. Un prospetto finale dovrebbe consentire a ciascun erede di collegare quanto ricevuto al criterio concordato.\n\nLa valutazione su [conti, azioni e polizze ereditate](https://ereditaesuccessioni.it/conti-correnti-azioni-polizze-eredita) parte quindi dalla separazione delle date e delle funzioni dei valori. È questa disciplina documentale a rendere controllabile la divisione di un patrimonio che continua a cambiare.\n\n### Verificare le quantità dopo l'esecuzione\n\nUna proposta può prevedere la distribuzione di determinate quantità di strumenti, mentre il documento bancario successivo registra ciò che è stato trasferito realmente. Il controllo finale deve confrontare entrambe le informazioni, comprese eventuali frazioni residue o somme rimaste sul conto collegato.\n\nSe un titolo è stato rimborsato durante l'attesa, il prospetto va aggiornato: potrebbe non esserci più lo strumento da attribuire, ma denaro da rendicontare. Anche i costi applicati all'operazione devono essere visibili. Questo raccordo non giudica la convenienza dell'investimento; verifica che la divisione concordata e quella eseguita corrispondano, e che ogni differenza abbia una spiegazione documentata.",
+    "faqs": [
+      {
+        "question": "Il valore alla morte è necessariamente quello che riceverò mesi dopo?",
+        "answer": "No. Consistenza storica, criteri fiscali, valore di mercato e valore usato nella divisione rispondono a funzioni diverse e possono riferirsi a date differenti."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 726, 727, 728",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 726, 727, 728. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Due rendiconti finanziari senza numeri leggibili affiancati a una lente, con indicatori di date diverse. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo, numero di conto o intestazione: eventuali carte e schermi devono essere anonimi e senza testo. Composizione fotografica semplice specifica del tema, luce naturale, oggetti credibili, nessuna persona riconoscibile.",
+      "alt": "Due rendiconti finanziari senza numeri leggibili affiancati a una lente, con indicatori di date diverse",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-066.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "1e6f2f795c026cd56b4023fb5faa9e29b2a89d7e471101db5bf6852e0c62c325",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 596,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 630,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-01-26",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "286d16c77e60da403e9d70780ac6f9a735b25a4a5ef05a3e4d3473fff3790566",
+    "sha256": "f886690e07e217611634a42f5d6bf65b904fe141d19abb846d60fdb6a292b118"
+  }
+}

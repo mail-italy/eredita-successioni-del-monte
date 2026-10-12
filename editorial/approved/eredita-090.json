@@ -1,0 +1,65 @@
+{
+  "article": {
+    "id": "eredita-090",
+    "site": "eredita",
+    "sequence": 90,
+    "area": "Beni e conflitti",
+    "title": "Divisione ereditaria contestata: conservare stime e dati dell'accordo",
+    "slug": "divisione-ereditaria-contestata-conservare-stime-e-dati-dell-accordo",
+    "intent": "Vizi della divisione e rimedi distinti",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/divisione-ereditaria"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 178,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Contestare una divisione ereditaria",
+    "description": "Omissioni, dolo e lesione richiedono rimedi diversi: quali atti, stime e date conservare per la verifica.",
+    "bodyMarkdown": "Dopo una divisione, un erede può ritenere di aver ricevuto troppo poco o di aver firmato sulla base di informazioni scorrette. Il rimedio dipende dal problema effettivo: omissione di beni, violenza o dolo, lesione e semplice ripensamento non sono la stessa cosa.\n\nGli [articoli 761–766 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) distinguono queste situazioni. Prima di contestare l'accordo, occorre conservare l'atto e ricostruire i dati sui quali fu concluso.\n\n## Raccogliere le versioni dell'accordo\n\nServono atto definitivo, allegati, stime, prospetti di riparto e corrispondenza pertinente. Le bozze possono aiutare a comprendere ciò che venne discusso, ma non sostituiscono il testo sottoscritto.\n\nÈ importante identificare date e provenienza dei documenti. Una perizia successiva deve essere distinta da quella effettivamente utilizzata durante la trattativa.\n\nLe annotazioni personali dovrebbero essere conservate separatamente dagli originali, senza modificarli.\n\n## Distinguere l'omissione di un bene\n\nL'articolo 762 prevede il supplemento di divisione per beni omessi. La scoperta di un conto non conduce quindi automaticamente alla nullità dell'intero accordo.\n\nOccorre verificare se il cespite fosse ignorato, escluso consapevolmente o già regolato attraverso una clausola. Eventuali condotte ingannevoli richiedono un'analisi ulteriore e prove proprie.\n\nLa prima domanda è quale parte del patrimonio non sia stata effettivamente divisa.\n\n## Violenza o dolo\n\nL'articolo 761 disciplina l'annullamento quando la divisione sia effetto di violenza o dolo e prevede un termine specifico collegato alla cessazione della violenza o alla scoperta del dolo.\n\nPressione emotiva, fretta e successivo pentimento non devono essere automaticamente equiparati ai presupposti della norma. Occorre descrivere fatti, informazioni e comportamenti rilevanti.\n\nSe si contesta una dichiarazione falsa, bisogna identificare chi l'abbia resa, quando e con quale incidenza sulla decisione.\n\n## La lesione nella divisione\n\nL'articolo 763 contempla la rescissione quando un coerede provi una lesione oltre il quarto e stabilisce un termine di due anni dalla divisione. L'esame richiede criteri e valori pertinenti, non un semplice confronto con il prezzo di vendita ottenuto molti anni dopo.\n\nL'articolo 766 collega la stima per verificare la lesione allo stato e al valore dei beni al tempo della divisione. Le variazioni successive del mercato non possono essere usate senza distinguere il momento rilevante.\n\nAnche la natura dell'atto conta: gli articoli 764 e 765 prevedono limiti per determinate transazioni e vendite di diritti ereditari.\n\n## Controllare subito le scadenze\n\nLa raccolta dei documenti non deve far perdere i termini del rimedio ipotizzato. Una richiesta informale di rivedere l'accordo non equivale necessariamente all'atto richiesto per tutelarsi.\n\nÈ utile preparare una cronologia con firma, scoperta del problema e comunicazioni successive. I punti incerti devono essere segnalati, non risolti scegliendo la data più favorevole.\n\nLa consulenza sulla [divisione ereditaria](https://ereditaesuccessioni.it/divisione-ereditaria) può così individuare il rimedio corretto e la prova necessaria. Il risultato non parte dall'idea che una divisione insoddisfacente sia sempre annullabile, ma dalla verifica del difetto concreto e della disciplina che lo riguarda.\n\n### Chiedere una ricostruzione riferita al momento giusto\n\nUna nuova stima può essere utile soltanto se risponde alla domanda pertinente. Se si discute il valore al tempo della divisione, il tecnico deve conoscere quella data e gli elementi sullo stato del bene allora esistente. Lavori successivi, degrado o variazioni del mercato devono essere distinguibili.\n\nFotografie, preventivi, contratti di locazione e documentazione tecnica contemporanei all'accordo possono aiutare la ricostruzione. Se mancano, il limite va esplicitato invece di colmarlo con una supposizione favorevole.\n\nAnche le informazioni disponibili alle parti al momento della firma devono essere separate da quelle apprese dopo. Un documento scoperto successivamente può chiarire un dato preesistente, mentre un evento nuovo può semplicemente aver modificato la convenienza economica. Questa distinzione permette al professionista di valutare se il dissenso riguardi un difetto dell'accordo originario o un cambiamento intervenuto quando la divisione era già conclusa.",
+    "faqs": [
+      {
+        "question": "Se il bene oggi vale di più posso sempre annullare la divisione?",
+        "answer": "No. Occorre distinguere variazioni successive di mercato dai presupposti dei rimedi previsti dalla legge, che richiedono un esame di date, valori e contenuto dell'atto."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 761, 762, 763, 764, 765, 766",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 761, 762, 763, 764, 765, 766. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Due vecchie stime immobiliari affiancate a una copia della divisione, con una lente e un calendario. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Due vecchie stime immobiliari affiancate a una copia della divisione, con una lente e un calendario",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-090.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "8dae1aab7fe863ce61d6736e051cf6080440a5bd0d387a8131bd44c58c49438f",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 603,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 639,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-04-20",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "a678d06f3791daf89aa2cac095ee829274b7d9253912f959fa520c84df10876d",
+    "sha256": "086b1ecf38da4e3ffd8913e24e9ddafd4d0f61e1b6e368be7f688b2001b07ee5"
+  }
+}

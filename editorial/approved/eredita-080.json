@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-080",
+    "site": "eredita",
+    "sequence": 80,
+    "area": "Immobili e divisione",
+    "title": "Bene dimenticato dopo la divisione: quando serve un supplemento",
+    "slug": "bene-dimenticato-dopo-la-divisione-quando-serve-un-supplemento",
+    "intent": "Omissione di cespite e integrazione della divisione",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/divisione-ereditaria"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 158,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Beni omessi e supplemento di divisione",
+    "description": "Che cosa verificare quando emerge un bene dopo la divisione e come coordinarlo con l'accordo già concluso.",
+    "bodyMarkdown": "Dopo la divisione può emergere un conto dimenticato, una quota di terreno o un credito che nessuno aveva considerato. La scoperta non comporta automaticamente che tutto l'accordo debba essere cancellato.\n\nL'[articolo 762 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) stabilisce che l'omissione di uno o più beni non dà luogo a nullità della divisione, ma a un suo supplemento. Per applicare correttamente la regola bisogna verificare che cosa sia stato omesso e che cosa avesse effettivamente regolato l'atto precedente.\n\n## Identificare il bene ritrovato\n\nIl primo passo è provare che il bene o il diritto appartenesse al patrimonio rilevante. Una comunicazione bancaria o una visura possono essere indizi utili, ma richiedono di essere collegati alla persona e al titolo.\n\nOccorre distinguere un bene già esistente ma ignorato da un valore maturato successivamente o da una posizione controversa. Anche un credito deve essere verificato quanto a esistenza, saldo e possibilità di recupero.\n\nNel prospetto vanno indicati i documenti disponibili e ciò che resta da acquisire.\n\n## Rileggere la divisione precedente\n\nL'atto potrebbe aver diviso soltanto determinati beni oppure contenere disposizioni relative a cespiti non ancora quantificati. Perciò non basta cercare il nome del conto o del terreno: occorre interpretare l'accordo nel suo complesso.\n\nÈ utile confrontare allegati, inventari e prospetti utilizzati nella trattativa. Questi documenti possono chiarire se il bene fosse sconosciuto, escluso volontariamente o considerato attraverso una voce generale.\n\nLa qualificazione guida il percorso successivo.\n\n## Determinare valore e quote\n\nIl supplemento richiede un conteggio coerente con i diritti degli interessati e con quanto già regolato. Un bene di valore non uniforme può richiedere attribuzione e conguaglio.\n\nSe il bene ha prodotto frutti o sostenuto spese nel frattempo, occorre un rendiconto specifico. Distribuire soltanto il saldo attuale può nascondere entrate già riscosse da qualcuno o costi anticipati da altri.\n\nAnche gli adempimenti fiscali e pubblicitari devono essere verificati secondo la natura del cespite.\n\n## Se qualcuno conosceva il bene\n\nL'omissione può essere un errore condiviso oppure accompagnarsi a una contestazione su informazioni taciute. Le due questioni non devono essere confuse.\n\nL'articolo 762 riguarda il trattamento del bene omesso. Eventuali domande fondate su dolo, altri vizi o responsabilità richiedono presupposti e prove autonomi. Non basta il sospetto che un familiare «dovesse sapere».\n\nÈ utile conservare la cronologia della scoperta e le comunicazioni precedenti, distinguendo fatti documentati e deduzioni.\n\n## Cercare un supplemento circoscritto\n\nQuando esistenza e quote sono pacifiche, una proposta può concentrarsi sul solo bene ritrovato e sulle spese necessarie. Ciò permette di evitare la riapertura indistinta di questioni già definite.\n\nL'accordo deve però spiegare quali rapporti chiude e come si coordina con l'atto originario. Se il bene è un immobile, forma e formalità vanno gestite con il professionista competente.\n\nLa valutazione sulla [divisione ereditaria](https://ereditaesuccessioni.it/divisione-ereditaria) parte quindi da due fascicoli: quello della divisione già fatta e quello della nuova scoperta. Metterli in relazione consente di aggiungere ciò che manca senza presumere che l'intera storia debba ricominciare.\n\n### Registrare come è avvenuta la scoperta\n\nUna lettera bancaria, una ricerca nei registri e il ritrovamento di una scrittura privata producono piste documentali diverse. Conviene conservare il primo elemento che ha fatto emergere il bene, con data e provenienza, e collegarlo agli accertamenti successivi.\n\nSe il nuovo diritto viene inizialmente stimato, il valore provvisorio deve restare distinguibile da quello poi verificato. Lo stesso vale per il saldo di un credito: importo originario e somma ancora recuperabile possono differire.\n\nPrima di proporre un riparto, è utile comunicare agli altri interessati il fascicolo essenziale e le lacune ancora presenti. Una condivisione precisa consente di discutere il cespite ritrovato senza presentare come fatto accertato ciò che, al momento, è soltanto un'indicazione da approfondire.",
+    "faqs": [
+      {
+        "question": "Un conto scoperto dopo rende nulla tutta la divisione?",
+        "answer": "L'articolo 762 prevede che l'omissione di beni non dia luogo a nullità della divisione, ma a un supplemento. Vanno comunque distinti eventuali ulteriori vizi o condotte contestate."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 762, 723, 728",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 762, 723, 728. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una cartellina ritrovata in un cassetto accanto a un precedente fascicolo di divisione chiuso. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione. Carte e planimetrie senza testo identificativo. Scena singola di fotografia editoriale, proporzioni credibili, non deve sembrare una sede dello studio né un suo immobile reale.",
+      "alt": "Una cartellina ritrovata in un cassetto accanto a un precedente fascicolo di divisione chiuso",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-080.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "6f205bf1f759c16f157bce7b2f820f3bd8b268de1b94910414af290b960426db",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 598,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 634,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-04-18",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "09effc7b16e227eb63ace169dcf22bd79eab6e1824e24c9b264750897d19478f",
+    "sha256": "72fcdc6959ab4af3d6a6ab3d275b15fbdb6a51274c6629fc285a0ffc069f2974"
+  }
+}

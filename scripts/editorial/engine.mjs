@@ -78,5 +78,6 @@ export function markdownHtml(markdown) {
   }).join('\n');
 }
 export function articleBody(a) {
-  return `<div data-editorial-digest="${articleHash(a)}">${markdownHtml(a.bodyMarkdown)}\n<section><h2>Fonti e riferimenti</h2><ul>${a.sources.map((s) => `<li><a href="${escapeHtml(s.url)}">${escapeHtml(s.title)}</a></li>`).join('')}</ul><p>Fonti controllate il ${escapeHtml(a.sources.map((s) => s.checkedAt).sort().at(-1))}. Contenuto informativo generale; la valutazione del caso richiede l'esame dei documenti.</p></section></div>`;
+  const path = `${a.site === 'studio' ? '/' : '/approfondimenti/'}${a.slug}${a.site === 'studio' ? '/' : ''}`;
+  return `<div data-editorial-id="${escapeHtml(a.id)}" data-editorial-title="${escapeHtml(a.title)}" data-editorial-path="${escapeHtml(path)}" data-editorial-digest="${articleHash(a)}">${markdownHtml(a.bodyMarkdown)}\n<section><h2>Fonti e riferimenti</h2><ul>${a.sources.map((s) => `<li><a href="${escapeHtml(s.url)}">${escapeHtml(s.title)}</a></li>`).join('')}</ul><p>Fonti controllate il ${escapeHtml(a.sources.map((s) => s.checkedAt).sort().at(-1))}. Contenuto informativo generale; la valutazione del caso richiede l'esame dei documenti.</p></section></div>`;
 }

@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-020",
+    "site": "eredita",
+    "sequence": 20,
+    "area": "Testamenti",
+    "title": "Disposizioni funerarie e lasciti: distinguere desideri, obblighi e patrimonio",
+    "slug": "disposizioni-funerarie-e-lasciti-distinguere-desideri-obblighi-e-patrimonio",
+    "intent": "Volontà non patrimoniali e organizzazione successoria",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/testamento"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 38,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Disposizioni funerarie e patrimonio",
+    "description": "Come distinguere desideri personali, obblighi testamentari e spese nella ricostruzione delle volontà del defunto.",
+    "bodyMarkdown": "Tra le carte del defunto si trova una lettera con indicazioni sul funerale e una scheda che destina una somma a una finalità commemorativa. I due documenti possono avere funzioni diverse. Prima di utilizzare denaro ereditario occorre distinguere desideri personali, disposizioni giuridicamente efficaci e obblighi posti a carico di un beneficiario.\n\n### Volontà personali e contenuto testamentario\n\nL'articolo 587 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) riconosce efficacia alle disposizioni non patrimoniali che la legge consente di inserire nel testamento, quando l'atto ne abbia la forma. Non significa che qualsiasi messaggio informale produca tutti gli effetti di una disposizione testamentaria.\n\nLe scelte funerarie possono inoltre essere soggette a discipline e procedure specifiche, che vanno verificate rispetto alla volontà espressa e al luogo competente. È prudente comunicare subito i documenti disponibili agli operatori incaricati, senza attendere la conclusione della ricostruzione patrimoniale.\n\n### Somme destinate a una finalità\n\nL'articolo 629 disciplina le disposizioni a favore dell'anima richiedendo la determinazione dei beni o la determinabilità della somma e richiamando le regole dell'onere. Gli articoli 647 e 648 aiutano a leggere gli obblighi collegati a un'istituzione di erede o a un legato.\n\nNon basta quindi una causale generica per prelevare somme dal patrimonio. Occorre individuare il soggetto incaricato, il contenuto della prestazione e i documenti che ne dimostrino l'esecuzione. Se il testatore ha designato una persona per curare la disposizione, il suo ruolo va distinto da quello degli eredi.\n\n### Anticipazioni e rendiconto\n\nNelle urgenze un familiare può anticipare costi con denaro proprio. È utile conservare preventivi, fatture, ricevute e comunicazioni sulle decisioni prese. Il successivo riparto non dovrebbe essere confuso con l'esecuzione di un lascito destinato ad altre finalità.\n\nLe voci vanno tenute separate: servizio funerario, manutenzione, attività commemorative, somme attribuite dal testamento. Questa distinzione evita che una spesa sostenuta immediatamente diventi motivo di contestazione sull'intera eredità.\n\n### Chiarire il documento prima di dare esecuzione\n\nPer la verifica servono testi integrali, eventuale pubblicazione, prova delle anticipazioni e informazioni sulle attività già svolte. Se esistono disposizioni discordanti, la cronologia e la forma di ciascuna assumono rilievo.\n\nLa [consulenza sul testamento](https://ereditaesuccessioni.it/testamento) può aiutare a coordinare volontà personali e gestione patrimoniale. L'obiettivo è rendere l'esecuzione rispettosa e documentata, senza attribuire a un desiderio informale effetti economici che richiedono ulteriori presupposti.\n\n### Due fascicoli collegati, con finalità differenti\n\nPer le decisioni immediate è utile raccogliere le volontà note, i contatti degli operatori e i documenti richiesti per la procedura concreta. Per il successivo esame patrimoniale servono invece testamento, fatture, pagamenti e accordi fra gli interessati. I due insiemi possono essere coordinati senza presumere che ogni indicazione personale comporti una specifica obbligazione a carico dell'eredità.\n\nQuesta distinzione è utile soprattutto quando una lettera venga ritrovata dopo che alcune scelte sono già state compiute. Occorre registrare quando sia emersa e che cosa fosse noto al momento delle decisioni, evitando ricostruzioni retroattive basate su informazioni allora non disponibili.\n\n### Un esempio sulle spese anticipate\n\nUn familiare paga il servizio funerario con denaro proprio, mentre il testamento destina una somma a un'attività commemorativa periodica. Le due uscite non dovrebbero essere compensate informalmente come se avessero la stessa causa. La prima richiede la verifica dell'anticipazione e del relativo riparto; la seconda riguarda l'esecuzione della disposizione testamentaria.\n\nConservare distintamente preventivo, fattura e prova del pagamento aiuta a comprendere quale costo sia stato sostenuto e da chi. Se più persone hanno contribuito, è utile riportare i rispettivi importi, senza ricavare la ripartizione da ricordi generici.\n\n### Gestire un disaccordo senza paralizzare ogni attività\n\nQuando il contrasto riguarda una singola voce di spesa o un lascito, conviene circoscriverlo indicando il documento e il motivo del dubbio. Una divergenza sul costo non dimostra automaticamente che tutte le volontà del defunto siano inefficaci.\n\nLe questioni legate a specifiche scelte funerarie richiedono inoltre la verifica delle relative procedure presso i soggetti competenti. Il presente inquadramento successorio non sostituisce tali controlli e non autorizza iniziative materiali basate soltanto su una lettura informale delle carte.",
+    "faqs": [
+      {
+        "question": "Le volontà funerarie devono necessariamente contenere anche un lascito?",
+        "answer": "Il Codice ammette disposizioni non patrimoniali consentite dalla legge in un atto avente forma testamentaria anche senza disposizioni patrimoniali."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 587, 629, 647, 648",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 587, 629, 647, 648. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Fiore bianco e busta di volontà personali accanto a una fotografia familiare fuori fuoco, ambiente rispettoso e sobrio. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Non aggiungere ceralacca o sigilli decorativi. Varia l'inquadratura rispetto ad altre immagini editoriali: fotografia zenitale oppure dettaglio ravvicinato coerente con il soggetto.",
+      "alt": "Fiore bianco e busta di volontà personali accanto a una fotografia familiare fuori fuoco, ambiente rispettoso e sobrio",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-020.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "cc65ba8ce60698497f07bd533a184ac88071a881abd551d7243b271b9fe12b43",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 644,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 672,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-04-28",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "6d898c74ed176a5063d04416cacf0d8b63781600b93b634415dc8c42cf2748c3",
+    "sha256": "cf77dc09714941202d7d07aca185398ff4aa2d0c56a0501b39046f78767223e0"
+  }
+}

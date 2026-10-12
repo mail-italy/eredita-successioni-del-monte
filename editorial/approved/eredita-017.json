@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-017",
+    "site": "eredita",
+    "sequence": 17,
+    "area": "Testamenti",
+    "title": "Revocare un testamento: perché una nuova scheda va letta per intero",
+    "slug": "revocare-un-testamento-perche-una-nuova-scheda-va-letta-per-intero",
+    "intent": "Revoca espressa e successiva disposizione incompatibile",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/testamento"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 32,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Revoca del testamento e nuove disposizioni",
+    "description": "Come leggere una nuova scheda testamentaria senza presumere che cancelli automaticamente ogni disposizione precedente.",
+    "bodyMarkdown": "Una persona vuole cambiare il destinatario di un bene e pensa di avvertire semplicemente i figli. La volontà di modificare il testamento deve essere tradotta in una forma idonea: lasciare indicazioni orali accanto a una vecchia scheda può produrre un conflitto anziché una revoca chiara.\n\n### Libertà di cambiare idea\n\nL'articolo 679 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) tutela la facoltà di revocare o mutare le disposizioni testamentarie. Una promessa di non modificare più il documento non dovrebbe essere trattata come rinuncia valida a questa libertà.\n\nL'articolo 680 disciplina la revoca espressa attraverso un nuovo testamento oppure un atto notarile con le formalità previste. Il percorso va scelto tenendo conto delle capacità e delle esigenze della persona, non soltanto della rapidità con cui si può scrivere un foglio.\n\n### Revoca totale o parziale\n\nÈ necessario chiarire che cosa si vuole cambiare. Una nuova attribuzione della casa può lasciare aperto il destino dei precedenti legati di denaro, dell'esecutore o di altri oneri. Se la revoca non è espressa, l'articolo 682 attribuisce rilievo all'incompatibilità fra disposizioni precedenti e successive.\n\nUna revisione ordinata parte dall'elenco delle volontà attuali e confronta ciascun punto con i testi già esistenti. Non si tratta di cancellare automaticamente il passato, ma di rendere comprensibile quali disposizioni debbano operare.\n\n### Non improvvisare sulle schede precedenti\n\nDistruzione, lacerazione e cancellazione sono disciplinate dall'articolo 684, con regole anche sulla prova dell'intenzione. Un intervento materiale sul documento può però aprire dubbi su autore, momento ed estensione dell'operazione.\n\nSe il testamento è depositato presso un notaio, o esistono più originali e copie, occorre affrontare l'intera situazione. Ritirare una copia non dimostra necessariamente di aver revocato tutte le disposizioni. È preferibile costruire un percorso documentale coerente con il risultato desiderato.\n\n### Controllare anche i cambiamenti del patrimonio\n\nDalla redazione precedente possono essere cambiati beni, rapporti familiari e passività. Una nuova scheda dovrebbe quindi essere riletta rispetto ai diritti dei legittimari e alla titolarità effettiva delle attribuzioni.\n\nPer l'incontro sono utili copie dei testamenti, elenco aggiornato dei beni e indicazione precisa delle modifiche volute. La [consulenza testamentaria](https://ereditaesuccessioni.it/testamento) consente di tradurre queste scelte in un assetto leggibile e di conservare una traccia corretta, senza confondere modifica, revoca e semplice comunicazione ai familiari.\n\n### Una modifica minima può avere conseguenze su altri lasciti\n\nSi immagini che il testatore voglia sostituire soltanto il destinatario di una somma, mantenendo la distribuzione degli immobili. Se nella nuova scheda utilizza una revoca generale senza riscrivere le altre disposizioni, può produrre un risultato diverso da quello desiderato. Viceversa, limitarsi a nominare un nuovo beneficiario senza chiarire il rapporto con il testo precedente può lasciare un dubbio interpretativo.\n\nIl confronto dovrebbe quindi partire dalle volontà che si intendono conservare. Esecutore, sostituzioni, legati e oneri possono essere facilmente dimenticati quando l'attenzione è concentrata sul singolo cambiamento. Una revisione completa del contenuto non richiede necessariamente di cambiare tutto, ma di sapere che cosa continuerà a operare.\n\n### Controllare le copie senza alterare la storia dei documenti\n\nLa presenza di una fotocopia presso un familiare non è di per sé un problema da risolvere cancellandone parti a penna. L'obiettivo è rendere chiara la volontà giuridicamente efficace, non modificare ogni riproduzione esistente. I professionisti coinvolti devono però conoscere depositi, schede anteriori e atti revocatori già compiuti.\n\nSe una persona conserva soltanto una vecchia copia, è utile spiegare che potrebbe non rappresentare l'ultima situazione, senza affidare a quella comunicazione il compito di sostituire le formalità necessarie.\n\n### Quando rivedere il progetto\n\nUn nuovo matrimonio, la nascita di un figlio, la vendita di un immobile o il venir meno di un beneficiario possono rendere opportuno riesaminare il testamento. Non tutti gli eventi producono gli stessi effetti, e non è prudente affidarsi a una regola generica.\n\nPortare al colloquio i documenti dei cambiamenti consente di verificare se basti una disposizione mirata o se sia preferibile una nuova organizzazione complessiva.",
+    "faqs": [
+      {
+        "question": "Una comunicazione verbale ai figli basta a revocare il testamento?",
+        "answer": "Non sostituisce le forme della revoca espressa previste dall'articolo 680; eventuali altre vicende revocatorie richiedono una valutazione specifica."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 679, 680, 681, 682, 684",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 679, 680, 681, 682, 684. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una busta precedente chiusa e un nuovo foglio bianco con penna, nessuna carta strappata o gesto distruttivo. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Non aggiungere ceralacca o sigilli decorativi. Varia l'inquadratura rispetto ad altre immagini editoriali: fotografia zenitale oppure dettaglio ravvicinato coerente con il soggetto.",
+      "alt": "Una busta precedente chiusa e un nuovo foglio bianco con penna, nessuna carta strappata o gesto distruttivo",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-017.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "fd40566cf1d66179f390e3f017feb47d15666b5c9f5b9194ef58cb1b28280f5e",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 629,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 657,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-03-21",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "d83bd75929631723f74d9eb2ae95bab2e83c52d8cc1c8f08988f4326c6638593",
+    "sha256": "6efa5f046b9bd943a9baad8a992f221976ed46476cadddd98f7dc6b7455d8151"
+  }
+}

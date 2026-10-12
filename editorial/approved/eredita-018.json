@@ -1,0 +1,70 @@
+{
+  "article": {
+    "id": "eredita-018",
+    "site": "eredita",
+    "sequence": 18,
+    "area": "Testamenti",
+    "title": "Documentazione sanitaria e testamento: costruire una cronologia utile",
+    "slug": "documentazione-sanitaria-e-testamento-costruire-una-cronologia-utile",
+    "intent": "Capacità al momento dell'atto e accesso documentale",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/impugnazione-testamento"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 34,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Cartelle sanitarie e testamento",
+    "description": "Come organizzare documenti sanitari e date per valutare questioni sulla capacità al momento del testamento.",
+    "bodyMarkdown": "Una cartella sanitaria contiene una diagnosi importante, ma è successiva al testamento. Il documento può essere rilevante; non risponde però da solo alla domanda giuridica. Occorre ricostruire le condizioni del testatore nel momento dell'atto, distinguendo il dato clinico dall'interpretazione che se ne vuole trarre.\n\n### La data del testamento guida la ricerca\n\nL'articolo 591 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) riferisce l'incapacità anche transitoria al momento della redazione. Una raccolta di centinaia di pagine senza ordine temporale rischia quindi di nascondere le informazioni decisive.\n\nConviene creare una cronologia con data, struttura sanitaria, documento, fatto descritto e relazione con il periodo della scheda. Una visita lontana può descrivere la storia della malattia; un ricovero vicino può documentare una fase specifica. Entrambi vanno letti senza presumere che il peggioramento sia stato lineare.\n\n### Chiedere documenti attraverso canali legittimi\n\nL'accesso ai dati delle persone decedute ha una disciplina propria. Il [Garante](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10273026) richiama l'articolo 2-terdecies, che riconosce l'esercizio dei diritti a soggetti con interesse proprio o altre ragioni previste dalla norma.\n\nLa richiesta alla struttura dovrebbe identificare richiedente, defunto, relazione o interesse e documenti pertinenti. Non bisogna utilizzare credenziali altrui per aggirare il controllo dell'identità. Le informazioni sui terzi presenti nella documentazione richiedono a loro volta attenzione.\n\n### Separare osservazioni e conclusioni\n\nUna annotazione clinica, una terapia e una descrizione familiare non hanno lo stesso significato. La prescrizione di un farmaco non dimostra automaticamente un certo effetto cognitivo; un ricordo di lucidità non annulla automaticamente un accertamento medico.\n\nÈ utile riportare le osservazioni nella loro data e conservare il documento integrale, evitando ritagli che ne alterino il contesto. Gli elementi che sembrano smentire l'ipotesi iniziale devono restare nel fascicolo: il professionista ha bisogno di valutare la tenuta complessiva della ricostruzione.\n\n### Collegare il materiale al problema successorio\n\nLa verifica richiede anche copia del testamento, circostanze della redazione e informazioni sulle disposizioni eseguite. Non basta dimostrare che il defunto fosse malato: bisogna formulare il quesito corretto e valutare interesse, azione e tempi.\n\nIl percorso sull'[impugnazione del testamento](https://ereditaesuccessioni.it/impugnazione-testamento) può coordinare la lettura giuridica con l'eventuale apporto tecnico, mantenendo i dati sanitari riservati e limitati a ciò che serve per il caso.\n\n### Come costruire una cronologia senza interpretazioni premature\n\nUna tabella può contenere cinque colonne: data dell'evento, data del documento, struttura o autore, fatto riportato e documento originale di riferimento. Separare le prime due date evita un errore frequente: una relazione redatta più tardi può descrivere un episodio precedente, ma la sua collocazione non deve essere confusa con quella dell'episodio.\n\nNella colonna dei fatti conviene riportare una sintesi fedele, mantenendo a disposizione il testo integrale. La colonna non dovrebbe contenere conclusioni come “incapace quel giorno”, salvo che si stia identificando chiaramente una valutazione professionale e il suo oggetto. La conclusione giuridica richiede un esame ulteriore.\n\n### Documentare anche le lacune\n\nSe una struttura non trova una cartella o risponde che il documento non è disponibile, va conservata la risposta. Non dimostra che la persona non sia stata curata, ma chiarisce il limite della ricostruzione. Analogamente, il ricordo di una visita priva di riscontro può essere annotato come informazione da approfondire.\n\nQuesta distinzione aiuta a formulare richieste successive mirate. Cercare indiscriminatamente ogni documento della vita del defunto può aumentare costi e tempi senza avvicinare alla domanda rilevante.\n\n### Un quesito concreto per il consulente\n\nIl professionista dovrebbe ricevere il testamento e una cronologia che permetta di comprendere quale periodo debba essere valutato. L'eventuale analisi clinica va collegata a quel momento e al tipo di atto, senza chiederle di risolvere questioni ereditarie estranee alla competenza sanitaria.\n\nAnche la gestione dei file conta: nomi chiari, copie leggibili e accesso limitato ai soggetti coinvolti riducono il rischio di scambi e divulgazioni inutili. La qualità del fascicolo dipende dalla sua pertinenza e verificabilità, non dal numero di pagine raccolte.",
+    "faqs": [
+      {
+        "question": "Una diagnosi successiva dimostra da sola l'incapacità precedente?",
+        "answer": "No. È un elemento da collocare nella cronologia; il quesito riguarda le condizioni nel momento in cui il testamento fu redatto."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 591",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 591. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10273026",
+        "title": "Garante, provvedimento 3 luglio 2026",
+        "supports": "Esercizio dei diritti sui dati delle persone decedute secondo art. 2-terdecies.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Cartelle mediche anonime ordinate lungo una linea del tempo fatta di segnalibri neutri, nessun dato clinico leggibile. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Non aggiungere ceralacca o sigilli decorativi. Varia l'inquadratura rispetto ad altre immagini editoriali: fotografia zenitale oppure dettaglio ravvicinato coerente con il soggetto.",
+      "alt": "Cartelle mediche anonime ordinate lungo una linea del tempo fatta di segnalibri neutri, nessun dato clinico leggibile",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-018.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "7fea89d6c58ad649fe965f13d6e3f86f0bbf4d39177ddc412e55ff95f69cc99c",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 620,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 649,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-04-06",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "a832a714ad347a50136f8f9922911a6d565a75c26b0405d6bbe624570cf0d757",
+    "sha256": "73ec07fad824aeb989f4dd6b6b167acab9e38eed55745474fd9cc7478503a2fd"
+  }
+}

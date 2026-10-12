@@ -1,0 +1,71 @@
+{
+  "article": {
+    "id": "eredita-096",
+    "site": "eredita",
+    "sequence": 96,
+    "area": "Successioni internazionali",
+    "title": "Successione con beni nel Regno Unito: evitare automatismi europei",
+    "slug": "successione-con-beni-nel-regno-unito-evitare-automatismi-europei",
+    "intent": "Stato non partecipante e coordinamento del caso",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successioni-internazionali"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 190,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Successione tra Italia e Regno Unito",
+    "description": "Come coordinare ordinamenti e documenti senza estendere automaticamente il regolamento europeo alle autorità britanniche.",
+    "bodyMarkdown": "Una successione con beni in Italia e nel Regno Unito richiede di evitare un equivoco frequente: il sistema del regolamento UE 650/2012 non si applicava alle autorità britanniche già prima della Brexit.\n\nIl [considerando 82 del regolamento](https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650) e la [Corte di giustizia nella causa C-645/20](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A62020CJ0645) richiamano questa non partecipazione. Ciò non significa che il regolamento sia irrilevante per le autorità italiane chiamate a esaminare la stessa successione.\n\n## Due prospettive da coordinare\n\nUn'autorità italiana applica le proprie regole di diritto internazionale privato, compreso il regolamento quando pertinente. L'autorità britannica segue invece il sistema applicabile nel proprio ordinamento.\n\nOccorre quindi verificare competenza, legge e documenti su entrambi i versanti. Non basta ottenere un atto in un Paese e presumere che svolga automaticamente la stessa funzione nell'altro.\n\nAnche all'interno del Regno Unito è necessario identificare l'ordinamento territoriale interessato, evitando di usare «diritto inglese» come sinonimo indistinto di ogni situazione britannica.\n\n## La legge straniera può essere applicata in Italia\n\nL'articolo 20 attribuisce carattere universale alla legge designata dal regolamento: può essere anche quella di uno Stato non membro. L'assenza di partecipazione britannica non esclude quindi ogni possibile applicazione di una legge britannica da parte di un'autorità italiana.\n\nVanno esaminati residenza abituale del defunto, cittadinanza, eventuale scelta di legge e gli altri elementi del caso. Il regolamento contiene inoltre una disciplina del rinvio all'articolo 34, con limiti ed eccezioni.\n\nQuesti passaggi richiedono un'analisi coordinata e non si risolvono con la sola ubicazione di una casa.\n\n## Mappare beni e titoli\n\nÈ utile predisporre un elenco per Paese: immobili, conti, investimenti, debiti e documenti disponibili. Per ogni bene si indica intestazione, eventuale comproprietà e interlocutore competente.\n\nTestamenti redatti in momenti o luoghi diversi devono essere letti insieme. Un atto successivo può incidere sul precedente anche quando i familiari pensavano che riguardasse soltanto i beni locali.\n\nLa cronologia dei luoghi di vita del defunto è altrettanto importante.\n\n## Documenti e poteri di amministrazione\n\nLa banca o il registro britannico possono richiedere documenti legati alla procedura locale. Occorre verificare che cosa sia necessario per quel patrimonio, senza promettere che il certificato successorio europeo sostituisca ogni atto.\n\nAllo stesso modo, un documento britannico deve essere esaminato per capire quali poteri attribuisca e come possa essere utilizzato in Italia.\n\nTraduzione e autenticazione sono verifiche ulteriori rispetto alla legge sostanziale.\n\n## Tenere separata la fiscalità\n\nImposte, dichiarazioni e scadenze richiedono un'analisi propria. La scelta di una legge successoria non determina automaticamente un unico Paese di tassazione.\n\nUn calendario comune tra i professionisti coinvolti aiuta a evitare che l'attesa di un documento blocchi attività indipendenti e urgenti.\n\nLa consulenza sulle [successioni internazionali](https://ereditaesuccessioni.it/successioni-internazionali) deve quindi costruire un percorso tra sistemi diversi. Il primo risultato è eliminare gli automatismi: quali autorità intervengono, quale legge esaminano e quali documenti servono davvero per ciascun bene.\n\n### Un elenco comune delle questioni aperte\n\nIl professionista italiano e quello del territorio britannico interessato dovrebbero poter lavorare sulla stessa mappa patrimoniale. Per ciascun bene è utile indicare chi richieda documenti, quale procedura sia in corso e quale decisione dipenda da un chiarimento di legge o di competenza.\n\nAnche i termini tradotti devono essere accompagnati dalla loro funzione. Un soggetto autorizzato ad amministrare il patrimonio non va descritto automaticamente come proprietario definitivo di ogni bene. Se un documento attribuisce poteri specifici, questi devono essere letti prima di impartire istruzioni di vendita o pagamento.\n\nIl coordinamento evita inoltre richieste duplicate e consente di capire quali attività possano proseguire mentre un altro passaggio resta in attesa. L'obiettivo è una sequenza compatibile nei due sistemi, con ruoli e risultati documentati, senza presumere un'identità di procedure che non esiste.",
+    "faqs": [
+      {
+        "question": "La Brexit ha reso per la prima volta ilRegno Unito estraneo al regolamento successorio?",
+        "answer": "No. IlRegno Unito non partecipava al regolamento 650/2012 già quando era membro dell'Unione. La vicenda va coordinata con le regole degli ordinamenti coinvolti."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650",
+        "title": "Regolamento UE 650/2012, considerando 82 e articoli 20,21,22,34",
+        "supports": "Non partecipazione britannica, applicazione universale e coordinamento del rinvio.",
+        "checkedAt": "2026-10-12"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A62020CJ0645",
+        "title": "Corte di giustizia, causaC 645/20",
+        "supports": "Conferma della non partecipazione del Regno Unito al regolamento già prima della Brexit.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Due fascicoli separati su una mappa sfocata dell'Italia e delle isole britanniche, con una chiave. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Due fascicoli separati su una mappa sfocata dell'Italia e delle isole britanniche, con una chiave",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-096.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "5957e3e7355833198504e806be4bd4fce17939a33b557d7751da5ebf785b66b4",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 594,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 632,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-02-01",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "97b7eb6f10060982043aee40085ac53bf35c103a78ce50f495bc666580c472ad",
+    "sha256": "63f18eaf34ea9a39ab95ca4d21af2ed2b47c864df896bef9dbfaeef30abf67f2"
+  }
+}

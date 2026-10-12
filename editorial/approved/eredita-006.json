@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-006",
+    "site": "eredita",
+    "sequence": 6,
+    "area": "Testamenti",
+    "title": "Si trova soltanto una fotocopia del testamento: come conservare le prove",
+    "slug": "si-trova-soltanto-una-fotocopia-del-testamento-come-conservare-le-prove",
+    "intent": "Documento originale mancante e ricostruzione del ritrovamento",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/testamento-olografo-falso"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 10,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Solo una fotocopia del testamento",
+    "description": "Come preservare una fotocopia del testamento e ricostruire la sorte dell'originale senza anticipare conclusioni.",
+    "bodyMarkdown": "Dopo il decesso un parente consegna la fotocopia di un testamento, ma l'originale non si trova. La copia è un elemento da conservare, non una risposta completa: occorre capire se l'originale esistesse, dove fosse custodito e perché manchi. Autenticità, contenuto e possibile revoca sono questioni differenti.\n\n### Conservare la copia senza trasformarla\n\nIl primo passo è mantenere il file o il foglio nella forma in cui è stato ricevuto. Una scansione con data, allegato e messaggio di accompagnamento può aiutare a ricostruirne la provenienza. Riscrivere il testo e scartare la copia significa perdere informazioni sulla disposizione delle righe, sui margini e sulle eventuali alterazioni.\n\nSe esistono copie diverse, tutte devono essere confrontate. Non basta conservare quella più nitida: una versione incompleta può rivelare che un foglio era separato o che una parte del testo è stata aggiunta alla riproduzione.\n\n### Ricostruire la storia dell'originale\n\nÈ utile preparare una cronologia indicando chi afferma di aver visto l'originale, quando, in quale luogo e in quale circostanza. Le dichiarazioni di conoscenza diretta vanno separate da quelle riferite da altre persone.\n\nLa ricerca può coinvolgere documenti domestici, indicazioni di deposito notarile e persone che ne abbiano avuto lecita custodia. Non richiede accessi abusivi agli account del defunto o sottrazione di carte altrui. Se vi è conflitto, il modo di acquisire e preservare la prova va concordato con il professionista.\n\n### La mancanza non ha una spiegazione unica\n\nL'articolo 684 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) disciplina distruzione, lacerazione e cancellazione dell'olografo, prevedendo anche la rilevanza della prova su autore e intenzione. La semplice notizia “non lo troviamo” non consente però di ricostruire automaticamente che cosa sia avvenuto.\n\nPuò esservi smarrimento, custodia altrove, deterioramento oppure una condotta intenzionale. La distinzione incide sulla strategia probatoria. Sostenere immediatamente che un coerede abbia distrutto la scheda, senza riscontri, rischia di spostare il confronto su accuse non documentate.\n\n### Pubblicazione e giudizio richiedono un esame dedicato\n\nL'articolo 620 costruisce la pubblicazione attorno alla scheda olografa; l'articolo 602 ne prevede i requisiti formali. In presenza della sola copia il percorso concretamente praticabile va verificato con notaio e legale, senza promettere che una stampa possa sostituire l'originale in qualsiasi situazione.\n\nPer il primo esame servono copia integrale, informazioni sulla sua origine, esiti delle ricerche e indicazione delle persone coinvolte. Il testo deve poi essere letto insieme a eventuali altri testamenti. La verifica sul [testamento olografo contestato](https://ereditaesuccessioni.it/testamento-olografo-falso) riguarda anche la qualità della documentazione disponibile e non può ridursi al confronto tra firme riprodotte.\n\n### Distinguere copia cartacea, scansione e trascrizione\n\nUna fotocopia mostra alcuni aspetti grafici dell'originale, ma può perdere colori, pressione della scrittura o parti marginali. Una fotografia può aggiungere informazioni sul contesto, pur introducendo prospettiva e ritagli. La trascrizione, invece, restituisce soltanto un contenuto ricopiato, soggetto a omissioni ed errori. Nel fascicolo ciascun materiale dovrebbe essere chiamato con il proprio nome.\n\nSe una scansione è arrivata tramite email, è opportuno conservare il messaggio originario con l'allegato, evitando di sostituirlo con una stampa isolata. Il dato di invio può aiutare a collocare la circolazione della copia, senza dimostrare automaticamente la data di redazione o l'autenticità della volontà testamentaria.\n\n### Un esempio di ricerca documentata\n\nUn nipote possiede una copia ricevuta anni prima, mentre un altro familiare ricorda che l'originale era in un mobile poi trasferito. La prima attività utile è ricostruire lo spostamento del mobile e delle carte, identificando chi abbia conoscenza diretta dei passaggi. È diversa l'informazione “ho visto quella busta durante il trasloco” dalla frase “mi hanno detto che fu buttata”.\n\nSe la ricerca non produce risultati, conviene conservare anche un elenco delle verifiche eseguite e delle risposte negative. Non per fabbricare una prova di smarrimento, ma per rendere controllabile il percorso seguito. Il legale potrà così valutare quali ulteriori acquisizioni siano pertinenti, quale tutela sia concretamente ipotizzabile e quali conclusioni restino ancora prive di riscontro.",
+    "faqs": [
+      {
+        "question": "Una fotocopia permette da sola di conoscere tutte le ragioni della scomparsa dell'originale?",
+        "answer": "No. Occorre ricostruire custodia, ricerca, eventuale distruzione e ulteriori prove; il trattamento giuridico richiede un esame specifico."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 602, 620, 684",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 602, 620, 684. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Fotocopia grigia in una cartella aperta e spazio vuoto per l'originale, luce sobria da archivio. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Fotocopia grigia in una cartella aperta e spazio vuoto per l'originale, luce sobria da archivio",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-006.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "db090b0807ffc74da9763049015eca589b8ed7d766964114fa7e9e752571adc1",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 628,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 658,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-12-07",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "0c7d3eb04c4e0f147d9e31be04ffcc2a7287e2d27c0f895a96b9501861b041dc",
+    "sha256": "9030ba979b68445247a8cda18bc6d27cf8c6a5c3f83dac548609b262afa8513a"
+  }
+}

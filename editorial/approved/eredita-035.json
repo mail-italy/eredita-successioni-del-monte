@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-035",
+    "site": "eredita",
+    "sequence": 35,
+    "area": "Famiglia e chiamata",
+    "title": "Quando il chiamato muore senza avere accettato: la trasmissione del diritto",
+    "slug": "quando-il-chiamato-muore-senza-avere-accettato-la-trasmissione-del-diritto",
+    "intent": "Distinguere trasmissione del diritto di accettare e rappresentazione",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/accettazione-eredita"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 68,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Trasmissione del diritto di accettare",
+    "description": "Che cosa accade se il chiamato muore prima di accettare e perché occorre ricostruire due successioni distinte.",
+    "bodyMarkdown": "Il padre muore e il figlio, ancora indeciso sull'eredità, muore a sua volta. Chi subentra deve affrontare due successioni e verificare se il diritto di accettare la prima sia stato trasmesso. Non è la stessa situazione del figlio morto prima del genitore.\n\n### La sequenza dei decessi è decisiva\n\nL'articolo 479 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) disciplina il chiamato che muore senza aver accettato: il diritto di accettare si trasmette ai suoi eredi. La rappresentazione degli articoli 467 e seguenti ha invece un diverso fondamento.\n\nLa ricostruzione parte quindi dalle date e dagli atti. Bisogna verificare che il secondo defunto non avesse già accettato, anche attraverso comportamenti rilevanti. Se l'acquisto era avvenuto, il contenuto della sua eredità deve essere letto diversamente.\n\n### Due patrimoni da tenere separati\n\nÈ utile creare due fascicoli con attività, passività, testamenti e chiamati di ciascun defunto. Una somma appartenente alla prima eredità non dovrebbe essere confusa con un conto personale del secondo soltanto perché questi ne aveva chiesto informazioni.\n\nLo stesso vale per i debiti. La convenienza dell'accettazione deve essere valutata rispetto alle posizioni coinvolte, non attraverso un unico saldo che sommi tutti i beni e nasconda l'origine delle obbligazioni.\n\n### Le scelte non sono indipendenti in ogni direzione\n\nL'articolo 479 prevede che la rinuncia all'eredità del trasmittente includa la rinuncia all'eredità a lui devoluta. È quindi rischioso firmare una rinuncia nella seconda successione pensando di poter comunque conservare liberamente il diritto relativo alla prima.\n\nLa norma disciplina anche il disaccordo tra gli eredi del trasmittente. Il fatto che uno voglia accettare e un altro rinunciare non va risolto con un generico voto di maggioranza: occorre applicare la disciplina alla posizione di ciascuno.\n\n### Quali atti raccogliere\n\nServono certificati di morte, testamenti, eventuali dichiarazioni di accettazione o rinuncia e cronologia delle operazioni compiute dal chiamato prima del secondo decesso. Vendite, riscossioni e accordi devono essere esaminati nel loro contenuto.\n\nVanno anche verificati termini e possesso dei beni, evitando di presumere che il secondo decesso faccia ripartire ogni scadenza. Una richiesta giudiziale già notificata o un inventario avviato possono incidere sul percorso.\n\nIl servizio sull'[accettazione ereditaria](https://ereditaesuccessioni.it/accettazione-eredita) consente di distinguere questi livelli e di scegliere sulla base di due ricostruzioni patrimoniali verificabili, anziché trattare la trasmissione del diritto come un'eredità già automaticamente acquisita.\n\n### Ricostruire due famiglie e due patrimoni\n\nUn padre muore e il figlio, chiamato all'eredità, muore a sua volta prima di avere definito la propria scelta. Non basta prendere l'elenco degli eredi del padre e aggiungervi quelli del figlio. Occorre accertare separatamente chi succeda al secondo defunto e verificare il suo rapporto con la prima eredità. Le persone interessate e le rispettive posizioni possono non coincidere.\n\nAnche i debiti richiedono due elenchi. Una passività personale del figlio non diventa per questo un debito originario del padre, e una richiesta relativa alla prima successione non va confusa con ogni altra richiesta indirizzata agli eredi del figlio. Un fascicolo unico senza questa distinzione rende difficile persino comprendere a quale scelta si riferisca una dichiarazione di rinuncia.\n\n### Descrivere gli atti, senza anticipare la conclusione\n\nNella cronologia è preferibile scrivere “ha richiesto questi estratti”, “ha firmato questa vendita” o “ha disposto questo pagamento”, allegando il documento. La formula “non aveva ancora fatto la successione” è troppo ambigua: può riferirsi a un adempimento fiscale e non chiarire affatto se vi sia stata accettazione civile.\n\nPer la stessa ragione, il semplice fatto di avere cercato informazioni non va etichettato automaticamente come accettazione, mentre un atto dispositivo merita una verifica specifica. Date, qualità dichiarata e contenuto effettivo contano più del nome assegnato all'operazione dai familiari. Se nel frattempo arriva una richiesta di un creditore, è utile conservarne anche la prova di ricezione e indicare a quale defunto si riferisca il rapporto. Questa ricostruzione permette di affrontare tempestivamente le scelte senza presumere che il secondo decesso abbia azzerato ogni termine precedente.",
+    "faqs": [
+      {
+        "question": "La morte del chiamato dopo il defunto equivale alla premorienza?",
+        "answer": "No. Può operare la trasmissione del diritto di accettare prevista dall'articolo 479, distinta dalla rappresentazione."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 479, 467",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 479, 467. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Due fascicoli successori sovrapposti con segnalibri di colori diversi e una clessidra sobria. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutti i documenti e le cartelline devono essere completamente privi di stemmi, emblemi, sigilli, ceralacca, intestazioni e simboli ufficiali. Fotografia essenziale con sfondo pulito, varia il punto di vista. Nessuna scritta, neppure sulle chiavi.",
+      "alt": "Due fascicoli successori sovrapposti con segnalibri di colori diversi e una clessidra sobria",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-035.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "561b766867a7c82e4288753210363ef7f794b4163fd7ef300fde4d1c68faa88e",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 633,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 658,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-04-24",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "95eaef69f136e345ac7164920cea2f8e3a7ee504ccee43bcfc81702f24fe0816",
+    "sha256": "e6dd47eb9e3f863b62417e431daaa15bfe8cd4bc584f201d9f19d1d8e6e95fc6"
+  }
+}

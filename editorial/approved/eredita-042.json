@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-042",
+    "site": "eredita",
+    "sequence": 42,
+    "area": "Accettazione e debiti",
+    "title": "Rinuncia all'eredità in favore di un fratello: perché la formula è rischiosa",
+    "slug": "rinuncia-all-eredita-in-favore-di-un-fratello-perche-la-formula-e-rischiosa",
+    "intent": "Differenza tra rinuncia abdicativa e cessione dei diritti",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/rinuncia-eredita"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 82,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Rinuncia in favore di un fratello",
+    "description": "Perché favorire un fratello e rinunciare all'eredità sono operazioni diverse, con effetti da verificare prima della firma.",
+    "bodyMarkdown": "«Rinuncio all'eredità in favore di mio fratello» è una formula che può esprimere un'intenzione familiare comprensibile, ma non descrive necessariamente una rinuncia in senso giuridico. La rinuncia ordinaria elimina la propria chiamata; non permette di scegliere liberamente chi riceverà ciò che sarebbe spettato al rinunciante.\n\nGli [articoli 477 e 478 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) collegano determinati atti di disposizione dei diritti successori all'accettazione dell'eredità. In particolare, una rinuncia fatta verso corrispettivo o a favore soltanto di alcuni chiamati può avere effetti molto diversi da quelli immaginati.\n\n## Rinunciare e trasferire sono operazioni differenti\n\nChi rinuncia nelle forme dell'articolo 519 non acquista l'eredità per poi regalarla a una persona scelta. La quota segue le regole della devoluzione applicabili: occorre considerare, tra l'altro, eventuali sostituzioni testamentarie e la rappresentazione.\n\nChi invece intende far arrivare un bene proprio a un fratello potrebbe avere bisogno di accettare e compiere un successivo trasferimento, oppure partecipare a una divisione con un determinato assetto. Sono operazioni con presupposti, costi e conseguenze da verificare. Non basta chiamarle «rinuncia» per trasformarle in una rinuncia abdicativa.\n\nQuesta distinzione conta soprattutto se vi sono debiti. Un accordo scritto pensando di evitare la qualità di erede può invece esprimere un atto incompatibile con quella intenzione.\n\n## Le condizioni che non si possono aggiungere\n\nL'articolo 520 non consente una rinuncia sottoposta a condizione, a termine o limitata a una parte dell'eredità. Formule come «rinuncio se mio fratello prende la casa» oppure «rinuncio ai debiti ma tengo i risparmi» non realizzano l'effetto desiderato.\n\nAnche un accordo per cui un familiare promette di pagare ogni passività richiede cautela: l'impegno interno tra parenti non coincide automaticamente con la liberazione rispetto ai creditori. Il contenuto dell'accordo va valutato separatamente dal titolo successorio.\n\n## Cosa chiarire prima di firmare\n\nÈ utile scrivere l'obiettivo in termini concreti, senza attribuirgli subito un nome giuridico:\n\n- si vuole evitare qualsiasi acquisto dell'eredità?\n- si vuole favorire una persona specifica?\n- si vuole lasciare un bene ricevendo denaro in cambio?\n- si vuole agevolare la vendita a un terzo?\n- si vuole regolare soltanto la gestione provvisoria?\n\nLe risposte possono condurre a percorsi differenti. Per esempio, chi non vuole accettare deve verificare anche gli atti già compiuti; chi vuole aiutare un fratello deve accertare se esistono altri soggetti ai quali la quota sarebbe devoluta.\n\n## Il ruolo dei figli del rinunciante\n\nLa presenza di discendenti cambia spesso l'analisi. In una situazione nella quale opera la rappresentazione, la rinuncia del genitore può aprire la chiamata dei figli. Se sono minori, si aggiungono regole di protezione e autorizzazione: non è una scorciatoia per concentrare l'eredità su un altro adulto.\n\nOccorre quindi evitare accordi familiari costruiti soltanto sul numero dei fratelli. La mappa delle persone potenzialmente coinvolte deve includere anche i discendenti e le disposizioni del testamento.\n\nUna verifica sulla [rinuncia all'eredità](https://ereditaesuccessioni.it/rinuncia-eredita) parte dalla bozza che si vorrebbe firmare, dall'eventuale corrispettivo e dal risultato perseguito. Il punto decisivo è far coincidere l'effetto giuridico con l'intenzione, prima che una formula apparentemente semplice produca un'accettazione non voluta.\n\n### Portare anche le conversazioni che spiegano l'accordo\n\nUna bozza di poche righe può essere accompagnata da messaggi in cui si promettono denaro, pagamento di debiti o attribuzione di un immobile. Per valutarla occorre leggere l'operazione complessiva, non soltanto il titolo “rinuncia” riportato sul foglio. Anche le somme già versate devono essere indicate con data, provenienza e causale.\n\nSe l'obiettivo è evitare futuri litigi, una formula ambigua rischia di produrre l'effetto opposto. Prima della firma è utile chiedere che siano spiegati separatamente il risultato nei rapporti tra familiari, la posizione rispetto ai creditori e gli eventuali soggetti che subentrerebbero. Solo così si comprende se il percorso scelto realizzi davvero l'intenzione di favorire il fratello senza conseguenze ulteriori non considerate.",
+    "faqs": [
+      {
+        "question": "Posso rinunciare solo alla casa e tenere il conto?",
+        "answer": "La rinuncia all'eredità non può essere parziale. L'attribuzione di singoli beni richiede una diversa operazione, da valutare anche rispetto ai debiti e agli effetti dell'accettazione."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 477, 478, 519, 520, 521",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 477, 478, 519, 520, 521. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Due cartelline separate e una chiave al centro di un tavolo, con mani che indicano scelte differenti. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutte le carte senza testo, senza stemmi, emblemi, sigilli, ceralacca, loghi o intestazioni. Dettaglio editoriale essenziale, sfondo luminoso naturale e inquadratura variata. Nessun luogo deve sembrare una sede dello studio.",
+      "alt": "Due cartelline separate e una chiave al centro di un tavolo, con mani che indicano scelte differenti",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-042.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "8b784181be28e221a66ee2aa6a98e05f1833c8c702c54808f3567211fa79100c",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 608,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 642,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-01-20",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "81437f78587186cd8a729f488ca87321ac8467a3e424c476eaed4eb12d7bb62d",
+    "sha256": "da9c09129815278129564f46ed5cdfd6683ac20821a6f69155242c39dbe8413a"
+  }
+}

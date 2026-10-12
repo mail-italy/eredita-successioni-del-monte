@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-049",
+    "site": "eredita",
+    "sequence": 49,
+    "area": "Accettazione e debiti",
+    "title": "Spese funerarie anticipate da un familiare: conservarne la prova",
+    "slug": "spese-funerarie-anticipate-da-un-familiare-conservarne-la-prova",
+    "intent": "Pagamento e richiesta di riparto fra aventi diritto",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/conflitti-tra-coeredi"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 96,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Spese funerarie e rimborso agli eredi",
+    "description": "Come documentare anticipi, accordi e pagamenti funerari per proporre un riparto verificabile tra gli interessati.",
+    "bodyMarkdown": "Nei giorni successivi a un decesso, un familiare può anticipare le spese funerarie prima che siano chiariti eredi, conti e disponibilità. Quando chiede il rimborso, il problema non è soltanto ricordare quanto ha pagato: occorre dimostrare quali somme siano state effettivamente sostenute e su quale base se ne chieda il riparto.\n\nGli [articoli 752 e 754 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) forniscono il quadro generale dei debiti e pesi ereditari. La loro applicazione alle singole spese richiede però una valutazione del titolo e del contesto, senza presumere che ogni esborso scelto da un familiare debba essere rimborsato integralmente.\n\n## Tenere separate fattura e pagamento\n\nLa fattura identifica il servizio e il soggetto al quale è stata intestata; la ricevuta o il movimento bancario dimostrano il pagamento. Conservare entrambi aiuta a evitare contestazioni su anticipi, saldi e importi ancora dovuti.\n\nSe una parte è stata pagata in contanti, è utile avere una quietanza che indichi con chiarezza a quale prestazione si riferisce. Per i trasferimenti tra familiari va annotato se si trattava di un contributo definitivo o di un anticipo da regolare successivamente.\n\nUn prospetto ordinato può distinguere il fornitore, il servizio, il costo, chi lo ha pagato e gli eventuali rimborsi già ricevuti.\n\n## Documentare gli accordi senza crearli dopo\n\nMessaggi, preventivi accettati e comunicazioni tra parenti possono chiarire quali decisioni siano state condivise. Devono essere conservati nella loro forma originale, senza riscriverli come se fossero accordi sottoscritti.\n\nSe non vi era un'intesa preventiva, è preferibile dirlo apertamente e ricostruire la necessità e la ragionevolezza delle spese. La delicatezza del momento non rende inutile la prova, ma invita a una ricostruzione rispettosa e concreta.\n\nLe voci facoltative o particolarmente onerose possono richiedere un esame diverso da quelle essenziali. Presentare ogni importo in un'unica cifra rende più difficile trovare un accordo.\n\n## Attenzione al denaro utilizzato\n\nPagare con risorse proprie è diverso dal prelevare denaro da un conto del defunto. L'accesso ai fondi ereditari deve rispettare i titoli e le procedure applicabili; il fatto che la finalità sia comprensibile non autorizza qualsiasi operazione.\n\nSe la scelta di accettare non è ancora stata compiuta, conviene valutare in anticipo gli atti che si intendono sottoscrivere e il loro possibile significato. Il rimborso di una spesa non dovrebbe diventare il motivo per compiere disposizioni patrimoniali non esaminate.\n\n## Proporre un riparto verificabile\n\nUna richiesta efficace indica il totale documentato, le somme già rimborsate, il criterio proposto e gli allegati. Non serve partire da un'accusa contro gli altri familiari. È più utile consentire loro di verificare ogni voce.\n\nSe il disaccordo riguarda soltanto una parte, il prospetto deve mostrarlo. Distinguere le somme riconosciute da quelle contestate permette di discutere un saldo realistico e limita il rischio di riaprire l'intera successione per una singola spesa.\n\n## Collegare la spesa al rendiconto generale\n\nQuando chi ha anticipato il funerale ha anche riscosso canoni o gestito altre somme ereditarie, è opportuno un rendiconto separato e trasparente. Compensare informalmente entrate e uscite senza informare gli altri può alimentare nuovi sospetti.\n\nLa gestione dei [conflitti tra coeredi](https://ereditaesuccessioni.it/conflitti-tra-coeredi) beneficia di documenti leggibili e di una richiesta circoscritta. Il risultato da cercare è un accordo sul pagamento realmente provato, non una conferma indistinta di ogni decisione presa nell'emergenza.\n\n### Verificare il saldo dopo un primo rimborso\n\nSe alcuni parenti hanno già contribuito, le somme ricevute devono essere riportate nella richiesta successiva. Il costo originario del servizio e il credito ancora preteso da chi lo ha anticipato sono dati diversi.\n\nAnche una ricevuta del fornitore può riferirsi soltanto a un acconto. Collegarla al saldo evita di presentare due volte la medesima voce. Un riepilogo aggiornato permette così di discutere ciò che rimane effettivamente da regolare, senza riaprire somme già restituite o attribuire a un familiare un mancato contributo che non risulta dai documenti.",
+    "faqs": [
+      {
+        "question": "La fattura intestata a me dimostra che gli altri devono rimborsare tutto?",
+        "answer": "Dimostra un elemento della spesa, ma il rimborso richiede di esaminare anche pagamento, natura dell'esborso, accordi e criteri di riparto. Non ogni scelta unilaterale vincola automaticamente tutti per l'intero importo."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 752, 754",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 752, 754. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una ricevuta non leggibile accanto a fiori bianchi sobri e una cartellina di spese familiari. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutte le carte senza testo, senza stemmi, emblemi, sigilli, ceralacca, loghi o intestazioni. Dettaglio editoriale essenziale, sfondo luminoso naturale e inquadratura variata. Nessun luogo deve sembrare una sede dello studio.",
+      "alt": "Una ricevuta non leggibile accanto a fiori bianchi sobri e una cartellina di spese familiari",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-049.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "be41d2fe35cd5a830f9b253470544b1520997c3fa1aa8155dc337a23fcc362f5",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 622,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 664,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-04-10",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "05e6ff7d3f539d0f2a145794192291b1d8c388c49e227186e94dea02c98ed777",
+    "sha256": "b6c8f8ac0d4631ba7ee038508ce732f118ebb1059d2e0ef15e0a7bd3eb61ca4d"
+  }
+}

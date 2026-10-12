@@ -1,0 +1,70 @@
+{
+  "article": {
+    "id": "eredita-062",
+    "site": "eredita",
+    "sequence": 62,
+    "area": "Banche e patrimonio",
+    "title": "Delega sul conto e decesso: ricostruire le operazioni successive",
+    "slug": "delega-sul-conto-e-decesso-ricostruire-le-operazioni-successive",
+    "intent": "Poteri del delegato e cronologia dopo la morte",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/recupero-somme-ereditarie"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 122,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Delega bancaria dopo il decesso",
+    "description": "Come ricostruire poteri, date e destinazione dei movimenti bancari senza confondere operatività e proprietà delle somme.",
+    "bodyMarkdown": "Una delega sul conto consente di operare entro determinati poteri, ma non attribuisce la proprietà delle somme. Dopo il decesso del titolare, la ricostruzione deve distinguere il potere di rappresentanza, il rapporto bancario e il titolo economico di ciascun movimento.\n\nL'[articolo 1722 del Codice civile](https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo%201722&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D) considera la morte tra le cause di estinzione del mandato, con una specifica previsione relativa all'impresa. La concreta delega e le operazioni eseguite richiedono quindi un esame documentale, senza presumere che le credenziali ancora funzionanti dimostrino un potere tuttora esistente.\n\n## Delega e cointestazione non coincidono\n\nIl delegato può essere una persona diversa dai titolari del conto. Un cointestatario, a sua volta, non dispone automaticamente di ogni somma come se fosse di esclusiva proprietà.\n\nPrima di discutere i prelievi occorrono contratto, firme, deleghe e successive modifiche. È necessario identificare chi potesse impartire istruzioni e con quali limiti, separando questa facoltà dalla provenienza del denaro.\n\nLa frase «aveva sempre gestito lui il conto» descrive un'abitudine, non risolve il titolo giuridico di ogni operazione.\n\n## Tre date da non confondere\n\nPer un movimento possono esistere una data di disposizione, una di esecuzione e una di registrazione. Un ordine impartito prima del decesso può comparire nell'estratto conto dopo; un addebito automatico può avere un'origine ancora diversa.\n\nLa ricostruzione dovrebbe quindi richiedere le contabili e non fermarsi alla lista dei movimenti. Vanno individuati anche ordini permanenti, utenze e altri pagamenti programmati.\n\nQuando la banca ha appreso il decesso è un ulteriore dato da documentare attraverso comunicazioni e ricevute.\n\n## Ricostruire la destinazione delle somme\n\nUn trasferimento verso il conto di un familiare richiede una spiegazione, ma non prova da solo una sottrazione. Potrebbe essere il pagamento di una spesa o la restituzione di un credito; queste ipotesi devono essere sostenute da documenti.\n\nÈ utile dividere i movimenti in tre gruppi: spiegati con prove, da chiarire e contestati. Le qualificazioni definitive vanno formulate dopo il controllo, evitando accuse fondate soltanto sul rapporto conflittuale tra parenti.\n\nLa stessa cautela vale per prelievi in contanti, che possono essere più difficili da ricostruire ma non autorizzano conclusioni automatiche.\n\n## Cosa chiedere al delegato\n\nUna richiesta circoscritta indica operazioni e periodo, domanda le relative giustificazioni e propone un termine ragionevole per rispondere. È più efficace di una contestazione generale su tutta la gestione familiare.\n\nSe chi ha operato ha pagato spese per conto dell'eredità, deve essere possibile collegare il pagamento alla fattura e alla destinazione. Compensazioni informali con presunti crediti personali richiedono un esame autonomo.\n\n## Conservare le prove prima di agire\n\nGli originali degli estratti conto e delle comunicazioni devono restare integri. Un foglio di calcolo aiuta l'analisi, ma non sostituisce il documento bancario.\n\nLa valutazione sul [recupero di somme ereditarie](https://ereditaesuccessioni.it/recupero-somme-ereditarie) può poi individuare la richiesta corretta e i soggetti coinvolti. Il punto di partenza è una cronologia verificata, non l'idea che qualsiasi accesso tecnicamente possibile al conto sia anche giuridicamente autorizzato.\n\n### Distinguere chi ha disposto da chi ha ricevuto\n\nIl soggetto che impartisce un ordine e il destinatario economico del pagamento possono non coincidere. Una tabella utile dovrebbe quindi contenere campi separati: autore dell'operazione, beneficiario, causale dichiarata e giustificativo. Quando uno di questi elementi non è noto, è preferibile indicarlo apertamente.\n\nSe un familiare produce una fattura per spiegare un prelievo, occorre verificare il collegamento tra importo ritirato e costo effettivamente pagato, compreso l'eventuale resto. Il documento può chiarire una parte della somma senza giustificarla necessariamente tutta. Analogamente, più prelievi potrebbero essere stati usati per una sola spesa. Ricostruire questi raccordi permette di formulare richieste circoscritte e di distinguere una lacuna contabile da una conclusione già dimostrata sulla destinazione del denaro.",
+    "faqs": [
+      {
+        "question": "Un movimento contabilizzato dopo la morte prova un abuso del delegato?",
+        "answer": "No. Occorre distinguere data dell'ordine, esecuzione e contabilizzazione, oltre a verificare titolo dell'operazione e poteri applicabili."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 752",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 752. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo%201722&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+        "title": "Codice civile, articolo 1722, banca dati MEF",
+        "supports": "Morte fra le cause di estinzione del mandato e previsione particolare per l'impresa.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una carta bancaria senza marchi accanto a una delega chiusa e un calendario con un giorno evidenziato senza numeri leggibili. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo, numero di conto o intestazione: eventuali carte e schermi devono essere anonimi e senza testo. Composizione fotografica semplice specifica del tema, luce naturale, oggetti credibili, nessuna persona riconoscibile.",
+      "alt": "Una carta bancaria senza marchi accanto a una delega chiusa e un calendario con un giorno evidenziato senza numeri leggibili",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-062.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "0f2a5ad02d527d518ec0678d4d0d95495d4d0852f1d27180093bf2ca3d6c8152",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 595,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 622,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-11-29",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "e125ee50d4e3f343fab8531aa72c671bd9491b33eb8b571e876df8dba9fb181e",
+    "sha256": "ef80866abb615898a3ea90c0a00464c074e8d100dad8a0583d09f666358ae421"
+  }
+}

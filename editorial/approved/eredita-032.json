@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-032",
+    "site": "eredita",
+    "sequence": 32,
+    "area": "Famiglia e chiamata",
+    "title": "Diritto di abitazione del coniuge: casa familiare e proprietà dell'immobile",
+    "slug": "diritto-di-abitazione-del-coniuge-casa-familiare-e-proprieta-dell-immobile",
+    "intent": "Presupposti del diritto successorio di abitazione",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/casa-ereditata"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 62,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Abitazione del coniuge superstite",
+    "description": "Casa familiare, proprietà e diritto di abitazione: i documenti da verificare prima di discutere la divisione.",
+    "bodyMarkdown": "Dopo il decesso, gli altri eredi propongono di vendere la casa familiare. Il coniuge superstite può avere diritti diversi dalla semplice quota di proprietà: occorre verificare la tutela di abitazione e uso prevista dalla legge prima di trattare l'immobile come liberamente disponibile.\n\n### Il presupposto della casa familiare\n\nL'articolo 540 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) riserva al coniuge, nelle condizioni indicate, il diritto di abitazione sulla casa adibita a residenza familiare e di uso sui mobili che la corredano, se di proprietà del defunto o comuni.\n\nNon basta che il defunto possedesse un immobile. Bisogna accertare la destinazione familiare e la proprietà, distinguendo una seconda casa, un appartamento locato a terzi e l'abitazione effettiva della famiglia.\n\n### Titolarità e diritto di godimento\n\nIl diritto di abitazione non va confuso con l'attribuzione dell'intera proprietà al superstite. Gli altri soggetti possono acquistare diritti sull'immobile, ma il loro esercizio deve essere coordinato con la tutela esistente.\n\nQuesto incide anche sulla valutazione economica di una proposta di divisione. Considerare il bene come immediatamente libero, senza verificarne i diritti, può produrre conguagli non realistici o aspettative errate sulla vendita.\n\n### La documentazione utile\n\nOccorrono atto di provenienza, dati dei comproprietari, informazioni sulla destinazione della casa e documentazione sul rapporto coniugale. Se una quota apparteneva a un terzo, o i coniugi erano separati, il caso richiede una lettura specifica: non bisogna estendere la regola per analogia informale.\n\nAnche i mobili devono essere individuati in relazione alla casa. Un inventario fotografico può aiutare a distinguere arredi, beni personali e oggetti che altri familiari rivendicano come propri.\n\n### Gestione quotidiana e accordi\n\nIl diritto non elimina ogni questione sulle spese. Manutenzione, condominio e rapporti con gli altri titolari vanno analizzati secondo il tipo di costo e i rispettivi diritti. È utile conservare preventivi, fatture e comunicazioni, evitando di compensare unilateralmente importi controversi.\n\nSe si valuta una soluzione concordata, l'accordo deve descrivere esattamente i diritti coinvolti e le conseguenze della rinuncia o modifica eventualmente proposta. Una semplice consegna delle chiavi non va caricata di significati non esplicitati.\n\nIl servizio sulla [casa ereditata](https://ereditaesuccessioni.it/casa-ereditata) collega proprietà, utilizzo e divisione. La verifica dell'abitazione familiare deve precedere il confronto sul prezzo, perché determina quale bene giuridico sia effettivamente oggetto della trattativa.\n\n### Una vendita ipotizzata dai figli\n\nSupponiamo che i figli ricevano una proposta per acquistare la casa in cui vive il genitore superstite. Confrontare il prezzo soltanto con annunci di appartamenti liberi può essere fuorviante: prima bisogna individuare i diritti sulla casa e stabilire che cosa il compratore intenda acquistare. La disponibilità del genitore a discutere la vendita non equivale già alla rinuncia al proprio diritto.\n\nNella preparazione dell'accordo è utile tenere distinte tre questioni: proprietà dell'immobile, permanenza nell'abitazione e destinazione del ricavato. Un documento che si occupa solo delle quote proprietarie potrebbe lasciare irrisolta proprio la condizione da cui dipende l'operazione. Viceversa, una dichiarazione genericamente riferita a “ogni diritto successorio” potrebbe avere una portata maggiore rispetto alla semplice consegna delle chiavi che la persona aveva in mente.\n\n### Individuare la casa e i mobili interessati\n\nSe la famiglia utilizzava più immobili, servono elementi concreti sull'organizzazione della vita domestica. Residenza anagrafica, utenze, corrispondenza e uso effettivo possono contribuire alla ricostruzione; nessuno di questi dati va isolato automaticamente dagli altri. La casa delle vacanze non diventa casa familiare soltanto perché contiene molti ricordi.\n\nPer i mobili, fotografie e un inventario essenziale aiutano a distinguere gli arredi della casa da beni appartenenti a terzi o da oggetti conservati temporaneamente. Non serve svuotare l'appartamento per predisporre l'elenco. Quando emergono contestazioni, è preferibile documentare posizione e caratteristiche degli oggetti prima di spostarli. La valutazione giuridica può così partire da una situazione riconoscibile, senza trasformare un problema di attribuzione in una discussione su beni che nessuno riesce più a localizzare.",
+    "faqs": [
+      {
+        "question": "Il diritto di abitazione coincide con la proprietà dell'intera casa?",
+        "answer": "No. È un diritto distinto, da verificare nei suoi presupposti e nel rapporto con la titolarità dell'immobile."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 540",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 540. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Ingresso domestico italiano luminoso con una poltrona e chiavi su mobile, nessuna persona. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutti i documenti e le cartelline devono essere completamente privi di stemmi, emblemi, sigilli, ceralacca, intestazioni e simboli ufficiali. Fotografia essenziale con sfondo pulito, varia il punto di vista. Nessuna scritta, neppure sulle chiavi.",
+      "alt": "Ingresso domestico italiano luminoso con una poltrona e chiavi su mobile, nessuna persona",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-032.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "326d7ebad875c8753971b3a755e00d478a5d34d059564482f00fd5ea85de4fec",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 615,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 642,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-03-15",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "a137574455a67f630bd6dcd5f94b8eec54a0dd60c7349af6e1fa14ead8df175e",
+    "sha256": "1375929fa452236b0819d7491b734cd7b6231d3c1d1b7cd30e76662b53d5e333"
+  }
+}

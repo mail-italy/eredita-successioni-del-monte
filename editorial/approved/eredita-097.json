@@ -1,0 +1,65 @@
+{
+  "article": {
+    "id": "eredita-097",
+    "site": "eredita",
+    "sequence": 97,
+    "area": "Successioni internazionali",
+    "title": "Immobile in un altro Paese europeo: successione e registri immobiliari",
+    "slug": "immobile-in-un-altro-paese-europeo-successione-e-registri-immobiliari",
+    "intent": "Distinguere legge successoria e formalità locali",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/successioni-internazionali"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 192,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Immobile ereditato in un Paese europeo",
+    "description": "Legge successoria e registro locale hanno funzioni diverse: come collegare prova dei diritti e formalità immobiliari.",
+    "bodyMarkdown": "Ereditare un immobile in un altro Paese europeo richiede di coordinare chi acquista il diritto con il modo in cui quel diritto viene iscritto nel registro locale. Applicare una legge alla successione non significa trasferire all'estero tutte le formalità italiane.\n\nIl [regolamento UE 650/2012](https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650) distingue l'ambito della legge successoria dalle materie escluse, tra cui aspetti dei diritti reali e della pubblicità nei registri. L'articolo 31 considera inoltre l'adattamento di un diritto reale non conosciuto dall'ordinamento nel quale viene invocato.\n\n## Identificare l'immobile e il titolo\n\nServono dati del registro locale, atto di acquisto e indicazione delle quote. L'indirizzo utilizzato dalla famiglia può non essere sufficiente a individuare correttamente il bene.\n\nOccorre verificare eventuali comproprietari, ipoteche, diritti di godimento e altri vincoli. Una traduzione del solo estratto catastale non sostituisce necessariamente l'esame del titolo.\n\nIl professionista locale deve conoscere anche il tipo di diritto che si assume trasmesso agli eredi.\n\n## Stabilire la legge della successione\n\nLa legge applicabile può dipendere dalla residenza abituale del defunto o da una scelta valida, secondo il regolamento. La sola ubicazione dell'immobile non risolve sempre la questione.\n\nUna volta individuata la disciplina successoria, si verifica chi abbia diritto al bene e con quali poteri. Questo passaggio deve essere documentato in modo comprensibile all'autorità del registro.\n\nLa competenza delle autorità e la legge applicabile restano domande da esaminare distintamente.\n\n## Preparare il documento idoneo\n\nIl certificato successorio europeo può essere utile negli Stati partecipanti per dimostrare qualità e diritti, secondo il suo contenuto. L'articolo 69 ne riconosce l'idoneità per l'iscrizione, fatti salvi i limiti richiamati dalla norma.\n\nCiò non elimina la necessità di identificare il bene e soddisfare i requisiti pertinenti del registro. Se il certificato non contiene i dati necessari, occorre capire quale integrazione o altro documento sia richiesto.\n\nLe copie e le traduzioni devono essere controllate prima della presentazione.\n\n## Diritti non perfettamente corrispondenti\n\nUn ordinamento può conoscere un diritto con caratteristiche diverse da quelle locali. Il regolamento prevede, quando necessario e possibile, un adattamento al diritto equivalente più vicino.\n\nNon è una semplice sostituzione linguistica. Occorre comprendere obiettivi, interessi ed effetti del diritto originario e confrontarli con gli strumenti disponibili.\n\nQuesto aspetto può incidere su godimento, amministrazione e possibilità di vendita dell'immobile.\n\n## Gestire il bene durante la pratica\n\nImposte locali, manutenzione, assicurazione e rapporti con occupanti o amministratori devono essere monitorati. L'attesa dell'iscrizione non sospende automaticamente ogni esigenza pratica.\n\nÈ utile definire chi riceva le comunicazioni e come rendiconti i costi. Se si valuta la vendita, servono ulteriori verifiche locali, da programmare prima di accettare offerte.\n\nNelle [successioni internazionali](https://ereditaesuccessioni.it/successioni-internazionali), il risultato è un fascicolo che colleghi la prova del diritto alle formalità del luogo. Solo questo coordinamento consente di passare dall'essere erede sulla carta alla possibilità concreta di amministrare o disporre dell'immobile.\n\n### Chiedere un controllo preliminare al destinatario locale\n\nPrima di far tradurre l'intero fascicolo, può essere utile sottoporre l'elenco degli atti disponibili al professionista che curerà la registrazione. Egli potrà indicare quali documenti siano pertinenti e quali dati immobiliari debbano essere integrati.\n\nSe il titolo successorio descrive una quota o un diritto di godimento, la descrizione deve essere confrontata con quella richiesta dal registro. Un problema di identificazione del bene è diverso da un problema di riconoscimento del diritto, e può richiedere una soluzione differente.\n\nDopo l'adempimento, occorre acquisire il riscontro che permetta di verificare l'iscrizione effettuata, non soltanto la prova dell'invio della domanda. Confrontare titolari, quote e beni con il risultato atteso consente di individuare eventuali errori prima di una futura vendita. La chiusura della pratica richiede quindi una verifica del registro coerente con il titolo utilizzato.",
+    "faqs": [
+      {
+        "question": "Se la successione è regolata dalla legge italiana, il registro estero segue tutte le formalità italiane?",
+        "answer": "No. La legge successoria e le regole del registro immobiliare sono piani distinti. Occorre verificare requisiti e documenti nel Paese in cui si trova il bene."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32012R0650",
+        "title": "Regolamento UE 650/2012, articoli 1,23,31,69",
+        "supports": "Separazione fra legge successoria, diritti reali e formalità dei registri.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Un modellino di casa su una mappa europea neutra accanto a un fascicolo registrale. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Un modellino di casa su una mappa europea neutra accanto a un fascicolo registrale",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-097.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "1896f429f76c74a626b7dc47f5a9b34cec36a6612f337f2de73c9e74f2141d3a",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 593,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 635,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-02-23",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "e06fd169f5b5e9bddaf76ab88a5167b30b71d37a37ed3091601cd47f3dc30d21",
+    "sha256": "21b33ddb9bcb802c4e0c677b36e92dcde24405f16a6547e0c928b96cb9a44b3f"
+  }
+}

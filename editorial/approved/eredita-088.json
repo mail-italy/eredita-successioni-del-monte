@@ -1,0 +1,71 @@
+{
+  "article": {
+    "id": "eredita-088",
+    "site": "eredita",
+    "sequence": 88,
+    "area": "Beni e conflitti",
+    "title": "Mediazione con eredi all'estero: presenze, deleghe e documenti",
+    "slug": "mediazione-con-eredi-all-estero-presenze-deleghe-e-documenti",
+    "intent": "Organizzazione dell'incontro e poteri di accordo",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/mediazione-ereditaria"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 174,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Mediazione con eredi all'estero",
+    "description": "Come organizzare presenza, collegamento, deleghe e firme per rendere utile la mediazione a distanza.",
+    "bodyMarkdown": "La presenza di un erede all'estero non impedisce di organizzare una mediazione, ma richiede di preparare partecipazione, rappresentanza e firme prima dell'incontro. Scoprire all'ultimo momento che manca un potere può rendere inutilizzabile un'intesa già raggiunta.\n\nGli [articoli 8 e 8-ter del decreto legislativo 28/2010](https://www.normattiva.it/eli/stato/DECRETO_LEGISLATIVO/2010/03/04/28/CONSOLIDATED) disciplinano partecipazione personale, delega in presenza di giustificati motivi e collegamento audiovisivo. La distanza geografica va affrontata attraverso questi strumenti, non con una delega generica improvvisata.\n\n## Verificare come parteciperà ciascuno\n\nOccorre chiarire se l'erede sarà presente, collegato da remoto o rappresentato. L'organismo deve conoscere per tempo le esigenze operative, compresi fuso orario, lingua e disponibilità dei documenti.\n\nIl collegamento deve consentire una partecipazione effettiva. Non basta lasciare il telefono acceso mentre un'altra persona conduce tutta la discussione.\n\nAnche la riservatezza del luogo dal quale ci si collega è importante: l'incontro non dovrebbe svolgersi in uno spazio nel quale estranei possano ascoltare senza che ciò sia noto.\n\n## La delega deve corrispondere al compito\n\nL'articolo 8 richiede, nei casi previsti, un rappresentante a conoscenza dei fatti e munito dei poteri necessari per comporre la controversia. La semplice consegna dei documenti non attribuisce automaticamente il potere di accettare un accordo.\n\nLa legge disciplina anche la forma della delega e contempla esigenze particolari per accordi soggetti a trascrizione. Se sono coinvolti immobili, la verifica dei poteri deve essere coordinata con il professionista che curerà le formalità.\n\nUn limite di importo o una condizione essenziale devono essere chiari prima della trattativa.\n\n## Preparare un fascicolo condivisibile\n\nTestamento, titoli dei beni, stime, conti e proposte devono essere ordinati in modo che anche chi partecipa a distanza possa consultarli. Le versioni dei documenti vanno identificate per evitare di discutere su prospetti diversi.\n\nUn riepilogo delle questioni può distinguere dati pacifici, punti contestati e possibili soluzioni. È più utile di un archivio molto grande senza indice.\n\nLe informazioni personali non necessarie dovrebbero essere escluse dalle copie diffuse.\n\n## Organizzare le firme\n\nPartecipare da remoto non significa che qualsiasi modalità di firma sia equivalente. Le regole applicabili e gli strumenti disponibili devono essere verificati con l'organismo.\n\nSe manca il consenso alla modalità digitale nei casi previsti, la legge contempla conseguenze operative sulla sottoscrizione. Per questo la logistica delle firme va affrontata prima che tutti considerino concluso l'accordo.\n\nProcure formate all'estero possono richiedere ulteriori verifiche di forma e utilizzabilità in Italia.\n\n## Definire un accordo eseguibile\n\nUna proposta dovrebbe indicare non soltanto beni e importi, ma anche chi firmerà, dove, entro quando e con quali documenti. Se occorrono attività successive, vanno assegnate responsabilità e scadenze comprensibili.\n\nLa [mediazione ereditaria](https://ereditaesuccessioni.it/mediazione-ereditaria) può così gestire la distanza senza trasformarla in una serie di rinvii. Il risultato utile è che ogni interessato partecipi con informazioni e poteri adeguati, e che l'intesa possa essere attuata dopo l'incontro.\n\n### Fare una verifica tecnica prima dell'incontro\n\nChi partecipa a distanza dovrebbe sapere come aprire i documenti condivisi, usare il collegamento e contattare l'organismo in caso di interruzione. Un breve controllo organizzativo può evitare che difficoltà tecniche vengano scambiate per rifiuto di partecipare o impediscano di seguire una proposta importante.\n\nÈ utile concordare anche come saranno trasmesse le versioni aggiornate dei conteggi. Un erede non dovrebbe dover accettare una cifra mentre vede ancora il prospetto precedente. I documenti possono riportare data e numero di versione, con le modifiche rese riconoscibili.\n\nSe occorre una traduzione o l'assistenza per comprendere il testo, la necessità va comunicata in anticipo. Partecipare formalmente non basta quando non si comprende ciò che viene discusso. La preparazione dell'incontro serve quindi a rendere effettiva la decisione di ogni interessato, e a verificare che eventuali poteri di rappresentanza corrispondano proprio all'accordo in esame.",
+    "faqs": [
+      {
+        "question": "Chi vive all'estero può limitarsi a mandare un familiare senza istruzioni?",
+        "answer": "La rappresentanza richiede i presupposti e i poteri previsti dalla legge. Il delegato deve conoscere i fatti ed essere munito dei poteri necessari alla composizione della controversia."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 713",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 713. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      },
+      {
+        "url": "https://www.normattiva.it/eli/stato/DECRETO_LEGISLATIVO/2010/03/04/28/CONSOLIDATED",
+        "title": "Decreto legislativo 28/2010, articoli 8 e 8-ter",
+        "supports": "Partecipazione personale, delega con giustificati motivi, poteri e collegamento audiovisivo.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Un tavolo per mediazione con un portatile a schermo neutro e cartelline davanti a sedie vuote. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+      "alt": "Un tavolo per mediazione con un portatile a schermo neutro e cartelline davanti a sedie vuote",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-088.webp",
+      "generatedBy": "image_gen builtin",
+      "generatedAt": "2026-10-12",
+      "sha256": "30b9c2456dff33649367f4a23674402a8aca56f1537800f5576e95648d53cd08",
+      "width": 1200,
+      "height": 800,
+      "visualReview": "passed",
+      "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 598,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 636,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-03-11",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "8f609e814d79152b298642df22bf0667a590115bbd67d5f612e29ba13ac2f5e1",
+    "sha256": "084a50d9a4ca3e96bae5a6476d62a7f79e560b34a785805d3985f825ad4fa436"
+  }
+}

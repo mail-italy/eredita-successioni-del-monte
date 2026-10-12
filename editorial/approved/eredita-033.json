@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-033",
+    "site": "eredita",
+    "sequence": 33,
+    "area": "Famiglia e chiamata",
+    "title": "Usufrutto e morte del titolare: perché non sempre il bene entra nell'eredità",
+    "slug": "usufrutto-e-morte-del-titolare-perche-non-sempre-il-bene-entra-nell-eredita",
+    "intent": "Estinzione dell'usufrutto e riunione con la nuda proprietà",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/casa-ereditata"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 64,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Morte dell'usufruttuario e successione",
+    "description": "Come distinguere estinzione dell'usufrutto e proprietà del bene nella ricostruzione del patrimonio dopo il decesso.",
+    "bodyMarkdown": "Un genitore aveva l'usufrutto della casa e il figlio la nuda proprietà. Alla morte del genitore gli altri familiari chiedono una quota dell'usufrutto. Prima di discutere l'eredità occorre verificare se quel diritto si sia estinto: non ogni diritto utilizzato dal defunto si trasmette agli eredi.\n\n### Il limite collegato alla vita\n\nL'articolo 979 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) stabilisce che la durata dell'usufrutto non possa eccedere la vita dell'usufruttuario. La morte può quindi comportare la riunione con la nuda proprietà, anziché l'ingresso di quel diritto nella successione.\n\nL'atto costitutivo rimane essenziale. Se sono presenti più usufruttuari, clausole particolari o diritti diversi, non si deve applicare una formula ricavata dal caso più semplice senza leggerne le condizioni.\n\n### Non confondere l'estinzione con una nuova donazione\n\nLa nuda proprietà può essere stata acquistata o donata molti anni prima. L'estinzione dell'usufrutto è una vicenda del diritto reale; l'origine della nuda proprietà è un'altra questione.\n\nSe vi era stata una donazione, essa può richiedere valutazioni successorie proprie, per esempio su collazione o legittima. Dire che l'usufrutto non si eredita non significa quindi escludere ogni possibile rilevanza della precedente attribuzione.\n\n### Documenti e aggiornamenti\n\nOccorre acquisire il titolo che ha separato usufrutto e nuda proprietà, eventuali successive modifiche e certificazione del decesso. I dati dei registri devono essere aggiornati attraverso il percorso appropriato.\n\nUna visura ancora intestata al defunto non dimostra necessariamente che il diritto continui a esistere. D'altra parte, un aggiornamento catastale non sostituisce l'esame del titolo quando vi sia una contestazione sostanziale.\n\n### Canoni, spese e rapporti pendenti\n\nSe l'immobile era locato, bisogna distinguere canoni maturati, somme da incassare e rapporti che proseguono dopo l'estinzione. Lo stesso vale per spese sostenute o obbligazioni collegate al periodo in cui l'usufrutto esisteva.\n\nUn prospetto con data, causale e periodo di competenza aiuta a evitare che tutti i movimenti vengano attribuiti indistintamente al nudo proprietario oppure all'eredità. Il contratto di locazione e i giustificativi dei lavori diventano quindi documenti rilevanti.\n\nNella gestione della [casa ereditata](https://ereditaesuccessioni.it/casa-ereditata), il primo controllo è sapere quale diritto appartenesse al defunto. Soltanto dopo è possibile stabilire quali beni, crediti o obblighi entrino effettivamente nel fascicolo successorio.\n\n### Due vicende da tenere separate\n\nUn genitore può avere donato anni prima la nuda proprietà di una casa, riservandosi l'usufrutto. Alla sua morte occorre verificare l'estinzione di quel diritto e gli adempimenti conseguenti. È però un secondo problema stabilire se la precedente donazione rilevi nei rapporti tra legittimari. L'affermazione “l'usufrutto si è estinto” non risponde alla domanda sulla tutela della quota di riserva.\n\nIl fascicolo dovrebbe quindi contenere due sezioni. La prima ricostruisce il diritto esistente al momento della morte, con atto costitutivo, titolari e clausole. La seconda raccoglie l'eventuale trasferimento precedente e gli elementi utili alla sua valutazione successoria. Questa separazione impedisce sia di inserire automaticamente nell'asse la piena proprietà, sia di considerare irrilevante qualsiasi operazione compiuta in vita.\n\n### Una contabilità con date riconoscibili\n\nSe l'immobile era locato, è opportuno predisporre una linea temporale delle scadenze, degli incassi e delle spese. Un bonifico arrivato dopo il decesso può riferirsi a un periodo precedente: la data dell'accredito, senza il contratto e la causale, non basta a stabilire a chi competa la somma. Allo stesso modo, una fattura successiva può riguardare lavori eseguiti quando l'usufrutto esisteva ancora.\n\nAnche comunicazioni al conduttore e aggiornamenti amministrativi devono essere coerenti con la ricostruzione dei diritti. Non è prudente inviare istruzioni contrastanti per il pagamento del canone mentre si discute su chi possa riceverlo. Un prospetto condiviso può registrare quanto è certo e quanto resta da verificare, preservando ricevute e corrispondenza. L'obiettivo è evitare che l'estinzione di un diritto reale venga confusa con la cancellazione di ogni credito, debito o questione collegata alla sua precedente gestione.",
+    "faqs": [
+      {
+        "question": "L'usufrutto del defunto passa sempre ai suoi figli?",
+        "answer": "No. Per una persona fisica la durata dell'usufrutto non può eccedere la vita dell'usufruttuario; va verificato il titolo concreto."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 979, 1014",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 979, 1014. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Due chiavi che si riuniscono su una planimetria sfocata, luce naturale e colori neutri. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutti i documenti e le cartelline devono essere completamente privi di stemmi, emblemi, sigilli, ceralacca, intestazioni e simboli ufficiali. Fotografia essenziale con sfondo pulito, varia il punto di vista. Nessuna scritta, neppure sulle chiavi.",
+      "alt": "Due chiavi che si riuniscono su una planimetria sfocata, luce naturale e colori neutri",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-033.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "1c846984d23732866488d389d9dad07a87b9875a5b87d9fe56daae83794b7ca1",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 609,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 636,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-03-23",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "9314794e063ef0cbab6bfbde3aec62ca4bdc2b7964980eea823ea0aadb57a44a",
+    "sha256": "e1296793cc2cd13040711d0868d3f86222194bfc3ce8830e9f56901027c4eb27"
+  }
+}

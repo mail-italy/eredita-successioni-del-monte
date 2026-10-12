@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-036",
+    "site": "eredita",
+    "sequence": 36,
+    "area": "Accettazione e debiti",
+    "title": "Atti conservativi prima dell'accettazione: proteggere i beni senza disporne",
+    "slug": "atti-conservativi-prima-dell-accettazione-proteggere-i-beni-senza-disporne",
+    "intent": "Confine fra conservazione e atti da erede",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/accettazione-eredita"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 70,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Conservare i beni prima di accettare",
+    "description": "Atti conservativi e disposizione dei beni hanno effetti diversi: come proteggere il patrimonio durante la scelta successoria.",
+    "bodyMarkdown": "Un tubo si rompe nella casa del defunto mentre nessuno ha ancora deciso se accettare. Lasciare il danno peggiorare non è l'unica alternativa alla piena gestione da erede. La legge riconosce poteri conservativi al chiamato, ma non consente di usare questa etichetta per qualunque operazione patrimoniale.\n\n### Conservare non significa disporre\n\nL'articolo 460 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) consente atti conservativi, di vigilanza e di amministrazione temporanea e disciplina anche specifiche autorizzazioni. L'articolo 476 definisce invece l'accettazione tacita attraverso atti che presuppongono necessariamente la volontà di accettare e che il soggetto non avrebbe diritto di compiere se non come erede.\n\nLa distinzione richiede di guardare a finalità, contenuto ed effetti. Mettere in sicurezza un locale non può essere equiparato senza esame alla vendita dell'immobile o alla distribuzione del denaro ai familiari.\n\n### Documentare la necessità\n\nNell'esempio della perdita, fotografie datate, segnalazione del problema, preventivo e fattura consentono di spiegare perché si sia intervenuti. È utile indicare anche la ragione per cui l'attività non poteva essere rinviata.\n\nLa documentazione deve descrivere l'intervento effettivo. Un lavoro che comprende sia una riparazione urgente sia una ristrutturazione migliorativa va distinto nelle sue parti, perché le due componenti possono ricevere valutazioni differenti.\n\n### Pagamenti e dichiarazioni contano\n\nPrima di usare somme del defunto o firmare contratti qualificandosi come proprietario, è opportuno verificare le conseguenze. Anche la provenienza del denaro e le parole utilizzate nei documenti possono contribuire a qualificare l'atto.\n\nL'articolo 461 disciplina le spese del chiamato che rinuncia per le attività indicate dall'articolo precedente. Il possibile rimborso non deve però essere presunto per qualsiasi costo sostenuto: occorrono il collegamento con l'attività consentita e la prova.\n\n### Se esiste un curatore\n\nL'articolo 460 limita i poteri del chiamato quando è stato nominato un curatore dell'eredità giacente. L'urgenza deve quindi essere comunicata a chi amministra con il titolo appropriato, evitando sovrapposizioni di iniziative.\n\nPer una verifica rapida servono descrizione del rischio, situazione dei chiamati, disponibilità dei beni e atti già compiuti. Il percorso sull'[accettazione dell'eredità](https://ereditaesuccessioni.it/accettazione-eredita) aiuta a proteggere il patrimonio senza trasformare una necessità pratica in una scelta successoria non consapevole.\n\n### Documentare una riparazione davvero urgente\n\nSe una tubazione perde acqua, fotografie datate, segnalazioni del vicino e un preventivo circoscritto aiutano a descrivere il problema. Il tecnico dovrebbe distinguere l'intervento necessario a fermare il danno dall'eventuale proposta di rifare l'intero impianto. Nella successiva ricostruzione sarà così possibile comprendere perché si sia agito e quale fosse l'estensione dell'incarico.\n\nLa parola “urgente” sulla fattura non risolve da sola la qualificazione giuridica. Importano anche il bene interessato, la situazione concreta, le dichiarazioni rese e gli altri atti compiuti dalla persona. Per questo è opportuno conservare il preventivo accettato, la prova del pagamento e le comunicazioni con gli altri interessati, senza trasformare ogni intervento domestico in un'occasione per affermarsi proprietario dell'intero patrimonio.\n\n### Evitare che la custodia diventi una gestione senza confini\n\nProteggere una casa temporaneamente vuota può richiedere un sopralluogo o una misura contro ulteriori danni. Concederla a un nuovo occupante, vendere i mobili o usare i ricavi per spese personali apre questioni differenti. Una sequenza inizialmente limitata alla conservazione può cambiare natura quando si aggiungono atti ulteriori.\n\nConviene quindi tenere un registro essenziale: giorno, problema, attività svolta, soggetto incaricato, provenienza delle somme e documenti collegati. Non occorre attribuire da soli un'etichetta giuridica a ogni riga; serve rendere verificabili i fatti. Se più familiari intervengono, il coordinamento evita ordini incompatibili ai fornitori e pagamenti duplicati.\n\nLa richiesta di rimborso delle spese va infine valutata rispetto ai presupposti previsti e alla situazione effettiva. Non ogni costo sostenuto spontaneamente diventa necessariamente recuperabile. Prima di un intervento non indispensabile, chiarire questi aspetti è più semplice che discuterli quando il lavoro è ormai eseguito e qualcuno ha già rinunciato all'eredità.",
+    "faqs": [
+      {
+        "question": "Qualsiasi intervento su un bene del defunto vale come accettazione?",
+        "answer": "No. L'articolo 460 consente atti conservativi e di amministrazione temporanea; la qualificazione dipende dall'atto concreto e dal contesto."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 460, 461, 476",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 460, 461, 476. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Secchio sotto una piccola perdita domestica e cartella di preventivi, abitazione vuota in sicurezza. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutti i documenti e le cartelline devono essere completamente privi di stemmi, emblemi, sigilli, ceralacca, intestazioni e simboli ufficiali. Fotografia essenziale con sfondo pulito, varia il punto di vista. Nessuna scritta, neppure sulle chiavi.",
+      "alt": "Secchio sotto una piccola perdita domestica e cartella di preventivi, abitazione vuota in sicurezza",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-036.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "a04e13371a676c31b76450630fa9fb49ad782c969bac6299ca2429c80bdaa054",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 611,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 639,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-11-01",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "a704cc314133c3b84c089e7220cfbf452dd6b05ea9cc7cb49bda270a9662aa92",
+    "sha256": "1dc14ba30f1210312707632cab42c7626329b4eef7e0b6564a928a0c349315c3"
+  }
+}

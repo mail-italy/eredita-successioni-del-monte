@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-073",
+    "site": "eredita",
+    "sequence": 73,
+    "area": "Immobili e divisione",
+    "title": "Conguaglio nella divisione: importo, tempi e garanzie dell'accordo",
+    "slug": "conguaglio-nella-divisione-importo-tempi-e-garanzie-dell-accordo",
+    "intent": "Realizzabilità economica di una assegnazione",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/divisione-ereditaria"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 144,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Conguaglio ereditario: calcolo e pagamento",
+    "description": "Come coordinare valore, liquidità, scadenze e formalità perché il conguaglio renda eseguibile la divisione.",
+    "bodyMarkdown": "Quando un coerede riceve un bene di valore superiore alla propria porzione, la differenza può essere regolata con un conguaglio in denaro. L'accordo sul numero, però, non garantisce che il pagamento avverrà.\n\nL'[articolo 728 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) prevede il conguaglio per compensare l'ineguaglianza in natura delle quote. Per renderlo utile nella pratica bisogna coordinare stima, rendiconto, scadenze e formalità della divisione.\n\n## Calcolare la differenza sul quadro completo\n\nIl conguaglio non si ottiene sempre dividendo il valore della casa per il numero degli eredi. Le quote possono essere diverse e nell'eredità possono esserci altri beni, debiti o somme da regolare.\n\nL'articolo 723 richiama i conti tra condividenti e la determinazione delle porzioni, dei conguagli e dei rimborsi. Un anticipo già ricevuto o una spesa riconosciuta può incidere sul saldo, ma deve essere documentato.\n\nÈ utile partire da un prospetto nel quale ogni voce abbia una fonte e un criterio condiviso.\n\n## Distinguere valore e liquidità\n\nUna persona può avere una quota ereditaria importante senza disporre del denaro necessario a pagare gli altri. Se l'attribuzione della casa dipende da un finanziamento, occorre chiarire lo stato della richiesta e le condizioni concrete.\n\nUna generica promessa di ottenere un mutuo non equivale a un'erogazione disponibile. Anche i tempi della banca possono non coincidere con quelli desiderati per la divisione.\n\nLa sostenibilità va verificata prima di impegnare gli altri coeredi in una soluzione che potrebbe restare incompiuta.\n\n## Scrivere scadenze comprensibili\n\nPagamento contestuale, rateazione e pagamento subordinato a un evento sono assetti diversi. L'accordo deve indicare importi, date, strumenti di pagamento e conseguenze dell'inadempimento, da definire con l'assistenza necessaria.\n\nSe si prevede una dilazione, vanno valutate garanzie e costi. Non esiste una formula unica valida per ogni patrimonio; la scelta dipende anche dalla durata e dalla situazione del debitore.\n\nLe clausole devono essere comprensibili alle parti, evitando che una parola tecnica nasconda un rischio non discusso.\n\n## Coordinare pagamento e trasferimento\n\nIl momento in cui vengono attribuiti i beni deve essere coordinato con quello del pagamento. Consegnare le chiavi o iniziare a usare il bene in esclusiva non risolve da solo gli effetti dell'atto.\n\nSe l'immobile è gravato da ipoteca o altri vincoli, l'accordo deve affrontarli espressamente. Il conguaglio tra eredi e il debito verso un finanziatore non sono necessariamente la stessa obbligazione.\n\nAnche le spese dell'atto e gli oneri fiscali vanno considerati nel fabbisogno complessivo.\n\n## Controllare ciò che resta aperto\n\nPrima della firma, è utile elencare le voci che la divisione regola e quelle che rimangono escluse. Un accordo sul conguaglio della casa potrebbe non chiudere canoni riscossi, spese sostenute o altri crediti tra coeredi.\n\nSe le parti vogliono una definizione complessiva, devono disporre delle informazioni necessarie per comprenderla. Una quietanza troppo ampia può essere fonte di un nuovo conflitto.\n\nLa consulenza sulla [divisione ereditaria](https://ereditaesuccessioni.it/divisione-ereditaria) deve quindi verificare non soltanto se il conguaglio sia corretto, ma anche se sia pagabile e documentabile. Una divisione equilibrata sulla carta diventa una soluzione soltanto quando i suoi passaggi possono essere eseguiti.\n\n### Controllare il pagamento anche dopo la firma\n\nNel fascicolo finale vanno conservati importi versati, beneficiari, date e riferimenti dell'atto. Una ricevuta di disposizione del bonifico non chiarisce necessariamente ogni successiva vicenda dell'operazione: il riscontro deve permettere di accertare il pagamento effettivo.\n\nSe il conguaglio è dilazionato, un calendario separato può distinguere rate previste, rate ricevute e differenze da verificare. Eventuali modifiche concordate dovrebbero essere documentate con la forma adeguata, senza lasciare che una telefonata venga interpretata in modi incompatibili. Lo stesso vale per le spese accessorie: chiarire quali siano comprese nel saldo evita che un pagamento formalmente esatto lasci ancora aperto un dissenso sul costo complessivo dell'operazione.",
+    "faqs": [
+      {
+        "question": "Un accordo sul valore della casa basta per chiudere la divisione?",
+        "answer": "Non sempre. Se è previsto un conguaglio, devono essere definite anche modalità, tempi e sostenibilità del pagamento, oltre alle formalità dell'atto."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 720, 723, 728",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 720, 723, 728. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una chiave su un lato del tavolo e una calcolatrice neutra con un calendario sull'altro. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione. Carte e planimetrie senza testo identificativo. Scena singola di fotografia editoriale, proporzioni credibili, non deve sembrare una sede dello studio né un suo immobile reale.",
+      "alt": "Una chiave su un lato del tavolo e una calcolatrice neutra con un calendario sull'altro",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-073.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "9556755df6f0d2132bfaee6a315b5582712cbc912328ab3d15b3e08c92046fcf",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 599,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 631,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-12-01",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "c868c0b8caca43894d2bb676579346d35b7ada25f1e993f49c485dc2159bb83b",
+    "sha256": "6ea759f489445524e649b6706acdf1dfbb7b9bcb434d0328601214787d1022c3"
+  }
+}

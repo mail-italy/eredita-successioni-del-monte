@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-074",
+    "site": "eredita",
+    "sequence": 74,
+    "area": "Immobili e divisione",
+    "title": "Stima della casa ereditata: quali dati consegnare al tecnico",
+    "slug": "stima-della-casa-ereditata-quali-dati-consegnare-al-tecnico",
+    "intent": "Mandato estimativo e documentazione immobiliare",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/casa-ereditata"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 146,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Stima della casa: documenti per il tecnico",
+    "description": "Quali titoli, dati tecnici e informazioni consegnare per una stima utile alla vendita o alla divisione ereditaria.",
+    "bodyMarkdown": "Chiedere a un tecnico «quanto vale la casa» senza consegnargli i documenti può produrre una stima incompleta. Per discutere una divisione, un'attribuzione o una vendita, il mandato deve chiarire finalità e dati disponibili.\n\nL'[articolo 726 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) richiama il valore venale dei beni nella formazione delle porzioni. La valutazione deve quindi riferirsi all'immobile concreto, non a una media generica di quartiere.\n\n## Definire lo scopo della stima\n\nUna valutazione per una trattativa di vendita, un conteggio divisionale e un adempimento fiscale possono usare criteri o date differenti. Il tecnico deve sapere quale problema gli viene chiesto di risolvere.\n\nÈ utile indicare se la casa sarà attribuita a un coerede, proposta sul mercato o confrontata con altri beni della successione. Anche l'eventuale occupazione e la data di riferimento devono essere esplicitate.\n\nLa relazione dovrebbe riportare limiti e ipotesi, così che nessuno scambi un valore provvisorio per un accertamento completo.\n\n## Consegnare i titoli e i dati del bene\n\nAtto di provenienza, dati catastali, planimetrie e documentazione urbanistica disponibile aiutano a identificare l'oggetto. Vanno segnalati pertinenze, quote di comproprietà e diritti di terzi.\n\nLa corrispondenza tra stato reale e documenti richiede le verifiche tecniche pertinenti. Una planimetria non aggiornata o un locale utilizzato diversamente da quanto risulta possono incidere sull'analisi.\n\nNon è opportuno nascondere un problema sperando che emerga soltanto dopo l'accordo: una valutazione fondata su presupposti errati può riaprire il conflitto.\n\n## Documentare stato e costi\n\nFotografie, informazioni sugli impianti, lavori eseguiti e necessità manutentive consentono una stima più aderente al bene. Le spese prospettate devono essere distinguibili da quelle già deliberate o sostenute.\n\nSe vi sono infiltrazioni, contenziosi condominiali o lavori straordinari, i documenti devono essere messi a disposizione. La semplice frase «il palazzo va rifatto» non permette di quantificare un costo.\n\nAnche l'accessibilità, il piano, gli spazi esterni e le pertinenze devono essere descritti correttamente.\n\n## Occupazione e disponibilità\n\nUn immobile libero e uno locato non presentano necessariamente la stessa situazione. Servono contratto di locazione, durata, canone e informazioni su eventuali contestazioni.\n\nSe la casa è utilizzata da un familiare, occorre chiarire il titolo senza affidarsi a etichette informali. La valutazione economica deve essere coordinata con la verifica giuridica della disponibilità.\n\nIl tecnico non dovrebbe essere chiamato a risolvere da solo una controversia sul diritto di abitare l'immobile.\n\n## Confrontare stime diverse\n\nDue relazioni possono divergere perché considerano dati o date differenti. Prima di fare la media dei valori, conviene confrontare superficie, stato, comparabili e ipotesi adottate.\n\nUna tabella delle differenze aiuta a capire se il dissenso sia correggibile con un sopralluogo o un documento mancante. La media aritmetica non risolve un errore di identificazione del bene.\n\nLa valutazione della [casa ereditata](https://ereditaesuccessioni.it/casa-ereditata) diventa così uno strumento di decisione. Una buona stima non promette un prezzo certo: spiega come si arriva a un valore ragionato e quali elementi potrebbero modificarlo.\n\n### Rendere riconoscibile il materiale consegnato\n\nL'elenco dei documenti trasmessi al tecnico permette di capire su quali informazioni abbia lavorato. Se arriva successivamente una pratica edilizia o emerge un contratto di godimento, occorre chiedere se il nuovo dato modifichi la valutazione. Non basta inserirlo nel fascicolo presumendo che la relazione già emessa lo comprenda.\n\nAnche la data del sopralluogo va indicata. Fotografie scattate anni prima possono documentare interventi, ma non descrivono necessariamente lo stato attuale. Se l'accesso a un locale non è stato possibile, il limite deve restare visibile nella stima.\n\nPrima di usare il valore in una proposta vincolante, conviene quindi verificare che bene, data e presupposti corrispondano all'operazione effettiva. Una relazione completa per un determinato scopo può richiedere un aggiornamento quando cambiano le condizioni considerate.",
+    "faqs": [
+      {
+        "question": "La rendita catastale coincide con il valore di mercato della casa?",
+        "answer": "No. Si tratta di dati con funzioni diverse. Per la stima divisionale occorre un criterio pertinente al valore del bene e alla finalità della valutazione."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 726, 727",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 726, 727. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Planimetria non leggibile, metro pieghevole e fotografie di una casa disposti su un tavolo tecnico. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione. Carte e planimetrie senza testo identificativo. Scena singola di fotografia editoriale, proporzioni credibili, non deve sembrare una sede dello studio né un suo immobile reale.",
+      "alt": "Planimetria non leggibile, metro pieghevole e fotografie di una casa disposti su un tavolo tecnico",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-074.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "3dfc3459243cf8396e1a10eb1e34a4650beed28c17c06706d42e9aae45536e33",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 593,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 629,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2026-12-19",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "745de379a2cd1dcd92b94e3e96ff9db4ef1406a58afe63ecfbac0e4b8ace4384",
+    "sha256": "330bf13d84c99d881103d8d45669dfa0f29f268e62dbabe09024ad46f515e699"
+  }
+}

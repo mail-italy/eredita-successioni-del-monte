@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-014",
+    "site": "eredita",
+    "sequence": 14,
+    "area": "Testamenti",
+    "title": "Animali del defunto: organizzare cure e spese attraverso un lascito",
+    "slug": "animali-del-defunto-organizzare-cure-e-spese-attraverso-un-lascito",
+    "intent": "Onere per assistenza animale e beneficiario umano",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/animali-domestici-eredita"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 26,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Animali del defunto: cure e lasciti",
+    "description": "Come coordinare assistenza agli animali, persona incaricata e spese attraverso disposizioni patrimoniali chiare.",
+    "bodyMarkdown": "Dopo la morte del proprietario, un animale ha bisogno di cure quotidiane anche mentre gli eredi discutono del patrimonio. Un progetto successorio utile deve individuare una persona o un ente che se ne occupi e risorse adeguate, senza trattare l'animale come destinatario diretto della qualità di erede.\n\n### Distinguere assistenza e attribuzione patrimoniale\n\nLa capacità di ricevere un'eredità è disciplinata dal [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED). Un animale non può essere istituito erede come una persona. La volontà di proteggerlo può invece essere tradotta in una disposizione a favore di un soggetto idoneo, accompagnata da un obbligo di cura quando ne ricorrano i presupposti.\n\nGli articoli 647 e 648 regolano l'onere testamentario e il suo adempimento. La costruzione della clausola deve essere precisa: un lascito genericamente motivato dall'affetto per l'animale può creare dubbi su ciò che il beneficiario debba concretamente fare.\n\n### Le informazioni che servono\n\nÈ utile predisporre una scheda separata con abitudini, alimentazione, veterinario, terapie e documenti identificativi. Questa scheda pratica non sostituisce il testamento, ma aiuta chi subentra nelle cure a evitare interruzioni.\n\nLa stima delle risorse dovrebbe considerare spese ordinarie e possibili urgenze, senza presentarla come un costo fisso garantito. Anche la disponibilità della persona scelta va verificata in vita: un'indicazione testamentaria non assicura che quella persona abbia spazio, tempo o condizioni adatte.\n\n### Prevedere il controllo dell'impiego delle somme\n\nSe un legato è gravato da un onere, occorre distinguere il patrimonio attribuito dal modo in cui vengono documentate le cure. Ricevute veterinarie, spese e aggiornamenti possono rendere l'adempimento verificabile. Per il legatario rilevano inoltre i limiti dell'articolo 671.\n\nUna clausola dovrebbe considerare anche l'impossibilità sopravvenuta del soggetto prescelto di proseguire l'assistenza. La soluzione sostitutiva va costruita nel rispetto della forma e dei limiti testamentari, evitando accordi verbali sui quali gli eredi potrebbero dissentire.\n\n### Gestire l'urgenza dopo il decesso\n\nNell'immediato conviene documentare chi prende temporaneamente in cura l'animale, quali spese anticipa e dove sono custoditi i documenti. L'accordo provvisorio non dovrebbe essere confuso con una divisione definitiva dei beni o con una rinuncia a rimborsi.\n\nSe insorge un contrasto, il testo testamentario e la cronologia delle cure permettono di impostare richieste concrete. Il servizio dedicato agli [animali domestici nell'eredità](https://ereditaesuccessioni.it/animali-domestici-eredita) collega il benessere dell'animale alla corretta gestione successoria.\n\n### Una soluzione per i primi giorni\n\nSi immagini che la persona indicata nel testamento viva in un'altra città e possa prendere in cura l'animale soltanto dopo qualche giorno. Serve una sistemazione temporanea che garantisca alimentazione, terapie e sicurezza. Documentare questa organizzazione aiuta a distinguere l'assistenza immediata dall'assetto patrimoniale definitivo.\n\nÈ utile consegnare i recapiti del veterinario e la documentazione delle cure, spiegando quali farmaci siano in uso secondo le indicazioni professionali già ricevute. Un elenco scritto delle abitudini può prevenire errori; non deve trasformarsi in una nuova prescrizione sanitaria elaborata dagli eredi.\n\n### Valutare il soggetto prescelto\n\nLa disponibilità affettiva non coincide sempre con la possibilità concreta di prendersi cura dell'animale. Prima di predisporre un lascito, la persona può verificare condizioni abitative, presenza di altri animali e disponibilità a sostenere le esigenze quotidiane. Se la scelta riguarda un'associazione, occorre identificarla correttamente e controllare che l'attività richiesta rientri nelle sue possibilità.\n\nUn nome generico o un riferimento a una struttura non più esistente può creare problemi di interpretazione. Per questo i dati dell'organizzazione e il progetto devono essere riesaminati quando cambiano le circostanze.\n\n### Rendere comprensibile la destinazione delle risorse\n\nUna pianificazione ben descritta distingue le spese correnti da quelle straordinarie e prevede come documentare l'utilizzo delle somme. Non basta attribuire un importo e confidare che ogni familiare ne intenda allo stesso modo la finalità.\n\nSe la cura viene affidata provvisoriamente a chi anticipa denaro, conviene conservare le ricevute e chiarire se vi sia un accordo sui rimborsi. Questa attenzione evita che il benessere dell'animale venga coinvolto in discussioni su spese non identificate o su promesse ricordate in modo diverso.",
+    "faqs": [
+      {
+        "question": "Si può nominare direttamente un animale come erede?",
+        "answer": "L'animale non è un soggetto cui attribuire la qualità di erede. La tutela va organizzata attraverso persone o enti e disposizioni giuridicamente appropriate."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 1, 462, 647, 648, 671",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 1, 462, 647, 648, 671. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Cane adulto tranquillo accanto a ciotola e cartella di cure veterinarie senza dati, ambiente domestico italiano neutro. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Non aggiungere ceralacca o sigilli decorativi. Varia l'inquadratura rispetto ad altre immagini editoriali: fotografia zenitale oppure dettaglio ravvicinato coerente con il soggetto.",
+      "alt": "Cane adulto tranquillo accanto a ciotola e cartella di cure veterinarie senza dati, ambiente domestico italiano neutro",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-014.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "9af42cea2e3dac3b1e5f502cf450898ca1e8a29f881a5d853ee2b7e329573139",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 632,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 663,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-02-25",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "ffdd29ddbd214af1be7a7bdd8cbd7e7d665de7cdfb0d41fc32dc5136325c4bcf",
+    "sha256": "b4717fedc58a8b8ff605c44b8a800c38c60a1439fbe2081754d6c08e9a241bfc"
+  }
+}

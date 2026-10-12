@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-076",
+    "site": "eredita",
+    "sequence": 76,
+    "area": "Immobili e divisione",
+    "title": "Lavori urgenti nell'immobile ereditato: provare necessità e spesa",
+    "slug": "lavori-urgenti-nell-immobile-ereditato-provare-necessita-e-spesa",
+    "intent": "Conservazione del bene comune e richiesta di rimborso",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/casa-ereditata"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 150,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Lavori urgenti nella casa comune",
+    "description": "Necessità, comunicazioni e pagamenti da provare prima di chiedere il rimborso di lavori nell'immobile ereditato.",
+    "bodyMarkdown": "Un tetto che perde o una tubazione rotta non aspettano la conclusione della divisione. Chi interviene su un immobile ereditato deve però documentare il problema e il motivo della spesa, soprattutto se intende chiederne il rimborso agli altri.\n\nL'[articolo 1110 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) disciplina il rimborso al partecipante che, in caso di trascuranza degli altri o dell'amministratore, abbia sostenuto spese necessarie alla conservazione della cosa comune. Non ogni miglioramento deciso unilateralmente rientra in questa previsione.\n\n## Distinguere conservazione e miglioramento\n\nRiparare una perdita per evitare ulteriori danni è diverso dal rinnovare completamente un bagno per renderlo più gradevole. Lo stesso intervento può comprendere entrambe le componenti.\n\nUn preventivo dovrebbe separare le opere indispensabili da quelle facoltative. Questa distinzione aiuta a discutere il rimborso senza contestare l'intera spesa solo perché alcune voci erano ulteriori rispetto alla necessità.\n\nLa valutazione deve considerare la situazione esistente al momento dell'intervento, non soltanto il risultato finale.\n\n## Avvisare gli altri e conservare le risposte\n\nQuando le circostanze lo consentono, è utile comunicare il problema, trasmettere fotografie e proporre una soluzione con il relativo costo. La prova delle comunicazioni può chiarire se vi sia stata inerzia, opposizione o accordo.\n\nIn presenza di un pericolo immediato per le persone, vanno attivati i servizi competenti e le misure necessarie. La documentazione successiva deve spiegare perché non fosse possibile attendere.\n\nUna formula generica come «non rispondevano mai» è meno utile di date, messaggi e richieste concrete.\n\n## Documentare la necessità\n\nRelazione tecnica, fotografie prima dei lavori, descrizione del guasto e indicazione dei danni evitati aiutano a ricostruire l'urgenza. Le immagini del solo risultato finale non mostrano il problema originario.\n\nSe il lavoro riguarda parti condominiali, occorre coordinarsi con l'amministratore e verificare il regime applicabile. La disciplina della comunione ereditaria e quella condominiale non vanno sovrapposte senza esame.\n\nAnche l'eventuale responsabilità di un terzo deve essere segnalata, preservando gli elementi utili a una richiesta separata.\n\n## Provare quanto è stato pagato\n\nFattura e prova del pagamento devono essere collegate. Se ci sono anticipi, saldi o rimborsi assicurativi, il conteggio deve mostrarli.\n\nIl rimborso richiesto agli altri non dovrebbe comprendere importi già restituiti da un'assicurazione o pagati con fondi comuni. Una tabella con costo lordo, recuperi e saldo personale evita duplicazioni.\n\nPer lavori eseguiti direttamente dal familiare, la pretesa richiede una valutazione distinta: non basta attribuire unilateralmente un prezzo al proprio tempo.\n\n## Se non si è ancora accettata l'eredità\n\nLa posizione del chiamato va esaminata prima di assumere impegni. L'articolo 460 contempla atti conservativi entro determinati limiti, ma non autorizza a considerare qualsiasi gestione come neutra rispetto all'accettazione.\n\nVendere beni ereditari per finanziare i lavori o firmare contratti complessi richiede un controllo specifico. La necessità pratica non elimina il significato giuridico degli atti.\n\nLa consulenza sulla [casa ereditata](https://ereditaesuccessioni.it/casa-ereditata) può aiutare a coordinare conservazione, poteri e rimborso. Il fascicolo più utile racconta cosa rischiava il bene, chi è stato informato, quale intervento è stato fatto e quale spesa netta è rimasta a carico di chi ha agito.\n\n### Conservare anche ciò che spiega una variazione di costo\n\nDurante il lavoro il tecnico può individuare un guasto ulteriore e proporre opere aggiuntive. Il nuovo preventivo e le comunicazioni relative alla decisione vanno conservati: la fattura finale, da sola, potrebbe non spiegare perché l'importo sia aumentato.\n\nÈ utile distinguere l'estensione necessaria per risolvere il problema da un miglioramento scelto mentre il cantiere era aperto. Se gli altri coeredi hanno approvato soltanto una parte, questa circostanza deve risultare. La ricostruzione del rimborso partirà così da prestazioni e decisioni riconoscibili, evitando che il consenso a una riparazione limitata venga presentato come approvazione indiscriminata di ogni lavoro successivo.",
+    "faqs": [
+      {
+        "question": "Basta chiamare urgente un lavoro per ottenere il rimborso?",
+        "answer": "No. Occorre dimostrare i presupposti applicabili, la necessità conservativa e la spesa sostenuta. Per la comunione l'articolo 1110 considera anche la trascuranza degli altri partecipanti o dell'amministratore."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 1104, 1110, 460",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 1104, 1110, 460. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una perdita d'acqua sotto un lavello, con attrezzi professionali e una cartellina di preventivi senza scritte. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione. Carte e planimetrie senza testo identificativo. Scena singola di fotografia editoriale, proporzioni credibili, non deve sembrare una sede dello studio né un suo immobile reale.",
+      "alt": "Una perdita d'acqua sotto un lavello, con attrezzi professionali e una cartellina di preventivi senza scritte",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-076.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "e40363d734fdc6021a1c1daa631dcc9e4f05d06c0c0ddcb5a38e8674e38e6045",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 597,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 633,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-01-28",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "aa07376ec5dd9e17dc23de1b07761c1e35d39b29c67ae2a55272ff599e146494",
+    "sha256": "399c45d0f6bb0ba4a38e788ad12ef1a6e8fabc2405fc5c1845695d20dcbfbe76"
+  }
+}

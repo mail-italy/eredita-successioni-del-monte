@@ -2,6 +2,7 @@
 
 import { ChangeEvent, FormEvent, useState } from "react";
 
+import { articleAttribution } from "@/lib/article-tracking";
 import { CONTACT_SUCCESS_EVENT, trackEvent } from "@/lib/tracking";
 import { CONTACT_LIMITS, validateAttachments } from "@/lib/contact-validation";
 
@@ -89,6 +90,7 @@ export function ContactForm() {
       message: "Invio in corso...",
     });
 
+    const articleContext = articleAttribution.getEventContext();
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
@@ -107,7 +109,9 @@ export function ContactForm() {
           payload.message ??
           "Richiesta inviata correttamente. Lo studio ti ricontatterà nel più breve tempo possibile.",
       });
-      trackEvent(CONTACT_SUCCESS_EVENT, { lead_type: "form_submit", form_name: "Modulo contatti ereditaesuccessioni.it" });
+      trackEvent(CONTACT_SUCCESS_EVENT, { lead_type: "form_submit", form_name: "Modulo contatti ereditaesuccessioni.it" }, articleContext);
+      articleAttribution.clear();
+      articleAttribution.rewriteWhatsAppLinks();
       setAttachmentError("");
       form.reset();
     } catch (error) {

@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-043",
+    "site": "eredita",
+    "sequence": 43,
+    "area": "Accettazione e debiti",
+    "title": "Rinuncia all'eredità e creditori personali del rinunciante",
+    "slug": "rinuncia-all-eredita-e-creditori-personali-del-rinunciante",
+    "intent": "Tutela dei creditori contro rinuncia pregiudizievole",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/rinuncia-eredita"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 84,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Rinuncia e creditori personali",
+    "description": "Come funziona la tutela dei creditori personali contro una rinuncia pregiudizievole e quali dati patrimoniali servono.",
+    "bodyMarkdown": "Rinunciare a un'eredità può essere una scelta legittima, ma non rende automaticamente quei beni irrilevanti per i creditori personali del rinunciante. L'[articolo 524 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) consente loro, quando la rinuncia li danneggia, di chiedere l'autorizzazione ad accettare in nome e luogo del debitore allo scopo di soddisfarsi sui beni ereditari.\n\nLa legge contempla il rimedio anche se non c'è frode. La questione centrale è quindi il pregiudizio al credito, non soltanto l'intenzione con cui il debitore ha rinunciato.\n\n## Di quali creditori si parla\n\nBisogna distinguere i creditori personali del rinunciante dai creditori del defunto. I primi vantano un credito verso chi era chiamato all'eredità; i secondi chiedono il pagamento di un debito appartenente alla successione. Confonderli porta a valutare la rinuncia con regole sbagliate.\n\nUn esempio chiarisce la differenza. Una persona ha un proprio debito professionale e rinuncia all'eredità del padre. Il suo creditore personale può interessarsi al valore netto al quale ha rinunciato. La banca che aveva finanziato il padre, invece, deve confrontarsi con la situazione dell'eredità e dei soggetti che l'abbiano accettata.\n\n## Perché conta il valore netto\n\nLa presenza di una casa non dimostra da sola che la rinuncia abbia danneggiato il creditore. Occorre ricostruire l'attivo, le passività e gli altri elementi rilevanti del patrimonio ereditario. Un immobile gravato da un debito consistente non può essere trattato come un valore interamente disponibile.\n\nAnche la situazione patrimoniale del debitore deve essere documentata. La valutazione del pregiudizio richiede dati, non soltanto il sospetto che il familiare abbia voluto «salvare la casa».\n\nSono utili il titolo del credito, la dichiarazione di rinuncia, il testamento se esiste, gli atti immobiliari e le informazioni sulle passività dell'eredità. Le stime devono indicare data, criteri e limiti.\n\n## Un rimedio con uno scopo preciso\n\nL'intervento non permette al creditore di incamerare liberamente l'intero patrimonio. L'articolo 524 lo limita alla soddisfazione dei crediti sui beni ereditari. L'eventuale eccedenza non diventa per questo un guadagno del creditore.\n\nLa norma prevede un termine di prescrizione di cinque anni dalla rinuncia. La sua applicazione concreta richiede di verificare l'atto e la data effettiva, senza attendere la conclusione di ogni discussione familiare. Una diffida non va scambiata automaticamente con il compimento dell'intero procedimento richiesto.\n\n## Se la rinuncia è già avvenuta\n\nChi ha rinunciato dovrebbe conservare gli elementi che spiegano la consistenza dell'eredità e la propria situazione. Nascondere documenti o costruire trasferimenti apparenti non è una soluzione. Se arriva una domanda del creditore, occorre distinguere ciò che viene effettivamente chiesto da ciò che i familiari temono di perdere.\n\nGli altri chiamati devono evitare di considerare il problema come esclusivamente personale del rinunciante. Se hanno acquisito beni coinvolti nella contestazione, la verifica del loro titolo e delle pretese formulate diventa concreta.\n\nIl servizio sulla [rinuncia all'eredità](https://ereditaesuccessioni.it/rinuncia-eredita) può essere il punto di partenza per ordinare questi documenti. La domanda utile non è soltanto «posso rinunciare?», ma anche «quali effetti avrà questa rinuncia verso i creditori che già esistono?».\n\n### Cosa chiedere a una stima patrimoniale\n\nUna valutazione utile non si limita al prezzo teorico della casa. Deve rendere riconoscibili la quota interessata, gli oneri documentati e le ipotesi utilizzate per ricostruire il valore netto. Quando una passività è contestata, è preferibile mostrarla separatamente invece di sottrarla come se fosse certa oppure ignorarla.\n\nLo stesso metodo serve al creditore e agli altri interessati: rende esplicito dove nasce il disaccordo. Una discussione sul valore di mercato richiede elementi diversi da una controversia sull'esistenza di un debito. Se queste questioni restano mescolate, anche una proposta conciliativa può apparire ragionevole soltanto perché ciascuno sta facendo riferimento a un patrimonio diverso.",
+    "faqs": [
+      {
+        "question": "Il creditore diventa erede se interviene sulla rinuncia?",
+        "answer": "Il rimedio dell'articolo 524 è finalizzato a soddisfare il credito sui beni ereditari entro il suo ammontare. Non va confuso con una normale acquisizione dell'eredità da parte del creditore."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 524, 519, 752",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 524, 519, 752. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una cartellina con documenti contabili e una piccola casa in legno separata da un divisorio trasparente. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutte le carte senza testo, senza stemmi, emblemi, sigilli, ceralacca, loghi o intestazioni. Dettaglio editoriale essenziale, sfondo luminoso naturale e inquadratura variata. Nessun luogo deve sembrare una sede dello studio.",
+      "alt": "Una cartellina con documenti contabili e una piccola casa in legno separata da un divisorio trasparente",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-043.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "78d9747d4f39e9428c1b4c94f7d9b94e751710c4566bade876a500887a72cb47",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 593,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 630,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-02-05",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "e56ffa6bed862a6f57a2b13657dbd224cf26b6a0d1822458260c4b80f36b0eac",
+    "sha256": "ee9e04eed8acea6964f27f2f11dac30a75aa44c49488b9bb0a4f6d41daa45634"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-012",
+    "site": "eredita",
+    "sequence": 12,
+    "area": "Testamenti",
+    "title": "Il rendiconto dell'esecutore testamentario: entrate, spese e documenti",
+    "slug": "il-rendiconto-dell-esecutore-testamentario-entrate-spese-e-documenti",
+    "intent": "Controllo separato dell'amministrazione testamentaria",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/testamento"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 22,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Rendiconto dell'esecutore testamentario",
+    "description": "Entrate, spese e giustificativi da controllare nel rendiconto dell'esecutore, separando gestione e attribuzioni.",
+    "bodyMarkdown": "L'esecutore comunica un saldo finale, ma non allega i documenti delle spese. Il rendiconto non dovrebbe ridursi a una cifra: deve permettere di seguire il passaggio fra patrimonio iniziale, operazioni compiute e beni o somme consegnati.\n\n### La funzione del conto\n\nL'articolo 709 del [Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) prevede il rendiconto al termine della gestione e anche alla scadenza indicata dalla norma se essa si prolunga. Esclude inoltre l'esonero testamentario dall'obbligo e dalla responsabilità.\n\nIl conto serve a rendere verificabile un'amministrazione svolta nell'interesse della corretta esecuzione del testamento. Non occorre che ogni operazione sia contestata perché abbia senso chiedere una documentazione ordinata.\n\n### Il contenuto da ricostruire\n\nLa base è la consistenza dei beni presi in gestione. Seguono entrate, uscite, trasferimenti, crediti ancora da incassare e obbligazioni pendenti. Il saldo bancario deve poter essere collegato a estratti e movimenti, non soltanto a una tabella compilata dall'esecutore.\n\nPer ciascuna spesa sono rilevanti beneficiario, causale, data, importo e giustificativo. Un costo di manutenzione va distinto da un lascito, da un anticipo personale o da un compenso. La voce “spese varie” non permette una verifica effettiva se racchiude operazioni di natura differente.\n\n### Contestare un movimento preciso\n\nChi rileva una divergenza dovrebbe indicare l'operazione e il documento mancante. Per esempio: la tabella menziona una fattura, ma il pagamento risulta di importo diverso; oppure compare un incasso non riconciliato con il contratto.\n\nQuesta impostazione evita che il confronto diventi un generico giudizio sulla persona. Allo stesso tempo permette al legale di distinguere una spiegazione contabile incompleta da una possibile violazione dei doveri dell'ufficio. Le conseguenze della gestione colposa e gli eventuali provvedimenti sull'esecutore richiedono presupposti specifici, non discendono da ogni disaccordo.\n\n### Chiudere senza rinunce inconsapevoli\n\nUna quietanza di ricezione dei beni non è necessariamente un'approvazione integrale del conto. Prima di firmare formule ampie occorre sapere se siano stati verificati tutti i movimenti, se restino attività da completare e quale effetto si attribuisca al documento.\n\nÈ utile conservare conto, allegati, osservazioni e risposte nella medesima cartella. Se esistono più esecutori, va ricostruito il ruolo di ciascuno e la gestione comune. Il percorso sulla [consulenza testamentaria](https://ereditaesuccessioni.it/testamento) consente di collegare il rendiconto alle disposizioni che l'ufficio doveva eseguire.\n\n### Un saldo corretto può nascondere una classificazione incompleta\n\nSi consideri un conto in cui entrano canoni di locazione ed escono pagamenti per manutenzione. Il saldo aritmetico può essere esatto anche se una spesa personale dell'esecutore è stata inserita fra i costi dell'immobile. Per questo la verifica non si esaurisce nella somma delle colonne: occorre collegare ogni movimento alla gestione che doveva essere svolta.\n\nÈ utile distinguere almeno tre livelli: il movimento bancario prova uno spostamento di denaro; la fattura descrive la prestazione; il contratto o la comunicazione pertinente aiutano a comprenderne il rapporto con l'eredità. Nessuno di questi documenti, isolatamente, risponde necessariamente a tutte le domande.\n\n### Incassi attesi e beni ancora da consegnare\n\nIl conto dovrebbe permettere di capire anche che cosa resti aperto. Un canone non riscosso, una cauzione da restituire o una somma temporaneamente trattenuta non possono sparire dalla ricostruzione soltanto perché non hanno ancora prodotto un pagamento. Devono essere identificati, con la spiegazione dello stato della pratica e dei documenti disponibili.\n\nLo stesso vale per beni materiali. Se l'esecutore ha ricevuto chiavi, documenti originali o valori da custodire, il rendiconto dovrebbe essere coordinato con la consegna finale. Una cifra sul conto corrente non dimostra che tutti gli oggetti siano stati restituiti.\n\n### Come formulare osservazioni verificabili\n\nInvece di respingere il conto con una contestazione generica, si può chiedere il chiarimento di singole voci, numerandole e collegandole agli allegati. Le risposte vanno conservate accanto alle domande. Questo metodo consente di isolare il disaccordo effettivo e di evitare che una correzione contabile minore impedisca di riconoscere le parti della gestione che risultano documentate.",
+    "faqs": [
+      {
+        "question": "Il testatore può esonerare l'esecutore dal rendiconto?",
+        "answer": "L'articolo 709 esclude che il testatore possa dispensarlo dall'obbligo di rendere il conto o dalla responsabilità della gestione."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+        "title": "Codice civile vigente, artt. 703, 709, 711",
+        "checkedAt": "2026-10-12",
+        "supports": "Disciplina richiamata nel testo; articoli 703, 709, 711. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Registro di contabilità con righe illeggibili, ricevute ordinate e calcolatrice, senza dati personali. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Non aggiungere ceralacca o sigilli decorativi. Varia l'inquadratura rispetto ad altre immagini editoriali: fotografia zenitale oppure dettaglio ravvicinato coerente con il soggetto.",
+      "alt": "Registro di contabilità con righe illeggibili, ricevute ordinate e calcolatrice, senza dati personali",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-012.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "f7ffa3169265bd667cc98439c3fd645978b7615227caa48d0fdb751bc0423b20",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 619,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 644,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-02-07",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "d83645327cbc5f5b1525e2e4fa4a1fb4d8f570d3f16a153de15a49d53892fdc8",
+    "sha256": "4e51070ed56bac341a1aeb4368ec115602e0544fd488be44b37da769985cb7b8"
+  }
+}

@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
+import { articleAttribution } from "@/lib/article-tracking";
 import { CookieConsent } from "@/components/cookie-consent";
 import { CONSENT_EVENT, CONSENT_KEY, DENIED_CONSENT, googleConsent, hasTagConsent, isTrackingHost, readConsent, type ConsentChange, type ConsentPreferences } from "@/lib/consent";
 import { trackEvent } from "@/lib/tracking";
@@ -19,6 +21,49 @@ function clearMeasurementCookies(preferences: ConsentPreferences) {
 }
 
 export function AnalyticsScript() {
+  const pathname = usePathname();
+
+  useEffect(() => {
+    // Public article details also belong in WhatsApp when optional tags are off.
+    const sync = () => {
+      articleAttribution.syncPage();
+      articleAttribution.rewriteWhatsAppLinks();
+    };
+    sync();
+    const clicked = (event: MouseEvent) => {
+      if (!(event.target instanceof Element)) return;
+      const anchor = event.target.closest<HTMLAnchorElement>("a[href]");
+      const href = anchor?.getAttribute("href");
+      if (!anchor || !href) return;
+      articleAttribution.rememberContactNavigation(href);
+      const decorated = articleAttribution.decorateWhatsAppHref(href);
+      if (decorated !== href) anchor.setAttribute("href", decorated);
+    };
+    const storageChanged = (event: StorageEvent) => {
+      if (!event.key || event.key === CONSENT_KEY) sync();
+    };
+    let frame = 0;
+    const observer = new MutationObserver(() => {
+      if (frame) return;
+      frame = window.requestAnimationFrame(() => {
+        frame = 0;
+        // Do not clear an explicit navigation while React is closing a menu.
+        articleAttribution.rewriteWhatsAppLinks();
+      });
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+    document.addEventListener("click", clicked, { capture: true });
+    window.addEventListener(CONSENT_EVENT, sync);
+    window.addEventListener("storage", storageChanged);
+    return () => {
+      observer.disconnect();
+      window.cancelAnimationFrame(frame);
+      document.removeEventListener("click", clicked, { capture: true });
+      window.removeEventListener(CONSENT_EVENT, sync);
+      window.removeEventListener("storage", storageChanged);
+    };
+  }, [pathname]);
+
   useEffect(() => {
     // Local development, preview hosts and tests never load Google tags.
     if (!isTrackingHost(window.location.hostname)) return;

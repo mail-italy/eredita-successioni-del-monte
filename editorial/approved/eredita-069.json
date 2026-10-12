@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "eredita-069",
+    "site": "eredita",
+    "sequence": 69,
+    "area": "Banche e patrimonio",
+    "title": "Eredità digitale: chiedere dati e archivi senza usare le password del defunto",
+    "slug": "eredita-digitale-chiedere-dati-e-archivi-senza-usare-le-password-del-defunto",
+    "intent": "Accesso ai dati post mortem distinto dal subentro nell'account",
+    "relatedExistingUrls": [
+      "https://ereditaesuccessioni.it/avvocato-successioni"
+    ],
+    "status": "approved",
+    "scheduledOffsetDays": 136,
+    "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+    "seoTitle": "Eredità digitale e accesso ai dati",
+    "description": "Come chiedere dati e archivi del defunto distinguendo interesse successorio, uso dell'account e tutela dei terzi.",
+    "bodyMarkdown": "Un telefono o un computer possono contenere documenti utili alla successione, ma conoscere una password non chiarisce chi abbia diritto a usare l'account. Il recupero dei dati deve essere distinto dal subentro nei servizi e dall'accesso alle comunicazioni di altre persone.\n\nL'[articolo 2-terdecies del Codice privacy](https://www.garanteprivacy.it/documents/10160/0/Codice%2Bin%2Bmateria%2Bdi%2Bprotezione%2Bdei%2Bdati%2Bpersonali%2B%28Testo%2Bcoordinato%29.pdf/b1787d6b-6bce-07da-a38f-3742e3888c1d?version=5.0) consente l'esercizio di determinati diritti sui dati del defunto a chi abbia un interesse proprio, agisca a sua tutela come mandatario o invochi ragioni familiari meritevoli di protezione. La norma contiene anche limiti e regole sulle volontà espresse per i servizi digitali.\n\n## Definire l'obiettivo della richiesta\n\nRecuperare fotografie familiari, trovare un contratto e amministrare un'attività online sono esigenze diverse. Una domanda precisa spiega quali dati servano e perché.\n\nÈ utile iniziare con una mappa dei servizi noti: provider, indirizzo dell'account, tipo di archivio e documenti ricercati. Non occorre pubblicare o condividere le credenziali per compilare questo elenco.\n\nLa richiesta va presentata con la propria identità e il proprio titolo, attraverso i canali ufficiali del fornitore.\n\n## Dati, account e beni digitali\n\nIl diritto di ottenere informazioni non equivale necessariamente al diritto di impersonare il titolare, continuare a inviare messaggi dal suo profilo o utilizzare licenze personali. Anche proprietà del dispositivo e disponibilità dei dati sono piani distinti.\n\nUn archivio può contenere dati di terzi, corrispondenza riservata e contenuti con differenti diritti di utilizzo. La selezione di ciò che è necessario riduce il rischio di una domanda indiscriminata.\n\nPer posizioni patrimoniali digitali serve inoltre verificare titolarità, valore e modalità di gestione, senza trasferire automaticamente le regole di un semplice album fotografico.\n\n## Le volontà del defunto\n\nPer i servizi della società dell'informazione, la legge considera un divieto espresso con determinate caratteristiche. Occorre quindi verificare eventuali istruzioni lasciate al fornitore e il loro contenuto.\n\nLa norma tutela comunque, nei termini previsti, i diritti patrimoniali derivanti dalla morte e la difesa in giudizio. Questo richiede una valutazione concreta: né la riservatezza né la qualità di familiare costituiscono una risposta automatica a ogni richiesta.\n\n## Conservare senza alterare\n\nPrima di modificare dispositivi o cancellare servizi, conviene valutare come preservare ciò che può essere rilevante. Una sincronizzazione, una chiusura dell'account o un ripristino del telefono possono rendere più difficile il recupero.\n\nLe copie ottenute devono essere organizzate con indicazione della provenienza e della data. Se i documenti servono in una controversia, integrità e tracciabilità assumono un rilievo particolare.\n\nNon è opportuno inoltrare interi archivi a tutti i familiari quando la necessità riguarda pochi file.\n\n## Se il fornitore rifiuta\n\nIl rifiuto dovrebbe essere conservato e confrontato con la richiesta presentata. Potrebbero mancare documenti, essere incerto l'account o esistere limiti specifici. Una nuova domanda mirata può essere diversa da una contestazione del diniego.\n\nLa consulenza in materia di [successioni](https://ereditaesuccessioni.it/avvocato-successioni) può coordinare interesse ereditario e tutela dei dati. Il percorso utile parte dal risultato necessario, non dalla ricerca di un accesso illimitato alla vita digitale della persona deceduta.\n\n### Preparare un elenco che non contenga segreti di accesso\n\nLa mappa digitale può riportare nome del servizio, indirizzo dell'account e tipo di documento cercato senza includere password, codici di recupero o credenziali bancarie. Questa separazione consente di condividerla con il professionista senza diffondere strumenti di accesso non necessari.\n\nPer ogni voce è utile indicare se esista già una copia lecita del documento, se sia stata inviata una richiesta e quale risposta sia arrivata. Un contratto trovato in un archivio familiare può rendere inutile una domanda estesa a tutta la posta.\n\nSe un dispositivo contiene materiale potenzialmente probatorio, prima di modificarlo occorre valutare il metodo di conservazione adeguato. Annotare chi lo custodisce e quali operazioni siano state eseguite aiuta a distinguere i dati originari dalle modifiche successive.",
+    "faqs": [
+      {
+        "question": "Essere erede significa poter usare tutte le password del defunto?",
+        "answer": "No. Accesso ai dati, diritti patrimoniali e uso dell'account sono questioni distinte. Occorre utilizzare il percorso previsto per la richiesta nella propria qualità e verificare i diritti coinvolti."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.garanteprivacy.it/documents/10160/0/Codice%2Bin%2Bmateria%2Bdi%2Bprotezione%2Bdei%2Bdati%2Bpersonali%2B%28Testo%2Bcoordinato%29.pdf/b1787d6b-6bce-07da-a38f-3742e3888c1d?version=5.0",
+        "title": "Codice privacy, articolo 2-terdecies, testo Garante",
+        "supports": "Soggetti legittimati, divieto espresso per servizi digitali e limiti a tutela dei diritti patrimoniali e difensivi.",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "image": {
+      "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Un computer portatile chiuso accanto a una cartellina di richiesta dati e un piccolo lucchetto, senza marchi. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo, numero di conto o intestazione: eventuali carte e schermi devono essere anonimi e senza testo. Composizione fotografica semplice specifica del tema, luce naturale, oggetti credibili, nessuna persona riconoscibile.",
+      "alt": "Un computer portatile chiuso accanto a una cartellina di richiesta dati e un piccolo lucchetto, senza marchi",
+      "imageKind": "illustrazione fotografica concettuale generata",
+      "status": "generated",
+      "path": "/images/editorial/eredita-069.webp",
+      "visualReview": "passed",
+      "generatedAt": "2026-10-12",
+      "sha256": "207fded7202428434eef7527eaa9a928b28f056577a499a280b18963f157589e",
+      "width": 1200,
+      "height": 800,
+      "generatedBy": "image_gen builtin"
+    },
+    "legalReview": "approved",
+    "publicationApproved": true,
+    "wordCount": 601,
+    "metadataReview": "complete",
+    "substantiveReview": "expanded with article-specific examples",
+    "wordCountIncludingFaqs": 639,
+    "editorialReview": "complete; legal approval remains pending",
+    "reviewer": "Studio Legale Del Monte"
+  },
+  "releaseDate": "2027-03-29",
+  "approval": {
+    "reviewer": "Studio Legale Del Monte",
+    "approvedAt": "2026-10-12",
+    "validUntil": "2027-04-28",
+    "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+    "reviewedSourceHash": "306872fac8f88252e1ba69b694b517cb70e67c16a185dd22a427b14bd6704483",
+    "sha256": "996449c88600dc7a22a09eec8644d0f41d53fc9c3de7e2201a521fb1d3bac002"
+  }
+}
