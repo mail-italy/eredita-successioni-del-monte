@@ -2,7 +2,9 @@
   "pending": {
     "id": "eredita-021",
     "url": "https://ereditaesuccessioni.it/approfondimenti/figlio-morto-prima-del-genitore-come-ricostruire-la-rappresentazione",
-    "stagedAt": "2026-10-14T12:51:31.235Z"
+    "stagedAt": "2026-10-14T12:51:31.235Z",
+    "deployAttempts": 1,
+    "deployRequestedAt": "2026-10-14T12:51:54.774Z"
   },
   "lastVerified": {
     "id": "eredita-001",
