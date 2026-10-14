@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-021",
     "url": "https://ereditaesuccessioni.it/approfondimenti/figlio-morto-prima-del-genitore-come-ricostruire-la-rappresentazione",
-    "stagedAt": "2026-10-14T12:51:31.235Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-10-14T12:51:54.774Z"
-  },
-  "lastVerified": {
-    "id": "eredita-001",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/come-cercare-un-testamento-dopo-il-decesso-registri-notai-e-documenti",
-    "checkedAt": "2026-10-12T13:17:49.739Z",
+    "checkedAt": "2026-10-14T12:52:50.351Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
