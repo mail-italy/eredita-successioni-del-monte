@@ -136,5 +136,79 @@
     },
     "publishedDate": "2026-10-14",
     "publishedAt": "2026-10-14T12:51:31.235Z"
+  },
+  {
+    "article": {
+      "id": "eredita-048",
+      "site": "eredita",
+      "sequence": 48,
+      "area": "Accettazione e debiti",
+      "title": "Cartelle e avvisi dopo il decesso: verificare debitore, imposta e notifica",
+      "slug": "cartelle-e-avvisi-dopo-il-decesso-verificare-debitore-imposta-e-notifica",
+      "intent": "Lettura degli atti fiscali ricevuti dagli eredi",
+      "relatedExistingUrls": [
+        "https://ereditaesuccessioni.it/beneficio-inventario"
+      ],
+      "status": "approved",
+      "scheduledOffsetDays": 94,
+      "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+      "seoTitle": "Cartelle fiscali dopo il decesso",
+      "description": "Debito, qualità di erede e notifica sono verifiche distinte: quali documenti conservare quando arriva un atto fiscale.",
+      "bodyMarkdown": "Ricevere una cartella o un avviso intestato a una persona deceduta non permette di concludere subito che l'atto sia nullo oppure che ogni familiare debba pagarlo. Servono tre verifiche distinte: quale debito viene richiesto, chi ne risponde e come è stato notificato.\n\nLa prima misura pratica è conservare l'atto completo, la busta e le ricevute elettroniche. La data di ricezione e gli allegati possono essere decisivi quanto il contenuto del sollecito.\n\n## Individuare l'obbligazione\n\nOccorre identificare l'imposta o l'altra entrata, il periodo di riferimento e gli atti precedenti. Una cartella può riunire voci differenti: capitale, sanzioni, interessi e spese non vanno analizzati come un'unica somma.\n\nSe mancano l'avviso originario o il conteggio, vanno richiesti. La ricerca deve ricostruire anche eventuali pagamenti, rateizzazioni e contestazioni già avviate dal defunto. Un debito indicato negli archivi non è per questo immune da errori o duplicazioni.\n\n## Verificare la qualità attribuita al destinatario\n\nEssere figlio o coniuge non equivale automaticamente ad avere accettato l'eredità. Devono essere esaminati dichiarazioni, rinunce e comportamenti rilevanti. Il creditore potrebbe attribuire al destinatario una qualità che richiede prova.\n\nD'altra parte, una rinuncia non va invocata senza controllare se prima siano stati compiuti atti di accettazione. Anche il beneficio d'inventario deve essere documentato nella sua concreta efficacia: la sola intenzione di accettare «con riserva» non basta.\n\n## Le norme speciali tributarie\n\nLe regole civilistiche sul riparto non possono essere trasferite automaticamente a ogni debito fiscale. L'[articolo 65 del DPR 600/1973](https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?FROM_SEARCH=true&codiceOrdinamento=0000000000000650000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B067B68F4-55FE-458F-9E4F-F941FD1587E1%7D&idAttoNormativo=%7B178F0CBC-1969-49F3-974E-7C0E87B9A568%7D&numeroArticolo=Articolo+65) contiene disposizioni specifiche sulla responsabilità degli eredi del contribuente, sulla comunicazione delle loro generalità e del domicilio fiscale e sulla notificazione degli atti.\n\nLa norma contempla, a determinate condizioni, una notifica collettiva e impersonale nell'ultimo domicilio del defunto. Per questo non è prudente ignorare l'atto soltanto perché il nome sulla busta non è il proprio.\n\nIl tipo di tributo, il momento in cui si è verificato il presupposto e le comunicazioni già effettuate restano elementi da controllare nel caso concreto.\n\n## Richiesta di riesame e difesa nei termini\n\nUn'istanza inviata all'ente può servire a correggere un errore evidente o ottenere documentazione, ma non va considerata automaticamente sostitutiva dell'impugnazione. Il termine per reagire dipende dall'atto e dal procedimento, e deve essere verificato subito.\n\nSe più familiari ricevono comunicazioni, è utile coordinare la raccolta dei documenti. Risposte contraddittorie o pagamenti parziali non ricostruiti rendono più difficile capire ciò che resta effettivamente dovuto.\n\n## Il fascicolo minimo per il controllo\n\nPortare l'atto integrale, la prova della notifica, i documenti successori, le comunicazioni fiscali e i pagamenti consente di formulare una valutazione concreta. Un riepilogo del solo importo non è sufficiente.\n\nL'esame del [beneficio d'inventario](https://ereditaesuccessioni.it/beneficio-inventario) e delle [regole civilistiche sui debiti](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) può quindi essere coordinato con la disciplina tributaria. L'obiettivo è rispondere alla pretesa effettiva, preservando le difese e senza assumere obblighi personali prima di averne verificato il fondamento.\n\n### Coordinare familiari e professionisti senza perdere gli originali\n\nUn familiare può ricevere una busta, un altro conservare la dichiarazione di rinuncia e un terzo avere le ricevute dei pagamenti del defunto. Riunire copie leggibili in un solo fascicolo facilita il controllo, ma gli originali e le prove di ricezione devono rimanere identificabili. Una fotografia della prima pagina non permette sempre di conoscere allegati e avvertenze.\n\nIl prospetto condiviso dovrebbe indicare chi ha ricevuto ciascun atto, quando e a chi lo ha trasmesso per la verifica. Se sono state inviate comunicazioni all'amministrazione, servono testo effettivo e ricevute, non soltanto il ricordo di una telefonata.\n\nPrima di pagare o contestare, è infine utile chiedere che la valutazione distingua le questioni di merito da quelle di notifica. Una possibile irregolarità formale non dimostra che l'imposta non esista; la fondatezza economica del credito, a sua volta, non rende irrilevante il rispetto delle regole procedurali.",
+      "faqs": [
+        {
+          "question": "Un atto intestato al defunto è sempre inefficace?",
+          "answer": "No. La validità della notifica va verificata secondo il tipo di atto e la disciplina applicabile. L'articolo 65 del DPR 600/1973 prevede anche la notifica agli eredi collettivamente e impersonalmente a determinate condizioni."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+          "title": "Codice civile vigente, artt. 752, 754, 490",
+          "checkedAt": "2026-10-12",
+          "supports": "Disciplina richiamata nel testo; articoli 752, 754, 490. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+        },
+        {
+          "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?FROM_SEARCH=true&codiceOrdinamento=0000000000000650000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B067B68F4-55FE-458F-9E4F-F941FD1587E1%7D&idAttoNormativo=%7B178F0CBC-1969-49F3-974E-7C0E87B9A568%7D&numeroArticolo=Articolo+65",
+          "title": "DPR 600/1973, articolo 65, banca dati ufficiale",
+          "supports": "Regole speciali sugli eredi del contribuente, comunicazione e notifica.",
+          "checkedAt": "2026-10-12"
+        }
+      ],
+      "image": {
+        "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una busta notificata, un calendario neutro e una cartellina con fogli ordinati per data. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Tutte le carte senza testo, senza stemmi, emblemi, sigilli, ceralacca, loghi o intestazioni. Dettaglio editoriale essenziale, sfondo luminoso naturale e inquadratura variata. Nessun luogo deve sembrare una sede dello studio.",
+        "alt": "Una busta notificata, un calendario neutro e una cartellina con fogli ordinati per data",
+        "imageKind": "illustrazione fotografica concettuale generata",
+        "status": "generated",
+        "path": "/images/editorial/eredita-048.webp",
+        "visualReview": "passed",
+        "generatedAt": "2026-10-12",
+        "sha256": "67db93bd7a67da212891322b55dd22405c7546f148ad574085a0dec09daeb392",
+        "width": 1200,
+        "height": 800,
+        "generatedBy": "image_gen builtin"
+      },
+      "legalReview": "approved",
+      "publicationApproved": true,
+      "wordCount": 612,
+      "reviewValidUntil": "2026-12-31",
+      "needsLegalRecheckReason": "Verificare i riordini tributari e le rispettive decorrenze dal 2027 prima della pubblicazione; nessuna approvazione legale già acquisita.",
+      "metadataReview": "complete",
+      "substantiveReview": "expanded with article-specific examples",
+      "wordCountIncludingFaqs": 654,
+      "editorialReview": "complete; legal approval remains pending",
+      "reviewer": "Studio Legale Del Monte"
+    },
+    "releaseDate": "2026-10-16",
+    "approval": {
+      "reviewer": "Studio Legale Del Monte",
+      "approvedAt": "2026-10-12",
+      "validUntil": "2026-12-31",
+      "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+      "reviewedSourceHash": "706e2f4c6b4388f731d2938edad0eeb522102f3b919f8e4d614f3c9a3c2d69a8",
+      "sha256": "e500a5955635e52f24b0a55c4cf8aaa6a80da98560d0f513aeadac3d8af1fd75"
+    },
+    "publishedDate": "2026-10-16",
+    "publishedAt": "2026-10-16T12:22:43.956Z"
   }
 ]
