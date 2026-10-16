@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-048",
     "url": "https://ereditaesuccessioni.it/approfondimenti/cartelle-e-avvisi-dopo-il-decesso-verificare-debitore-imposta-e-notifica",
-    "stagedAt": "2026-10-16T12:22:43.956Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-10-16T12:22:59.666Z"
-  },
-  "lastVerified": {
-    "id": "eredita-021",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/figlio-morto-prima-del-genitore-come-ricostruire-la-rappresentazione",
-    "checkedAt": "2026-10-14T12:52:50.351Z",
+    "checkedAt": "2026-10-16T12:23:56.088Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
