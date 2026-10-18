@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-051",
     "url": "https://ereditaesuccessioni.it/approfondimenti/collazione-e-riduzione-quale-problema-risolve-ciascuno-strumento",
-    "stagedAt": "2026-10-18T12:02:47.126Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-10-18T12:03:07.247Z"
-  },
-  "lastVerified": {
-    "id": "eredita-048",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/cartelle-e-avvisi-dopo-il-decesso-verificare-debitore-imposta-e-notifica",
-    "checkedAt": "2026-10-16T12:23:56.088Z",
+    "checkedAt": "2026-10-18T12:04:03.645Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
