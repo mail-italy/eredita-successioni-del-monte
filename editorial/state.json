@@ -2,7 +2,9 @@
   "pending": {
     "id": "eredita-051",
     "url": "https://ereditaesuccessioni.it/approfondimenti/collazione-e-riduzione-quale-problema-risolve-ciascuno-strumento",
-    "stagedAt": "2026-10-18T12:02:47.126Z"
+    "stagedAt": "2026-10-18T12:02:47.126Z",
+    "deployAttempts": 1,
+    "deployRequestedAt": "2026-10-18T12:03:07.247Z"
   },
   "lastVerified": {
     "id": "eredita-048",
