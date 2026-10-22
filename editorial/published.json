@@ -356,5 +356,71 @@
     },
     "publishedDate": "2026-10-20",
     "publishedAt": "2026-10-20T12:42:04.650Z"
+  },
+  {
+    "article": {
+      "id": "eredita-071",
+      "site": "eredita",
+      "sequence": 71,
+      "area": "Immobili e divisione",
+      "title": "Vendere la propria quota ereditaria: prelazione e comunicazione ai coeredi",
+      "slug": "vendere-la-propria-quota-ereditaria-prelazione-e-comunicazione-ai-coeredi",
+      "intent": "Retratto successorio e distinzione fra quota e singolo bene",
+      "relatedExistingUrls": [
+        "https://ereditaesuccessioni.it/divisione-ereditaria"
+      ],
+      "status": "approved",
+      "scheduledOffsetDays": 140,
+      "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+      "seoTitle": "Vendita della quota e prelazione ereditaria",
+      "description": "Oggetto della vendita, notificazione e diritti dei coeredi da verificare prima di trasferire una quota a un estraneo.",
+      "bodyMarkdown": "Vendere a un estraneo la propria quota ereditaria può coinvolgere il diritto di prelazione degli altri coeredi. Prima di cercare un acquirente, occorre però definire l'oggetto dell'operazione: quota dell'eredità, parte di essa o diritto su un singolo bene non sono espressioni intercambiabili.\n\nL'[articolo 732 del Codice civile](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) prevede la notificazione della proposta di alienazione della quota, con indicazione del prezzo, agli altri coeredi. La norma disciplina anche il riscatto quando manchi la notificazione.\n\n## Chiarire che cosa si vuole trasferire\n\nNel linguaggio comune, «vendo la mia parte della casa» può significare cose diverse. La quota ereditaria riguarda una posizione nel patrimonio successorio; la quota di un singolo immobile ha un oggetto più circoscritto.\n\nLa qualificazione dipende dal contenuto dell'atto e dalla situazione concreta, non soltanto dal titolo dato alla bozza. Quando il patrimonio comprende un solo bene, la distinzione può richiedere particolare attenzione.\n\nÈ quindi utile far esaminare la proposta prima di assumere impegni incompatibili con le verifiche necessarie.\n\n## La comunicazione deve rendere comprensibile l'offerta\n\nGli altri coeredi devono poter valutare l'operazione alle condizioni effettive. Prezzo, oggetto e modalità rilevanti non dovrebbero essere lasciati a conversazioni frammentarie.\n\nLa forma e la prova della notificazione vanno curate. Dire a voce che si sta pensando di vendere non equivale automaticamente al passaggio richiesto dalla legge.\n\nSe le condizioni cambiano durante la trattativa, occorre verificare come ciò incida sulla procedura. Non è prudente comunicare un prezzo e poi concludere con l'estraneo a condizioni sostanzialmente differenti senza un nuovo controllo.\n\n## Il termine e le sue conseguenze\n\nL'articolo 732 prevede due mesi dall'ultima delle notificazioni per l'esercizio della prelazione. La data iniziale richiede quindi documentazione, soprattutto se i coeredi sono più di uno o risiedono in luoghi differenti.\n\nChi riceve la proposta deve distinguere una manifestazione generica di interesse da un esercizio giuridicamente adeguato del diritto. Anche la sostenibilità del pagamento va valutata in tempo.\n\nLa mancata risposta entro una scadenza inventata nella lettera non può essere letta senza confrontarla con la norma applicabile.\n\n## Se il trasferimento è già avvenuto\n\nIn mancanza della notificazione, la legge contempla il riscatto della quota dall'acquirente e dai successivi aventi causa finché dura la comunione ereditaria. La possibilità concreta va verificata con tempestività, insieme all'atto di vendita e alla situazione della comunione.\n\nNon basta sapere che «il fratello ha venduto». Occorre acquisire il documento e accertare oggetto, acquirente, prezzo e formalità già compiute.\n\n## Valutare anche un accordo interno\n\nLa prelazione non impedisce agli eredi di trattare direttamente una soluzione. Una proposta documentata può favorire l'acquisto da parte di un coerede o un diverso assetto divisionale.\n\nL'accordo deve però regolare prezzo, tempi e rapporti ancora aperti, senza confondere la cessione della quota con la chiusura di qualsiasi rendiconto tra familiari.\n\nLa consulenza sulla [divisione ereditaria](https://ereditaesuccessioni.it/divisione-ereditaria) può partire dalla bozza dell'operazione e dall'elenco dei beni. Definire correttamente ciò che si vende è il presupposto per rispettare i diritti degli altri e rendere il trasferimento comprensibile all'acquirente.\n\n### Conservare una versione identificabile delle condizioni\n\nDurante la trattativa possono circolare più bozze con prezzi, modalità di pagamento o beni accessori differenti. È utile numerarle e collegare ogni comunicazione al testo effettivamente trasmesso. La prova dell'invio non chiarisce le condizioni offerte se l'allegato non è più reperibile.\n\nAnche le risposte dei coeredi vanno conservate integralmente. Una richiesta di chiarimento, una proposta diversa e l'esercizio della prelazione non sono automaticamente la stessa manifestazione. Prima di concludere con l'acquirente esterno, occorre verificare la sequenza completa, comprese eventuali variazioni intervenute dopo la comunicazione. Un archivio ordinato rende possibile controllare ciò che è stato realmente proposto e ricevuto, evitando di affidare la validità del percorso ai ricordi dei partecipanti.",
+      "faqs": [
+        {
+          "question": "La prelazione ereditaria riguarda automaticamente ogni vendita di un bene comune?",
+          "answer": "Occorre distinguere l'alienazione della quota ereditaria o di parte di essa dalla vendita di un singolo bene. Il contenuto dell'operazione va qualificato prima di applicare l'articolo 732."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+          "title": "Codice civile vigente, artt. 732",
+          "checkedAt": "2026-10-12",
+          "supports": "Disciplina richiamata nel testo; articoli 732. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+        }
+      ],
+      "image": {
+        "prompt": "Fotografia editoriale concettuale realistica orizzontale 16:9 per un sito italiano di diritto successorio. Una porzione di puzzle a forma di casa accanto a tre buste chiuse identiche. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage. Nessuno stemma, emblema, sigillo, ceralacca, logo o intestazione. Carte e planimetrie senza testo identificativo. Scena singola di fotografia editoriale, proporzioni credibili, non deve sembrare una sede dello studio né un suo immobile reale.",
+        "alt": "Una porzione di puzzle a forma di casa accanto a tre buste chiuse identiche",
+        "imageKind": "illustrazione fotografica concettuale generata",
+        "status": "generated",
+        "path": "/images/editorial/eredita-071.webp",
+        "visualReview": "passed",
+        "generatedAt": "2026-10-12",
+        "sha256": "5f9f864635d83cdf4dcc914338a45aa9f4599636b1bbc925f7db93f2da6b6e9b",
+        "width": 1200,
+        "height": 800,
+        "generatedBy": "image_gen builtin"
+      },
+      "legalReview": "approved",
+      "publicationApproved": true,
+      "wordCount": 600,
+      "metadataReview": "complete",
+      "substantiveReview": "expanded with article-specific examples",
+      "wordCountIncludingFaqs": 638,
+      "editorialReview": "complete; legal approval remains pending",
+      "reviewer": "Studio Legale Del Monte"
+    },
+    "releaseDate": "2026-10-22",
+    "approval": {
+      "reviewer": "Studio Legale Del Monte",
+      "approvedAt": "2026-10-12",
+      "validUntil": "2027-04-28",
+      "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+      "reviewedSourceHash": "0fd74c61069af4d9eb5d095d1bbc8d026ecd0013d87181702305f946638b4a30",
+      "sha256": "ce0eb09a75b8fca882f77fff7f943472aca96d0163c1d5c09da4b66909e40131"
+    },
+    "publishedDate": "2026-10-22",
+    "publishedAt": "2026-10-22T12:57:06.236Z"
   }
 ]
