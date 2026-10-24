@@ -422,5 +422,78 @@
     },
     "publishedDate": "2026-10-22",
     "publishedAt": "2026-10-22T12:57:06.236Z"
+  },
+  {
+    "article": {
+      "id": "eredita-081",
+      "site": "eredita",
+      "sequence": 81,
+      "area": "Beni e conflitti",
+      "title": "Auto ereditata da più persone: passaggi PRA e assegnazione a un solo erede",
+      "slug": "auto-ereditata-da-piu-persone-passaggi-pra-e-assegnazione-a-un-solo-erede",
+      "intent": "Trascrizioni e accordo successorio sul veicolo",
+      "relatedExistingUrls": [
+        "https://ereditaesuccessioni.it/auto-ereditata"
+      ],
+      "status": "approved",
+      "scheduledOffsetDays": 160,
+      "overlapAssessment": "Intento specifico distinto dalle guide generali censite; collegare la pagina servizio indicata. Revisione finale del testo necessaria prima di nuova URL.",
+      "seoTitle": "Auto a un solo erede: accordo e PRA",
+      "description": "Come coordinare scelta successoria, valore del veicolo e pratiche per attribuire l'auto a uno degli eredi.",
+      "bodyMarkdown": "Quando più eredi vogliono lasciare l'auto a uno solo, l'accordo familiare deve essere tradotto in un titolo e negli aggiornamenti del Pubblico Registro Automobilistico. La consegna delle chiavi non basta a rendere completa l'operazione.\n\nLa [procedura ufficiale ACI](https://aci.gov.it/pratica-auto/eredita-passaggio-di-proprieta-per-successione/) distingue l'accettazione dell'eredità dal trasferimento contestuale a uno degli eredi. Le pratiche possono essere lavorate insieme, ma restano distinte anche per i relativi costi.\n\n## Prima chiarire la scelta successoria\n\nSottoscrivere atti relativi all'auto può avere rilievo rispetto all'accettazione dell'eredità. Non si dovrebbe trattare il veicolo come un bene isolato dai debiti e dagli altri rapporti del defunto.\n\nLe [regole del Codice civile sull'accettazione e sulla disposizione dei diritti successori](https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED) richiedono di valutare gli atti nel loro contenuto. Se qualcuno sta considerando la rinuncia o il beneficio d'inventario, questa verifica viene prima della firma.\n\nAnche la presenza di minori o di persone rappresentate richiede un percorso adeguato.\n\n## Definire l'accordo tra eredi\n\nOccorre stabilire chi riceva il veicolo, quale valore venga considerato e se sia previsto un pagamento agli altri. L'auto può essere inserita in un accordo più ampio oppure regolata separatamente.\n\nUna stima ragionevole considera stato, chilometraggio, manutenzione e costi necessari. Un valore tratto da un annuncio non deve essere presentato come prezzo certo di realizzo.\n\nSe il beneficiario sostiene anche spese già anticipate, il conteggio deve distinguerle dal prezzo o dal conguaglio.\n\n## Preparare i documenti operativi\n\nLa scheda ACI indica documenti personali, dati del veicolo, dichiarazioni sullo status di erede e titolo da trascrivere; in presenza di testamento richiede la documentazione pertinente. Se una persona agisce per altri, i poteri di rappresentanza devono essere verificati.\n\nÈ utile richiedere prima dell'appuntamento l'elenco applicabile al caso concreto, soprattutto se mancano documenti del mezzo o se un erede risiede all'estero.\n\nNon conviene presentarsi con una semplice delega informale presumendo che valga per qualsiasi firma.\n\n## Verificare lo stato del veicolo\n\nPrima dell'attribuzione, gli eredi dovrebbero conoscere eventuali vincoli e la situazione amministrativa. Anche assicurazione, revisione e possibilità di circolazione richiedono controlli specifici.\n\nL'uso dell'auto durante la pratica non va dato per scontato. Il possesso delle chiavi e la disponibilità materiale non sostituiscono le condizioni richieste per circolare.\n\nSe il mezzo è fermo da molto tempo, la stima dei costi di ripristino può cambiare la convenienza dell'assegnazione.\n\n## Conservare la prova della chiusura\n\nDopo l'operazione vanno archiviati atti, ricevute e Documento Unico aggiornato. Il rendiconto tra eredi dovrebbe riportare il pagamento concordato e chi abbia sostenuto le spese.\n\nSe il veicolo faceva parte di una divisione più ampia, l'accordo finale deve evitare che il suo valore venga conteggiato nuovamente.\n\nLa valutazione sull'[auto ereditata](https://ereditaesuccessioni.it/auto-ereditata) coordina quindi due risultati: un'intesa economica chiara tra i familiari e un aggiornamento formale coerente. Completare soltanto uno dei due lascia aperta una parte del problema.\n\n### Preparare anche il passaggio materiale\n\nLa consegna può essere documentata con chilometraggio, chiavi, accessori e stato apparente del veicolo. Se esistono danni o interventi da eseguire, vanno indicati nel conteggio economico senza presentarli come già riparati. L'elenco rende chiaro che cosa riceva concretamente l'erede cui viene attribuita l'auto.\n\nÈ utile distinguere il giorno della consegna dalle date degli atti e degli aggiornamenti amministrativi. Non sempre coincidono, e da ciascuno possono dipendere verifiche diverse. La documentazione assicurativa deve essere controllata con l'impresa prima dell'utilizzo.\n\nSe il veicolo viene attribuito insieme ad altri beni, il fascicolo dovrebbe riportare il valore concordato una sola volta e collegarlo al prospetto generale. Eventuali somme anticipate per custodia, trasporto o ripristino vanno annotate separatamente. In questo modo, chi riceve l'auto non può essere considerato automaticamente compensato per qualunque spesa precedente, e gli altri possono verificare il saldo senza ricostruire tutte le conversazioni familiari.",
+      "faqs": [
+        {
+          "question": "Possiamo intestare l'auto a un solo erede senza considerare gli altri?",
+          "answer": "Occorre un titolo coerente con la successione e con l'accordo degli interessati. ACI distingue la pratica successoria dal trasferimento a uno degli eredi, anche quando vengono trattati contestualmente."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.normattiva.it/eli/id/1942/04/04/042U0262/CONSOLIDATED",
+          "title": "Codice civile vigente, artt. 476, 477, 728",
+          "checkedAt": "2026-10-12",
+          "supports": "Disciplina richiamata nel testo; articoli 476, 477, 728. Estratto ufficiale acquisito in sources/codice-vigente.txt, comprendente integralmente il Libro II sulle successioni."
+        },
+        {
+          "url": "https://aci.gov.it/pratica-auto/eredita-passaggio-di-proprieta-per-successione/",
+          "title": "ACI, passaggio di proprietà per successione",
+          "supports": "Pratiche di accettazione e trasferimento contestuale a un erede, documenti e distinzione dei costi.",
+          "checkedAt": "2026-10-12"
+        }
+      ],
+      "image": {
+        "prompt": "Fotografia editoriale concettuale realistica orizzontale 3:2, 1536x1024 per un sito italiano di diritto successorio. Un'auto europea senza marchi parcheggiata, con tre mazzi di chiavi e documenti neutri in primo piano. Colori avorio, legno naturale e blu petrolio, luce morbida, composizione elegante e accessibile. Nessun testo leggibile, nessun logo o marchio, nessun timbro, nessuna toga, nessun martelletto, nessun tribunale americano, nessun volto riconoscibile. Non rappresentare le sedi reali o persone dello Studio. Un'unica scena, non collage.",
+        "alt": "Un'auto europea senza marchi parcheggiata, con tre mazzi di chiavi e documenti neutri in primo piano",
+        "imageKind": "illustrazione fotografica concettuale generata",
+        "status": "generated",
+        "path": "/images/editorial/eredita-081.webp",
+        "generatedBy": "image_gen builtin",
+        "generatedAt": "2026-10-12",
+        "sha256": "5dafea0c1d1c085698abdf776391c8f7dcf0aeaefb5c72a3d71eb75cf8d36c32",
+        "width": 1200,
+        "height": 800,
+        "visualReview": "passed",
+        "visualReviewNotes": "Immagine visionata: coerente con il tema, nessun dato personale leggibile, nessun logo o identita attribuita allo Studio; scena concettuale."
+      },
+      "legalReview": "approved",
+      "publicationApproved": true,
+      "wordCount": 599,
+      "metadataReview": "complete",
+      "substantiveReview": "expanded with article-specific examples",
+      "wordCountIncludingFaqs": 638,
+      "editorialReview": "complete; legal approval remains pending",
+      "reviewer": "Studio Legale Del Monte"
+    },
+    "releaseDate": "2026-10-24",
+    "approval": {
+      "reviewer": "Studio Legale Del Monte",
+      "approvedAt": "2026-10-12",
+      "validUntil": "2027-04-28",
+      "evidence": "Approvazione esplicita dell’utente nel task Codex il 12 ottobre 2026: «Sono tutti approvati, vanno tutti bene». Richiesta contestuale: caricare tutti gli articoli, attivare la programmazione concordata ogni due giorni e pubblicare subito un articolo per sito oggi. Nessuna attribuzione nominale della revisione a una persona diversa dall’utente.",
+      "reviewedSourceHash": "7c5df14a9ebcc39649d8e16cf2ad570a917be9f6ac53b1a1e3d308101dc3d109",
+      "sha256": "8b276ea9c037befcc8a0823dd66f6ef7977e08e0ab9b8caf7cc9a3f924e91043"
+    },
+    "publishedDate": "2026-10-24",
+    "publishedAt": "2026-10-24T11:59:07.938Z"
   }
 ]
