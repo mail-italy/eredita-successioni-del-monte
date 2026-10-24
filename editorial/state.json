@@ -2,7 +2,9 @@
   "pending": {
     "id": "eredita-081",
     "url": "https://ereditaesuccessioni.it/approfondimenti/auto-ereditata-da-piu-persone-passaggi-pra-e-assegnazione-a-un-solo-erede",
-    "stagedAt": "2026-10-24T11:59:07.938Z"
+    "stagedAt": "2026-10-24T11:59:07.938Z",
+    "deployAttempts": 1,
+    "deployRequestedAt": "2026-10-24T11:59:29.523Z"
   },
   "lastVerified": {
     "id": "eredita-071",
