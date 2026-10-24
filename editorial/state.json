@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-081",
     "url": "https://ereditaesuccessioni.it/approfondimenti/auto-ereditata-da-piu-persone-passaggi-pra-e-assegnazione-a-un-solo-erede",
-    "stagedAt": "2026-10-24T11:59:07.938Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-10-24T11:59:29.523Z"
-  },
-  "lastVerified": {
-    "id": "eredita-071",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/vendere-la-propria-quota-ereditaria-prelazione-e-comunicazione-ai-coeredi",
-    "checkedAt": "2026-10-22T12:58:24.270Z",
+    "checkedAt": "2026-10-24T12:00:24.723Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
