@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-091",
     "url": "https://ereditaesuccessioni.it/approfondimenti/certificato-successorio-europeo-a-cosa-serve-e-quando-richiederlo",
-    "stagedAt": "2026-10-26T14:13:23.423Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-10-26T14:13:44.773Z"
-  },
-  "lastVerified": {
-    "id": "eredita-081",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/auto-ereditata-da-piu-persone-passaggi-pra-e-assegnazione-a-un-solo-erede",
-    "checkedAt": "2026-10-24T12:00:24.723Z",
+    "checkedAt": "2026-10-26T14:14:42.623Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
