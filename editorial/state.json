@@ -2,7 +2,9 @@
   "pending": {
     "id": "eredita-002",
     "url": "https://ereditaesuccessioni.it/approfondimenti/pubblicazione-del-testamento-olografo-cosa-cambia-per-gli-eredi",
-    "stagedAt": "2026-10-28T13:59:20.006Z"
+    "stagedAt": "2026-10-28T13:59:20.006Z",
+    "deployAttempts": 1,
+    "deployRequestedAt": "2026-10-28T13:59:41.685Z"
   },
   "lastVerified": {
     "id": "eredita-091",
