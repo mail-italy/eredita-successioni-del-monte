@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-002",
     "url": "https://ereditaesuccessioni.it/approfondimenti/pubblicazione-del-testamento-olografo-cosa-cambia-per-gli-eredi",
-    "stagedAt": "2026-10-28T13:59:20.006Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-10-28T13:59:41.685Z"
-  },
-  "lastVerified": {
-    "id": "eredita-091",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/certificato-successorio-europeo-a-cosa-serve-e-quando-richiederlo",
-    "checkedAt": "2026-10-26T14:14:42.623Z",
+    "checkedAt": "2026-10-28T14:00:38.527Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
