@@ -2,7 +2,9 @@
   "pending": {
     "id": "eredita-022",
     "url": "https://ereditaesuccessioni.it/approfondimenti/rappresentazione-e-accrescimento-due-percorsi-diversi-nella-successione",
-    "stagedAt": "2026-10-30T14:05:12.566Z"
+    "stagedAt": "2026-10-30T14:05:12.566Z",
+    "deployAttempts": 1,
+    "deployRequestedAt": "2026-10-30T14:05:34.666Z"
   },
   "lastVerified": {
     "id": "eredita-002",
