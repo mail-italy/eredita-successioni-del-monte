@@ -2,7 +2,9 @@
   "pending": {
     "id": "eredita-036",
     "url": "https://ereditaesuccessioni.it/approfondimenti/atti-conservativi-prima-dell-accettazione-proteggere-i-beni-senza-disporne",
-    "stagedAt": "2026-11-01T14:14:55.473Z"
+    "stagedAt": "2026-11-01T14:14:55.473Z",
+    "deployAttempts": 1,
+    "deployRequestedAt": "2026-11-01T14:15:13.510Z"
   },
   "lastVerified": {
     "id": "eredita-022",
