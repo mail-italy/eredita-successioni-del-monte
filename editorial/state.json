@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-036",
     "url": "https://ereditaesuccessioni.it/approfondimenti/atti-conservativi-prima-dell-accettazione-proteggere-i-beni-senza-disporne",
-    "stagedAt": "2026-11-01T14:14:55.473Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-11-01T14:15:13.510Z"
-  },
-  "lastVerified": {
-    "id": "eredita-022",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/rappresentazione-e-accrescimento-due-percorsi-diversi-nella-successione",
-    "checkedAt": "2026-10-30T14:06:31.448Z",
+    "checkedAt": "2026-11-01T14:16:08.078Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
