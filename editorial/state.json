@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-003",
     "url": "https://ereditaesuccessioni.it/approfondimenti/due-testamenti-ritrovati-come-leggere-revoche-e-clausole-compatibili",
-    "stagedAt": "2026-11-03T15:03:58.408Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-11-03T15:04:18.126Z"
-  },
-  "lastVerified": {
-    "id": "eredita-036",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/atti-conservativi-prima-dell-accettazione-proteggere-i-beni-senza-disporne",
-    "checkedAt": "2026-11-01T14:16:08.078Z",
+    "checkedAt": "2026-11-03T15:05:14.895Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
