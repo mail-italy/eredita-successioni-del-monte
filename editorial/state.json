@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-052",
     "url": "https://ereditaesuccessioni.it/approfondimenti/dispensa-dalla-collazione-cosa-leggere-nell-atto-di-donazione",
-    "stagedAt": "2026-11-05T15:26:03.211Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-11-05T15:26:26.320Z"
-  },
-  "lastVerified": {
-    "id": "eredita-003",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/due-testamenti-ritrovati-come-leggere-revoche-e-clausole-compatibili",
-    "checkedAt": "2026-11-03T15:05:14.895Z",
+    "checkedAt": "2026-11-05T15:27:22.891Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
