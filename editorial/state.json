@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-061",
     "url": "https://ereditaesuccessioni.it/approfondimenti/richiesta-degli-estratti-conto-del-defunto-indicare-rapporti-e-periodi",
-    "stagedAt": "2026-11-07T13:57:36.204Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-11-07T13:57:57.589Z"
-  },
-  "lastVerified": {
-    "id": "eredita-052",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/dispensa-dalla-collazione-cosa-leggere-nell-atto-di-donazione",
-    "checkedAt": "2026-11-05T15:27:22.891Z",
+    "checkedAt": "2026-11-07T13:58:54.673Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
