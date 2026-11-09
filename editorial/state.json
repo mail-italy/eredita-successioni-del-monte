@@ -2,7 +2,9 @@
   "pending": {
     "id": "eredita-072",
     "url": "https://ereditaesuccessioni.it/approfondimenti/casa-non-comodamente-divisibile-confrontare-assegnazione-e-vendita",
-    "stagedAt": "2026-11-09T17:27:16.834Z"
+    "stagedAt": "2026-11-09T17:27:16.834Z",
+    "deployAttempts": 1,
+    "deployRequestedAt": "2026-11-09T17:27:34.793Z"
   },
   "lastVerified": {
     "id": "eredita-061",
