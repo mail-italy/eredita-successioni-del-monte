@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-072",
     "url": "https://ereditaesuccessioni.it/approfondimenti/casa-non-comodamente-divisibile-confrontare-assegnazione-e-vendita",
-    "stagedAt": "2026-11-09T17:27:16.834Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-11-09T17:27:34.793Z"
-  },
-  "lastVerified": {
-    "id": "eredita-061",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/richiesta-degli-estratti-conto-del-defunto-indicare-rapporti-e-periodi",
-    "checkedAt": "2026-11-07T13:58:54.673Z",
+    "checkedAt": "2026-11-09T17:28:30.493Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
