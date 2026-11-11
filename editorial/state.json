@@ -2,7 +2,9 @@
   "pending": {
     "id": "eredita-082",
     "url": "https://ereditaesuccessioni.it/approfondimenti/auto-del-defunto-inutilizzata-documenti-prima-di-vendita-o-demolizione",
-    "stagedAt": "2026-11-11T15:07:55.912Z"
+    "stagedAt": "2026-11-11T15:07:55.912Z",
+    "deployAttempts": 1,
+    "deployRequestedAt": "2026-11-11T15:08:13.284Z"
   },
   "lastVerified": {
     "id": "eredita-072",
