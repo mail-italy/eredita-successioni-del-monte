@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-082",
     "url": "https://ereditaesuccessioni.it/approfondimenti/auto-del-defunto-inutilizzata-documenti-prima-di-vendita-o-demolizione",
-    "stagedAt": "2026-11-11T15:07:55.912Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-11-11T15:08:13.284Z"
-  },
-  "lastVerified": {
-    "id": "eredita-072",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/casa-non-comodamente-divisibile-confrontare-assegnazione-e-vendita",
-    "checkedAt": "2026-11-09T17:28:30.493Z",
+    "checkedAt": "2026-11-11T15:09:10.031Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
