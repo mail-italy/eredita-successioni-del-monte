@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-092",
     "url": "https://ereditaesuccessioni.it/approfondimenti/residenza-abituale-del-defunto-all-estero-quali-fatti-documentare",
-    "stagedAt": "2026-11-13T15:20:29.539Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-11-13T15:20:52.227Z"
-  },
-  "lastVerified": {
-    "id": "eredita-082",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/auto-del-defunto-inutilizzata-documenti-prima-di-vendita-o-demolizione",
-    "checkedAt": "2026-11-11T15:09:10.031Z",
+    "checkedAt": "2026-11-13T15:21:51.035Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
