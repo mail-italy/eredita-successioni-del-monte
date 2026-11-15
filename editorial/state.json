@@ -2,7 +2,9 @@
   "pending": {
     "id": "eredita-023",
     "url": "https://ereditaesuccessioni.it/approfondimenti/rinuncia-del-genitore-e-figli-minorenni-controllare-la-chiamata-successiva",
-    "stagedAt": "2026-11-15T14:43:22.896Z"
+    "stagedAt": "2026-11-15T14:43:22.896Z",
+    "deployAttempts": 1,
+    "deployRequestedAt": "2026-11-15T14:43:44.498Z"
   },
   "lastVerified": {
     "id": "eredita-092",
