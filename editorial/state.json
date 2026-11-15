@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-023",
     "url": "https://ereditaesuccessioni.it/approfondimenti/rinuncia-del-genitore-e-figli-minorenni-controllare-la-chiamata-successiva",
-    "stagedAt": "2026-11-15T14:43:22.896Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-11-15T14:43:44.498Z"
-  },
-  "lastVerified": {
-    "id": "eredita-092",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/residenza-abituale-del-defunto-all-estero-quali-fatti-documentare",
-    "checkedAt": "2026-11-13T15:21:51.035Z",
+    "checkedAt": "2026-11-15T14:44:41.018Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
