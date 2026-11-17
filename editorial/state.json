@@ -2,7 +2,9 @@
   "pending": {
     "id": "eredita-037",
     "url": "https://ereditaesuccessioni.it/approfondimenti/possesso-dei-beni-ereditari-perche-incide-sui-tempi-dell-inventario",
-    "stagedAt": "2026-11-17T16:51:18.414Z"
+    "stagedAt": "2026-11-17T16:51:18.414Z",
+    "deployAttempts": 1,
+    "deployRequestedAt": "2026-11-17T16:51:37.430Z"
   },
   "lastVerified": {
     "id": "eredita-023",
