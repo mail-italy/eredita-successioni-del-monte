@@ -19,7 +19,7 @@ export const adsServicePages = [
     variant: "ads",
     heroTitle: "Successione senza testamento: come tutelare quote e diritti",
     heroIntro:
-      "Quando manca un testamento, il problema non e solo capire chi eredita, ma applicare correttamente quote, rappresentazione, diritti del coniuge e possibili conflitti tra familiari.",
+      "Quando manca un testamento, occorre chiarire chi eredita, quali quote spettano e come affrontare eventuali contrasti tra familiari. Lo Studio esamina la situazione e i documenti disponibili.",
     problemList: [
       "Manca un testamento e gli eredi non concordano sulle quote",
       "Coniuge e figli chiedono chiarimenti su quote e diritti successori",
@@ -145,9 +145,9 @@ export const adsServicePages = [
       "evitare debiti ereditari",
     ],
     variant: "ads",
-    heroTitle: "Eredita con debiti: quando valutare il beneficio d'inventario",
+    heroTitle: "Eredità con debiti: quando valutare il beneficio d'inventario",
     heroIntro:
-      "Se non conosci con precisione passivita, fideiussioni o esposizioni fiscali del defunto, l'accettazione con beneficio d'inventario va esaminata subito e senza passaggi improvvisati.",
+      "Se non conosci con precisione debiti, fideiussioni o esposizioni fiscali del defunto, lo Studio può aiutarti a valutare il beneficio d'inventario, i termini e gli atti già compiuti.",
     problemList: [
       "Emergono debiti fiscali, bancari o verso terzi non ancora chiariti",
       "L'erede e nel possesso di beni e teme effetti di accettazione tacita",
@@ -283,7 +283,7 @@ export const adsServicePages = [
       "testamento e quote ereditarie",
     ],
     variant: "ads",
-    heroTitle: "Dubbi sul testamento? Serve chiarire validita, quote e rischi",
+    heroTitle: "Dubbi sul testamento? Serve chiarire validità, quote e rischi",
     heroIntro:
       "Un testamento puo essere valido ma male interpretato, oppure apparentemente lineare ma in conflitto con legittima, donazioni pregresse o assetti familiari complessi. La verifica va fatta prima di agire.",
     problemList: [
@@ -540,7 +540,7 @@ export const adsServicePages = [
       "accettazione espressa eredità",
     ],
     variant: "ads",
-    heroTitle: "Accettare l'eredita: prima vanno misurati debiti e conseguenze",
+    heroTitle: "Accettare l'eredità: prima vanno misurati debiti e conseguenze",
     heroIntro:
       "Accettazione espressa, accettazione tacita e beneficio d'inventario producono effetti molto diversi. Prima di firmare o gestire beni del defunto serve capire cosa stai assumendo.",
     problemList: [
@@ -809,7 +809,7 @@ export const adsServicePages = [
       "erede indegno",
     ],
     variant: "ads",
-    heroTitle: "Un erede puo essere escluso per indegnita successoria?",
+    heroTitle: "Un erede può essere escluso per indegnità successoria?",
     heroIntro:
       "L'indegnita non si presume e non coincide con una grave rottura familiare. Occorre verificare fatti specifici, prove disponibili e reale incidenza sulla devoluzione ereditaria.",
     problemList: [

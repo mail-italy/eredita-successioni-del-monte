@@ -21,7 +21,7 @@ const initialState: FormState = {
   message: "",
 };
 
-export function ContactForm() {
+export function ContactForm({ defaultTopic = "" }: { defaultTopic?: string }) {
   const [state, setState] = useState<FormState>(initialState);
   const [attachmentError, setAttachmentError] = useState("");
   const successClassName =
@@ -148,7 +148,7 @@ export function ContactForm() {
         </label>
         <label className="field field-full">
           <span>Ambito della richiesta</span>
-          <select name="topic" required defaultValue="">
+          <select name="topic" required defaultValue={contactRequestTopics.includes(defaultTopic) ? defaultTopic : ""}>
             <option value="" disabled>
               Seleziona un ambito
             </option>
@@ -166,11 +166,11 @@ export function ContactForm() {
             maxLength={CONTACT_LIMITS.caseSummary}
             rows={6}
             required
-            placeholder="Descrivi il problema concreto, chi e coinvolto, cosa si e gia bloccato e quali documenti hai disponibili."
+            placeholder="Indica il problema, il tuo rapporto con il defunto, dove si trovano i beni ed eventuali scadenze. Puoi scriverci anche dall’estero."
           />
         </label>
         <label className="field field-full">
-          <span>Allegati</span>
+          <span>Allegati (facoltativi)</span>
           <input
             name="attachments"
             type="file"

@@ -1143,9 +1143,9 @@ const servicePageEnhancements: Partial<Record<string, Partial<ServicePage>>> = {
       "avvocato per eredità bloccata",
       "avvocato successione internazionale",
     ],
-    heroTitle: "Avvocato successioni a Roma per eredità, testamenti e divisioni",
+    heroTitle: "Avvocato successioni a Roma",
     heroIntro:
-      "Una successione può coinvolgere un testamento, beni da dividere, donazioni pregresse o contrasti tra eredi. Il primo passo è individuare il problema e raccogliere i documenti pertinenti. In questa area trovi i percorsi dedicati ai diversi temi e puoi contattare lo Studio Legale Del Monte per l’esame della tua situazione.",
+      "Eredità bloccata, dubbi sul testamento o beni da dividere? Lo Studio Legale Del Monte a Roma esamina documenti e rapporti tra eredi per valutare il percorso legale adatto al tuo caso.",
     introParagraphs: [
       "Questa pagina è pensata per chi cerca un avvocato successioni a Roma e vuole capire subito se il problema riguarda quote, testamento, beni indivisi, donazioni o somme del defunto.",
       "L'obiettivo della prima analisi non è dare una risposta generica, ma individuare quali documenti servono, quali rischi esistono e quale percorso conviene impostare fin dall'inizio.",

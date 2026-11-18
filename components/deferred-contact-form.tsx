@@ -11,7 +11,7 @@ const ContactForm = dynamic(
   },
 );
 
-export function DeferredContactForm() {
+export function DeferredContactForm({ defaultTopic = "" }: { defaultTopic?: string }) {
   const wrapperRef = useRef<HTMLDivElement | null>(null);
   const [shouldRender, setShouldRender] = useState(false);
 
@@ -44,7 +44,7 @@ export function DeferredContactForm() {
     return () => observer.disconnect();
   }, [shouldRender]);
 
-  return <div ref={wrapperRef}>{shouldRender ? <ContactForm /> : <ContactFormPlaceholder />}</div>;
+  return <div ref={wrapperRef}>{shouldRender ? <ContactForm defaultTopic={defaultTopic} /> : <ContactFormPlaceholder />}</div>;
 }
 
 function ContactFormPlaceholder() {

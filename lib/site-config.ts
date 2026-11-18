@@ -65,3 +65,31 @@ export const contactRequestTopics = [
   "Successioni internazionali",
   "Altro",
 ];
+
+// Keep the form editable; only preselect an existing topic for a dedicated page.
+const serviceContactTopics: Record<string, string> = {
+  "avvocato-successioni": "Avvocato successioni",
+  "successione-legittima": "Successione legittima",
+  "testamento": "Testamento",
+  "testamento-olografo-falso": "Testamento olografo falso",
+  "impugnazione-testamento": "Impugnazione testamento",
+  "lesione-di-legittima": "Lesione di legittima",
+  "divisione-ereditaria": "Divisione ereditaria",
+  "conflitti-tra-coeredi": "Conflitti tra coeredi",
+  "accettazione-eredita": "Accettazione eredità",
+  "beneficio-inventario": "Beneficio d’inventario",
+  "petizione-ereditaria": "Petizione ereditaria",
+  "indegnita-successoria": "Indegnità successoria",
+  "vendita-casa-ereditata": "Vendita casa ereditata",
+  "gioielli-ereditati": "Gioielli ereditati",
+  "collazione-e-donazioni": "Collazione e donazioni",
+  "mediazione-ereditaria": "Mediazione ereditaria",
+  "rinuncia-eredita": "Rinuncia all’eredità",
+  "recupero-somme-ereditarie": "Recupero somme ereditarie",
+  "successioni-internazionali": "Successioni internazionali",
+};
+
+export function getServiceContactTopic(slug?: string) {
+  const topic = slug ? serviceContactTopics[slug] : undefined;
+  return topic && contactRequestTopics.includes(topic) ? topic : "";
+}

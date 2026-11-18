@@ -23,6 +23,7 @@ import { ContactActions, ContactAvailabilityNote } from "@/components/contact-ac
 import { DeferredContactForm } from "@/components/deferred-contact-form";
 import { DeferredLazyVideoPlayer } from "@/components/deferred-video-player";
 import { OfficeMap } from "@/components/office-map";
+import { getServiceContactTopic } from "@/lib/site-config";
 
 function TrackLink({
   href,
@@ -811,10 +812,12 @@ export function ContactSection({
   title = "Contatta lo Studio",
   intro = "Puoi scrivere per una prima valutazione del caso, allegando la documentazione già disponibile. Il telefono è attivo nella fascia oraria indicata; WhatsApp e Mail restano sempre disponibili.",
   includeMap = true,
+  serviceSlug,
 }: {
   title?: string;
   intro?: string;
   includeMap?: boolean;
+  serviceSlug?: string;
 }) {
   return (
     <>
@@ -855,10 +858,10 @@ export function ContactSection({
             >
               <h3>Richiesta di contatto</h3>
               <p className="muted">
-                Compila il modulo con i dati essenziali del caso e allega, se utile,
-                la documentazione disponibile.
+                Descrivi il problema e indica eventuali scadenze. Gli allegati sono
+                facoltativi: puoi contattarci anche se non hai ancora tutti i documenti.
               </p>
-              <DeferredContactForm />
+              <DeferredContactForm defaultTopic={getServiceContactTopic(serviceSlug)} />
             </div>
           </div>
         </div>
@@ -1225,20 +1228,20 @@ function LandingActionButtons({
     return (
       <div className="landing-template-cta-row">
         <a
-          href={contacts.phoneHref}
-          className="button-call landing-template-cta"
-          data-track-event="click_phone"
-          data-track-label={`${scope}_phone`}
-        >
-          Chiama lo studio
-        </a>
-        <a
           href="#modulo-contatti"
           className="button-request landing-template-cta"
           data-track-event="contact_form_click"
           data-track-label={`${scope}_request`}
         >
           Invia una richiesta
+        </a>
+        <a
+          href={contacts.phoneHref}
+          className="button-call landing-template-cta"
+          data-track-event="click_phone"
+          data-track-label={`${scope}_phone`}
+        >
+          Chiama lo studio
         </a>
         <Link
           href={contacts.whatsappHref}
@@ -1279,7 +1282,6 @@ function LandingActionButtons({
 }
 
 function LandingHero({
-  eyebrow,
   title,
   intro,
   microCases,
@@ -1288,7 +1290,6 @@ function LandingHero({
   scope,
   actionVariant = "default",
 }: {
-  eyebrow: string;
   title: string;
   intro: string;
   microCases: string[];
@@ -1316,9 +1317,10 @@ function LandingHero({
             <div className="landing-template-hero-overlay" aria-hidden="true" />
             <div className="landing-template-hero-content">
               <div className="landing-template-hero-copy">
-                <p className="eyebrow landing-template-eyebrow">{eyebrow}</p>
+                <p className="eyebrow landing-template-eyebrow">Studio Legale Del Monte · Roma</p>
                 <h1 className="display landing-template-title">{title}</h1>
                 <p className="lead landing-template-lead">{intro}</p>
+                <LandingActionButtons scope={scope} variant={actionVariant} />
                 {microCases.length > 0 ? (
                   <div className="landing-template-tags">
                     {microCases.slice(0, 4).map((item) => (
@@ -1328,13 +1330,9 @@ function LandingHero({
                     ))}
                   </div>
                 ) : null}
-                <LandingActionButtons scope={scope} variant={actionVariant} />
                 <p className="landing-template-note">
-                  Chiama lo Studio al {contacts.phoneDisplay} oppure descrivi il
-                  caso su {eyebrow.toLowerCase()} nel modulo di contatto. Puoi
-                  anticipare documenti e informazioni essenziali. Telefono attivo
-                  lunedì-venerdì 09:30–19:00; WhatsApp resta disponibile anche
-                  fuori orario.
+                  Telefono {contacts.phoneDisplay}, lun–ven 09:30–19:00.
+                  Puoi inviare una richiesta o un messaggio WhatsApp anche fuori orario.
                 </p>
               </div>
             </div>
@@ -1377,6 +1375,7 @@ function RelatedLinksSection({
               <Link
                 key={item.href}
                 href={item.href}
+                prefetch={false}
                 className="card stack clickable-card"
                 data-track-event="cta_click"
                 data-track-label={`${service.slug}_related_${item.href}`}
@@ -1396,8 +1395,8 @@ function RelatedLinksSection({
 function AdsInlineCtaBand({
   service,
   scope,
-  title = "Hai gia un problema concreto? Chiama lo Studio o invia una richiesta",
-  intro = "Descrivi il caso in pochi minuti e anticipa atti, visure, estratti o comunicazioni gia disponibili.",
+  title = "Hai un problema concreto? Descrivilo allo Studio",
+  intro = "Indica cosa è successo, chi è coinvolto ed eventuali scadenze. Puoi allegare i documenti già disponibili.",
 }: {
   service: ServicePage;
   scope: string;
@@ -1413,21 +1412,15 @@ function AdsInlineCtaBand({
             <h2 className="display-sm">{title}</h2>
             <p className="lead">{intro}</p>
             <p className="muted">
-              Studio legale a Roma, operativo anche su pratiche di{" "}
-              {service.shortTitle.toLowerCase()} con documenti e beni da
-              ricostruire.
+              Studio legale a Roma. Puoi inviare una richiesta anche se risiedi
+              all’estero e la questione riguarda un’eredità in Italia.
             </p>
           </div>
           <div className="stack">
-            <div className="contact-item">
-              <strong>Telefono</strong>
-              <div className="muted">06 97615122</div>
-            </div>
             <LandingActionButtons scope={`${service.slug}_${scope}`} variant="ads" />
             <p className="muted">
-              Telefono {contacts.phoneDisplay}. Per{" "}
-              {service.shortTitle.toLowerCase()}, puoi usare anche il modulo fuori
-              orario allegando i primi documenti disponibili.
+              Telefono {contacts.phoneDisplay}. Il modulo è disponibile anche
+              fuori orario; allegare documenti non è obbligatorio.
             </p>
           </div>
         </div>
@@ -1456,7 +1449,6 @@ function AdsServicePageTemplate({
   return (
     <>
       <LandingHero
-        eyebrow={service.shortTitle}
         title={heroTitle}
         intro={service.heroIntro}
         microCases={service.problemList}
@@ -1473,6 +1465,19 @@ function AdsServicePageTemplate({
           </>
         }
       />
+
+      {service.slug === "avvocato-successioni" ? (
+        <section className="section-tight">
+          <div className="shell card stack">
+            <h2 className="display-sm">Quale questione vuoi chiarire?</h2>
+            <nav className="cluster" aria-label="Questioni ereditarie principali">
+              <Link href="/divisione-ereditaria" prefetch={false} className="button-ghost">Divisione tra eredi</Link>
+              <Link href="/impugnazione-testamento" prefetch={false} className="button-ghost">Contestare un testamento</Link>
+              <Link href="/rinuncia-eredita" prefetch={false} className="button-ghost">Rinuncia ed eredità con debiti</Link>
+            </nav>
+          </div>
+        </section>
+      ) : null}
 
       <section className="section-tight">
         <div className="shell two-column">
@@ -1518,9 +1523,9 @@ function AdsServicePageTemplate({
       <section className="section-tight">
         <div className="shell two-column">
           <div className="card stack">
-            <p className="eyebrow">Cosa puo fare subito lo Studio</p>
+            <p className="eyebrow">Cosa può fare subito lo Studio</p>
             <h2 className="display-sm">
-              {sectionTitles?.studioCanDo ?? "Cosa puo fare lo Studio in concreto"}
+              {sectionTitles?.studioCanDo ?? "Cosa può fare lo Studio in concreto"}
             </h2>
             <ul className="list">
               {studioCanDo.map((item) => (
@@ -1601,8 +1606,8 @@ function AdsServicePageTemplate({
       <AdsInlineCtaBand
         service={service}
         scope="mid_cta"
-        title={`Chiama lo Studio o invia una richiesta su ${service.shortTitle.toLowerCase()}`}
-        intro={`Puoi anticipare i documenti disponibili e descrivere il problema di ${service.shortTitle.toLowerCase()}. Lo Studio valuta il quadro e i possibili passaggi successivi.`}
+        title="Descrivi il caso allo Studio Legale Del Monte"
+        intro="Indica il problema, le persone coinvolte e le scadenze note. Lo Studio potrà valutare quali documenti e approfondimenti servono."
       />
 
       <RelatedLinksSection
@@ -1617,14 +1622,12 @@ function AdsServicePageTemplate({
             <div className="stack">
               <p className="eyebrow">Contatto finale</p>
               <h2 className="display-sm">
-                Hai un problema su {service.shortTitle.toLowerCase()}? Chiama lo
-                Studio o descrivi il caso
+                Vuoi confrontarti con un avvocato sul tuo caso?
               </h2>
               <p className="lead">
-                Descrivi in pochi minuti la situazione relativa a{" "}
-                {service.shortTitle.toLowerCase()}. Puoi anticipare documenti e
-                informazioni essenziali. Telefono {contacts.phoneDisplay}; WhatsApp
-                e modulo disponibili anche fuori orario.
+                Spiega che cosa vorresti chiarire o risolvere. Puoi inviare i
+                documenti già disponibili, senza doverli raccogliere tutti prima
+                di contattarci.
               </p>
             </div>
             <div className="stack">
@@ -1634,8 +1637,9 @@ function AdsServicePageTemplate({
         </div>
       </section>
       <ContactSection
-        title={`Parla con lo Studio per ${service.shortTitle.toLowerCase()}`}
-        intro={`Se desideri una valutazione su ${service.shortTitle.toLowerCase()} o hai gia documenti da far esaminare, puoi chiamare lo Studio oppure inviare una richiesta descrivendo il caso.`}
+        title="Parla con lo Studio del tuo caso"
+        intro={`${service.shortTitle}: invia una richiesta con le informazioni essenziali, oppure usa telefono, email o WhatsApp.`}
+        serviceSlug={service.slug}
       />
     </>
   );
@@ -1689,7 +1693,7 @@ function LandingTemplateStyles() {
             min-height: inherit;
             width: min(calc(100% - 44px), 1380px);
             margin: 0 auto;
-            padding: 138px 0 42px;
+            padding: 80px 0 42px;
           }
 
           .landing-template-hero-copy {
@@ -1705,7 +1709,7 @@ function LandingTemplateStyles() {
 
           .landing-template-title {
             color: #f7f4ef;
-            max-width: 12ch;
+            max-width: 18ch;
             font-size: clamp(2.5rem, 4.3vw, 4.15rem);
             line-height: 1.03;
           }
@@ -1789,7 +1793,7 @@ function LandingTemplateStyles() {
 
             .landing-template-hero-content {
               width: min(calc(100% - 24px), 720px);
-              padding: 88px 0 18px;
+              padding: 40px 0 18px;
               align-items: flex-end;
             }
 
@@ -1850,7 +1854,6 @@ export function ServicePageTemplate({
   return (
     <>
       <LandingHero
-        eyebrow={service.shortTitle}
         title={heroTitle}
         intro={service.heroIntro}
         microCases={service.problemList}
@@ -2041,6 +2044,7 @@ export function ServicePageTemplate({
       <ContactSection
         title={`Parla con lo Studio per ${service.shortTitle.toLowerCase()}`}
         intro="Se desideri una valutazione del caso o hai già documenti da far esaminare, puoi usare il form oppure i contatti diretti dello studio."
+        serviceSlug={service.slug}
       />
     </>
   );
