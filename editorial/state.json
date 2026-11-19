@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-004",
     "url": "https://ereditaesuccessioni.it/approfondimenti/testamento-olografo-senza-data-quali-verifiche-servono",
-    "stagedAt": "2026-11-19T16:31:39.911Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-11-19T16:32:03.465Z"
-  },
-  "lastVerified": {
-    "id": "eredita-037",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/possesso-dei-beni-ereditari-perche-incide-sui-tempi-dell-inventario",
-    "checkedAt": "2026-11-17T16:52:34.518Z",
+    "checkedAt": "2026-11-19T16:33:01.458Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
