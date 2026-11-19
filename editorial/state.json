@@ -2,7 +2,9 @@
   "pending": {
     "id": "eredita-004",
     "url": "https://ereditaesuccessioni.it/approfondimenti/testamento-olografo-senza-data-quali-verifiche-servono",
-    "stagedAt": "2026-11-19T16:31:39.911Z"
+    "stagedAt": "2026-11-19T16:31:39.911Z",
+    "deployAttempts": 1,
+    "deployRequestedAt": "2026-11-19T16:32:03.465Z"
   },
   "lastVerified": {
     "id": "eredita-037",
