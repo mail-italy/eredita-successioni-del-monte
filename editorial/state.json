@@ -2,7 +2,9 @@
   "pending": {
     "id": "eredita-005",
     "url": "https://ereditaesuccessioni.it/approfondimenti/firma-nel-testamento-posizione-riconoscibilita-e-originali-da-conservare",
-    "stagedAt": "2026-11-21T15:19:23.156Z"
+    "stagedAt": "2026-11-21T15:19:23.156Z",
+    "deployAttempts": 1,
+    "deployRequestedAt": "2026-11-21T15:19:45.114Z"
   },
   "lastVerified": {
     "id": "eredita-004",
