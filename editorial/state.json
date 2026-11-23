@@ -2,7 +2,9 @@
   "pending": {
     "id": "eredita-024",
     "url": "https://ereditaesuccessioni.it/approfondimenti/fratelli-e-sorelle-del-defunto-quando-entrano-nella-successione",
-    "stagedAt": "2026-11-23T19:12:21.870Z"
+    "stagedAt": "2026-11-23T19:12:21.870Z",
+    "deployAttempts": 1,
+    "deployRequestedAt": "2026-11-23T19:12:43.844Z"
   },
   "lastVerified": {
     "id": "eredita-005",
