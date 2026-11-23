@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-024",
     "url": "https://ereditaesuccessioni.it/approfondimenti/fratelli-e-sorelle-del-defunto-quando-entrano-nella-successione",
-    "stagedAt": "2026-11-23T19:12:21.870Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-11-23T19:12:43.844Z"
-  },
-  "lastVerified": {
-    "id": "eredita-005",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/firma-nel-testamento-posizione-riconoscibilita-e-originali-da-conservare",
-    "checkedAt": "2026-11-21T15:20:42.009Z",
+    "checkedAt": "2026-11-23T19:13:41.502Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
