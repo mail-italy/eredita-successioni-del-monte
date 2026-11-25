@@ -2,7 +2,9 @@
   "pending": {
     "id": "eredita-038",
     "url": "https://ereditaesuccessioni.it/approfondimenti/inventario-ereditario-preparare-l-elenco-di-beni-crediti-e-passivita",
-    "stagedAt": "2026-11-25T17:56:33.654Z"
+    "stagedAt": "2026-11-25T17:56:33.654Z",
+    "deployAttempts": 1,
+    "deployRequestedAt": "2026-11-25T17:56:52.407Z"
   },
   "lastVerified": {
     "id": "eredita-024",
