@@ -2,7 +2,9 @@
   "pending": {
     "id": "eredita-053",
     "url": "https://ereditaesuccessioni.it/approfondimenti/denaro-dato-per-comprare-casa-ricostruire-una-liberalita-indiretta",
-    "stagedAt": "2026-11-27T17:26:01.686Z"
+    "stagedAt": "2026-11-27T17:26:01.686Z",
+    "deployAttempts": 1,
+    "deployRequestedAt": "2026-11-27T17:26:23.563Z"
   },
   "lastVerified": {
     "id": "eredita-038",
