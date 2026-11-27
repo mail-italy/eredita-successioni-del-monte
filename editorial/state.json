@@ -1,15 +1,9 @@
 {
-  "pending": {
+  "pending": null,
+  "lastVerified": {
     "id": "eredita-053",
     "url": "https://ereditaesuccessioni.it/approfondimenti/denaro-dato-per-comprare-casa-ricostruire-una-liberalita-indiretta",
-    "stagedAt": "2026-11-27T17:26:01.686Z",
-    "deployAttempts": 1,
-    "deployRequestedAt": "2026-11-27T17:26:23.563Z"
-  },
-  "lastVerified": {
-    "id": "eredita-038",
-    "url": "https://ereditaesuccessioni.it/approfondimenti/inventario-ereditario-preparare-l-elenco-di-beni-crediti-e-passivita",
-    "checkedAt": "2026-11-25T17:57:51.717Z",
+    "checkedAt": "2026-11-27T17:27:20.704Z",
     "indexNowStatus": 200,
     "indexingVerified": false
   }
